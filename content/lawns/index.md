@@ -11,7 +11,7 @@ But for that to happen, we first need to show that it works and that residents l
 This page is your starting point.
 Here you can download the complete guide to learn all the details, or go straight to the action plan and help us create the first successful examples in Yerevan.
 
-> Download the guide: [Русская версия](/documents/Lawns-RU.pdf) - [English version](/documents/Lawns-EN.pdf)
+> [Download the guide](/documents/Lawns.pdf)
 
 <img class="stripe" src="/images/meadow.jpg" alt="Meadow Lawn" />
 
