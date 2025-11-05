@@ -29,7 +29,10 @@
         {% block header %}
             <header>
                 <div class="wrapper">
-                    <a class="title" href="/">{{ config.title }}</a>
+                    <a class="logo" href="/">
+                        <img src="/images/logo-owl.png" alt="Kanach Yerevan Logo" />
+                        <div class="title">{{ config.title }}</div>
+                    </a>
                     <nav>
                         <a href="{{ get_url(path="@/about/index.md", lang=lang) }}">About us</a>
                         <a href="/mapping/">Mapping</a>
