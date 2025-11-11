@@ -10,4 +10,4 @@ description = "Коллекция нормативов по уходу за де
 
 Эти стандарты тоже очень важны, но они не доступны бесплатно, их нужно покупать.
 
-- [ANSI A300](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), полный свод нормативов по уходу за деревьями, признаваемый в США и Европе.
+- [ANSI A300 Tree Care Standards](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), полный свод нормативов по уходу за деревьями, признаваемый в США и Европе.

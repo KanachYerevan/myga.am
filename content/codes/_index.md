@@ -10,4 +10,4 @@ This page contains links to different codes related to tree management.
 
 The following standards are also important but aren't available for free, you have to buy them.
 
-- [ANSI A300](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), a complete set of tree management standards, recognized in the US and Europe.
+- [ANSI A300 Tree Care Standards](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), a complete set of tree management standards, recognized in the US and Europe.
