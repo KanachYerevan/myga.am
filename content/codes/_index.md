@@ -21,3 +21,5 @@ The following standards are also important but aren't available for free, you ha
 - [Forest Code of the Republic of Armenia](https://www.arlis.am/hy/acts/21354) (from 24.10.2005), in Armenian.  
   This is about forest, but often its articles are applied by analogy to urban plantations.
 - [Decision of the Council of elders No 2/4-4-N from 18.11.2009](https://www.yerevan.am/edfiles/files/avagani/18.11.09vorosh/Kanach%20taracqner.pdf) (PDF, in Armenian) on the approval of the rules for the preservation and use of green spaces of general use in the city of Yerevan.
+- [Law of RA on tariffs for compensation of damage to animal and plant world](https://www.arlis.am/ru/acts/1776).  
+  Establishes fines for damage to vegetation and the formula for their calculation. Unfortunately, the fines are very low and are established only for damage "up to the degree of growth cessation", i.e. plant death. Simple damage, in which the plant continues to live, including barbaric topping, is a violation, but does not provide algorithms for calculating the fine.
