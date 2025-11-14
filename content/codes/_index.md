@@ -16,7 +16,7 @@ The following standards are also important but aren't available for free, you ha
 
 ## Soviet codes
 
-- [Gosstroy order No. 153 from 1999-12-15](/documents/Gosstroy-N153-1999-12-15.pdf), defines the rules of management, pruning procedures etc. Linked is a version for the Russian Federation. The same document was used as a model by most ex-soviet republics, probably Armenia too. We still need to find a better and more authoritative source for Armenia.
+- [Gosstroy rules for green space management](/documents/Gosstroy-1990-01-29.pdf), defines the rules of management, pruning procedures etc. The same document was used as a model by most ex-soviet republics, probably Armenia too. We still need to find a better and more authoritative source for Armenia.
 
 ## Armenian codes
 
