@@ -14,6 +14,10 @@ The following standards are also important but aren't available for free, you ha
 
 - [ANSI A300 Tree Care Standards](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), a complete set of tree management standards, recognized in the US and Europe.
 
+## Soviet codes
+
+- [Gosstroy order No. 153 from 1999-12-15](/documents/Gosstroy-N153-1999-12-15.pdf), defines the rules of management, pruning procedures etc. Linked is a version for the Russian Federation. The same document was used as a model by most ex-soviet republics, probably Armenia too. We still need to find a better and more authoritative source for Armenia.
+
 ## Armenian codes
 
 - [Law of the Republic of Armenia on Plant World](https://www.arlis.am/hy/acts/644) (from 23.11.1999), in Armenian.  
