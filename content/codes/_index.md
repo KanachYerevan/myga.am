@@ -25,5 +25,5 @@ The following standards are also important but aren't available for free, you ha
 
 Decisions of the Yerevan City Council:
 
-- [2/4-4-N from 18.11.2009](https://www.yerevan.am/edfiles/files/avagani/18.11.09vorosh/Kanach%20taracqner.pdf) (PDF, in Armenian) on the approval of the rules for the preservation and use of green spaces of general use in the city of Yerevan.
-- [36N from 18.11.2009](/documents/Elders-36N-2009-11-18.pdf) (PDF, HY/EN/RU) on approving the rules for the preservation and use of public green areas of Yerevan city.
+- [2/4-4-N from 18.11.2009](/documents/Elders-244N-2009-11-18.pdf) (PDF, HY/EN/RU) on the approval of the rules for the preservation and use of green spaces of general use in the city of Yerevan.
+- [36N from 18.11.2009](/documents/Elders-36N-2009-11-18.pdf) (PDF, HY/EN/RU) almost identical to the one above, not sure why.
