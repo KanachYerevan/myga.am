@@ -31,3 +31,4 @@ Decisions of the Yerevan City Council:
 
 - [2/4-4-N from 18.11.2009](/documents/Elders-244N-2009-11-18.pdf) (PDF, HY/EN/RU) on the approval of the rules for the preservation and use of green spaces of general use in the city of Yerevan.
 - [36N from 18.11.2009](/documents/Elders-36N-2009-11-18.pdf) (PDF, HY/EN/RU) almost identical to the one above, not sure why.
+- [337N from 12.02.2021](/documents/Elders-337N-2021-02-12.pdf) (PDF, HY/EN/RU) adds new rules on protecting trees during construction works.
