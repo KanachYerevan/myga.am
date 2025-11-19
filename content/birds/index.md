@@ -42,5 +42,10 @@ Thank you for your interest and your contribution.
 
 [Connect with us](/connect/) for updates and events.
 
+
+## Additional resources
+
+- [Nesting Box for 30x150 timber](https://app.sketchup.com/share/tc/northAmerica/ZSFECWYN21I?source=web&stoken=yBwtMSzn1naYnfz8mEbTFsUOgP8haT7buQNeE1mjkv_8bFUlYjqQddxf1By3ueO5) (3D model)
+
 [1]: /documents/Great-Tits-for-Yerevan.pdf
 [2]: /images/parus-major-2.jpg
