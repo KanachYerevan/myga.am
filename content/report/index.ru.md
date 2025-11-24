@@ -17,9 +17,9 @@ description = "Инструкции о том, как сообщить о пов
 Постоянное внимание посылает сигнал городским властям: мы любим наши деревья и ждём, что они будут делать то же самое.
 Ваши действия сегодня помогают создать более зелёный Ереван завтра.
 
-## Some examples
+## Некоторые примеры
 
-- [Damaged trees on Grigor Lusavorich street](ru/001-grigor-lusavorich/) (in progress)
+- [Повреждение деревьев на ул. Григора Лусаворича](ru/001-grigor-lusavorich/) (в процессе)
 
 [1]: https://docs.google.com/document/d/1Zt32UrBN5IxbBlZcjH0lbLyHFsPU07CIJYZkJaUq_RA/edit?usp=sharing
 [2]: https://e-request.am/ru/e-letter
