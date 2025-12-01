@@ -1,1 +1,17 @@
 {% extends "index.html" %}
+
+{% block content %}
+    <div class="post">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {{ section.content | safe }}
+    </div>
+
+    {% if section.pages %}
+        <ul>
+            {% for page in section.pages %}
+                <li>{% if page.date %}{{ page.date }} / {% endif %}<a href="{{ page.permalink }}">{{ page.title | safe }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endblock %}
