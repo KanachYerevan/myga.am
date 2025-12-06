@@ -137,7 +137,7 @@ main {
     max-width: 100%;
   }
 
-  .post-date, .translate {
+  .post-date {
     opacity: 0.5;
     font-size: 85%;
   }
@@ -191,13 +191,30 @@ footer {
   }
 }
 
-.translate {
-  span + span::before {
-    content: ' · ';
+.meta {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  line-height: 20px;
+
+  .sep {
+    flex: 1 0 0;
   }
 
-  a, a:visited {
-    color: inherit;
+  .translate {
+    height: 20px;
+    opacity: 0.75;
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      height: 20px;
+
+      svg {
+        width: 20px;
+        height: 20px;
+      }
+    }
   }
 }
 
