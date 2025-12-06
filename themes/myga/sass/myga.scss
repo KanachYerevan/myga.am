@@ -68,6 +68,11 @@ header {
       font-size: 26px;
       line-height: 42px;
       letter-spacing: -1px;
+      flex: 0 0 0;
+      white-space: nowrap;
+    }
+
+    .sep {
       flex: 1 0 0;
     }
 
@@ -203,11 +208,32 @@ main .album {
 }
 
 @media screen and (max-width: 600px) {
-  header nav {
+  .desktop {
     display: none;
   }
 
-  header, main, footer {
+  header {
+    .wrapper {
+      padding: 10px;
+    }
+
+    .bars {
+      width: 42px;
+
+      a {
+        display: block;
+        width: 42px;
+        height: 42px;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+        line-height: 22px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  main, footer {
     .wrapper {
       padding: 0 10px;
     }
@@ -232,6 +258,12 @@ main .album {
     .social {
       gap: 20px;
     }
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .mobile {
+    display: none;
   }
 }
 
