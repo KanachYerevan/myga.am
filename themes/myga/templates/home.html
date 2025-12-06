@@ -3,8 +3,6 @@
 {% block content %}
     <div class="post">
         <div class="meta">
-            <div class="sep"></div>
-
             {% if section.translations | length > 1 %}
                 <div class="translate">
                     {% for translation in section.translations %}
@@ -20,6 +18,8 @@
                     {% endfor %}
                 </div>
             {% endif %}
+
+            <div class="sep"></div>
         </div>
 
         {{ section.content | safe }}
