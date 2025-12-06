@@ -1,4 +1,4 @@
 +++
-title = "Блог Kanach Yerevan"
+title = "Kanach Yerevan Blog"
 sort_by = "date"
 +++

@@ -8,6 +8,11 @@ theme = "myga"
 output_dir = "dist"
 default_language = "en"
 
+taxonomies = [
+    {name = "tags", feed = true},
+    {name = "categories", feed = true}
+]
+
 ## Configure website languages.
 [languages]
 
