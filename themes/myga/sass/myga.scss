@@ -226,6 +226,27 @@ main .album {
 }
 
 @media screen and (max-width: 600px) {
+  header nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    flex-direction: column;
+    padding: 10px 0;
+    z-index: 10;
+
+    &.is-open {
+      display: flex;
+    }
+
+    a {
+      padding: 0 10px;
+    }
+  }
+
   .desktop {
     display: none;
   }
@@ -238,7 +259,7 @@ main .album {
     .bars {
       width: 42px;
 
-      a {
+      button {
         display: block;
         width: 42px;
         height: 42px;
@@ -247,6 +268,14 @@ main .album {
         opacity: 0.5;
         line-height: 22px;
         vertical-align: middle;
+        background: transparent;
+        border: 0;
+        color: inherit;
+        cursor: pointer;
+
+        svg {
+          display: block;
+        }
       }
     }
   }
