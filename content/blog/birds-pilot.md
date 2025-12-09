@@ -1,5 +1,5 @@
 +++
-title = "Attracting Tits to Yerevan's Parks"
+title = "Attracting tits to Yerevan's parks"
 date = "2025-12-01"
 +++
 This year, we launched a pilot project to attract tits to Yerevan’s parks.
