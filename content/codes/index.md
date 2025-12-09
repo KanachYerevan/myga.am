@@ -1,8 +1,14 @@
 +++
-title = "Codes"
-description = "A collection of codes related to tree management."
+title = "Legal Frameworks and Proposed Reforms for Urban Green Spaces"
+description = "Exploring current legal frameworks governing urban green spaces and advocating for critical reforms to protect Yerevan's ecological health."
 +++
-This page contains links to different codes related to tree management.
+This page serves as a comprehensive resource for understanding the legal landscape governing urban green spaces in Yerevan. We aim to highlight existing regulations and advocate for essential reforms to safeguard our city's vital ecological infrastructure.
+
+## Advocating for Systemic Change
+
+Kanach Yerevan is actively engaged in proposing critical amendments to existing regulations and drafting new legislation to ensure the long-term health and biodiversity of Yerevan's urban trees. Our ongoing efforts focus on implementing systemic changes for the benefit of our city's ecological future.
+
+- [Make tree cutting procedure transparent](https://docs.google.com/document/d/1HDrNU6Yd01ezQ2A9e9wGbSF1Xuf-TyMX5UIi7LNUpng/edit?tab=t.0).  The changes propose that (1) it's not enough to inspect the trees by eye to decide if they need to be cut, (2) the commission which inspects trees for cutting should include public representatives, (3) all cutting decisions should be publicly available, and (4) there should be a 30-day execution delay, for the public to appeal the decision.
 
 ## International codes
 
@@ -10,13 +16,13 @@ This page contains links to different codes related to tree management.
 - [European Tree Cabling & Branching Standard](/documents/European%20Tree%20Cabling%20Standard%202022.pdf), EAS 02:2022 (2022, PDF)
 - [European Tree Planting Standard](/documents/European%20Tree%20Planting%20Standard%202022.pdf), EAS 03:2022 (2022, PDF)
 
-The following standards are also important but aren't available for free, you have to buy them.
+These additional standards are highly relevant but require purchase for access:
 
 - [ANSI A300 Tree Care Standards](https://treecareindustryassociation.org/business-support/ansi-a300-standards/), a complete set of tree management standards, recognized in the US and Europe.
 
 ## Soviet codes
 
-- [Gosstroy rules for green space management](/documents/Gosstroy-1990-01-29.pdf), defines the rules of management, pruning procedures etc. The same document was used as a model by most ex-soviet republics, probably Armenia too. We still need to find a better and more authoritative source for Armenia.
+- [Gosstroy rules for green space management](/documents/Gosstroy-1990-01-29.pdf), defines essential guidelines for management, pruning procedures, and overall maintenance. This foundational document significantly influenced green space management in many post-Soviet republics, including Armenia.
 
 ## Armenian codes
 
