@@ -52,6 +52,7 @@ footer_team = "Team and Board"
 footer_press = "Press"
 footer_myga = "Make Yerevan Green Again!"
 footer_blog = "Blog"
+footer_leaves = "Leaves"
 
 [languages.ru.translations]
 footer = "Kanach Yerevan это общественное движение, целью которого является сделать Ереван более зелёным, устойчивым и пригодным для жизни городом."
@@ -77,6 +78,7 @@ footer_team = "Команда"
 footer_press = "Прессе"
 footer_myga = "Сделаем Ереван снова зелёным!"
 footer_blog = "Блог"
+footer_leaves = "Листья"
 
 [languages.hy.translations]
 footer = "«Կանաչ Երևանը» հասարակական շարժում է, որի նպատակն է Երևանը դարձնել ավելի կանաչ, կայուն և բնակելի քաղաք։"
@@ -102,3 +104,4 @@ footer_team = "Թիմ և խորհուրդ"
 footer_press = "Մամուլ"
 footer_myga = "Կանաչ դարձնենք Երևանը կրկին!"
 footer_blog = "Բլոգ"
+footer_leaves = "Տերևներ"
