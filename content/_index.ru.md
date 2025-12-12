@@ -31,7 +31,7 @@ template = "home.html"
 
 - [Обзор зеленых насаждений: ул. Туманяна](/reports/tumanyan/)
 - [60% деревьев в Ереване под угрозой](/ru/monitor/alerts/60-percent/)
-- [Письмо мэру Еревана](/pubs/letter/)
+- [Письмо мэру Еревана](/ru/monitor/alerts/letter/)
 
 ## Прочая информация
 
