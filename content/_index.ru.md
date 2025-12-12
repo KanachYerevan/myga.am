@@ -25,7 +25,7 @@ template = "home.html"
 ## Кампании
 
 - [Большие синицы для Еревана](/ru/guidelines/biodiversity/great-tit/)
-- [Луговые газоны для Еревана](/lawns/)
+- [Луговые газоны для Еревана](/ru/guidelines/lawns/)
 
 ## Публикации
 

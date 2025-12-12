@@ -25,7 +25,7 @@ We do this by organizing mapping activities, hosting think tanks, and by raising
 ## Campaigns
 
 - [Great Tits for Yerevan](/guidelines/biodiversity/great-tit/)
-- [Meadow Lawns for Yerevan](/lawns/)
+- [Meadow Lawns for Yerevan](/guidelines/lawns/)
 
 ## Publications
 
