@@ -40,7 +40,7 @@ Together, we can build a living, breathing network of defense that will keep Yer
 
 Thank you for your interest and your contribution.
 
-[Connect with us](/connect/) for updates and events.
+[Connect with us](/action/join/) for updates and events.
 
 
 ## Additional resources

@@ -23,5 +23,5 @@ description = "Инструкции о том, как сообщить о пов
 
 [1]: https://docs.google.com/document/d/1Zt32UrBN5IxbBlZcjH0lbLyHFsPU07CIJYZkJaUq_RA/edit?usp=sharing
 [2]: https://e-request.am/ru/e-letter
-[3]: /connect/
+[3]: /ru/action/join/
 [4]: https://youtu.be/w6h45QxeiWQ

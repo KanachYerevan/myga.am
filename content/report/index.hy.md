@@ -17,5 +17,5 @@ description = "Ինչպես հաղորդել Երևանում ծառերի վն�
 
 [1]: https://docs.google.com/document/d/1Zt32UrBN5IxbBlZcjH0lbLyHFsPU07CIJYZkJaUq_RA/edit?tab=t.qw59eh2idynd
 [2]: https://e-request.am/en/e-letter
-[3]: /connect/
+[3]: /hy/action/join/
 [4]: https://youtu.be/w6h45QxeiWQ

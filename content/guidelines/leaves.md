@@ -71,4 +71,4 @@ Help the trees with water. In Yerevan's climate, water is life. A bucket of wate
 
 And finally, support biodiversity. On private property or in an enclosed courtyard, you can hang [birdhouses for tits](/birds/) and shelters for beneficial insects. Try seeding an open patch of ground not with regular grass but with a [meadow lawn](/lawns/) seed mix—they are easy to find on online marketplaces. This is a feasible but very valuable contribution: by bringing back flowers and shelters, you help restore the ecosystem of the entire neighborhood. The benefit from such "islands of life" is enormous. By the way, we have detailed instructions for building birdhouses and sowing a meadow on our website.
 
-If you have any questions, join [our chat](/connect/).
+If you have any questions, join [our chat](/action/join/).

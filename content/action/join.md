@@ -1,5 +1,6 @@
 +++
 title = "Connect with Us"
+aliases = ["connect"]
 +++
 
 To stay in touch with Kanach Yerevan and never miss a thing, use one of the following resources:

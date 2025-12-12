@@ -10,4 +10,4 @@ If you want to be a part of the broader Kanach Yerevan community, we'd be glad t
 We have a lot of existing ideas, and we are always open to new ones.
 We'd love to help you find your place in the movement.
 
-Please [contact us](/connect/) if you are interested in contributing in any way.
+Please [contact us](/action/join/) if you are interested in contributing in any way.
