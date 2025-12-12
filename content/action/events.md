@@ -1,5 +1,6 @@
 +++
 title = "Event Calendar"
+aliases = ["events"]
 +++
 To stay in touch with everything happening, use this calendar.
 Add it to your phone to get notifications and never miss a thing: [Android][1] or [iOS][2].

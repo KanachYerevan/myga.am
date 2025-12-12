@@ -2,6 +2,7 @@
 title = "Fallen Leaves in the City: To Rake or To Leave?"
 description = "The arguments for and against leaf removal in the urban conditions of Yerevan."
 date = "2025-12-12"
+aliases = ["leaves"]
 +++
 
 Every autumn, leaf removal sparks heated debates. The opinions of citizens, ecologists, and municipal services often clash. Some demand that nature be left alone, while others insist on perfectly clean lawns. The truth, as is often the case in biology, depends on the conditions. To make the right decision for Yerevan, we need to weigh all the arguments, understand how a healthy forest ecosystem works, and recognize how a tree's life in a modern city differs.
