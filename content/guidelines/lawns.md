@@ -2,6 +2,7 @@
 title = "Lawns for Yerevan"
 description = "Recommendations for the use of natural lawns."
 date = "2025-09-22"
+aliases = ["lawns"]
 +++
 Dusty wastelands and mud on the sidewalks are not what Yerevan deserves.
 We can change this by replacing "overgrown plots" with modern natural meadows — beautiful, economical, and beneficial for the ecosystem.
