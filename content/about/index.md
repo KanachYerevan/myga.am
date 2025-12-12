@@ -5,7 +5,7 @@ title = "What is Kanach Yerevan?"
 
 To achieve this, our main focus is on creating systematic change. Our volunteers conduct public inspections of existing trees and new plantings, producing reports to document their condition. We use this data to work directly with municipal authorities, advocating for solutions to existing problems and helping to implement modern, sustainable approaches to tree care. A key part of this is helping to bring citizens back into the feedback loop, ensuring their voices are heard by municipal workers.
 
-We also work to keep citizens informed about the state of green spaces and create educational materials to raise public awareness. While our systemic work is the priority, we sometimes organize hands-on community events, such as planting trees, collecting acorns, or building [nesting boxes for birds](/birds/).
+We also work to keep citizens informed about the state of green spaces and create educational materials to raise public awareness. While our systemic work is the priority, we sometimes organize hands-on community events, such as planting trees, collecting acorns, or building [nesting boxes for birds](/guidelines/biodiversity/great-tit/).
 
 Alongside these efforts, we run a continuous project to [map all urban trees](/mapping/), using our own in-house application and the help of volunteers. All the data we collect is shared publicly, allowing anyone, including government workers, to use it to update maintenance routes or schedules.
 

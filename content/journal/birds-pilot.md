@@ -12,7 +12,7 @@ We outlined the oak problem and the solution offered by the birds, discussed the
 
 Our nesting boxes are marked with "myga.am". We will monitor them throughout the year, collecting data on occupancy rates. Later, we will analyze the results and determine how to scale this project across the entire city.
 
-If you have private property with trees, you can hang a nesting box too! Be sure to read [our guide](/birds/): it explains how to properly build a box, where to hang it, and how to maintain it to ensure the birds remain safe.
+If you have private property with trees, you can hang a nesting box too! Be sure to read [our guide](/guidelines/biodiversity/great-tit/): it explains how to properly build a box, where to hang it, and how to maintain it to ensure the birds remain safe.
 
 Our ultimate goal is to restore the ecological balance and increase the tit population so that they can independently suppress pest outbreaks without chemicals or constant human intervention.
 
