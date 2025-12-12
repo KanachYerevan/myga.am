@@ -18,7 +18,7 @@ Every report adds to our collective voice. This sustained attention sends a powe
 
 ## Some examples
 
-- [Damaged trees on Grigor Lusavorich street](001-grigor-lusavorich/) (in progress)
+- [Damaged trees on Grigor Lusavorich street](/monitor/cases/grigor-lusavorich/) (in progress)
 
 [1]: https://docs.google.com/document/d/1Zt32UrBN5IxbBlZcjH0lbLyHFsPU07CIJYZkJaUq_RA/edit?usp=sharing
 [2]: https://e-request.am/en/e-letter

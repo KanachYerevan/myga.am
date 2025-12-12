@@ -1,6 +1,7 @@
 +++
 title = "Multiple damaged trees on Grigor Lusavorich street"
 date = "2025-10-03"
+aliases = ["report/001-grigor-lusavorich"]
 +++
 During September 2025, work was done to replace pipes for the sewer system near 4/2 Grigor Lusavorich Street, where the Milano and Firenze Towers Residential Complex is being built.
 It was noted that the root system of 9 trees were severely damaged during the excavation work, with half of the root system removed completely.
