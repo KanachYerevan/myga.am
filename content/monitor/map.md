@@ -1,5 +1,6 @@
 +++
 title = "Mapping"
+aliases = ["mapping"]
 +++
 With the help of volunteers, we create an open map with all trees in Yerevan.
 The mapping application is optimized for mobile phones.
