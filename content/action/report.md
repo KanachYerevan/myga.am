@@ -1,6 +1,7 @@
 +++
 title = "Reporting tree damage"
 description = "Instructions on how to report tree damage in Yerevan."
+aliases = ["report"]
 +++
 If you see a tree that was recently damaged or cut down in Yerevan, you should report that to the police.
 You can do that online e-request website, following these steps:
