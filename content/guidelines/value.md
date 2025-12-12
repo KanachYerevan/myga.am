@@ -1,6 +1,13 @@
 +++
 title = "Why Trees Matter"
 aliases = ["trees"]
+weight = 3
+
+[extra]
+status = "asset"
+title = "The Value of Trees"
+verdict_short = "Critical Infrastructure"
+description = "Quantifying the cooling effect, dust filtration, and property value increase of Yerevan's canopy."
 +++
 Urban trees are not just a beautiful addition to our cityscape; they are a vital component of a healthy and sustainable environment. Modern cities recognize this and strive to make green spaces accessible to all citizens. A widely recognized urban planning guideline, [the "3-30-300 rule,"](https://nbsi.eu/the-3-30-300-rule/) states that every citizen should be able to see at least three trees from their home, live in a neighborhood with 30% tree canopy cover, and be within 300 meters of a park or green space. This document outlines the key benefits that make such access essential for the residents of Yerevan.
 

@@ -3,6 +3,13 @@ title = "Lawns for Yerevan"
 description = "Recommendations for the use of natural lawns."
 date = "2025-09-22"
 aliases = ["lawns"]
+weight = 1
+
+[extra]
+status = "recommended"
+title = "Lawns Standard"
+verdict_short = "Meadow Recommended"
+description = "Native meadow lawns require 80% less water than turf and reduce fire risk compared to wild grass."
 +++
 Dusty wastelands and mud on the sidewalks are not what Yerevan deserves.
 We can change this by replacing "overgrown plots" with modern natural meadows — beautiful, economical, and beneficial for the ecosystem.

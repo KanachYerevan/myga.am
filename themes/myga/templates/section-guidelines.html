@@ -1,0 +1,63 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="post guidelines">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {# ZONE 1: Direct pages (Pruning, Mulching, etc.) #}
+        <div class="zone1">
+            <h2>Best Management Practices</h2>
+
+            <div class="grid-layout">
+                {% for page in section.pages %}
+                    <div class="card verdict-card">
+                        <div class="status-strip {{ page.extra.status | default(value='neutral') }}">
+                            {{ page.extra.verdict_short | default(value='Standard') }}
+                        </div>
+
+                        <div class="body">
+                            <h3><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></h3>
+                            <p>{{ page.extra.description | safe }}</p>
+                            <div class="more">
+                                <a href="{{ page.permalink }}">Read More →</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {# ZONE 2: Biodiversity Subsections #}
+        {# We explicitly fetch the section object using the path #}
+        {% set bio_section = get_section(path="guidelines/biodiversity/_index.md") %}
+        <div class="zone-biodiversity">
+            <h2>{{ bio_section.title }}</h2>
+
+            <div class="media-grid">
+                {% for page in bio_section.pages %}
+                    <div class="card">
+                        {% if page.extra.image %}
+                            <img src="{{ get_url(path=page.extra.image) }}" alt="{{ page.title }}" />
+                        {% endif %}
+                        <h4><a href="{{ page.permalink }}">{{ page.title }}</a></h4>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {# ZONE 3: Legal Subsection #}
+        {% set legal_section = get_section(path="guidelines/legal/_index.md") %}
+
+        <div class="zone-legal">
+            <h2>{{ legal_section.title }}</h2>
+            <ul class="file-list">
+                {% for page in legal_section.pages %}
+                    <li>
+                        <span class="icon-doc">📄</span>
+                        <a href="{{ page.permalink }}">{{ page.title }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+{% endblock %}
