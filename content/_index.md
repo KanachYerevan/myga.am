@@ -30,7 +30,7 @@ We do this by organizing mapping activities, hosting think tanks, and by raising
 ## Publications
 
 - [Green Space Review: Tumanyan str.](/reports/tumanyan/)
-- [60% of trees in Yerevan under threat](/pubs/60-percent/)
+- [60% of trees in Yerevan under threat](/monitor/alerts/60-percent/)
 - [Letter to the Mayor or Yerevan](/pubs/letter/)
 
 ## Other information
