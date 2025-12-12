@@ -37,7 +37,7 @@ We do this by organizing mapping activities, hosting think tanks, and by raising
 
 - [Green Directory](/dir/). Links to shops, nurseries and professionals, related to plant care.
 - [Report tree damage](/report/). If you see that an alive tree was cut recently, please report it.
-- [Tree management codes](/codes/)
+- [Tree management codes](/guidelines/administrative/)
 
 ## Follow us
 

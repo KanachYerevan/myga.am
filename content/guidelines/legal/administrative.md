@@ -1,6 +1,7 @@
 +++
 title = "Legal Frameworks and Proposed Reforms for Urban Green Spaces"
 description = "Exploring current legal frameworks governing urban green spaces and advocating for critical reforms to protect Yerevan's ecological health."
+aliases = ["codes"]
 +++
 This page serves as a comprehensive resource for understanding the legal landscape governing urban green spaces in Yerevan. We aim to highlight existing regulations and advocate for essential reforms to safeguard our city's vital ecological infrastructure.
 
