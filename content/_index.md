@@ -29,7 +29,7 @@ We do this by organizing mapping activities, hosting think tanks, and by raising
 
 ## Publications
 
-- [Green Space Review: Tumanyan str.](/reports/tumanyan/)
+- [Green Space Review: Tumanyan str.](/monitor/passports/tumanyan-str/)
 - [60% of trees in Yerevan under threat](/monitor/alerts/60-percent/)
 - [Letter to the Mayor or Yerevan](/monitor/alerts/letter/)
 

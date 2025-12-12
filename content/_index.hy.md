@@ -29,7 +29,7 @@ template = "home.html"
 
 ## Հրապարակումներ
 
-- [Կանաչ տարածքների վերլուծություն. Թումանյան փող.](/reports/tumanyan/)
+- [Կանաչ տարածքների վերլուծություն. Թումանյան փող.](/monitor/passports/tumanyan-str/)
 - [Երևանի ծառերի 60%-ը վտանգված է](/hy/monitor/alerts/60-percent/)
 - [Նամակ Երևանի քաղաքապետին](/monitor/alerts/letter/)
 
