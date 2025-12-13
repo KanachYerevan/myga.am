@@ -1,0 +1,12 @@
+{% macro localized_path(base_path, lang) %}
+    {%- set section = get_section(path=base_path) -%}
+    {%- set final_path = base_path -%}
+
+    {%- for sec in section.translations -%}
+        {%- if sec.lang == lang -%}
+            {%- set_global final_path = sec.path -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    {{- final_path -}}
+{% endmacro %}
