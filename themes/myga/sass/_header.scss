@@ -1,0 +1,136 @@
+/**
+ * The top navigation header.
+ *
+ * It is sticky on desktop, but not on mobile.
+ */
+
+header {
+    border-top: 5px solid #424242;
+    border-bottom: 1px solid #e8e8e8;
+
+    line-height: 50px;
+    height: 60px;
+
+    color: #424242;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .wrapper {
+      box-sizing: border-box;
+      width: 100%;
+      padding: 10px 30px;
+
+      display: flex;
+      gap: 10px;
+      flex-direction: row;
+      line-height: 42px;
+    }
+
+    .logo {
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      flex: 0 1 0;
+
+      img {
+        width: 42px;
+        height: 42px;
+        margin: 0;
+      }
+    }
+
+    .title {
+      font-size: 26px;
+      line-height: 42px;
+      letter-spacing: -1px;
+      flex: 0 0 0;
+      white-space: nowrap;
+    }
+
+    .sep {
+      flex: 1 0 0;
+    }
+
+    nav {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+
+      a, a:visited {
+        display: block;
+        color: inherit;
+      }
+    }
+}
+
+@media screen and (min-width: 601px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1000;
+  }
+
+  main {
+    padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    flex-direction: column;
+    padding: 10px 0;
+    z-index: 10;
+
+    &.is-open {
+      display: flex;
+    }
+
+    a {
+      padding: 0 10px;
+    }
+  }
+
+  header {
+    .wrapper {
+      padding: 10px;
+    }
+
+    .bars {
+      width: 42px;
+
+      button {
+        display: block;
+        width: 42px;
+        height: 42px;
+        padding: 10px;
+        box-sizing: border-box;
+        opacity: 0.5;
+        line-height: 22px;
+        vertical-align: middle;
+        background: transparent;
+        border: 0;
+        color: inherit;
+        cursor: pointer;
+
+        svg {
+          display: block;
+        }
+      }
+    }
+  }
+}
