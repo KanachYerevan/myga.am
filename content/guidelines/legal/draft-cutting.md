@@ -10,4 +10,4 @@ This document presents a draft decision for the Yerevan Council of Elders, along
 
 Furthermore, the project introduces strict mechanisms for transparency and public oversight. It proposes including independent experts and NGO representatives in the commissions and establishing a 30-day moratorium between the decision to cut and the actual removal. During this waiting period, the tree must be marked with a sign containing a QR code that links to the digital inspection report. This gives citizens and specialists the opportunity to verify the validity of the diagnosis before the tree is destroyed.
 
-- [Read the Draft](https://docs.google.com/document/d/1HDrNU6Yd01ezQ2A9e9wGbSF1Xuf-TyMX5UIi7LNUpng/edit?tab=t.0) (Google Docs)
+- [Read and Comment the Draft](https://docs.google.com/document/d/1HDrNU6Yd01ezQ2A9e9wGbSF1Xuf-TyMX5UIi7LNUpng/edit?tab=t.0) (Google Docs)
