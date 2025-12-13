@@ -3,6 +3,12 @@ title = "Great Tits for Yerevan"
 description = "Increase the Great Tit population in Yerevan by installing nesting boxes."
 date = "2025-09-11"
 aliases = ["birds"]
+
+[extra]
+label = "Biological Pest Control"
+title = "Great Tit (Parus Major)"
+description = "Primary predator of the Oak Leaf Miner."
+image = "images/parus-major-2.jpg"
 +++
 The **great tit** (Parus major) is a bird that eats a huge number of insects, which makes it a great ally in the fight against pests.
 The bird has a unique talent: it can pull insect larvae out from inside the leaves, where pesticides can't reach them.
