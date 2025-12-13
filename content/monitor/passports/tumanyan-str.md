@@ -1,7 +1,11 @@
 +++
 title = "Green Space Review: Tumanyan str."
+description = "Report on the state of trees along Tumanyan street in Yerevan, Armenia."
 date = "2025-07-17"
 aliases = ["reports/tumanyan"]
+
+[extra]
+title = "Tumanyan St."
 +++
 Kanach Yerevan created a report on the state of the trees along Tumanyan street in Yerevan, Armenia.
 This report contains data on the condition of the trees, their species, and the need for care.

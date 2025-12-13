@@ -4,6 +4,7 @@ date = "2025-03-13"
 aliases = ["pubs/letter"]
 
 [extra]
+hidden = true
 icon = "✉️"
 type = "analysis"
 title = "Action: Letter to the Mayor"

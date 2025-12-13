@@ -1,5 +1,5 @@
 +++
-title = "Massive tree cutting near schoold"
+title = "Massive tree cutting near schools"
 date = "2025-11-01"
 
 [extra]
