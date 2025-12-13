@@ -1,4 +1,4 @@
 +++
-title = "Guidelines"
+title = "Monitor Dashboard"
 +++
-Under construction.
+Tracking the health of Yerevan's urban forest in real-time.

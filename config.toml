@@ -4,7 +4,6 @@ base_url = "https://myga.am"
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
-theme = "myga"
 output_dir = "dist"
 default_language = "en"
 
