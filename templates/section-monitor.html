@@ -1,0 +1,78 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <div class="post monitor">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {{ section.content | safe }}
+
+        <div class="dash">
+            <div class="map">The map will be here some day.</div>
+
+            <div class="numbers">
+                <div class="number-card">
+                    <div class="number">15,432</div>
+                    <div class="label">trees mapped</div>
+                </div>
+
+                <div class="number-card">
+                    <div class="number">84%</div>
+                    <div class="label">verification rate</div>
+                </div>
+
+                <div class="number-card">
+                    <div class="number">23</div>
+                    <div class="label">volunteers active</div>
+                </div>
+            </div>
+        </div>
+
+        <h2>Current Watchlist</h2>
+
+        <div class="watchlist grid">
+            <div class="card alert">
+                <div class="icon">🍂</div>
+                <div class="body">
+                    <div class="title">Action: Stop Leaf Burning</div>
+                    <div class="text">Burning leaves is illegal (Art. 36) and toxic. If you see smoke, ask neighbors to bag it or report to 1-02.</div>
+                    <div class="bottom">Active campaign &middot; Oct - Dec</div>
+                </div>
+            </div>
+
+            <div class="card concern">
+                <div class="icon">🏫</div>
+                <div class="body">
+                    <div class="title">Concern: Pruning Near Schools</div>
+                    <div class="text">We are seeing deep topping at school grounds. This is unsafe. Please share the EAC Pruning Guide with school principals.</div>
+                    <div class="bottom">Advocacy needed &middot; Ongoing</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="passports">
+                <h2>Latest Street Passport</h2>
+
+                <div class="card action">
+                    <div class="body">
+                        <div class="title">Tumanyan Street</div>
+                        <div class="date">2025-01-01</div>
+                        <div class="text">Central audit complete. While canopy coverage is moderate, 22 empty tree pits were identified. Soil compaction remains a major issue near intersections.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cases">
+                <h2>Active Investigation</h2>
+
+                <div class="card tracking">
+                    <div class="body">
+                        <div class="title">Illegal Trenching: Grigor Lusavorich St.</div>
+                        <div class="date">2025-01-01 &middot; open</div>
+                        <div class="text">Complaint filed regarding violation of Council Decision 337-N. Construction crew severed roots &gt;5cm diameter within the protection zone.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

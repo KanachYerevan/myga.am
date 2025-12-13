@@ -1,8 +1,10 @@
 @import '_header';
 @import '_footer';
+@import '_langsel';
+
 @import '_actions';
 @import '_guidelines';
-@import '_langsel';
+@import '_monitor';
 
 body {
   margin: 0;
