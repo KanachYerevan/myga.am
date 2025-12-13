@@ -1,4 +1,5 @@
 {% extends "index.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
     <div class="post monitor">
@@ -27,26 +28,26 @@
             </div>
         </div>
 
-        <h2>Current Watchlist</h2>
+        {% set watch_path = macros::localized_path(base_path="monitor/alerts/_index.md", lang=lang) %}
+        {% set watch_section = get_section(path=watch_path) %}
+
+        <h2>{{ watch_section.title }}</h2>
 
         <div class="watchlist grid">
-            <div class="card alert">
-                <div class="icon">🍂</div>
-                <div class="body">
-                    <div class="title">Action: Stop Leaf Burning</div>
-                    <div class="text">Burning leaves is illegal (Art. 36) and toxic. If you see smoke, ask neighbors to bag it or report to 1-02.</div>
-                    <div class="bottom">Active campaign &middot; Oct - Dec</div>
+            {% for page in watch_section.pages %}
+                <div class="card {{ page.extra.type | default(value='alert') }}">
+                    {% if page.extra.icon %}
+                        <div class="icon">{{ page.extra.icon }}</div>
+                    {% endif %}
+                    <div class="body">
+                        <div class="title">{{ page.extra.title | default(value=page.title) }}</div>
+                        <div class="text">{{ page.extra.description | default(value=page.description) }}</div>
+                        {% if page.extra.status %}
+                            <div class="bottom">{{ page.extra.status }}</div>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
-
-            <div class="card concern">
-                <div class="icon">🏫</div>
-                <div class="body">
-                    <div class="title">Concern: Pruning Near Schools</div>
-                    <div class="text">We are seeing deep topping at school grounds. This is unsafe. Please share the EAC Pruning Guide with school principals.</div>
-                    <div class="bottom">Advocacy needed &middot; Ongoing</div>
-                </div>
-            </div>
+            {% endfor %}
         </div>
 
         <div class="grid">

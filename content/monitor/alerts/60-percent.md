@@ -2,6 +2,13 @@
 title = "60% of Yerevan's trees are under threat"
 date = "2025-01-18"
 aliases = ["pubs/60-percent"]
+
+[extra]
+icon = "🌳"
+type = "analysis"
+title = "60% of Trees under threat"
+description = "An analysis of the planned felling of elms, poplars, and maples in Yerevan and its potential impact on public health."
+status = "Announced • January 2025"
 +++
 In December 2024, Armen Begoyan, Director of the public organization "Kanachapatum," [stated](https://news.am/rus/news/857434.html) that elms and poplars have very short lifespans, currently around 70-80 years, and need to be replaced. Two years earlier, similar plans were announced by Artsvi Grigoryan, the organization's chief dendrologist. He claimed that **all maples, poplars, and elms should be replaced**, adding that **this accounts for about 60% of all trees in Yerevan**. Now, these plans have been reiterated with an added urgency — "as soon as possible." This suggests that felling will likely begin in spring 2025, likely in March, based on the timeline from 2024.
 

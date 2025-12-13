@@ -2,6 +2,13 @@
 title = "Letter to the Mayor of Yerevan"
 date = "2025-03-13"
 aliases = ["pubs/letter"]
+
+[extra]
+icon = "✉️"
+type = "analysis"
+title = "Action: Letter to the Mayor"
+description = "A letter to the Mayor of Yerevan regarding the management of trees in the city, inviting residents to sign it."
+status = "Cancelled • March 2025"
 +++
 Based on feedback from residents, we have prepared a letter to the Mayor of Yerevan, Tigran Avinyan, regarding the management of trees in the city.  We invite you to sign it.  The letter is available in Armenian and Russian languages, you can download it from here:
 
