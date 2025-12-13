@@ -49,6 +49,30 @@
               mainNav.classList.toggle('is-open');
             });
           }
+
+          const langselButton = document.querySelector('.langsel button.sel');
+          const langselOptions = document.querySelector('.langsel .options');
+
+          if (langselButton && langselOptions) {
+            langselButton.addEventListener('click', (event) => {
+              langselOptions.style.display = langselOptions.style.display === 'block' ? 'none' : 'block';
+              event.stopPropagation(); // Prevent the click from immediately closing the menu
+            });
+
+            // Hide options when clicking outside
+            document.addEventListener('click', (event) => {
+              if (!langselOptions.contains(event.target) && event.target !== langselButton) {
+                langselOptions.style.display = 'none';
+              }
+            });
+
+            // Hide options when a language is selected
+            langselOptions.querySelectorAll('a').forEach(option => {
+              option.addEventListener('click', () => {
+                langselOptions.style.display = 'none';
+              });
+            });
+          }
         </script>
     </body>
 </html>
