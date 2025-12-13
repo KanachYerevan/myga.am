@@ -14,6 +14,24 @@
                 </a>
                 <div class="sep"></div>
                 <nav id="main-nav">
+                    <div class="langsel">
+                        <button class="sel">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            <span>EN</span>
+                        </button>
+
+                        <div class="options">
+                            {% if section %}
+                                {% for t in section.translations %}
+                                    <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
+                                {% endfor %}
+                            {% elif page %}
+                                {% for t in page.translations %}
+                                    <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
+                                {% endfor %}
+                            {% endif %}
+                        </div>
+                    </div>
                     <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">Guidelines</a>
                     <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">Monitor</a>
                     <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">Journal</a>

@@ -86,6 +86,37 @@ header {
       flex-direction: row;
       gap: 20px;
 
+      .langsel {
+        position: relative;
+
+        button {
+          border: none;
+          background: transparent;
+          cursor: pointer;
+        }
+
+        svg {
+          margin-top: -2px;
+          vertical-align: middle;
+        }
+
+        .options {
+          position: absolute;
+          top: 100%;
+          right: 0;
+          background: #fff;
+          border: 1px solid #e8e8e8;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          z-index: 10;
+
+          line-height: 1.5rem;
+
+          a {
+            padding: 5px 10px;
+          }
+        }
+      }
+
       a, a:visited {
         display: block;
         color: inherit;
