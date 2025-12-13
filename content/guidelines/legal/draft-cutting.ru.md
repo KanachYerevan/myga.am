@@ -1,6 +1,6 @@
 +++
-title = "Draft Law to prohibit cutting trees by visual inspection"
-description = "This draft law aims to prohibit the cutting of trees based solely on visual inspection without proper assessment."
+title = "Проект закона о запрете вырубки деревьев по визуальному осмотру"
+description = "Этот проект закона направлен на запрет вырубки деревьев исключительно на основании визуального осмотра без надлежащей оценки."
 
 [extra]
 category = "proposed"
