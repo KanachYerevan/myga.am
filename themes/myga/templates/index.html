@@ -32,11 +32,11 @@
                             {% endif %}
                         </div>
                     </div>
-                    <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">Guidelines</a>
-                    <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">Monitor</a>
-                    <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">Journal</a>
-                    <a href="{{ get_url(path="@/about/_index.md", lang=lang) }}">About</a>
-                    <a href="{{ get_url(path="@/action/_index.md", lang=lang) }}" class="button">Take Action</a>
+                    <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">{{ trans(key="nav_guidelines", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">{{ trans(key="nav_monitor", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">{{ trans(key="nav_journal", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/about/_index.md", lang=lang) }}">{{ trans(key="nav_about", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/action/_index.md", lang=lang) }}" class="button">{{ trans(key="nav_action", lang=lang) }}</a>
                 </nav>
                 <div class="mobile bars">
                     <button id="menu-toggle" aria-label="Toggle menu">
