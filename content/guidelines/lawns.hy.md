@@ -3,6 +3,13 @@ title = "Մարգագետիններ Երևանի համար"
 description = "Բնական մարգագետինների օգտագործման ուղեցույց։"
 date = "2025-09-22"
 aliases = ["hy/lawns"]
+weight = 1
+
+[extra]
+status = "recommended"
+title = "Lawns Standard"
+verdict_short = "Meadow Recommended"
+description = "Native meadow lawns require 80% less water than turf and reduce fire risk compared to wild grass."
 +++
 Փոշոտ ամայի տարածքներն ու ցեխը մայթերին այն չեն, ինչին արժանի է Երևանը։
 Մենք կարող ենք փոխել դա՝ փոխարինելով «ինքնացան մարգագետինները» ժամանակակից բնական մարգագետիններով՝ գեղեցիկ, խնայող և էկոհամակարգի համար օգտակար։
