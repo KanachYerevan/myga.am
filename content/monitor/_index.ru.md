@@ -1,5 +1,5 @@
 +++
-title = "Панель мониторинга"
+title = "Текущее состояние"
 template = "section-monitor.html"
 aliases = ["ru/monitor/alerts"]
 
