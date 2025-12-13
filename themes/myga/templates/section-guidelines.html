@@ -60,7 +60,7 @@
         <div class="zone3" id="legal">
             <h2>{{ legal_section.title }}</h2>
 
-            <h3>Current Legislation</h3>
+            <h3>{{ trans(key="guides_current", lang=lang) }}</h3>
 
             <div class="file-list">
                 {% for page in legal_section.pages %}
@@ -79,7 +79,7 @@
                 {% endfor %}
             </div>
 
-            <h3>International Standards (Reference)</h3>
+            <h3>{{ trans(key="guides_international", lang=lang) }}</h3>
 
             <div class="file-list">
                 {% for page in legal_section.pages %}
@@ -98,7 +98,7 @@
                 {% endfor %}
             </div>
 
-            <h3>Proposed Amendments (Kanach Drafts)</h3>
+            <h3>{{ trans(key="guides_proposed", lang=lang) }}</h3>
 
             <div class="file-list">
                 {% for page in legal_section.pages %}
