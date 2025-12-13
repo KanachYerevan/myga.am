@@ -1,5 +1,5 @@
 +++
-title = "Legal Guidelines"
+title = "Правовые нормы"
 sort_by = "title"
 render = false
 +++
