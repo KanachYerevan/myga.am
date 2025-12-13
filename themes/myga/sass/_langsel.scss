@@ -4,6 +4,7 @@
 
 header nav .langsel {
   position: relative;
+  padding: 0 10px;
 
   .active {
     text-transform: uppercase;
@@ -13,6 +14,7 @@ header nav .langsel {
     border: none;
     background: transparent;
     cursor: pointer;
+    padding: 0;
   }
 
   svg {
@@ -33,6 +35,15 @@ header nav .langsel {
 
     a {
       padding: 5px 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header nav .langsel {
+    .options {
+      left: 10px;
+      right: auto;
     }
   }
 }
