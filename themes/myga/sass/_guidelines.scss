@@ -156,3 +156,12 @@
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .guidelines {
+    .grid-layout {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
