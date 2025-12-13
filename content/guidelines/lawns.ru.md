@@ -7,9 +7,9 @@ weight = 1
 
 [extra]
 status = "recommended"
-title = "Lawns Standard"
-verdict_short = "Meadow Recommended"
-description = "Native meadow lawns require 80% less water than turf and reduce fire risk compared to wild grass."
+title = "Стандарт газонов"
+verdict_short = "Рекомендуем разнотравье"
+description = "Местные луговые газоны требуют на 80% меньше воды, чем обычные, и снижают риск пожаров по сравнению с дикой травой."
 +++
 Пыльные пустыри и грязь на тротуарах — не то, чего достоин Ереван.
 Мы можем это изменить, заменив «газоны из самосева» на современные природные луга — красивые, экономные и полезные для экосистемы.
