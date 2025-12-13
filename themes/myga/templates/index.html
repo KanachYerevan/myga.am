@@ -22,11 +22,11 @@
 
                         <div class="options">
                             {% if section %}
-                                {% for t in section.translations %}
+                                {% for t in section.translations | sort(attribute="lang") %}
                                     <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
                                 {% endfor %}
                             {% elif page %}
-                                {% for t in page.translations %}
+                                {% for t in page.translations | sort(attribute="lang") %}
                                     <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
                                 {% endfor %}
                             {% endif %}
