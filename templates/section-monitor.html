@@ -37,7 +37,7 @@
 
         <h2>{{ watch_section.title }}</h2>
 
-        <div class="watchlist grid">
+        <div class="watchlist cards">
             {% for page in watch_section.pages %}
                 {% if page.extra.hidden | default(value=false) != true %}
                     <div class="card {{ page.extra.type | default(value='alert') }}">
@@ -56,14 +56,14 @@
             {% endfor %}
         </div>
 
-        <div class="grid">
+        <div class="cards">
             <div class="passports">
                 {% set pass_path = macros::localized_path(base_path="monitor/passports/_index.md", lang=lang) %}
                 {% set pass_section = get_section(path=pass_path) %}
 
                 <h2>{{ pass_section.extra.title }}</h2>
 
-                <div class="cards">
+                <div>
                     {% for page in pass_section.pages %}
                         <div class="card action">
                             <div class="body">

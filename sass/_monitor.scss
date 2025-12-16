@@ -11,12 +11,6 @@
     margin-top: 50px;
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
   .dash {
     border-radius: 8px;
     overflow: hidden;
@@ -29,6 +23,11 @@
 
     .map {
       background-color: #ccc;
+
+      a {
+        display: block;
+        line-height: 0;
+      }
 
       display: flex;
       justify-content: center;
@@ -61,11 +60,7 @@
     }
   }
 
-  .watchlist, .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-
+  .watchlist, .cards {
     .card {
       background-color: #fff;
       border-radius: 8px;
@@ -154,4 +149,30 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .monitor .dash {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    height: auto;
+
+    .map {
+      border-bottom: 1px solid #ccc;
+    }
+
+    .numbers {
+      display: flex;
+      flex-direction: row;
+
+      .number-card {
+        padding: 20px 0;
+
+        .number {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
 }
