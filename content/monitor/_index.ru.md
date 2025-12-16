@@ -1,7 +1,7 @@
 +++
 title = "Текущее состояние"
 template = "section-monitor.html"
-aliases = ["ru/monitor/alerts"]
+aliases = ["ru/monitor/alerts", "ru/monitor/cases", "ru/monitor/passports"]
 
 [extra]
 map_trees = "9,437"

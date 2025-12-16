@@ -1,7 +1,7 @@
 +++
 title = "Monitor Dashboard"
 template = "section-monitor.html"
-aliases = ["hy/monitor/alerts"]
+aliases = ["hy/monitor/alerts", "hy/monitor/cases", "hy/monitor/passports"]
 
 [extra]
 map_trees = "9,437"
