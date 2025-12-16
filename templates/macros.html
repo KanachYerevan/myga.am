@@ -10,3 +10,16 @@
 
     {{- final_path -}}
 {% endmacro %}
+
+{% macro localized_page_path(base_path, lang) %}
+    {%- set doc = get_page(path=base_path) -%}
+    {%- set final_path = base_path -%}
+
+    {%- for t in doc.translations -%}
+        {%- if t.lang == lang -%}
+            {%- set_global final_path = t.path -%}
+        {%- endif -%}
+    {%- endfor -%}
+
+    {{- final_path -}}
+{% endmacro %}
