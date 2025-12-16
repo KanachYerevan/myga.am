@@ -1,0 +1,179 @@
+@import '_header';
+@import '_footer';
+@import '_langsel';
+@import '_cards';
+
+@import '_actions';
+@import '_guidelines';
+@import '_monitor';
+@import '_action';
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+
+  font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #F5F7F5;
+
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main {
+  .wrapper {
+      box-sizing: border-box;
+
+      width: 100%;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 30px;
+
+  }
+}
+
+
+main {
+  flex: 1;
+
+  a {
+    color: #1756a9;
+    text-decoration: none;
+
+    &:hover {
+      color: #111;
+      text-decoration: underline;
+    }
+
+    &:visited {
+      color: #1756a9;
+    }
+  }
+
+  h1 {
+    font-size: 42px;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    font-weight: 400;
+    margin: 10px 0;
+  }
+
+  h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin: 1em 0 15px;
+  }
+
+  ul {
+    margin: 0 0 15px 30px;
+    padding: 0;
+  }
+
+  blockquote {
+    color: #828282;
+    letter-spacing: -1px;
+    border-left: 8px solid #e8e8e8;
+    padding: 0 0 0 15px;
+    margin: 0 0 15px;
+    font-style: italic;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  .post-date {
+    opacity: 0.5;
+    font-size: 85%;
+  }
+}
+
+.meta {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  line-height: 20px;
+  margin: 10px 0;
+
+  .sep {
+    flex: 1 0 0;
+  }
+}
+
+main .album {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (min-width: 601px) {
+  .mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .desktop {
+    display: none;
+  }
+
+  main {
+    .wrapper {
+      padding: 0 10px;
+    }
+  }
+
+  main {
+    h1 {
+      font-size: 36px;
+    }
+
+    h2 {
+      font-size: 28px;
+    }
+  }
+}
+
+main .hotnav {
+  line-height: 30px;
+  list-style-type: none;
+  margin: 0 0 50px;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+
+  li {
+    background-color: #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+
+  svg {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+  }
+}
+
+img.stripe {
+  width: 100%;
+  aspect-ratio: 4 / 1;
+  object-fit: cover;
+  object-position: center;
+}
+
+iframe.calendar {
+  width: 100%;
+  min-height: 50vh;
+}

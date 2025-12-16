@@ -1,0 +1,99 @@
+{% extends "index.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+    <div class="post monitor">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {{ section.content | safe }}
+
+        <div class="dash">
+            <div class="map">
+                <a href="https://yerevan.treemaps.app/map" target="_blank">
+                    <img src="/images/map-screenshot.jpg" />
+                </a>
+            </div>
+
+            <div class="numbers">
+                <div class="number-card">
+                    <div class="number">{{ section.extra.map_trees }}</div>
+                    <div class="label">trees mapped</div>
+                </div>
+
+                <div class="number-card">
+                    <div class="number">{{ section.extra.map_healthy }}</div>
+                    <div class="label">healthy trees</div>
+                </div>
+
+                <div class="number-card">
+                    <div class="number">{{ section.extra.map_users }}</div>
+                    <div class="label">volunteers active</div>
+                </div>
+            </div>
+        </div>
+
+        {% set watch_path = macros::localized_path(base_path="monitor/alerts/_index.md", lang=lang) %}
+        {% set watch_section = get_section(path=watch_path) %}
+
+        <h2>{{ watch_section.title }}</h2>
+
+        <div class="watchlist grid">
+            {% for page in watch_section.pages %}
+                {% if page.extra.hidden | default(value=false) != true %}
+                    <div class="card {{ page.extra.type | default(value='alert') }}">
+                        {% if page.extra.icon %}
+                            <div class="icon">{{ page.extra.icon }}</div>
+                        {% endif %}
+                        <div class="body">
+                            <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
+                            <div class="text">{{ page.extra.description | default(value=page.description) }}</div>
+                            {% if page.extra.status %}
+                                <div class="bottom">{{ page.extra.status | default(value="not set") }}</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="grid">
+            <div class="passports">
+                {% set pass_path = macros::localized_path(base_path="monitor/passports/_index.md", lang=lang) %}
+                {% set pass_section = get_section(path=pass_path) %}
+
+                <h2>{{ pass_section.extra.title }}</h2>
+
+                <div class="cards">
+                    {% for page in pass_section.pages %}
+                        <div class="card action">
+                            <div class="body">
+                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
+                                <div class="date">{{ page.date }}</div>
+                                <div class="text">{{ page.description }}</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="cases">
+                {% set cases_path = macros::localized_path(base_path="monitor/cases/_index.md", lang=lang) %}
+                {% set cases_section = get_section(path=cases_path) %}
+
+                <h2>{{ cases_section.extra.title | default(value=cases_section.title) }}</h2>
+
+                <div>
+                    {% for page in cases_section.pages %}
+                        <div class="card action">
+                            <div class="body">
+                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
+                                <div class="date">{{ page.date }} &middot; {{ page.extra.status | default(value="open") }}</div>
+                                <div class="text">{{ page.extra.description | default(value=page.description) }}</div>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,121 @@
+{% extends "index.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+    <div class="post guidelines">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {# ZONE 1: Direct pages (Pruning, Mulching, etc.) #}
+        <div class="zone1" id="bmp">
+            <h2>{{ trans(key="guides_bmp", lang=lang) }}</h2>
+
+            <div class="grid-layout">
+                {% for page in section.pages %}
+                    <div class="card verdict-card">
+                        <div class="status-strip {{ page.extra.status | default(value='neutral') }}">
+                            {{ page.extra.verdict_short | default(value='Standard') }}
+                        </div>
+
+                        <div class="body">
+                            <h3><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></h3>
+                            <p>{{ page.extra.description | safe }}</p>
+                            <div class="more">
+                                <a href="{{ page.permalink }}">{{ trans(key="nav_more", lang=lang) }} →</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {# ZONE 2: Biodiversity Subsections #}
+        {# We explicitly fetch the section object using the path #}
+        {% set bio_path = macros::localized_path(base_path="guidelines/biodiversity/_index.md", lang=lang) %}
+        {% set bio_section = get_section(path=bio_path) %}
+
+        <div class="zone2" id="biodiversity">
+            <h2>{{ bio_section.title }}</h2>
+
+            <div class="grid-layout">
+                {% for page in bio_section.pages %}
+                    <div class="card bio-card">
+                        <a href="{{ page.permalink }}">
+                            <img src="{{ get_url(path=page.extra.image | default(value='images/logo-owl.png') ) }}" alt="{{ page.title }}" />
+                        </a>
+
+                        <div class="body">
+                            <div class="label">{{ page.extra.label | default(value="No Specific Category") }}</div>
+                            <h3><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></h3>
+                            <p>{{ page.extra.description | default(value='No description') | safe }}</p>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {# ZONE 3: Legal Subsection #}
+        {% set legal_path = macros::localized_path(base_path="guidelines/legal/_index.md", lang=lang) %}
+        {% set legal_section = get_section(path=legal_path) %}
+
+        <div class="zone3" id="legal">
+            <h2>{{ legal_section.title }}</h2>
+
+            <h3>{{ trans(key="guides_current", lang=lang) }}</h3>
+
+            <div class="file-list">
+                {% for page in legal_section.pages %}
+                    {% if page.extra.category | default(value='hidden') == "local" %}
+                        <a href="{{ page.permalink }}" class="file">
+                            <span class="icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                            </span>
+                            <span class="text">
+                                <span class="title">{{ page.extra.title | default(value=page.title) | safe }}</span>
+                                <span class="description">{{ page.extra.description | default(value=page.description) }}</span>
+                            </span>
+                            <span class="download">↓</span>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <h3>{{ trans(key="guides_international", lang=lang) }}</h3>
+
+            <div class="file-list">
+                {% for page in legal_section.pages %}
+                    {% if page.extra.category | default(value='hidden') == "global" %}
+                        <a href="{{ page.permalink }}" class="file">
+                            <span class="icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            </span>
+                            <span class="text">
+                                <span class="title">{{ page.extra.title | default(value=page.title) | safe }}</span>
+                                <span class="description">{{ page.extra.description | default(value=page.description) }}</span>
+                            </span>
+                            <span class="download">↓</span>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+
+            <h3>{{ trans(key="guides_proposed", lang=lang) }}</h3>
+
+            <div class="file-list">
+                {% for page in legal_section.pages %}
+                    {% if page.extra.category | default(value='hidden') == "proposed" %}
+                        <a href="{{ page.permalink }}" class="file">
+                            <span class="icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                            </span>
+                            <span class="text">
+                                <span class="title">{{ page.extra.title | default(value=page.title) }}</span>
+                                <span class="description">{{ page.extra.description | default(value=page.description) }}</span>
+                            </span>
+                            <span class="download">↓</span>
+                        </a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

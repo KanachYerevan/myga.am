@@ -1,0 +1,61 @@
+{% extends "index.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+    <div class="post take-action">
+        <h1 class="post-title">{{ section.title | safe }}</h1>
+
+        {{ section.content | safe }}
+
+        {% set methods_path = macros::localized_path(base_path="action/methods/_index.md", lang=lang) %}
+        {% set methods_section = get_section(path=methods_path) %}
+
+        <div class="action-cards">
+            <div class="cards">
+                {% for page in methods_section.pages %}
+                    <div class="action-card {{ page.extra.class | default(value="default") }}">
+                        <div class="header">
+                            <div class="icon">
+                                {% if page.extra.icon %}
+                                    {% if page.extra.icon == "location" %}
+                                        <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                                    {% elif page.extra.icon == "flash" %}
+                                        <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                    {% else %}
+                                        <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                    {% endif %}
+                                {% else %}
+                                    <svg class="card-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                {% endif %}
+                            </div>
+                            <div class="title">{{ page.title }}</div>
+                        </div>
+                        <div class="body">
+                            <div class="description">{{ page.description }}</div>
+                            {% if page.extra.external_link %}
+                                <div class="link"><a href="{{ page.extra.external_link }}" target="_blank">{{ trans(key="nav_more", lang=lang) }} →</a></div>
+                            {% elif page.extra.link %}
+                                <div class="link"><a href="{{ page.extra.link }}">{{ trans(key="nav_more", lang=lang) }} →</a></div>
+                            {% endif %}
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        {% set events_path = macros::localized_page_path(base_path="action/events.md", lang=lang) %}
+        {% set events_page = get_page(path=events_path) %}
+
+        <h2>{{ events_page.title }}</h2>
+        {{ events_page.content | safe }}
+
+        {% set join_path = macros::localized_page_path(base_path="action/join.md", lang=lang) %}
+        {% set join_page = get_page(path=join_path) %}
+
+        <section class="action-join">
+            <h2>{{ join_page.extra.title }}</h2>
+            <div class="text">{{ join_page.extra.description | safe }}</div>
+            <div class="button"><a href="{{ join_page.permalink }}">{{ join_page.extra.join_button }}</a></div>
+        </section>
+    </div>
+{% endblock %}
