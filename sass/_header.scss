@@ -28,6 +28,7 @@ header {
       display: flex;
       gap: 20px;
       flex-direction: row;
+      align-items: center;
       line-height: 42px;
     }
 
@@ -37,19 +38,28 @@ header {
       gap: 10px;
       flex: 1 1 0;
 
+      height: 32px;
+      line-height: 32px;
+      font-size: 22px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
       img {
-        width: 42px;
-        height: 42px;
+        width: 32px;
+        height: 32px;
+        background-color: #000;
+        border-radius: 4px;
         margin: 0;
       }
-    }
 
-    .title {
-      font-size: 26px;
-      line-height: 42px;
-      letter-spacing: -1px;
-      flex: 0 0 0;
-      white-space: nowrap;
+      .title {
+        font-weight: 800;
+        letter-spacing: -1px;
+        flex: 0 0 0;
+        white-space: nowrap;
+      }
     }
 
     .sep {
