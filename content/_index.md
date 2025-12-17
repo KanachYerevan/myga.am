@@ -1,5 +1,5 @@
 +++
-title = "Welcome"
+title = "Kanach Yerevan"
 template = "home.html"
 +++
 **Kanach Yerevan** is a social movement that aims to make Yerevan a greener, more sustainable and more livable city.
