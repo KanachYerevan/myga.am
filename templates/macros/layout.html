@@ -60,18 +60,20 @@
                     </div>
                 </div>
 
-                <div class="list">
-                    <h2>{{ data.sections.titles[lang] }}</h2>
-                    {% for link in data.sections.links %}
-                        <p><a href="{{ link[lang].link }}">{{ link[lang].title }}</a></p>
-                    {% endfor %}
-                </div>
+                <div class="links">
+                    <div class="list">
+                        <h2>{{ data.sections.titles[lang] }}</h2>
+                        {% for link in data.sections.links %}
+                            <p><a href="{{ link[lang].link }}">{{ link[lang].title }}</a></p>
+                        {% endfor %}
+                    </div>
 
-                <div class="list">
-                    <h2>{{ data.actions.titles[lang] }}</h2>
-                    {% for link in data.actions.links %}
-                        <p><a href="{{ link[lang].link }}">{{ link[lang].title }}</a></p>
-                    {% endfor %}
+                    <div class="list">
+                        <h2>{{ data.actions.titles[lang] }}</h2>
+                        {% for link in data.actions.links %}
+                            <p><a href="{{ link[lang].link }}">{{ link[lang].title }}</a></p>
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
 

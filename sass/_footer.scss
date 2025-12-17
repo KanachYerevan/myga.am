@@ -29,7 +29,7 @@ footer {
   }
 
   .col1 {
-    flex: 1 1 0;
+    flex: 1 1 50%;
 
     .kanach-logo {
       margin: 10px 0 20px;
@@ -37,8 +37,15 @@ footer {
     }
   }
 
+  .links {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
   .list {
-    flex: 0 0 25%;
+    flex: 1 1 50%;
   }
 
   h2 {
@@ -102,6 +109,7 @@ footer {
 
     .columns {
       flex-direction: column;
+      gap: 2rem;
     }
   }
 }
