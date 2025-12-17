@@ -23,45 +23,6 @@
     </main>
 
     {% block footer %}
-        <footer>
-            <div class="wrapper">
-                <div class="row1">
-                    <div class="title">Kanach Yerevan</div>
-                    <div class="motto">{{ trans(key="footer_myga", lang=lang) }}</div>
-                </div>
-
-                <div class="columns">
-                    <div class="list">
-                        <h2>{{ trans(key="footer_learn", lang=lang) }}</h2>
-                        <p><a href="{{ get_url(path="@/guidelines/value.md", lang=lang) }}">{{ trans(key="footer_trees", lang=lang) }}</a></p>
-                        <p><a href="{{ get_url(path="@/guidelines/biodiversity/great-tit.md", lang=lang) }}">{{ trans(key="footer_birds", lang=lang) }}</a></p>
-                        <p>{{ trans(key="footer_insects", lang=lang) }}</p>
-                        <p><a href="{{ get_url(path="@/guidelines/lawns.md", lang=lang) }}">{{ trans(key="footer_lawns", lang=lang) }}</a></p>
-                        <p><a href="{{ get_url(path="@/guidelines/leaves.md", lang=lang) }}">{{ trans(key="footer_leaves", lang=lang) }}</a></p>
-                    </div>
-
-                    <div class="list">
-                        <h2>{{ trans(key="footer_connect", lang=lang) }}</h2>
-                        <p><a href="{{ get_url(path="@/action/join.md", lang=lang) }}">{{ trans(key="footer_join", lang=lang) }}</a></p>
-                        <p>{{ trans(key="footer_groups", lang=lang) }}</p>
-                        <p><a href="{{ get_url(path="@/action/events.md", lang=lang) }}">{{ trans(key="footer_events", lang=lang) }}</a></p>
-                        <p><a href="{{ get_url(path="@/about/directory.md", lang=lang) }}">{{ trans(key="footer_dir", lang=lang) }}</a></p>
-                        <p><a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">{{ trans(key="footer_blog", lang=lang) }}</a></p>
-                    </div>
-
-                    <div class="list">
-                        <h2>{{ trans(key="footer_act", lang=lang) }}</h2>
-                        <p><a href="{{ get_url(path="@/action/report.md", lang=lang) }}">{{ trans(key="footer_report", lang=lang) }}</a></p>
-                        <p><a href="{{ get_url(path="@/monitor/map.md", lang=lang) }}">{{ trans(key="footer_map", lang=lang) }}</a></p>
-                    </div>
-
-                    <div class="list">
-                        <h2>{{ trans(key="footer_org", lang=lang) }}</h2>
-                        <p><a href="{{ get_url(path="@/about/index.md", lang=lang) }}">{{ trans(key="footer_about", lang=lang) }}</a></p>
-                        <p><a href="/team/">{{ trans(key="footer_team", lang=lang) }}</a></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        {{ layout::footer(lang=lang) }}
     {% endblock footer %}
 {% endblock %}

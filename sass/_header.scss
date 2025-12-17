@@ -32,36 +32,6 @@ header {
       line-height: 42px;
     }
 
-    .logo {
-      display: flex;
-      flex-direction: row;
-      gap: 10px;
-      flex: 1 1 0;
-
-      height: 32px;
-      line-height: 32px;
-      font-size: 22px;
-
-      &:hover {
-        text-decoration: none;
-      }
-
-      img {
-        width: 32px;
-        height: 32px;
-        background-color: #000;
-        border-radius: 4px;
-        margin: 0;
-      }
-
-      .title {
-        font-weight: 800;
-        letter-spacing: -1px;
-        flex: 0 0 0;
-        white-space: nowrap;
-      }
-    }
-
     .sep {
       flex: 1 0 0;
     }
@@ -100,6 +70,36 @@ header {
         color: #000;
       }
     }
+}
+
+.kanach-logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex: 1 1 0;
+
+  height: 32px;
+  line-height: 32px;
+  font-size: 22px;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  img {
+    width: 32px;
+    height: 32px;
+    background-color: #000;
+    border-radius: 4px;
+    margin: 0;
+  }
+
+  .title {
+    font-weight: 800;
+    letter-spacing: -1px;
+    flex: 0 0 0;
+    white-space: nowrap;
+  }
 }
 
 @media screen and (min-width: 601px) {

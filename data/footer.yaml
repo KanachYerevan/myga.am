@@ -1,0 +1,76 @@
+sections:
+  titles:
+    ru: Разделы
+    en: Sections
+    hy: Sections
+  links:
+    - ru:
+        link: /ru/guidelines/
+        title: Справочник
+      en:
+        link: /guidelines/
+        title: Guidelines
+      hy:
+        link: /hy/guidelines/
+        title: Guidelines
+    - ru:
+        link: /ru/monitor/
+        title: Статус
+      en:
+        link: /monitor/
+        title: Status
+      hy:
+        link: /hy/monitor/
+        title: Status
+    - ru:
+        link: /ru/journal/
+        title: Журнал
+      en:
+        link: /journal/
+        title: Journal
+      hy:
+        link: /hy/journal/
+        title: Journal
+    - ru:
+        link: /ru/about/
+        title: О нас
+      en:
+        link: /about/
+        title: About
+      hy:
+        link: /hy/about/
+        title: About
+
+actions:
+  titles:
+    ru: Действуй
+    en: Actions
+    hy: Actions
+  links:
+    - en:
+        link: /actions/
+        title: Mapping
+      ru:
+        link: /ru/action/
+        title: Картируй
+      hy:
+        link: /hy/action/
+        title: Mapping
+    - en:
+        link: /action/report/
+        title: Report damage
+      ru:
+        link: /ru/action/report/
+        title: Сообщи о проблеме
+      hy:
+        link: /hy/action/report/
+        title: Report damage
+    - en:
+        link: /action/join/
+        title: Volunteer
+      ru:
+        link: /ru/action/join/
+        title: Стать волонтёром
+      hy:
+        link: /hy/action/join/
+        title: Volunteer
