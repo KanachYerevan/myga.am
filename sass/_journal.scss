@@ -1,0 +1,36 @@
+.dated-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  line-height: 1.5rem;
+
+  .item {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .date {
+    flex: 0 0 50px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8rem;
+  }
+
+  a {
+    color: inherit;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dated-list {
+    .item {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .date {
+      flex: 0 0 1.5rem;
+    }
+  }
+}

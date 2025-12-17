@@ -8,10 +8,17 @@
     </div>
 
     {% if section.pages %}
-        <ul>
+        <div class="dated-list">
             {% for page in section.pages %}
-                <li>{% if page.date %}{{ page.date }} / {% endif %}<a href="{{ page.permalink }}">{{ page.title | safe }}</a></li>
+                <div class="item">
+                    {% if page.date %}
+                        <div class="date">{{ page.date | date(format="%d.%m.%Y") }}</div>
+                    {% endif %}
+                    <div class="title">
+                        <a href="{{ page.permalink }}">{{ page.title }}</a>
+                    </div>
+                </div>
             {% endfor %}
-        </ul>
+        </div>
     {% endif %}
 {% endblock %}
