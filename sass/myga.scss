@@ -1,3 +1,5 @@
+@import '_typography';
+
 @import '_header';
 @import '_footer';
 @import '_langsel';
@@ -49,20 +51,6 @@ main {
     &:visited {
       color: #1756a9;
     }
-  }
-
-  h1 {
-    font-size: 42px;
-    letter-spacing: -1px;
-    line-height: 1.15;
-    font-weight: 400;
-    margin: 10px 0;
-  }
-
-  h2 {
-    font-size: 32px;
-    font-weight: 400;
-    margin: 1em 0 15px;
   }
 
   ul {
