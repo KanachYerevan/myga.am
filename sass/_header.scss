@@ -11,6 +11,10 @@ header {
     height: 60px;
     color: #424242;
 
+    position: absolute;
+    top: 0;
+    width: 100%;
+
     a {
       color: inherit;
       text-decoration: none;
@@ -72,6 +76,10 @@ header {
     }
 }
 
+body {
+  padding: 50px 0 0;
+}
+
 .kanach-logo {
   display: flex;
   flex-direction: row;
@@ -111,11 +119,15 @@ header {
   }
 
   main {
-    padding-top: 90px;
+    padding-top: 2rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  body {
+    padding-top: 65px;
+  }
+
   header nav {
     display: none;
     position: absolute;

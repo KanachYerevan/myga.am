@@ -1,0 +1,47 @@
+.button-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: #fff;
+
+  line-height: 50px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  svg {
+    height: 20px;
+    padding: 9px 0 11px;
+    vertical-align: middle;
+  }
+
+  .button {
+    background-color: gray;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 0 30px;
+    height: 50px;
+
+    &.alert {
+      background-color: red;
+    }
+
+    &.shy {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(4px);
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button-bar {
+    flex-direction: column;
+
+    .button {
+      margin-right: auto;
+    }
+  }
+}
