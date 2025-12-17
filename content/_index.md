@@ -14,9 +14,3 @@ template = "home.html"
 - [Green Space Review: Tumanyan str.](/monitor/passports/tumanyan-str/)
 - [60% of trees in Yerevan under threat](/monitor/alerts/60-percent/)
 - [Letter to the Mayor or Yerevan](/monitor/alerts/letter/)
-
-## Other information
-
-- [Green Directory](/dir/). Links to shops, nurseries and professionals, related to plant care.
-- [Report tree damage](/report/). If you see that an alive tree was cut recently, please report it.
-- [Tree management codes](/guidelines/)
