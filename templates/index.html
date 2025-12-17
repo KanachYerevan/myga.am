@@ -6,10 +6,10 @@
     {% block header %}
         <header>
             <div class="wrapper">
-                <a class="logo" href="/">
+                <a class="logo" href="{{ get_url(path="@/_index.md", lang=lang) }}">
                     <img src="/images/logo-owl.png" alt="Kanach Yerevan Logo" />
                 </a>
-                <a class="title" href="/">
+                <a class="title" href="{{ get_url(path="@/_index.md", lang=lang) }}">
                     <div class="title">{{ config.title }}</div>
                 </a>
                 <div class="sep"></div>
