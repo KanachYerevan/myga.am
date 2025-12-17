@@ -1,50 +1,11 @@
 {% extends "base.html" %}
+{% import "macros/layout.html" as layout %}
 
 {% block title %}{{ section.title }} — {{ config.title }}{% endblock %}
 
 {% block page_body %}
     {% block header %}
-        <header>
-            <div class="wrapper">
-                <a class="logo" href="{{ get_url(path="@/_index.md", lang=lang) }}">
-                    <img src="/images/logo-owl.png" alt="Kanach Yerevan Logo" />
-                </a>
-                <a class="title" href="{{ get_url(path="@/_index.md", lang=lang) }}">
-                    <div class="title">{{ config.title }}</div>
-                </a>
-                <div class="sep"></div>
-                <nav id="main-nav">
-                    <div class="langsel">
-                        <button class="sel">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                            <span class="active">{{ lang }}</span>
-                        </button>
-
-                        <div class="options">
-                            {% if section %}
-                                {% for t in section.translations | sort(attribute="lang") %}
-                                    <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
-                                {% endfor %}
-                            {% elif page %}
-                                {% for t in page.translations | sort(attribute="lang") %}
-                                    <a href="{{ t.permalink }}" title="{{ t.title }}">{{ trans(key="language_name", lang=t.lang) }}</a>
-                                {% endfor %}
-                            {% endif %}
-                        </div>
-                    </div>
-                    <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">{{ trans(key="nav_guidelines", lang=lang) }}</a>
-                    <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">{{ trans(key="nav_monitor", lang=lang) }}</a>
-                    <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">{{ trans(key="nav_journal", lang=lang) }}</a>
-                    <a href="{{ get_url(path="@/about/index.md", lang=lang) }}">{{ trans(key="nav_about", lang=lang) }}</a>
-                    <a href="{{ get_url(path="@/action/_index.md", lang=lang) }}" class="button">{{ trans(key="nav_action", lang=lang) }}</a>
-                </nav>
-                <div class="mobile bars">
-                    <button id="menu-toggle" aria-label="Toggle menu">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
-                    </button>
-                </div>
-            </div>
-        </header>
+        {{ layout::header(lang=lang) }}
     {% endblock header %}
 
     <main>
