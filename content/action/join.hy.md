@@ -12,6 +12,5 @@ join_button = "Միացե՛ք մեր թիմին"
 
 - [Telegram ալիք](https://t.me/kanach_yerevan_news) և [չաթ](https://t.me/make_yerevan_green_again), որտեղ մենք քննարկում ենք ամեն ինչ։ (Սա հիմնական հաղորդակցման ալիքն է։)
 - [Instagram](https://instagram.com/kanach.yerevan), որտեղ մենք հրապարակում ենք քաղաքում տեղի ունեցող իրադարձությունների թարմացումները։
-- [YouTube ալիք](https://youtube.com/@YerevanObserver), որտեղ մենք հրապարակում ենք մեր միջոցառումների և քննարկումների տեսանյութերը։ (Շատ հազվադեպ։)
 
 Շնորհակալություն։
