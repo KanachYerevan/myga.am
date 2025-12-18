@@ -13,6 +13,7 @@
 @import '_journal';
 
 @import 'partials/home-alert';
+@import 'partials/bmp-tiles';
 
 body {
   margin: 0;
@@ -44,23 +45,18 @@ main {
   }
 }
 
+a {
+  color: #1756a9;
+  text-decoration: none;
+
+  &:hover {
+    color: #111;
+    text-decoration: underline;
+  }
+}
 
 main {
   flex: 1;
-
-  a {
-    color: #1756a9;
-    text-decoration: none;
-
-    &:hover {
-      color: #111;
-      text-decoration: underline;
-    }
-
-    &:visited {
-      color: #1756a9;
-    }
-  }
 
   ul {
     margin: 0 0 15px 30px;

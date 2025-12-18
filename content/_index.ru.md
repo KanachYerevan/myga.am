@@ -4,11 +4,6 @@ description = "Превращаем недовольство в системно
 template = "home.html"
 +++
 
-## Кампании
-
-- [Большие синицы для Еревана](/ru/guidelines/biodiversity/great-tit/)
-- [Луговые газоны для Еревана](/ru/guidelines/lawns/)
-
 ## Публикации
 
 - [Обзор зеленых насаждений: ул. Туманяна](/ru/monitor/passports/tumanyan-str/)

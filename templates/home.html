@@ -1,5 +1,6 @@
 {% extends "index.html" %}
 {% import "macros/journal.html" as journal %}
+{% import "macros/bmp.html" as bmp %}
 
 {% block title %}{{ section.title }}{% endblock %}
 
@@ -46,6 +47,8 @@
     <main class="container">
         <div class="post">
             {{ section.content | safe }}
+
+            {{ bmp::tiles(lang=lang, count=2) }}
 
             {{ journal::recent(lang=lang) }}
         </div>

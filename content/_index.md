@@ -4,11 +4,6 @@ description = "Transforming discontent into systemic action. Professional standa
 template = "home.html"
 +++
 
-## Campaigns
-
-- [Great Tits for Yerevan](/guidelines/biodiversity/great-tit/)
-- [Meadow Lawns for Yerevan](/guidelines/lawns/)
-
 ## Publications
 
 - [Green Space Review: Tumanyan str.](/monitor/passports/tumanyan-str/)

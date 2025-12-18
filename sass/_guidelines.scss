@@ -25,45 +25,6 @@
     }
   }
 
-  .zone1 {
-    .body {
-      padding: 10px 20px 20px;
-      font-size: 1rem;
-
-      h3, p {
-        font-size: 1rem;
-        margin: 10px 0;
-      }
-
-      .more {
-        font-size: 0.8rem;
-      }
-    }
-
-    .status-strip {
-      color: white;
-      text-transform: uppercase;
-      padding: 10px 20px;
-      font-size: 14px;
-
-      &.asset {
-        background-color: #547C96;
-      }
-
-      &.recommended {
-        background-color: #E09F3E;
-      }
-
-      &.prohibited {
-        background-color: #C85555;
-      }
-
-      &.caution, &.protocol {
-        background-color: #E09F3E;
-      }
-    }
-  }
-
   .zone2 {
     .card {
       img {

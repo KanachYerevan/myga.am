@@ -4,11 +4,6 @@ description = "Դժգոհությունը վերածում ենք համակար
 template = "home.html"
 +++
 
-## Արշավներ
-
-- [Մեծ երաշտահավեր Երևանի համար](/hy/guidelines/biodiversity/great-tit/)
-- [Մարգագետնային սիզամարգեր Երևանի համար](/hy/guidelines/lawns/)
-
 ## Հրապարակումներ
 
 - [Կանաչ տարածքների վերլուծություն. Թումանյան փող.](/monitor/passports/tumanyan-str/)

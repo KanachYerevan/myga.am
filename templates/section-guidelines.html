@@ -1,32 +1,12 @@
 {% extends "index.html" %}
 {% import "macros.html" as macros %}
+{% import "macros/bmp.html" as bmp %}
 
 {% block content %}
     <div class="post guidelines">
         <h1 class="post-title">{{ section.title | safe }}</h1>
 
-        {# ZONE 1: Direct pages (Pruning, Mulching, etc.) #}
-        <div class="zone1" id="bmp">
-            <h2>{{ trans(key="guides_bmp", lang=lang) }}</h2>
-
-            <div class="grid-layout">
-                {% for page in section.pages %}
-                    <div class="card verdict-card">
-                        <div class="status-strip {{ page.extra.status | default(value='neutral') }}">
-                            {{ page.extra.verdict_short | default(value='Standard') }}
-                        </div>
-
-                        <div class="body">
-                            <h3><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></h3>
-                            <p>{{ page.extra.description | safe }}</p>
-                            <div class="more">
-                                <a href="{{ page.permalink }}">{{ trans(key="nav_more", lang=lang) }} →</a>
-                            </div>
-                        </div>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
+        {{ bmp::tiles(lang=lang) }}
 
         {# ZONE 2: Biodiversity Subsections #}
         {# We explicitly fetch the section object using the path #}

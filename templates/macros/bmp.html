@@ -1,0 +1,26 @@
+{% macro tiles(lang, count=100) %}
+    {% set bmp_section = get_section(path="guidelines/_index.md", lang=lang) %}
+
+    <div class="bmp-tiles">
+        <h2><a href="{{ bmp_section.permalink }}#bmp">{{ bmp_section.extra.grid_title }}</a></h2>
+        <p>{{ bmp_section.extra.grid_description }}</p>
+
+        <div class="cards">
+            {% for page in bmp_section.pages | slice(end=count) %}
+                <div class="card verdict-card">
+                    <div class="status-strip {{ page.extra.status | default(value='neutral') }}">
+                        {{ page.extra.verdict_short | default(value='Standard') }}
+                    </div>
+
+                    <div class="body">
+                        <h3><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></h3>
+                        <p>{{ page.extra.description | safe }}</p>
+                        <div class="more">
+                            <a href="{{ page.permalink }}">{{ trans(key="nav_more", lang=lang) }} →</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endmacro %}
