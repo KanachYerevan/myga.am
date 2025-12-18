@@ -6,7 +6,7 @@
 {% block page_main %}
     {% set numbers = load_data(path="data/numbers.yaml") %}
 
-    <div class="home-splash">
+    <section class="home-splash">
         <div class="container">
             <div class="content">
                 <h1>{{ section.title }}</h1>
@@ -39,7 +39,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    {% include "partials/home-alert.html" %}
 
     <main class="container">
         <div class="post">

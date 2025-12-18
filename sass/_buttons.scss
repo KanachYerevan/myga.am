@@ -36,6 +36,22 @@
   }
 }
 
+a.button {
+  background-color: gray;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  padding: 0 30px;
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  color: inherit;
+
+  &.medium {
+    height: 40px;
+    line-height: 40px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .button-bar {
     flex-direction: column;

@@ -11,8 +11,13 @@ status = "In Progress • Oct - Dec"
 +++
 Burning leaves causes direct harm to the urban environment and constitutes an administrative offense. Smoldering biomass saturates the air with toxic combustion products and destroys the organic matter essential for natural soil nutrition. City law explicitly prohibits disposing of plant waste by fire.
 
+> Attention! Burning leaves incurs a fine of 50,000 drams for individuals and 200,000 drams for organizations.
+> If you see someone burning leaves, please call the environmental inspection hotline at 119.
+
 To clean the area correctly, please follow the established procedure. Collect fallen leaves into large, heavy-duty black bags. Take the filled bags to the nearest waste collection point and stack them neatly next to the bins, ensuring you do not block access to them.
 
 After collecting the leaves, you must submit a pickup request via the "Active Citizen" platform. This is a crucial step: without an official request, utility services do not receive the signal for an unscheduled pickup, and the waste remains on the street.
+
+![Image](/images/stop-burning-leaves.jpg)
 
 If you witness leaf burning, you should immediately report the violation to the Environmental Inspection Body. Documenting the violation and making a timely call is the only way to stop air pollution in your neighborhood.
