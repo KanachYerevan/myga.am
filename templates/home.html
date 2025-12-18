@@ -1,6 +1,8 @@
 {% extends "index.html" %}
 {% import "macros/journal.html" as journal %}
 
+{% block title %}{{ section.title }}{% endblock %}
+
 {% block page_main %}
     {% set numbers = load_data(path="data/numbers.yaml") %}
 
