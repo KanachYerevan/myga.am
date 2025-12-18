@@ -13,7 +13,7 @@
         <div class="action-cards">
             <div class="cards">
                 {% for page in methods_section.pages %}
-                    <div class="action-card {{ page.extra.class | default(value="default") }}">
+                    <div class="card action-card {{ page.extra.class | default(value="default") }}">
                         <div class="header">
                             <div class="icon">
                                 {% if page.extra.icon %}
