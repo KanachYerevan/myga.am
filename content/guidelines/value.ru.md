@@ -2,6 +2,7 @@
 title = "Почему деревья так важны"
 aliases = ["ru/trees"]
 weight = 3
+date = "2025-12-09"
 
 [extra]
 status = "asset"

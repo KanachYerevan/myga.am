@@ -1,6 +1,7 @@
 +++
 title = "Connect with Us"
 aliases = ["connect"]
+date = "2025-11-24"
 
 [extra]
 title = "Become One of Us"

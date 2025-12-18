@@ -2,6 +2,7 @@
 title = "Why Trees Matter"
 aliases = ["trees"]
 weight = 3
+date = "2025-12-09"
 
 [extra]
 status = "asset"

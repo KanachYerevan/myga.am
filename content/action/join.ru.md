@@ -1,6 +1,7 @@
 +++
 title = "Оставайтесь с нами"
 aliases = ["ru/connect"]
+date = "2025-11-24"
 
 [extra]
 title = "Стань одним из нас"

@@ -1,6 +1,7 @@
 +++
 title = "Միացե՛ք մեզ"
 aliases = ["hy/connect"]
+date = "2025-11-24"
 
 [extra]
 title = "Դարձի՛ր մեր թիմի անդամ"
