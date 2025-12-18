@@ -78,11 +78,6 @@ main {
     max-width: 100%;
   }
 
-  .post-date {
-    opacity: 0.5;
-    font-size: 85%;
-  }
-
   .post {
     padding: 0 0 2rem;
   }
@@ -94,6 +89,12 @@ main {
   gap: 20px;
   line-height: 20px;
   margin: 10px 0;
+  font-size: 85%;
+  color: rgba(0, 0, 0, 0.5);
+
+  a, a:visited {
+    color: inherit;
+  }
 
   .sep {
     flex: 1 0 0;
