@@ -1,0 +1,20 @@
+{% import "macros/logo.html" as logo %}
+
+{% macro recent(lang, count=5) %}
+    {% set section = get_section(path="journal/_index.md", lang=lang) %}
+
+    <h2>{{ section.extra.home_title }}</h2>
+
+    <div class="dated-list">
+        {% for page in section.pages %}
+            <div class="item">
+                {% if page.date %}
+                    <div class="date">{{ page.date | date(format="%d.%m.%Y") }}</div>
+                {% endif %}
+                <div class="title">
+                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% endmacro %}

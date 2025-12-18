@@ -1,4 +1,5 @@
 {% extends "index.html" %}
+{% import "macros/journal.html" as journal %}
 
 {% block page_main %}
     {% set numbers = load_data(path="data/numbers.yaml") %}
@@ -41,6 +42,8 @@
     <main class="container">
         <div class="post">
             {{ section.content | safe }}
+
+            {{ journal::recent(lang=lang) }}
         </div>
     </main>
 {% endblock page_main %}
