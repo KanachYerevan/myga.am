@@ -1,6 +1,6 @@
 +++
 title = "Guidelines"
-sort_by = "title"
+sort_by = "date"
 render = false
 +++
 Under construction.

@@ -12,7 +12,7 @@
                     <div class="date">{{ page.date | date(format="%d.%m.%Y") }}</div>
                 {% endif %}
                 <div class="title">
-                    <a href="{{ page.permalink }}">{{ page.title }}</a>
+                    <a href="{{ page.extra.link | default(value=page.permalink) }}">{{ page.title }}</a>
                 </div>
             </div>
         {% endfor %}
