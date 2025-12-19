@@ -11,4 +11,11 @@ We have developed a proposal for a transparent mechanism to enable community-led
 
 The proposal includes the introduction of a unified urban standard for saplings and the launch of a pilot project in one of the administrative districts to refine all technical and administrative workflows. You can review the full text of our letter to the Yerevan Municipality and leave your comments via the link below.
 
-- [Google Docs](https://docs.google.com/document/d/1iL_5N6yYXdQLr8izIugiWigra_1IP08aMMLKG4wl5MQ/edit?tab=t.0)
+## Timeline
+
+- 2025/12/18: the draft was first published on our website.
+
+
+## External links
+
+- [Read and Comment the draft on Google Docs](https://docs.google.com/document/d/1iL_5N6yYXdQLr8izIugiWigra_1IP08aMMLKG4wl5MQ/edit?tab=t.0)
