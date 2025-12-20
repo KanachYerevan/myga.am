@@ -3,5 +3,5 @@ title = "Ավելացվել է էջ սիրիական փայտփորիկի մաս
 date = "2025-12-19"
 
 [extra]
-link = "/guidelines/biodiversity/woodpeckers/"
+link = "@/guidelines/biodiversity/woodpeckers.md"
 +++
