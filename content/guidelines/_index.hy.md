@@ -5,8 +5,8 @@ template = "section-guidelines.html"
 aliases = ["hy/guidelines/legal", "hy/guidelines/biodiversity"]
 
 [extra]
-grid_title = "Best Management Practices"
-grid_description = "Что допустимо, а что нарушает закон и биологию."
+grid_title = "Կառավարման լավագույն փորձը"
+grid_description = "Ինչ տեսակի կառավարումն է լավ, և ինչն է հակասում կենսաբանությանը։"
 +++
 +++
 Under construction.
