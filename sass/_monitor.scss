@@ -27,11 +27,20 @@
       a {
         display: block;
         line-height: 0;
+        width: 100%;
+        height: 100%;
       }
 
       display: flex;
       justify-content: center;
       align-items: center;
+    }
+
+    .map-screenshot {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      object-position: center center;
     }
 
     .numbers {
@@ -160,17 +169,27 @@
 
     .map {
       border-bottom: 1px solid #ccc;
+      aspect-ratio: 1/1;
+
+      .map-screenshot {
+        height: auto;
+      }
     }
 
     .numbers {
-      display: flex;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
 
-      .number-card {
+      .number {
         padding: 20px 0;
+        flex: 0 0 33%;
 
-        .number {
+        .value {
           font-size: 1.5rem;
+        }
+
+        .label {
+          font-size: .7rem;
         }
       }
     }
