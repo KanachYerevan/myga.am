@@ -1,12 +1,11 @@
 {% extends "index.html" %}
 {% import "macros/journal.html" as journal %}
 {% import "macros/bmp.html" as bmp %}
+{% import "macros/map.html" as map %}
 
 {% block title %}{{ section.title }}{% endblock %}
 
 {% block page_main %}
-    {% set numbers = load_data(path="data/numbers.yaml") %}
-
     <section class="home-splash">
         <div class="container">
             <div class="content">
@@ -24,20 +23,7 @@
                     </a>
                 </div>
 
-                <div class="numbers">
-                    <div class="number">
-                        <div class="value">{{ numbers.trees_total }}</div>
-                        <div class="label">{{ trans(key="home_trees_mapped", lang=lang) }}</div>
-                    </div>
-                    <div class="number">
-                        <div class="value">{{ numbers.trees_healthy }}</div>
-                        <div class="label">{{ trans(key="home_trees_healthy", lang=lang) }}</div>
-                    </div>
-                    <div class="number">
-                        <div class="value">{{ numbers.trees_users }}</div>
-                        <div class="label">{{ trans(key="home_trees_users", lang=lang) }}</div>
-                    </div>
-                </div>
+                {{ map::numbers(lang=lang) }}
             </div>
         </div>
     </section>

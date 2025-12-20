@@ -41,12 +41,12 @@
       justify-content: center;
       gap: 20px;
 
-      .number-card {
+      .number {
         display: flex;
         flex-direction: column;
         align-items: center;
 
-        .number {
+        .value {
           font-size: 2.5rem;
           font-weight: 800;
           color: #6D8A6D;
