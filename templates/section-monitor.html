@@ -14,20 +14,22 @@
                 </a>
             </div>
 
+            {% set numbers = load_data(path="data/numbers.yaml") %}
+
             <div class="numbers">
                 <div class="number-card">
-                    <div class="number">{{ section.extra.map_trees }}</div>
-                    <div class="label">trees mapped</div>
+                    <div class="number">{{ numbers.trees_total }}</div>
+                    <div class="label">{{ trans(key="home_trees_mapped", lang=lang) }}</div>
                 </div>
 
                 <div class="number-card">
-                    <div class="number">{{ section.extra.map_healthy }}</div>
-                    <div class="label">healthy trees</div>
+                    <div class="number">{{ numbers.trees_healthy }}</div>
+                    <div class="label">{{ trans(key="home_trees_healthy", lang=lang) }}</div>
                 </div>
 
                 <div class="number-card">
-                    <div class="number">{{ section.extra.map_users }}</div>
-                    <div class="label">volunteers active</div>
+                    <div class="number">{{ numbers.trees_users }}</div>
+                    <div class="label">{{ trans(key="home_trees_users", lang=lang) }}</div>
                 </div>
             </div>
         </div>
