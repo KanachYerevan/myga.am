@@ -20,4 +20,4 @@ title = "Նախաձեռնողական կանաչապատման նախագիծ"
 
 ## Արտաքին հղումներ
 
-- [Կարդալ և մեկնաբանել նախագիծը Google Docs-ում](https://docs.google.com/document/d/1iL_5N6yYXdQLr8izIugiWigra_1IP08aMMLKG4wl5MQ/edit?tab=t.0)
+- [Կարդալ և մեկնաբանել նախագիծը Google Docs-ում](/documents/Letter-on-Proactive-Planting.pdf)

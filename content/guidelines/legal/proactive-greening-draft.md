@@ -20,4 +20,4 @@ The proposal includes the introduction of a unified urban standard for saplings 
 
 ## External links
 
-- [Read and Comment the draft on Google Docs](https://docs.google.com/document/d/1iL_5N6yYXdQLr8izIugiWigra_1IP08aMMLKG4wl5MQ/edit?tab=t.0)
+- [Read the letter](/documents/Letter-on-Proactive-Planting.pdf)

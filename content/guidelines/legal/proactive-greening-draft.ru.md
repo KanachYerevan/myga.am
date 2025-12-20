@@ -20,4 +20,4 @@ title = "Проект регламента инициативного озеле
 
 ## Внешние ссылки
 
-- [Читать и комментировать проект в Google Docs](https://docs.google.com/document/d/1iL_5N6yYXdQLr8izIugiWigra_1IP08aMMLKG4wl5MQ/edit?tab=t.0)
+- [Читать письмо с предлагаемым регламентом](/documents/Letter-on-Proactive-Planting.pdf)
