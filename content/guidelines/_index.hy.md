@@ -1,6 +1,6 @@
 +++
 title = "Կանաչ ստանդարտներ"
-sort_by = "weight"
+sort_by = "date"
 template = "section-guidelines.html"
 aliases = ["hy/guidelines/legal", "hy/guidelines/biodiversity"]
 

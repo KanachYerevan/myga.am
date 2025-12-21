@@ -1,9 +1,9 @@
 {% import "macros/logo.html" as logo %}
 
-{% macro recent(lang, count=100) %}
+{% macro recent(lang, count=100, footer=false) %}
     {% set section = get_section(path="journal/_index.md", lang=lang) %}
 
-    <h2>{{ section.extra.home_title }}</h2>
+    <h2>{{ section.extra.home_title | safe }}</h2>
 
     <div class="dated-list">
         {% for page in section.pages | slice(end=count) %}
@@ -21,4 +21,8 @@
             </div>
         {% endfor %}
     </div>
+
+    {% if footer %}
+        <p>{{ section.extra.home_footer | safe }}</p>
+    {% endif %}
 {% endmacro %}
