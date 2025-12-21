@@ -1,0 +1,30 @@
+{% import "macros/logo.html" as logo %}
+
+{% macro table(lang) %}
+    {% set data = load_data(path="data/dashboard.yaml") %}
+
+    <table class="dashboard">
+        <tbody>
+            {% for item in data %}
+                <tr class="level_{{ item.level }} score_{{ item.score }}">
+                    <td class="check">
+                        {% if item.score == 5 %}
+                            <input type="checkbox" checked disabled />
+                        {% else %}
+                            <input type="checkbox" disabled />
+                        {% endif %}
+                    </td>
+                    <td class="text">
+                        {% if item.link %}
+                            <div class="title">[{{ item.number }}] <a class="link" href="{{ get_url(path=item.link, lang=lang) }}">{{ item.content[lang].title | default(value="(missing)") }}</a></div>
+                        {% else %}
+                            <div class="title">[{{ item.number }}] <span class="link">{{ item.content[lang].title | default(value="(missing)") }}</a></div>
+                        {% endif %}
+                        <div class="description">{{ item.content[lang].desc | default(value="(missing)") }}</div>
+                    </td>
+                    <td class="score">{{ item.score }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endmacro %}

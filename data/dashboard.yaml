@@ -1,0 +1,364 @@
+# Green Strategy data source
+
+- number: "1"
+  level: 1
+  score: 0
+  content:
+    ru:
+      title: "Нормативно-правовая база"
+      desc: "Обновление законов, правил и других регламентов."
+    en:
+      title: "Legal Framework"
+      desc: "Updating laws, rules, and other regulations."
+    hy:
+      title: "Իրավական դաշտ"
+      desc: "Օրենքների, կանոնների և այլ կանոնակարգերի թարմացում։"
+- number: "1.1"
+  level: 2
+  score: 0
+  link: "@/guidelines/_index.md"
+  content:
+    ru:
+      title: "Современные стандарты посадки и ухода"
+      desc: "Адаптация современных, проверенных стандартов по уходу за растениями, вместо изобретения собственных (EAC, ANSI A300)."
+    en:
+      title: "Modern Planting and Care Standards"
+      desc: "Adaptation of modern, proven standards for plant care, instead of inventing our own (EAC, ANSI A300)."
+    hy:
+      title: "Տնկման և խնամքի ժամանակակից ստանդարտներ"
+      desc: "Բույսերի խնամքի ժամանակակից, փորձված ստանդարտների հարմարեցում՝ սեփականը հորինելու փոխարեն (EAC, ANSI A300)։"
+- number: "1.2"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Запрет топпинга"
+      desc: "Топпинг и кронирование наносят огромный вред деревьям и должны быть запрещены."
+    en:
+      title: "Ban on Topping"
+      desc: "Topping and severe pruning cause enormous harm to trees and should be prohibited."
+    hy:
+      title: "Գագաթահատման արգելք"
+      desc: "Գագաթահատումը և էտումը հսկայական վնաս են հասցնում ծառերին և պետք է արգելվեն։"
+- number: "1.3"
+  level: 2
+  score: 0
+  link: "@/guidelines/legal/proactive-greening-draft.md"
+  content:
+    ru:
+      title: "Партисипативное озеленение"
+      desc: "Легализация озеленения по инициативе жителей, в публичных зелёных зонах."
+    en:
+      title: "Participatory Greening"
+      desc: "Legalization of greening initiatives by residents in public green areas."
+    hy:
+      title: "Մասնակցային կանաչապատում"
+      desc: "Հանրային կանաչ գոտիներում բնակիչների նախաձեռնությամբ կանաչապատման օրինականացում։"
+- number: "1.4"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Инструментальный анализ"
+      desc: "Запрет удаления деревьев только на основании визуального осмотра дендрологом."
+    en:
+      title: "Instrumental Analysis"
+      desc: "Prohibition of tree removal based solely on a dendrologist's visual inspection."
+    hy:
+      title: "Գործիքային վերլուծություն"
+      desc: "Արգելել ծառերի հեռացումը միայն դենդրոլոգի տեսողական զննության հիման վրա։"
+- number: "1.5"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Институт профессиональных арбористов"
+      desc: "Город должен сертифицировать арбористов и нанимать их на рынке, а не держать в штате."
+    en:
+      title: "Institute of Professional Arborists"
+      desc: "The city should certify arborists and hire them from the market, rather than keeping them on staff."
+    hy:
+      title: "Պրոֆեսիոնալ արբորիստների ինստիտուտ"
+      desc: "Քաղաքը պետք է հավաստագրի արբորիստներին և վարձի նրանց շուկայից, այլ ոչ թե պահի հաստիքներում։"
+- number: "1.6"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Обновление методики оценки"
+      desc: "Вред деревьям не должен оцениваться дешевле, чем дрова из этих деревьев."
+    en:
+      title: "Updated Valuation Methodology"
+      desc: "Harm to trees should not be valued at less than the price of firewood from those trees."
+    hy:
+      title: "Գնահատման մեթոդաբանության թարմացում"
+      desc: "Ծառերին հասցված վնասը չպետք է գնահատվի այդ ծառերից ստացված փայտից ավելի էժան։"
+- number: "1.7"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Общественный совет по озеленению"
+      desc: "Должен быть создан открытый общественный орган, участвующий в принятии ключевых решений."
+    en:
+      title: "Public Greening Council"
+      desc: "An open public body should be created to participate in key decision-making."
+    hy:
+      title: "Կանաչապատման հանրային խորհուրդ"
+      desc: "Պետք է ստեղծվի բաց հանրային մարմին, որը կմասնակցի առանցքային որոշումների կայացմանը։"
+
+- number: "2"
+  level: 1
+  score: 0
+  content:
+    ru:
+      title: "Цифровой учёт"
+      desc: "Открытый доступ к информации о зелёном фонде."
+    en:
+      title: "Digital Inventory"
+      desc: "Open access to information about green assets."
+    hy:
+      title: "Թվային հաշվառում"
+      desc: "Կանաչ ֆոնդի մասին տեղեկատվության բաց հասանելիություն։"
+- number: "2.1"
+  level: 2
+  score: 2
+  content:
+    ru:
+      title: "Инвентаризация"
+      desc: "Публичная GIS-система со всей информацией о деревьях."
+    en:
+      title: "Inventory"
+      desc: "A public GIS system with all information about trees."
+    hy:
+      title: "Գույքագրում"
+      desc: "Հանրային GIS համակարգ՝ ծառերի մասին ամբողջական տեղեկատվությամբ։"
+- number: "2.2"
+  level: 2
+  score: 5
+  content:
+    ru:
+      title: "Инструменты вовлечения"
+      desc: "У жителей должна быть возможность участвовать в жизни деревьев."
+    en:
+      title: "Engagement Tools"
+      desc: "Residents should have the opportunity to participate in the lives of trees."
+    hy:
+      title: "Ներգրավման գործիքներ"
+      desc: "Բնակիչները պետք է հնարավորություն ունենան մասնակցելու ծառերի կյանքին։"
+
+- number: "3"
+  level: 1
+  score: 0
+  content:
+    ru:
+      title: "Почва и циклическая экономика"
+      desc: "Повышение качества почвы и круговорот органики."
+    en:
+      title: "Soil and Circular Economy"
+      desc: "Improving soil quality and the circulation of organic matter."
+    hy:
+      title: "Հող և շրջանաձև տնտեսություն"
+      desc: "Հողի որակի բարելավում և օրգանական նյութերի շրջապտույտ։"
+- number: "3.1"
+  level: 2
+  score: 0
+  link: "@/guidelines/leaves.md"
+  content:
+    ru:
+      title: "Компостирование листьев"
+      desc: "Собранные осенью листья нужно компосировать и использовать как удобрение."
+    en:
+      title: "Leaf Composting"
+      desc: "Leaves collected in the fall should be composted and used as fertilizer."
+    hy:
+      title: "Տերևների կոմպոստացում"
+      desc: "Աշնանը հավաքված տերևները պետք է կոմպոստացվեն և օգտագործվեն որպես պարարտանյութ։"
+- number: "3.2"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Мульчирование"
+      desc: "Измельчение собранной органики в щепу для мульчирование."
+    en:
+      title: "Mulching"
+      desc: "Shredding collected organic matter into wood chips for mulching."
+    hy:
+      title: "Մուլչացում"
+      desc: "Հավաքված օրգանական նյութերը մանրացնել մուլչապատման համար նախատեսված տաշեղների։"
+- number: "3.3"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Восстановление биоты"
+      desc: "Заселение микоризы, дождевых червей в зелёные зоны."
+    en:
+      title: "Biota Restoration"
+      desc: "Introducing mycorrhiza and earthworms into green areas."
+    hy:
+      title: "Կենսաբազմազանության վերականգնում"
+      desc: "Կանաչ գոտիներում միկորիզայի, անձրևորդերի բնակեցում։"
+- number: "3.4"
+  level: 2
+  score: 3
+  content:
+    ru:
+      title: "Приствольное пространство"
+      desc: "Вода и воздух должны иметь доступ к конрям всех деревьев."
+    en:
+      title: "Trunk Base Area"
+      desc: "Water and air must have access to the roots of all trees."
+    hy:
+      title: "Մերձբնային տարածք"
+      desc: "Ջուրը և օդը պետք է հասանելի լինեն բոլոր ծառերի արմատներին։"
+
+- number: "4"
+  level: 1
+  score: 0
+  content:
+    ru:
+      title: "Биоконтроль и разнообразие"
+      desc: "Повышение видового разнообразия животных и растений."
+    en:
+      title: "Biocontrol and Diversity"
+      desc: "Increasing the species diversity of animals and plants."
+    hy:
+      title: "Կենսաբանական վերահսկողություն և բազմազանություն"
+      desc: "Կենդանիների և բույսերի տեսակային բազմազանության բարձրացում։"
+- number: "4.1"
+  level: 2
+  score: 0
+  link: "@/guidelines/ailanthus.md"
+  content:
+    ru:
+      title: "Контроль инвазивных видов"
+      desc: "Системная борьба с айлантом и аналогичными сорняками."
+    en:
+      title: "Invasive Species Control"
+      desc: "Systematic control of Ailanthus and similar invasive weeds."
+    hy:
+      title: "Ինվազիվ տեսակների դեմ պայքար"
+      desc: "Այլանթի և նմանատիպ ինվազիվ բույսերի դեմ համակարգային պայքար։"
+- number: "4.2"
+  level: 2
+  score: 0
+  link: "@/guidelines/biodiversity/great-tit.md"
+  content:
+    ru:
+      title: "Привлечение птиц и рукокрылых"
+      desc: "Природные методы борьбы с насекомыми вредителями."
+    en:
+      title: "Attracting Birds and Bats"
+      desc: "Natural methods of combating insect pests."
+    hy:
+      title: "Թռչունների և չղջիկների ներգրավում"
+      desc: "Վնասատու միջատների դեմ պայքարի բնական մեթոդներ։"
+- number: "4.3"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Привлечение энтомофагов"
+      desc: "Привлечение насекомых для борьбы с вредителями."
+    en:
+      title: "Attracting Entomophages"
+      desc: "Attracting insects to combat pests."
+    hy:
+      title: "Էնտոմոֆագների ներգրավում"
+      desc: "Վնասատուների դեմ պայքարի համար միջատների ներգրավում։"
+- number: "4.4"
+  level: 2
+  score: 0
+  link: "@/guidelines/lawns.md"
+  content:
+    ru:
+      title: "Смешанные газоны"
+      desc: "Луговые газоны для поддержания разнообразия насекомых и птиц."
+    en:
+      title: "Mixed Lawns"
+      desc: "Meadow lawns to support insect and bird diversity."
+    hy:
+      title: "Խառը մարգագետիններ"
+      desc: "Մարգագետնային սիզամարգեր՝ միջատների և թռչունների բազմազանությունը պահպանելու համար։"
+- number: "4.5"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Сеть питомников"
+      desc: "Организация питомников с упором на местные и эндемичные виды."
+    en:
+      title: "Nursery Network"
+      desc: "Organization of nurseries with an emphasis on local and endemic species."
+    hy:
+      title: "Տնկարանների ցանց"
+      desc: "Տեղական և էնդեմիկ տեսակների վրա շեշտադրումով տնկարանների կազմակերպում։"
+
+- number: "5"
+  level: 1
+  score: 0
+  content:
+    ru:
+      title: "Потенциал расширения"
+      desc: "Новые перспективные виды озеленения."
+    en:
+      title: "Expansion Potential"
+      desc: "New promising types of greening."
+    hy:
+      title: "Ընդլայնման ներուժ"
+      desc: "Կանաչապատման նոր հեռանկարային տեսակներ։"
+- number: "5.1"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Вертикальное озеленение"
+      desc: "Озеленение стен зданий и деревьев."
+    en:
+      title: "Vertical Greening"
+      desc: "Greening of building walls and trees."
+    hy:
+      title: "Ուղղահայաց կանաչապատում"
+      desc: "Շենքերի պատերի և ծառերի կանաչապատում։"
+- number: "5.2"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Зелёные крыши"
+      desc: "Возврат площади зданий в оборот экосистемы."
+    en:
+      title: "Green Roofs"
+      desc: "Returning the area of buildings to the ecosystem's circulation."
+    hy:
+      title: "Կանաչ տանիքներ"
+      desc: "Շենքերի տարածքի վերադարձ էկոհամակարգի շրջանառությանը։"
+- number: "5.3"
+  level: 2
+  score: 0
+  link: "@/guidelines/biodiversity/pocket-forest.md"
+  content:
+    ru:
+      title: "Карманные леса"
+      desc: "Сверхкомпактные но сверхплотные зелёные массивы."
+    en:
+      title: "Pocket Forests"
+      desc: "Ultra-compact but ultra-dense green areas."
+    hy:
+      title: "Գրպանի անտառներ"
+      desc: "Գերկոմպակտ, բայց գերխիտ կանաչ զանգվածներ։"
+- number: "5.4"
+  level: 2
+  score: 0
+  content:
+    ru:
+      title: "Зелёные коридоры"
+      desc: "Экологическая связность зелёных зон для миграции животных."
+    en:
+      title: "Green Corridors"
+      desc: "Ecological connectivity of green zones for animal migration."
+    hy:
+      title: "Կանաչ միջանցքներ"
+      desc: "Կանաչ գոտիների էկոլոգիական կապակցվածություն՝ կենդանիների միգրացիայի համար։"
