@@ -57,6 +57,7 @@
 - number: "1.4"
   level: 2
   score: 0
+  link: "@/guidelines/legal/draft-cutting.md"
   content:
     ru:
       title: "Инструментальный анализ"
