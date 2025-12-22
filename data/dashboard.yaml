@@ -137,6 +137,7 @@
 - number: "2.2"
   level: 2
   score: 5
+  link: "@/guidelines/involvement.md"
   content:
     ru:
       title: "Инструменты вовлечения"
