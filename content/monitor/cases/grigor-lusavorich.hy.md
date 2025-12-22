@@ -26,7 +26,9 @@ status = "բաց է"
 <a href="/images/report-001/response-1b.jpg"><img src="/images/report-001/response-1b.thumb.jpg" /></a>
 </div>
 
-[Վերադառնալ ցանկին](../)
+Հոկտեմբերի 2-ին քաղաքապետարանից ստացվել է պատասխան (17/135207-25), որ կազմվել է № Ա-010317 արձանագրությունը։
+
+Հոկտեմբերի 3-ին Ներքին գործերի նախարարությունից ստացվել է դիմումի հաստատում (ՄԴ/197137-25)։ Դեկտեմբերի 22-ի դրությամբ e-request.am հարթակում դիմումը նշված է որպես փակված՝ առանց որևէ ընթացքի կամ պատասխանի նշման։
 
 [1]: https://www.instagram.com/p/DPONhX5CPKf/
 [2]: https://www.dropbox.com/scl/fo/gb0e876dly9jzbhh06cil/ALQiGB0N3HWjWIKtndiiFWY?rlkey=yo1ur61trpmbvryoq89np6rvz&st=ivm81evy&dl=0

@@ -27,7 +27,9 @@ On October 3, a response was received from the Ministry of Environment, stating 
 <a href="/images/report-001/response-1b.jpg"><img src="/images/report-001/response-1b.thumb.jpg" /></a>
 </div>
 
-[Back to reporting](../)
+On October 2, a response (17/135207-25) was received from the Mayor's office, saying that protocol № A-010317 has been drawn up.
+
+On October 3, a request confirmation was received from the Ministry of Internal Affairs (ՄԴ/197137-25).  As of December 22, the request is marked as closed on e-request.am, with no progress or response indicated.
 
 [1]: https://www.instagram.com/p/DPONhX5CPKf/
 [2]: https://www.dropbox.com/scl/fo/gb0e876dly9jzbhh06cil/ALQiGB0N3HWjWIKtndiiFWY?rlkey=yo1ur61trpmbvryoq89np6rvz&st=ivm81evy&dl=0

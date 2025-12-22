@@ -24,7 +24,9 @@ status = "open"
 <a href="/images/report-001/response-1b.jpg"><img src="/images/report-001/response-1b.thumb.jpg" /></a>
 </div>
 
-[Назад к отчетам](../)
+2 октября из мэрии был получен ответ (17/135207-25), в котором сообщалось, что составлен протокол № А-010317.
+
+3 октября из Министерства внутренних дел было получено подтверждение запроса (ՄԴ/197137-25). По состоянию на 22 декабря запрос на e-request.am отмечен как закрытый, без указания какого-либо прогресса или ответа.
 
 [1]: https://www.instagram.com/p/DPONhX5CPKf/
 [2]: https://www.dropbox.com/scl/fo/gb0e876dly9jzbhh06cil/ALQiGB0N3HWjWIKtndiiFWY?rlkey=yo1ur61trpmbvryoq89np6rvz&st=ivm81evy&dl=0
