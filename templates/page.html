@@ -24,5 +24,7 @@
         </div>
 
         {{ page.content | safe }}
+
+        {% include "partials/comments.html" %}
     </div>
 {% endblock content %}
