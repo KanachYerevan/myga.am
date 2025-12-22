@@ -362,3 +362,17 @@
     hy:
       title: "Կանաչ միջանցքներ"
       desc: "Կանաչ գոտիների էկոլոգիական կապակցվածություն՝ կենդանիների միգրացիայի համար։"
+- number: "5.5"
+  level: 2
+  score: 0
+  link: "@/guidelines/green-density.md"
+  content:
+    ru:
+      title: "Доступность зелёных зон"
+      desc: "Шаговая доступность для всех жителей, правило 3-30-300."
+    en:
+      title: "Green zone accessibility"
+      desc: "Public green zones should be in the walking distance, rule of 3-30-300."
+    hy:
+      title: "Կանաչ գոտիների հասանելիություն"
+      desc: "Հանրային կանաչ գոտիները պետք է լինեն հասանելի քայլելու հեռավորության վրա՝ 3-30-300 կանոնի համաձայն։"
