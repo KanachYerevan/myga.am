@@ -16,7 +16,7 @@ The proposal includes the introduction of a unified urban standard for saplings 
 ## Timeline
 
 - 2025/12/18: the draft was first published on our website.
-- 2025/12/22: the draft was sent to the Mayor's office.
+- 2025/12/22: the draft was sent to the Mayor's office (D-142777-25).
 
 
 ## External links
