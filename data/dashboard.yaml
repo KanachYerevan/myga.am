@@ -243,7 +243,7 @@
       desc: "Այլանթի և նմանատիպ ինվազիվ բույսերի դեմ համակարգային պայքար։"
 - number: "4.2"
   level: 2
-  score: 0
+  score: 1
   link: "@/guidelines/biodiversity/great-tit.md"
   content:
     ru:
@@ -311,7 +311,7 @@
       desc: "Կանաչապատման նոր հեռանկարային տեսակներ։"
 - number: "5.1"
   level: 2
-  score: 0
+  score: 2
   content:
     ru:
       title: "Вертикальное озеленение"
