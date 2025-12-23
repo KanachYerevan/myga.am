@@ -50,30 +50,6 @@ header {
         color: inherit;
       }
     }
-
-    .languages {
-      font-family: JetBrains Mono, monospace;
-      text-transform: uppercase;
-      gap: 0px;
-      color: rgba(0, 0, 0, 0.5);
-
-      border-left: solid 1px #ccc;
-      padding-left: 10px;
-
-      a {
-        padding: 0 5px;
-
-        &:hover {
-          text-decoration: none;
-          color: rgba(0, 0, 0, 0.75);
-        }
-      }
-
-      .active {
-        font-weight: 800;
-        color: #000;
-      }
-    }
 }
 
 body {

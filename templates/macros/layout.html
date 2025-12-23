@@ -5,24 +5,16 @@
         <div class="wrapper">
             {{ logo::logo(lang=lang) }}
 
-            <nav class="sections" id="main-nav">
-                <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">{{ trans(key="nav_guidelines", lang=lang) }}</a>
-                <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">{{ trans(key="nav_monitor", lang=lang) }}</a>
-                <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">{{ trans(key="nav_journal", lang=lang) }}</a>
-                <a href="{{ get_url(path="@/about/index.md", lang=lang) }}">{{ trans(key="nav_about", lang=lang) }}</a>
-                <a href="{{ get_url(path="@/action/_index.md", lang=lang) }}">{{ trans(key="nav_action", lang=lang) }}</a>
-            </nav>
+            <nav id="main-nav">
+                <div class="header-sections">
+                    <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}">{{ trans(key="nav_guidelines", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/monitor/_index.md", lang=lang) }}">{{ trans(key="nav_monitor", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/journal/_index.md", lang=lang) }}">{{ trans(key="nav_journal", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/about/index.md", lang=lang) }}">{{ trans(key="nav_about", lang=lang) }}</a>
+                    <a href="{{ get_url(path="@/action/_index.md", lang=lang) }}">{{ trans(key="nav_action", lang=lang) }}</a>
+                </div>
 
-            <nav class="languages">
-                {% if section %}
-                    {% for t in section.translations | sort(attribute="lang") %}
-                        <a href="{{ t.permalink }}" title="{{ t.title }}"{% if t.lang == lang %} class="active"{% endif %}>{{ t.lang }}</a>
-                    {% endfor %}
-                {% elif page %}
-                    {% for t in page.translations | sort(attribute="lang") %}
-                        <a href="{{ t.permalink }}" title="{{ t.title }}"{% if t.lang == lang %} class="active"{% endif %}>{{ t.lang }}</a>
-                    {% endfor %}
-                {% endif %}
+                {% include "partials/language-selector.html" %}
             </nav>
 
             <div class="mobile bars">

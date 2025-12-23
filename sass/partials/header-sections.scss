@@ -1,0 +1,24 @@
+.header-sections {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    a, a:visited {
+      display: block;
+      color: inherit;
+    }
+}
+
+@media screen and (max-width: 600px) {
+  .header-sections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+
+    flex-direction: column;
+
+    a {
+      text-align: center;
+    }
+  }
+}
