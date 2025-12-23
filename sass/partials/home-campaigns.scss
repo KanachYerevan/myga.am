@@ -1,0 +1,45 @@
+.campaign.cards {
+  .card {
+    a.image {
+      display: block;
+    }
+
+    img {
+      height: 200px;
+      width: 100%;
+      object-position: center center;
+      object-fit: cover;
+    }
+
+    .body {
+      padding: 10px 20px;
+    }
+
+    .tag {
+      text-transform: uppercase;
+      font-size: 12px;
+
+      span {
+        background-color: rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        padding: 4px 8px;
+        margin-left: -8px;
+      }
+    }
+
+    .title {
+      font-size: 17px;
+      font-weight: 800;
+      margin: 5px 0 10px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+
+    .more {
+      font-size: 12px;
+      margin: 10px 0;
+    }
+  }
+}

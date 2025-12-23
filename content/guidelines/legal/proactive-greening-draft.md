@@ -10,6 +10,8 @@ title = "Draft on Proactive Greening"
 > Yerevan needs a legal framework for participatory greening—a co-management model that allows residents to plant and care for trees at their own expense under city supervision.
 >
 > Status: Sent to the Mayor's office.
+>
+> CC: [Facebook](https://www.facebook.com/share/p/1CeHuuxFEs/)
 
 Currently, many tree wells across Yerevan’s sidewalks sit empty. Yet, residents and businesses lack a clear, legal pathway to plant trees on their own without risking fines or violating urban regulations.
 

@@ -1,0 +1,15 @@
+# This file defines current campaigns, which need special attentions,
+# they are listed on the home page.  Only the first 2 are shown currently.
+
+- link: "@/guidelines/legal/proactive-greening-draft.md"
+  image: "/images/campaign-planting.jpg"
+  content:
+    ru:
+      title: "Легализуем инициативное озеленение"
+      description: "Поддержите нашу инициативу, которая разрешит жителям самим сажать деревья на улицах города."
+    en:
+      title: "Legalize Proactive Greening"
+      description: "Support our initiative that will allow residents to plant trees on city streets themselves."
+    hy:
+      title: "Օրինականացնել նախաձեռնողական կանաչապատումը"
+      description: "Աջակցեք մեր նախաձեռնությանը, որը թույլ կտա բնակիչներին ինքնուրույն ծառեր տնկել քաղաքի փողոցներում։"
