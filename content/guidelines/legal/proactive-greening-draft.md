@@ -17,12 +17,10 @@ We have developed a proposal to solve this through a streamlined notification sy
 
 This initiative will accelerate the restoration of Yerevan’s green canopy by leveraging community resources and reducing the burden on the municipality. To ensure high survival rates and proper maintenance, we propose starting with a pilot project in a single district to refine technical workflows before city-wide implementation.
 
+- [Read the original letter](/documents/Letter-on-Proactive-Planting.pdf) (PDF, RUS)
+- [Read the original letter](/documents/Letter-on-Proactive-Planting-HY.pdf) (PDF, ARM)
+
 ## Timeline
 
 - 2025/12/18: the draft was first published on our website.
 - 2025/12/22: the draft was sent to the Mayor's office (D-142777-25).
-
-
-## External links
-
-- [Read the letter](/documents/Letter-on-Proactive-Planting.pdf)
