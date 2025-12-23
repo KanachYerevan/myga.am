@@ -1,6 +1,8 @@
 {% set campaigns = load_data(path="data/campaigns.yaml") %}
 
 {% if campaigns | length > 0 %}
+    <h2>{{ trans(key="home_campaigns", lang=lang) }}</h2>
+
     <div class="campaign cards">
         {% for campaign in campaigns %}
             {% set permalink = get_url(path=campaign.link, lang=lang) %}
