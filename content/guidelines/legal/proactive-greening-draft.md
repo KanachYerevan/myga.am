@@ -1,5 +1,5 @@
 +++
-title = "Draft on Proactive Greening"
+title = "Community-Led Tree Planting Proposal"
 description = "A proposal to legalize tree planting by city residents in vacant sidewalk pits following professional standards and a transparent notification system through the Active Citizen platform."
 date = "2025-12-18"
 
@@ -11,9 +11,11 @@ title = "Draft on Proactive Greening"
 >
 > Status: Sent to the Mayor's office.
 
-We have developed a proposal for a transparent mechanism to enable community-led tree planting in Yerevan. Our goal is to provide residents with a legal and structured way to plant high-quality, large-scale saplings in vacant sidewalk pits through a simplified notification system. This initiative aims to accelerate the restoration of the city's green canopy while ensuring strict professional standards for species selection and long-term maintenance.
+Currently, many tree wells across Yerevan’s sidewalks sit empty. Yet, residents and businesses lack a clear, legal pathway to plant trees on their own without risking fines or violating urban regulations.
 
-The proposal includes the introduction of a unified urban standard for saplings and the launch of a pilot project in one of the administrative districts to refine all technical and administrative workflows. You can review the full text of our letter to the Yerevan Municipality and leave your comments via the link below.
+We have developed a proposal to solve this through a streamlined notification system. Our goal is to empower the community to legally plant high-quality, mature saplings in these vacant spots, while adhering to unified city standards.
+
+This initiative will accelerate the restoration of Yerevan’s green canopy by leveraging community resources and reducing the burden on the municipality. To ensure high survival rates and proper maintenance, we propose starting with a pilot project in a single district to refine technical workflows before city-wide implementation.
 
 ## Timeline
 
