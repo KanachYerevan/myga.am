@@ -11,7 +11,7 @@ title = "Draft on Proactive Greening"
 >
 > Status: Sent to the Mayor's office.
 >
-> CC: [Facebook](https://www.facebook.com/share/p/1CeHuuxFEs/)
+> CC: [Facebook](https://www.facebook.com/share/p/1CeHuuxFEs/) - [Instagram](https://www.instagram.com/p/DSowdBeDGwg/)
 
 Currently, many tree wells across Yerevan’s sidewalks sit empty. Yet, residents and businesses lack a clear, legal pathway to plant trees on their own without risking fines or violating urban regulations.
 
