@@ -7,7 +7,7 @@ To achieve this, our main focus is on creating systematic change. Our volunteers
 
 We also work to keep citizens informed about the state of green spaces and create educational materials to raise public awareness. While our systemic work is the priority, we sometimes organize hands-on community events, such as planting trees, collecting acorns, or building [nesting boxes for birds](/guidelines/biodiversity/great-tit/).
 
-Alongside these efforts, we run a continuous project to [map all urban trees](/monitor/map/), using our own in-house application and the help of volunteers. All the data we collect is shared publicly, allowing anyone, including government workers, to use it to update maintenance routes or schedules.
+Alongside these efforts, we run a continuous project to [map all urban trees](/status/map/), using our own in-house application and the help of volunteers. All the data we collect is shared publicly, allowing anyone, including government workers, to use it to update maintenance routes or schedules.
 
 Our movement started in April 2024, when massive tree cutting in the city center sparked public outrage. Today, the core team is a group of volunteers from many different professional and cultural backgrounds. While not all of us are professional arborists, we are all passionate about trees and willing to learn. We see this diversity as our greatest strength, as it ensures we approach challenges from multiple perspectives and represent a broad, inclusive vision for the city's future.
 

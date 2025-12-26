@@ -4,6 +4,6 @@ description = "Остановим сжигание листьев. Дым ток
 date = "2025-12-18"
 
 [extra]
-link = "/ru/monitor/alerts/leaves/"
+link = "/ru/status/alerts/leaves/"
 cta = "Читать инструкцию"
 +++

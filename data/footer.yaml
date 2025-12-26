@@ -14,13 +14,13 @@ sections:
         link: /hy/guidelines/
         title: Guidelines
     - ru:
-        link: /ru/monitor/
+        link: /ru/status/
         title: Статус
       en:
-        link: /monitor/
+        link: /status/
         title: Status
       hy:
-        link: /hy/monitor/
+        link: /hy/status/
         title: Status
     - ru:
         link: /ru/journal/

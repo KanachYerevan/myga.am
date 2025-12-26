@@ -63,7 +63,7 @@ content/
 │       ├── administrative.md
 │       └── construction.md
 │
-├── monitor/
+├── status/
 │   ├── _index.md
 │   ├── map.md
 │   │

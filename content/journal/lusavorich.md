@@ -6,4 +6,4 @@ During September 2025, work was done to replace pipes for the sewer system near 
 We noticed that the root system of 9 trees were severely damaged during the excavation work, with half of the root system removed completely.
 We sent a request to the corresponding agencies to investigage.
 
-- [Read more on this request](/monitor/cases/grigor-lusavorich/)
+- [Read more on this request](/status/cases/grigor-lusavorich/)

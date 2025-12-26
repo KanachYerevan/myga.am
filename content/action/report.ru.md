@@ -21,7 +21,7 @@ date = "2025-11-24"
 
 ## Некоторые примеры
 
-- [Повреждение деревьев на ул. Григора Лусаворича](/ru/monitor/cases/grigor-lusavorich/) (в процессе)
+- [Повреждение деревьев на ул. Григора Лусаворича](/ru/status/cases/grigor-lusavorich/) (в процессе)
 
 [1]: https://docs.google.com/document/d/1Zt32UrBN5IxbBlZcjH0lbLyHFsPU07CIJYZkJaUq_RA/edit?usp=sharing
 [2]: https://e-request.am/ru/e-letter

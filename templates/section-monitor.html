@@ -21,7 +21,7 @@
             {{ map::numbers(lang=lang) }}
         </div>
 
-        {% set watch_path = macros::localized_path(base_path="monitor/alerts/_index.md", lang=lang) %}
+        {% set watch_path = macros::localized_path(base_path="status/alerts/_index.md", lang=lang) %}
         {% set watch_section = get_section(path=watch_path) %}
 
         <h2>{{ watch_section.title }}</h2>
@@ -47,7 +47,7 @@
 
         <div class="cards">
             <div class="passports">
-                {% set pass_path = macros::localized_path(base_path="monitor/passports/_index.md", lang=lang) %}
+                {% set pass_path = macros::localized_path(base_path="status/passports/_index.md", lang=lang) %}
                 {% set pass_section = get_section(path=pass_path) %}
 
                 <h2>{{ pass_section.extra.title }}</h2>
@@ -66,7 +66,7 @@
             </div>
 
             <div class="cases">
-                {% set cases_path = macros::localized_path(base_path="monitor/cases/_index.md", lang=lang) %}
+                {% set cases_path = macros::localized_path(base_path="status/cases/_index.md", lang=lang) %}
                 {% set cases_section = get_section(path=cases_path) %}
 
                 <h2>{{ cases_section.extra.title | default(value=cases_section.title) }}</h2>

@@ -3,5 +3,5 @@ title = "«Ակտիվ քաղաքացի»-ի միջոցով կանաչապատմ�
 date = "2025-12-18"
 
 [extra]
-link = "@/monitor/cases/active-citizen.md"
+link = "@/status/cases/active-citizen.md"
 +++

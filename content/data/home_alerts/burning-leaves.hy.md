@@ -4,6 +4,6 @@ description = "Կանխենք տերևների այրումը։ Ծուխը թո�
 date = "2025-12-18"
 
 [extra]
-link = "/hy/monitor/alerts/leaves/"
+link = "/hy/status/alerts/leaves/"
 cta = "Կարդալ հրահանգը"
 +++

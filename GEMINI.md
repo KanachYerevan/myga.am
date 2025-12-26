@@ -61,7 +61,7 @@ The "Documentation Site" for the city. Authoritative standards, not blog posts.
 
 * **Front Matter:** Must include `status` ("recommended", "prohibited") and `verdict_short` for the visual summary card.
 
-### 2. Monitor (`content/monitor/`)
+### 2. Sttus (`content/status/`)
 
 The Data Hub.
 
