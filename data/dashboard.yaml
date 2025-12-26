@@ -125,6 +125,7 @@
 - number: "2.1"
   level: 2
   score: 2
+  link: "@/status/inventory.md"
   content:
     ru:
       title: "Инвентаризация"
