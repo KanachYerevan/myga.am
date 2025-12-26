@@ -1,4 +1,5 @@
-# Green Strategy data source
+# Green Strategy data source.
+# This file contains a list of all strategic indicators that we keep track of.
 
 - number: "1"
   level: 1
