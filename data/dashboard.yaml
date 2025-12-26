@@ -45,7 +45,7 @@
 - number: "1.3"
   level: 2
   score: 0
-  link: "@/guidelines/legal/proactive-greening-draft.md"
+  link: "@/status/participation/index.md"
   content:
     ru:
       title: "Партисипативное озеленение"
