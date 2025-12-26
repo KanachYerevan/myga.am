@@ -143,7 +143,7 @@
 - number: "2.2"
   level: 2
   score: 5
-  link: "@/guidelines/involvement.md"
+  link: "@/status/engagement/index.md"
   content:
     ru:
       title: "Инструменты вовлечения"
@@ -252,7 +252,7 @@
 - number: "4.2"
   level: 2
   score: 1
-  link: "@/guidelines/biodiversity/great-tit.md"
+  link: "@/status/birds/index.md"
   content:
     ru:
       title: "Привлечение птиц и рукокрылых"
