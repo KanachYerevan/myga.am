@@ -87,6 +87,7 @@
 - number: "1.6"
   level: 2
   score: 0
+  link: "@/status/valuation/index.md"
   content:
     ru:
       title: "Обновление методики оценки"
