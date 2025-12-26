@@ -101,6 +101,7 @@
 - number: "1.7"
   level: 2
   score: 0
+  link: "@/status/council/index.md"
   content:
     ru:
       title: "Общественный совет по озеленению"
