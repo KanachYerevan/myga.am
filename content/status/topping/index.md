@@ -5,7 +5,7 @@ date = "2025-12-26"
 **What is it?**
 Topping is the indiscriminate cutting of tree branches to stubs or lateral branches that are too small to sustain the tree. Unlike professional pruning, which selectively removes branches to support health and structure, topping is a damaging practice that starves the tree, destroys its natural architecture, and inevitably initiates internal decay.
 
-**Why it matters for Yerevan**
+**Why it matters for Yerevan.**
 In Yerevan’s semi-arid climate, preserving every square meter of shade is critical. Topping removes the leafy canopy that cools our asphalt and filters our dusty air. Without leaves, the tree's bark is exposed to scorching summer sun, leading to sunscald and severe stress. These weakened trees become easy targets for pests and struggle to survive in our dry, alkaline soil. Furthermore, the rapid regrowth—or "water sprouts"—from topped trees is weakly attached, creating dangerous hazards during high winds.
 
 **The Standard.**

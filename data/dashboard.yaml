@@ -17,7 +17,7 @@
 - number: "1.1"
   level: 2
   score: 0
-  link: "@/guidelines/_index.md"
+  link: "@/status/code/index.md"
   content:
     ru:
       title: "Современные стандарты посадки и ухода"
@@ -73,6 +73,7 @@
 - number: "1.5"
   level: 2
   score: 0
+  link: "@/status/arborists/index.md"
   content:
     ru:
       title: "Институт профессиональных арбористов"
