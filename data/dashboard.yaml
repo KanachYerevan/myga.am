@@ -198,16 +198,17 @@
 - number: "3.3"
   level: 2
   score: 0
+  link: "@/status/mycorrhiza/index.md"
   content:
     ru:
-      title: "Восстановление биоты"
+      title: "Микоризная инокуляция"
       desc: "Заселение микоризы, дождевых червей в зелёные зоны."
     en:
-      title: "Biota Restoration"
-      desc: "Introducing mycorrhiza and earthworms into green areas."
+      title: "Mycorrhizal Inoculation"
+      desc: "Introducing beneficial fungi to green spaces."
     hy:
-      title: "Կենսաբազմազանության վերականգնում"
-      desc: "Կանաչ գոտիներում միկորիզայի, անձրևորդերի բնակեցում։"
+      title: "Միկոռիզային ինոկուլյացիա"
+      desc: "Կանաչ գոտիների հարստացումը օգտակար սնկերով։"
 - number: "3.4"
   level: 2
   score: 3
