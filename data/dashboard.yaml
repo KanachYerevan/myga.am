@@ -171,7 +171,7 @@
 - number: "3.1"
   level: 2
   score: 0
-  link: "@/guidelines/leaves.md"
+  link: "@/status/composting/index.md"
   content:
     ru:
       title: "Компостирование листьев"
@@ -279,14 +279,14 @@
 - number: "4.4"
   level: 2
   score: 0
-  link: "@/guidelines/lawns.md"
+  link: "@/status/lawns/index.md"
   content:
     ru:
       title: "Смешанные газоны"
       desc: "Луговые газоны для поддержания разнообразия насекомых и птиц."
     en:
-      title: "Mixed Lawns"
-      desc: "Meadow lawns to support insect and bird diversity."
+      title: "Meadow Lawns"
+      desc: "Mixed lawns to support insect and bird diversity."
     hy:
       title: "Խառը մարգագետիններ"
       desc: "Մարգագետնային սիզամարգեր՝ միջատների և թռչունների բազմազանությունը պահպանելու համար։"
