@@ -267,6 +267,7 @@
 - number: "4.3"
   level: 2
   score: 0
+  link: "@/status/entomophages/index.md"
   content:
     ru:
       title: "Привлечение энтомофагов"
