@@ -239,7 +239,7 @@
 - number: "4.1"
   level: 2
   score: 0
-  link: "@/guidelines/ailanthus.md"
+  link: "@/status/invasive/index.md"
   content:
     ru:
       title: "Контроль инвазивных видов"
