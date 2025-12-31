@@ -108,6 +108,11 @@ main .album {
   display: flex;
   flex-direction: row;
   gap: 10px;
+
+  img {
+    max-width: 100%;
+    max-height: 300px;
+  }
 }
 
 @media screen and (min-width: 601px) {
