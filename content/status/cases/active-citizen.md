@@ -11,7 +11,7 @@ status = "open"
 
 In the autumn of 2025, supporters of Kanach Yerevan sent a series of requests to restore trees where they used to grow but were cut down for some reason. We are not discussing the reasons for the removal of the trees—we assume they were valid. The decision of the Council of Elders No. 36-N of 18.12.2009 states that in this case, the trees must be restored, which was not done.
 
-The responses to the requests sent to [Active Citizen](https://activecitizen.yerevan.am/), unfortunately, cite the lack of a water supply and the absence of official planting plans for this location. We believe that these grounds are not permissible under the law, and the city has the technical capability to water the trees, for example, with standard water trucks and/or watering bags.
+The responses to the requests sent to [Active Citizen](https://activecitizen.yerevan.am/), unfortunately, cite the lack of a water supply and the absence of official planting plans for this location. We believe that these grounds are not permissible under the law, and the city has the technical capability to water the trees, for example, with [standard water trucks](https://www.facebook.com/reel/2564943453883633) and/or [watering bags](https://baumbad.co.uk/products/tree-watering-bag-pvc-75l).
 
 On December 12, 2025 [a letter was sent to the Mayor of Yerevan](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement.pdf), Tigran Avinyan, asking him to clarify the law to the employees working with Active Citizen and to finally approve the said applications by replacing the stumps with real trees.
 
