@@ -1,0 +1,36 @@
+.post div.buttons {
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    padding: 0 30px;
+
+    background-color: #547c96;
+    color: #fff;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .post div.buttons ul {
+    flex-direction: column;
+
+    a {
+      text-align: center;
+    }
+  }
+}
