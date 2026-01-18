@@ -1,6 +1,9 @@
 serve:
 	zola serve
 
+check:
+	zola check
+
 build:
 	rm -rf dist
 	mkdir -p dist

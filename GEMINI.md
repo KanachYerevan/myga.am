@@ -89,15 +89,14 @@ The narrative heartbeat. Success stories, field notes, and press releases.
 
 * *Rule:* Filenames must be descriptive and unique to prevent collisions.
 
+
 ## Language Guidelines
 
-* **Primary Language:** English (unless otherwise requested).
+* Primary language is English (file suffix `.md`).
+* All contents is also available in Russian (`.ru.md`) and Eastern Armenian (`.hy.md`).
 
-* **Translation:** When asked to translate to Armenian, **ALWAYS use the Eastern Armenian dialect** suitable for Yerevan residents.
+When asked to translate documents, use natural language, avoid anglicisms, officialese and literal translation.  Use sentences and patterns common to the target language.  Ensure that specific arboricultural terminology is properly transalted.  Avoid changing document formatting or style.
 
-  * Ensure terms like "Urban Ecology," "Sustainability," and "Biodiversity" are translated accurately using standard Eastern Armenian terminology.
-
-  * Tone in Armenian should be formal yet engaging for a civic audience.
 
 ## Operational Rules (The "Anti-Copy-Paste" Protocol)
 

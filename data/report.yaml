@@ -1,0 +1,66 @@
+# This file defines actions for the /action/ page.
+
+- link: "@/action/trenching.md"
+  image: "/images/actions/report-roots.jpg"
+  content:
+    ru:
+      title: "Повреждение корней"
+      description: "При раскопках заметно повредили корни. Это нарушает установленную законом охранную зону."
+    en:
+      title: "Root damage"
+      description: "Roots were visibly damaged during excavation. This violates the statutory protection zone."
+    hy:
+      title: "Արմատների վնասում"
+      description: "Փորման աշխատանքների ժամանակ նկատելիորեն վնասվել են արմատները։ Սա խախտում է օրենքով սահմանված պահպանման գոտին։"
+
+- link: "@/action/bark.md"
+  image: "/images/actions/report-bark.jpg"
+  content:
+    ru:
+      title: "Повреждение коры"
+      description: "Строители повредили кору деревьев. Она должна быть защищена специальными коробами."
+    en:
+      title: "Bark damage"
+      description: "Builders damaged the tree bark. It must be shielded by protective guards."
+    hy:
+      title: "Կեղևի վնասում"
+      description: "Շինարարները վնասել են ծառերի կեղևը։ Այն պետք է պաշտպանված լինի հատուկ պատնեշներով։"
+
+- link: "@/status/alerts/leaves.md"
+  image: "/images/actions/report-leaves.jpg"
+  content:
+    ru:
+      title: "Сжигание листьев"
+      description: "Листья жечь запрещено. Их нужно собирать и вывозить для утилизации."
+    en:
+      title: "Burning leaves"
+      description: "Burning leaves is prohibited. They must be collected and removed for disposal."
+    hy:
+      title: "Տերևների այրում"
+      description: "Տերևներն այրելն արգելվում է։ Դրանք պետք է հավաքել և տեղափոխել՝ օգտահանման համար։"
+
+- link: "@/action/objects.md"
+  image: "/images/actions/report-lamp.jpg"
+  content:
+    ru:
+      title: "Посторонние предметы"
+      description: "На дереве не должно быть посторонних предметов. Город активно их снимает."
+    en:
+      title: "Foreign objects"
+      description: "There should be no foreign objects attached to the tree. The city is actively removing them."
+    hy:
+      title: "Կողմնակի առարկաներ"
+      description: "Ծառի վրա չպետք է լինեն կողմնակի առարկաներ։ Քաղաքապետարանն ակտիվորեն հեռացնում է դրանք։"
+
+- link: "@/action/mapping.md"
+  image: "/images/actions/report-map.jpg"
+  content:
+    ru:
+      title: "Картографируй"
+      description: "Помогай наполнять карту деревьев, чтобы отслеживать их состояние."
+    en:
+      title: "Map trees"
+      description: "Help populate the tree map to monitor their health."
+    hy:
+      title: "Քարտեզագրում"
+      description: "Օգնիր լրացնել ծառերի քարտեզը՝ դրանց վիճակին հետևելու համար։"
