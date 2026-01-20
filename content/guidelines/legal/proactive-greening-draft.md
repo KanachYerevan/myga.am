@@ -22,6 +22,7 @@ This initiative will accelerate the restoration of Yerevan’s green canopy by l
 - [Read the original letter](/documents/Letter-on-Proactive-Planting.pdf) (PDF, RUS)
 - [Read the original letter](/documents/Letter-on-Proactive-Planting-HY.pdf) (PDF, ARM)
 
+
 ## Response
 
 On January 7, 2026 a response was received from the Mayor's office, you can download it from [here](/documents/Draft-01-response.pdf).
@@ -40,8 +41,17 @@ The text reads:
 >
 > In the city of Yerevan, numerous tree species corresponding to planting material standards—acquired annually by various benefactor organizations through their own funds—are established in Yerevan's various parks, public gardens, and urban forests during the spring or autumn planting periods through the joint efforts of the CNCO and the benefactor organizations.
 
+
+## Discussion
+
+On January 20, a meeting with Kanach Yerevan and city officials was held to discuss this initiative.  We agreed to have a pilot project, where Kanach Yerevan finds people who would like to plant a tree, communicates that with the city, supervises the process and collects data on how this goes.  When we have enough data, we discuss it again and hopefully this new regulation gets a green light.
+
+We will soon publish details on how the pilot project will go and when.  Meanwhile, if you are interested in planting a tree in the city, please [fill in this form](https://forms.gle/FtVfgpvf5GUC3KuXA) to be contacted later in the spring.
+
+
 ## Timeline
 
 - 2025/12/18: the draft was first published on our website.
 - 2025/12/22: the draft was sent to the Mayor's office (D-142777-25).
 - 2026/01/07: a response received.
+- 2026/01/20: a meeting was held with city officials, agreed to have a pilot project.
