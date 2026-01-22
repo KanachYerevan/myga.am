@@ -1,7 +1,8 @@
 # This file defines current campaigns, which need special attentions,
 # they are listed on the home page.  Only the first 2 are shown currently.
 
-- link: "@/guidelines/legal/proactive-greening-draft.md"
+- link: "@/action/replant.md"
+  old_link: "@/guidelines/legal/proactive-greening-draft.md"
   image: "/images/campaign-planting.jpg"
   content:
     ru:

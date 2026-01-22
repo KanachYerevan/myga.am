@@ -1,21 +1,21 @@
-{% set sec = get_section(path="data/home_alerts/_index.md", lang=lang) %}
+{% set items = load_data(path="data/home-alerts.yaml") %}
 
-<section class="home-alert">
-    {% for alert in sec.pages %}
+{% for item in items | slice(end=1) %}
+    <section class="home-alert" style="--alert-color: {{ item.color }}">
         <div class="container">
             <div class="content">
                 <div class="info">
                     <div class="icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="flame" class="lucide lucide-flame w-6 h-6"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>
+                        {{ item.icon | safe }}
                     </div>
                     <div class="text">
-                        <div class="line">{{ alert.title }}</div>
-                        <div class="line">{{ alert.description }}</div>
+                        <div class="line">{{ item.content[lang].title }}</div>
+                        <div class="line">{{ item.content[lang].description }}</div>
                     </div>
                 </div>
 
-                <a href="{{ alert.extra.link }}" class="medium button">{{ alert.extra.cta }}</a>
+                <a href="{{ get_url(path=item.link, lang=lang) }}" class="medium button">{{ item.content[lang].cta }}</a>
             </div>
         </div>
-    {% endfor %}
-</section>
+    </section>
+{% endfor %}
