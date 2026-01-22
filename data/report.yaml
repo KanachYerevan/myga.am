@@ -52,6 +52,19 @@
       title: "Կողմնակի առարկաներ"
       description: "Ծառի վրա չպետք է լինեն կողմնակի առարկաներ։ Քաղաքապետարանն ակտիվորեն հեռացնում է դրանք։"
 
+- link: "@/action/replant.md"
+  image: "/images/actions/replant.jpg"
+  content:
+    ru:
+      title: "Пропало дерево"
+      description: "Если на тротуаре вместо дерева осталась дырка, можно посадить новое. Мы поможем."
+    en:
+      title: "Missing tree"
+      description: "If a tree is missing on a sidewalk, you can plant one there. We will help."
+    hy:
+      title: "Բացակայող ծառ"
+      description: "Եթե մայթին ծառի տեղը դատարկ է, դուք կարող եք այնտեղ նորը տնկել։ Մենք կօգնենք։"
+
 - link: "@/action/mapping.md"
   image: "/images/actions/report-map.jpg"
   content:
