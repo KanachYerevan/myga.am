@@ -22,6 +22,10 @@ Donating the following equipment would significantly advance our work:
 
   This calibrated surveyor kit provides centimeter-level GPS accuracy, connecting to mobile phones as an external receiver. It eliminates the need to estimate tree locations based on nearby landmarks, ensuring precise geospatial data. We will also use this precision to correct underlying OpenStreetMap (OSM) data, benefiting the wider mapping community.
 
+- **Handheld Lidar ($6,000+)**
+
+  A mobile 3D scanner like Foxtech / Stonex SLAM100, or something similar.
+
 
 ## Ecological Impact
 
@@ -29,7 +33,7 @@ Donating the following equipment would significantly advance our work:
 
   Throughout the growing season (Spring–Autumn), we assist residents in establishing [meadow lawns][9] on small urban plots. Our goal is to introduce this low-maintenance, biodiverse alternative to Yerevan, demonstrating its viability and resilience in our climate.
 
-- **Trees for Planting ($800+)**
+- **Trees for Planting ($200+)**
 
   In 2026, we are launching [a campaign][10] to liberalize citizen-funded tree planting. To succeed, we must submit a significant volume of requests to city officials to demonstrate tangible public demand. If you wish to back this initiative, your financial contribution will fund the purchase and planting of trees by our volunteers. A standard sapling costs between 50,000 and 80,000 AMD.
 
