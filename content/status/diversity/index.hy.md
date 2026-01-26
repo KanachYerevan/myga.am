@@ -25,4 +25,4 @@ date = "2026-01-26"
 
 [1]: https://en.wikipedia.org/wiki/Diversity_index#Gini%E2%80%93Simpson_index
 [2]: https://www.semanticscholar.org/paper/TREES-FOR-URBAN-PLANTING-%3A-DIVERSITY-UNIFORMITY-%2C-Santamour/26a24c5361ce6d6e618a9fa307c4a34a3169e309
-[3]: https://yerevan.treemaps.app/
+[3]: https://yerevan.treemaps.app/stats/species
