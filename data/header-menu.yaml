@@ -1,0 +1,31 @@
+- link: "@/guidelines/_index.md"
+  title:
+    en: "Guidelines"
+    ru: "Стандарты"
+    hy: "Ուղեցույց"
+- link: "@/status/_index.md"
+  title:
+    en: "Status"
+    ru: "Статус"
+    hy: "Մշտադիտարկում"
+- link: "@/journal/_index.md"
+  title:
+    en: "Journal"
+    ru: "Журнал"
+    hy: "Անդրադարձ"
+- link: "@/about/index.md"
+  title:
+    en: "About"
+    ru: "О нас"
+    hy: "Մեր մասին"
+- link: "@/action/_index.md"
+  title:
+    en: "Take Action"
+    ru: "Дейтвуй"
+    hy: "Գործել"
+- link: "@/donate/index.md"
+  class: donate
+  title:
+    en: "♥ Donate"
+    ru: "♥ Поддержать"
+    hy: "♥ Աջակցել"

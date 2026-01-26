@@ -7,13 +7,20 @@
       display: block;
       color: inherit;
     }
+
+    .donate {
+      background-color: #4CAF50;
+      padding: 0 20px;
+      border-radius: 10px;
+    }
 }
 
 @media screen and (max-width: 600px) {
   .header-sections {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 0;
+    gap: 5px;
+    padding: 0 10px;
 
     flex-direction: column;
 
