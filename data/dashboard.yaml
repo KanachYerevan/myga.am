@@ -1,5 +1,10 @@
 # Green Strategy data source.
 # This file contains a list of all strategic indicators that we keep track of.
+#
+# Available scores:
+# 0 = bad (red)
+# 1 = average (yellow)
+# 2 = good (green)
 
 - number: "1"
   level: 1
@@ -128,7 +133,7 @@
       desc: "Կանաչ ֆոնդի մասին տեղեկատվության բաց հասանելիություն։"
 - number: "2.1"
   level: 2
-  score: 2
+  score: 1
   link: "@/status/inventory.md"
   content:
     ru:
@@ -142,7 +147,7 @@
       desc: "Հանրային GIS համակարգ՝ ծառերի մասին ամբողջական տեղեկատվությամբ։"
 - number: "2.2"
   level: 2
-  score: 5
+  score: 2
   link: "@/status/engagement/index.md"
   content:
     ru:
@@ -211,7 +216,7 @@
       desc: "Կանաչ գոտիների հարստացումը օգտակար սնկերով։"
 - number: "3.4"
   level: 2
-  score: 3
+  score: 1
   content:
     ru:
       title: "Приствольное пространство"
@@ -238,6 +243,20 @@
       desc: "Կենդանիների և բույսերի տեսակային բազմազանության բարձրացում։"
 - number: "4.1"
   level: 2
+  score: 2
+  link: "@/status/diversity/index.md"
+  content:
+    ru:
+      title: "Видовое разнообразие"
+      desc: "Не должно быть доминирования отдельных видов деревьев."
+    en:
+      title: "Species Diversity"
+      desc: "Individual tree species should not dominate."
+    hy:
+      title: "Տեսակային բազմազանություն"
+      desc: "Չպետք է լինի առանձին ծառատեսակների գերակայություն։"
+- number: "4.2"
+  level: 2
   score: 0
   link: "@/status/invasive/index.md"
   content:
@@ -250,9 +269,9 @@
     hy:
       title: "Ինվազիվ տեսակների դեմ պայքար"
       desc: "Այլանթի և նմանատիպ ինվազիվ բույսերի դեմ համակարգային պայքար։"
-- number: "4.2"
+- number: "4.3"
   level: 2
-  score: 1
+  score: 0
   link: "@/status/birds/index.md"
   content:
     ru:
@@ -264,7 +283,7 @@
     hy:
       title: "Թռչունների և չղջիկների ներգրավում"
       desc: "Վնասատու միջատների դեմ պայքարի բնական մեթոդներ։"
-- number: "4.3"
+- number: "4.4"
   level: 2
   score: 0
   link: "@/status/entomophages/index.md"
@@ -278,7 +297,7 @@
     hy:
       title: "Էնտոմոֆագների ներգրավում"
       desc: "Վնասատուների դեմ պայքարի համար միջատների ներգրավում։"
-- number: "4.4"
+- number: "4.5"
   level: 2
   score: 0
   link: "@/status/lawns/index.md"
@@ -292,7 +311,7 @@
     hy:
       title: "Խառը մարգագետիններ"
       desc: "Մարգագետնային սիզամարգեր՝ միջատների և թռչունների բազմազանությունը պահպանելու համար։"
-- number: "4.5"
+- number: "4.6"
   level: 2
   score: 0
   content:
@@ -321,7 +340,7 @@
       desc: "Կանաչապատման նոր հեռանկարային տեսակներ։"
 - number: "5.1"
   level: 2
-  score: 2
+  score: 0
   content:
     ru:
       title: "Вертикальное озеленение"

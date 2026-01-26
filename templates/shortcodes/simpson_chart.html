@@ -1,0 +1,33 @@
+{##
+ # Use this code to insert this bar:
+ #
+ # {{ simpson_chart() }}
+ #}
+
+{% set data = load_data(path="data/numbers.yaml") %}
+
+<div class="simpson-index" style="--simpson-index-value: {{ data.simpson_index * 100 }}%">
+    <div class="header">
+        <div class="pointer">
+            <div class="label">{{ trans(key="den_here", lang=lang) }}: {{ data.simpson_index }}</div>
+            <div class="mark"></div>
+        </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="labels">
+        <div class="critical">
+            <div class="mark"></div>
+            <div class="value">0.5</div>
+        </div>
+        <div class="vulnerable">
+            <div class="mark"></div>
+            <div class="value">0.7</div>
+        </div>
+        <div class="good">
+            <div class="mark"></div>
+            <div class="value">0.9</div>
+        </div>
+    </div>
+</div>

@@ -1,4 +1,8 @@
 .dashboard {
+  --color-bad: #ef4444;
+  --color-average: #f59e0b;
+  --color-good: #10b981;
+
   margin: 2rem 0 3rem;
   border-collapse: collapse;
   color: rgba(0, 0, 0, 0.5);
@@ -38,5 +42,25 @@
 
   .score {
     text-align: center;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Hide by default, if there's no data or it's wrong. */
+    color: transparent;
+  }
+
+  .score_0 .score {
+    color: var(--color-bad);
+  }
+
+  .score_1 .score {
+    color: var(--color-average);
+  }
+
+  .score_2 .score {
+    color: var(--color-good);
   }
 }

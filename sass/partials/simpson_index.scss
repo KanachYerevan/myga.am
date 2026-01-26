@@ -1,0 +1,108 @@
+.simpson-index {
+  --color-critical: #e74c3c;
+  --color-warning: #f1c40f;
+  --color-good: #2ecc71;
+  --color-ideal: #27ae60;
+
+  padding: 20px;
+
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.1);
+
+  .header {
+    height: 31px;
+    position: relative;
+
+    .pointer {
+      position: absolute;
+      top: 0;
+      left: var(--simpson-index-value);
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .label {
+        background-color: #000;
+        color: #fff;
+        font-size: 0.7rem;
+        font-weight: 800;
+        text-align: center;
+        border-radius: 4px;
+        padding: 2px 10px;
+      }
+
+      .mark {
+        width: 2px;
+        height: 10px;
+        background-color: #000;
+      }
+    }
+  }
+
+  .bar {
+    height: 20px;
+    background: linear-gradient( to right, var(--color-critical) 0%, var(--color-critical) 50%, var(--color-warning) 50%, var(--color-warning) 70%, var(--color-good) 70%, var(--color-good) 90%, var(--color-ideal) 90%, var(--color-ideal) 100% );
+
+    border-radius: 10px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+  }
+
+  .labels {
+    position: relative;
+    height: 50px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+
+    & > * {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+    }
+
+    .value {
+      color: #000;
+    }
+
+    .label {
+      font-size: 0.6rem;
+    }
+
+    .critical {
+      left: 50%;
+    }
+
+    .vulnerable {
+      left: 70%;
+    }
+
+    .good {
+      left: 90%;
+    }
+
+    .mark {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 10px;
+      width: 1px;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .simpson-index {
+    .notes {
+      flex-direction: column;
+    }
+  }
+}
