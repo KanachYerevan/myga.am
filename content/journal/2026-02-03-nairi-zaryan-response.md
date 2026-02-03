@@ -1,5 +1,8 @@
 +++
 title = "Response received regarding damaged trees on Nairi Zaryan Street"
+
+[extra]
+card = "images/report-003/photo1.jpg"
 +++
 
 On January 18, we documented severe damage to trees on Nairi Zaryan Street during trenching work. It appears that roots and bark were significantly damaged, clearly violating city tree protection regulations. We have sent an [official inquiry](/documents/Report-Nairi-Zaryan-tree-damage.pdf) about this.

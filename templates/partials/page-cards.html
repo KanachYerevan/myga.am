@@ -1,0 +1,25 @@
+{% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="{{ config.title }}" />
+{% endif %}
+
+{% if page.description %}
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta name="twitter:description" content="{{ page.description }}" />
+{% endif %}
+
+{% if page.permalink %}
+    <meta property="og:url" content="{{ page.permalink | safe }}" />
+{% endif %}
+
+{% if page.extra.card %}
+    {% set scaled = resize_image(path="static/" ~ page.extra.card, width=1200, height=630, op="fill") %}
+
+    <meta property="og:image" content="{{ scaled.url | safe }}" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{ scaled.url | safe }}" />
+{% else %}
+    <!-- No card for this page -->
+{% endif %}
