@@ -40,3 +40,4 @@ status = "open"
 [2]: /ru/guidelines/legal/elders-green-spaces/
 [3]: /ru/guidelines/legal/elders-construction/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage.pdf
+[5]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf
