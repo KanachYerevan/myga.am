@@ -7,7 +7,7 @@ title = "Illegal Trenching: Nairi Zaryan St."
 description = "Complaint filed regarding damage to tree roots during sewer pipe replacement work near Milano and Firenze Towers Residential Complex."
 status = "open"
 +++
-* Status: request sent (18.01.2026).
+* Status: response received (03.02.2026).
 
 In January 2026, work was done to replace pavement near the [new appartment building][1] at the intersection of Nairi Zaryan street and Azatutyan avenue.
 The work failed to follow regulations imposed by Resolutions of the Council of Elders [N 36-N][2], which regulates protection of green zones, and [405-N][3], which regulates tree protection during construction works.
@@ -23,9 +23,21 @@ This constitutes a violation of the prohibition on damaging green plantations in
 <a href="/images/report-003/photo3.jpg"><img src="/images/report-003/photo3.thumb.jpg" /></a>
 </div>
 
+### Initial request
+
 On January 18, a [request for investigation][4] was sent to the Ministry of Environment, registered under No. 1786556. We are waiting for an official response.
+
+
+### Response
+
+On February 3, a response was received (see [full pdf][5]) with the following essence:
+
+> ...information, as a result of the site inspection, it was established that the land plot located at N. Zaryan Street No. 104, occupied by the trees indicated by the citizen, constitutes private property.
+>
+> I would also note that the owner’s rights are defined by Article 202, Part 3 of the Civil Code of the Republic of Armenia.
 
 [1]: https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/
 [2]: /guidelines/legal/elders-green-spaces/
 [3]: /guidelines/legal/elders-construction/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage.pdf
+[5]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf
