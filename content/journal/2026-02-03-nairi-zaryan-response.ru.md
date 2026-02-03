@@ -13,4 +13,4 @@ title = "Пришел ответ по поводу поврежденных де
 <a href="/images/report-003/photo3.jpg"><img src="/images/report-003/photo3.thumb.jpg" /></a>
 </div>
 
-Следить за развитием событий можно на [странице этого дела](/status/cases/nairi-zaryan/).
+Следить за развитием событий можно на [странице этого дела](/ru/status/cases/nairi-zaryan/).

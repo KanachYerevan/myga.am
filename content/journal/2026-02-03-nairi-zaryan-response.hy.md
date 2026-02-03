@@ -13,4 +13,4 @@ title = "Պատասխան ենք ստացել Նաիրի Զարյան փողոց
 <a href="/images/report-003/photo3.jpg"><img src="/images/report-003/photo3.thumb.jpg" /></a>
 </div>
 
-Գործի ընթացքին կարող եք հետևել [հատուկ էջում](/status/cases/nairi-zaryan/):
+Գործի ընթացքին կարող եք հետևել [հատուկ էջում](/hy/status/cases/nairi-zaryan/):
