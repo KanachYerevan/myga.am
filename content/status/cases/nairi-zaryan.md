@@ -3,7 +3,7 @@ title = "Multiple damaged trees on Nairi Zaryan street"
 date = "2026-01-18"
 
 [extra]
-title = "Illegal Trenching: Nairi Zaryan St."
+title = "Trenching on Nairi Zaryan St."
 description = "Complaint filed regarding damage to tree roots during sewer pipe replacement work near Milano and Firenze Towers Residential Complex."
 status = "open"
 +++
