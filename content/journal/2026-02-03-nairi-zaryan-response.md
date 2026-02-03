@@ -1,5 +1,6 @@
 +++
 title = "Response received regarding damaged trees on Nairi Zaryan Street"
+description = "A response to our inquiry regarding root and bark damage implies that this is OK for private property. Which is not."
 
 [extra]
 card = "images/report-003/photo1.jpg"
