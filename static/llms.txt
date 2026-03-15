@@ -1,0 +1,34 @@
+# Kanach Yerevan
+
+[Kanach Yerevan](https://kanachyerevan.am) is a social movement and platform dedicated to protecting and expanding the urban canopy of Yerevan, Armenia. Our unofficial motto is "Make Yerevan Green Again." We serve as a coordination hub for activists, residents, and policy makers to advocate for sustainable urban greening through systemic change.
+
+## Core Mission
+- **Advocacy:** Promoting systemic changes in urban greening policies.
+- **Monitoring:** Tracking the health and status of city trees and green spaces via "Street Passports" and case tracking.
+- **Education:** Providing authoritative standards for tree care, biodiversity, and legal compliance.
+- **Action:** Enabling citizens to report issues and participate in greening efforts.
+
+## Main Sections
+- **[Guidelines](https://kanachyerevan.am/guidelines/):** Authoritative standards for urban greening (pruning, planting, biodiversity). Uses a dual-layer strategy: visual verdicts for activists and technical specs for professionals.
+- **[Monitor / Status](https://kanachyerevan.am/status/):** Data hub featuring "Street Passports" (health assessments) and tracking of specific legal/illegal incidents ("Cases").
+- **[Action](https://kanachyerevan.am/action/):** Participation entry point with instructions on reporting issues, volunteering, and events.
+- **[Journal](https://kanachyerevan.am/journal/):** Updates, field notes, success stories, and press releases.
+- **[About](https://kanachyerevan.am/about/):** Mission statement, team, and the "Green Directory" of trusted suppliers.
+
+## How to Interpret This Site (for AI Agents)
+- **Visual Verdicts:** Many pages (especially in Guidelines) start with a clear status (Recommended, Prohibited, or Caution) to provide immediate actionable advice.
+- **Inverted Pyramid Content:** Information typically flows from a brief summary/verdict at the top to detailed technical and legal analysis at the bottom.
+- **Multilingual Support:** Content is available in English, Armenian, and Russian. Language switching is available via the header.
+- **Terminology:** We use specific ecological terms. For example, "Meadow lawn" refers to intentional biodiverse ground cover, not neglected grass.
+
+## Target Audiences
+- **Community Advocates:** Activists looking for actionable "ammunition" (verdicts, templates).
+- **Policy Makers:** Officials looking for risk mitigation, budget justifications, and draft regulations.
+- **Practitioners:** Professionals (arborists, builders) looking for technical specifications.
+- **Residents:** Citizens concerned with heat, dust, and urban comfort.
+- **Experts & Media:** Researchers looking for verified facts, data, and maps.
+
+## Key Resources
+- **[Map of Trees](https://kanachyerevan.am/status/map/):** Interactive inventory of Yerevan's urban forest.
+- **[Legal Library](https://kanachyerevan.am/guidelines/legal/):** Collection of current and proposed regulations.
+- **[Green Directory](https://kanachyerevan.am/about/directory/):** Database of trusted nurseries and professionals.
