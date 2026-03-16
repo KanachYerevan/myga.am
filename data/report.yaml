@@ -77,3 +77,16 @@
     hy:
       title: "Քարտեզագրում"
       description: "Օգնիր լրացնել ծառերի քարտեզը՝ դրանց վիճակին հետևելու համար։"
+
+- link: "@/action/donate.md"
+  image: "/images/actions/donate.jpg"
+  content:
+    ru:
+      title: "Пожертвовать"
+      description: "Поддержите «Канач Ереван» ресурсами или деньгами."
+    en:
+      title: "Donate"
+      description: "Support Kanach Yerevan with goods or money."
+    hy:
+      title: "Նվիրաբերել"
+      description: "Աջակցեք «Կանաչ Երևանին» գույքով կամ գումարով:"

@@ -1,5 +1,6 @@
 +++
 title = "Support Kanach Yerevan"
+aliases = ["donate"]
 +++
 Kanach Yerevan is a volunteer-driven civic initiative.
 Our primary tool is the [Trees of Yerevan][1] application, developed in-house to crowd-map Yerevan's entire urban forest.
@@ -11,12 +12,6 @@ If you wish to support our mission, please consider contributing to our current 
 Currently, we map trees manually using mobile phone GPS, which is time-consuming and lacks precision.
 To scale our efforts and improve data quality, we are seeking to upgrade our technical capabilities.
 Donating the following equipment would significantly advance our work:
-
-- **[GoPro Max 2][3] ($400)**
-
-  By [mounting this camera on a car][2], we can drastically accelerate data collection by generating street-view tracks via [Mapillary][4]. Currently, our bottleneck is the manual labor of walking the city to log coordinates and photos. This setup would allow us to survey the entire city by car, enabling remote volunteers to map new trees using high-resolution 360° imagery.
-
-  *For professional-grade capture, the [Insta360 Pro 2][5] is our ultimate target.*
 
 - **[RTK Base + Rover][6] ($1,700)**
 
@@ -45,10 +40,6 @@ Please contact us using [telegram][7] or by email <hex@umonkey.net> for shipping
 For local supporters, a convenient option is to order items via [Wildberries][11] to a designated pick-up point and forward us the QR code for collection.
 
 [1]: https://yerevan.tremaps.app/
-[2]: https://www.amazon.com/Suction-Insta360-Extension-Adapter-Compatible/dp/B0F1TCSRTF
-[3]: https://gopro.com/en/us/shop/cameras/buy/max2/CHDHZ-311-master.html
-[4]: https://www.mapillary.com/
-[5]: https://store.insta360.com/product/Pro_2
 [6]: https://www.ardusimple.com/product/rtk-base-rover-calibrated-surveyor-kit/
 [7]: https://t.me/make_yerevan_green_again
 [8]: https://www.wildberries.am/catalog/0/search.aspx?search=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%B2%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B3%D0%B0%D0%B7%D0%BE%D0%BD

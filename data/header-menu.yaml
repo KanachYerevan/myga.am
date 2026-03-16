@@ -23,7 +23,7 @@
     en: "Take Action"
     ru: "Дейтвуй"
     hy: "Գործել"
-- link: "@/donate/index.md"
+- link: "@/action/donate.md"
   class: donate
   title:
     en: "♥ Donate"
