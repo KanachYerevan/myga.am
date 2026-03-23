@@ -1,17 +1,26 @@
 +++
-title = "Connect with Us"
-aliases = ["connect"]
+title = "Join our team"
+aliases = ["connect", "join"]
 date = "2025-11-24"
 
 [extra]
-title = "Become One of Us"
-description = "Нам нужны не только руки, но и головы. Если вы юрист, архитектор, биолог или программист, ваши навыки помогут менять систему на законодательном уровне."
-join_button = "Join our Team"
+title = "Join our team"
+description = "We have a lot to do and we always need help with our many projects. We not only need hands, but also brains and experience."
+join_button = "Join our team"
 +++
+We have a lot to do and we always need help with our many projects. We not only need hands, but also brains and experience.
 
-To stay in touch with Kanach Yerevan and never miss a thing, use one of the following resources:
+### Social media scout
 
-- [Telegram channel](https://t.me/kanach_yerevan_news) and [chat](https://t.me/make_yerevan_green_again), where we discuss all things. (This is the main communication channel.)
-- [Instagram](https://instagram.com/kanach.yerevan), where we post updates on what's going on in the city.
+We need someone to look for all posts related to trees and urban greenery in Yerevan, and forward them to us so we could repost things.
 
-Thank you!
+### Project management
+
+We have lots of running projects. We need volunteers to keep an eye on those projects, see if they were unblocked, ping responsible people for next steps, and generally help push things forward.
+
+We have many projects of different types, from monitoring the international agreements that Yerevan has signed, to pushing the urban meadow agenda and implementation and replanting particular streets.
+
+
+### Contact us
+
+If you feel interested, the best way to contact us is via our [Telegram chat](https://t.me/make_yerevan_green_again).  If you have issues with that, please send an email to <hex@umonkey.net>.
