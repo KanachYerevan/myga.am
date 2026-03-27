@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "Usage: $0 filename.jpg"
+    exit 1
+fi
+
+while [ -n "$1" ]; do
+    if [[ "$1" == *.thumb.jpg ]]; then
+        shift
+        continue
+    fi
+
+    DST="${1%.jpg}.thumb.jpg"
+    echo "Creating $DST ..."
+
+    rm -f "$DST"
+    convert "$1" -resize 500x -quality 80 "$DST"
+
+    shift
+done
