@@ -30,6 +30,8 @@ The following outlines an approach for this renovation project that creates a he
 <a href="/images/komitas/nissan-after.jpg" target="_blank"><img src="/images/komitas/nissan-after.thumb.jpg" /></a>
 </div>
 
+<p class="table-summary">A comparison of heavily topped elms and properly taken care of planes and oaks.</p>
+
 ## Phased Replacement Over 10 Years
 
 We strongly recommend a gradual, 4-to-5-step replacement process over 10 years as an alternative to a massive, one-time clear-cutting. A phased approach minimizes the sudden loss of the environmental benefits these trees provide.
@@ -59,6 +61,8 @@ Reusing the existing grid also means trees can be replaced in their current spot
 <a href="/images/komitas/shop-after.jpg" target="_blank"><img src="/images/komitas/shop-after.thumb.jpg" /></a>
 </div>
 
+<p class="table-summary">An example of two different levels of trees.</p>
+
 
 ## Diversity Equals Sustainability
 
@@ -76,6 +80,8 @@ Over time, many original tree pits have been paved over. The city has an opportu
 Additionally, there are multiple locations, such as Komitas 38-40, where the sidewalk has been virtually eliminated and occupied by buildings. Collaboration between city administration departments is encouraged to restore these sidewalks and recreate a continuous, uninterrupted pedestrian space.
 
 <iframe width="100%" height="480" src="https://www.mapillary.com/embed?map_style=OpenStreetMap&image_key=26348251711454714&x=0.5833322881095423&y=0.58421667160553&style=photo" frameborder="0"></iframe>
+
+<p class="table-summary">An example of a sidewalk that almost vanished.</p>
 
 
 ## Protecting Roots
@@ -106,6 +112,8 @@ A mature elm or oak tree requires access to about 30 cubic meters of soil, which
 <a href="/images/komitas/soilcell2.jpg" target="_blank"><img src="/images/komitas/soilcell2.thumb.jpg" /></a>
 <a href="/images/komitas/soilcell3.jpg" target="_blank"><img src="/images/komitas/soilcell3.thumb.jpg" /></a>
 </div>
+
+<p class="table-summary">An example of soil cells, required for healthy trees.</p>
 
 
 ## Pruning and Maintenance Standards
