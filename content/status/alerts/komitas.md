@@ -77,6 +77,13 @@ For the understory, suitable options include catalpa, robinia, koelreuteria, cer
 
 Over time, many original tree pits have been paved over. The city has an opportunity to restore the initial planting grid in areas where it has been lost, such as near the City Mall, the farmer's market, and the cinema. Wherever possible, the second row of trees should also be restored to thicken the "green tunnel" effect and further cool the street.
 
+<div class="album">
+<a href="/images/komitas/tunnel-before.jpg" target="_blank"><img src="/images/komitas/tunnel-before.thumb.jpg" /></a>
+<a href="/images/komitas/tunnel-after.jpg" target="_blank"><img src="/images/komitas/tunnel-after.thumb.jpg" /></a>
+</div>
+
+<p class="table-summary">An example of two rows of trees, forming a tunnel.</p>
+
 Additionally, there are multiple locations, such as Komitas 38-40, where the sidewalk has been virtually eliminated and occupied by buildings. Collaboration between city administration departments is encouraged to restore these sidewalks and recreate a continuous, uninterrupted pedestrian space.
 
 <iframe width="100%" height="480" src="https://www.mapillary.com/embed?map_style=OpenStreetMap&image_key=26348251711454714&x=0.5833322881095423&y=0.58421667160553&style=photo" frameborder="0"></iframe>
