@@ -84,19 +84,41 @@ During pipe installation and other renovations that require trenching, trenches 
 
 The <a href="/guidelines/legal/elders-construction/">Decision of the Council of Elders N 405-N</a> (March 16, 2012) mandates a 3-meter distance between mature trees and trenches. This regulation ensures that critical roots remain intact and that trees do not suffer unnecessary harm. Adhering to this 3-meter distance when setting up main pipelines is essential, and careful manual labor should be used to install outlets for individual trees.
 
+<div class="album">
+<a href="/images/komitas/trench1.jpg" target="_blank"><img src="/images/komitas/trench1.thumb.jpg" /></a>
+<a href="/images/komitas/trench2.jpg" target="_blank"><img src="/images/komitas/trench2.thumb.jpg" /></a>
+<a href="/images/komitas/trench3.jpg" target="_blank"><img src="/images/komitas/trench3.thumb.jpg" /></a>
+</div>
 
-## Modern Infrastructure (Silva Cells)
+<p class="table-summary">An example of trenching that kills trees and should be forbidden.</p>
+
+
+## Modern Infrastructure (Soil Cells)
 
 Trees need healthy soil to survive. After decades of trenching, paving, and construction, urban soil often turns into "technosol"—a tightly packed mixture of concrete, dust, and construction waste. This soil lacks nutrients, cannot hold water well, and is nearly impossible for tree roots to penetrate. Modern cities increasingly mandate proper soil preparation before planting new trees.
 
-Technologies like Silva Cells can prevent soil compaction even when heavy roads are built above them, and they allow for underground irrigation, which guarantees a long and healthy life for the trees. While adopting such advanced technologies might present a bold new challenge for Yerevan's current infrastructure planning, replacing the existing dead technosol with nutrient-rich soil is a necessary first step regardless.
+Technologies like Soil Cells can prevent soil compaction even when heavy roads are built above them, and they allow for underground irrigation, which guarantees a long and healthy life for the trees. While adopting such advanced technologies might present a bold new challenge for Yerevan's current infrastructure planning, replacing the existing dead technosol with nutrient-rich soil is a necessary first step regardless.
 
 A mature elm or oak tree requires access to about 30 cubic meters of soil, which equals a trench roughly 10 meters long, 2 meters wide, and 1.5 meters deep. This volume fits perfectly within the existing sidewalk structure and planting grid.
+
+<div class="album">
+<a href="/images/komitas/soilcell1.jpg" target="_blank"><img src="/images/komitas/soilcell1.thumb.jpg" /></a>
+<a href="/images/komitas/soilcell2.jpg" target="_blank"><img src="/images/komitas/soilcell2.thumb.jpg" /></a>
+<a href="/images/komitas/soilcell3.jpg" target="_blank"><img src="/images/komitas/soilcell3.thumb.jpg" /></a>
+</div>
 
 
 ## Pruning and Maintenance Standards
 
 A 10-year phased replacement plan will only succeed if the new trees are maintained properly. It is crucial to adopt modern pruning and maintenance standards. This includes an absolute ban on "topping" (cutting off the top branches) and avoiding excessive, unnecessary cutting of the new trees. Trees must be allowed to grow naturally and develop the expansive crowns needed to shade the street. Assigning EAC/ISA-certified arborists to manage Komitas Avenue once the new trees are planted is highly recommended.
+
+<div class="album">
+<a href="/images/komitas/cut1.jpg" target="_blank"><img src="/images/komitas/cut1.thumb.jpg" /></a>
+<a href="/images/komitas/cut2.jpg" target="_blank"><img src="/images/komitas/cut2.thumb.jpg" /></a>
+<a href="/images/komitas/cut3.jpg" target="_blank"><img src="/images/komitas/cut3.thumb.jpg" /></a>
+</div>
+
+<p class="table-summary">An example of tree care that should absolutely be forbidden after renovation.</p>
 
 
 ## Conclusion: What the City Gains

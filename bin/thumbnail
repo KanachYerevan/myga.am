@@ -12,10 +12,11 @@ while [ -n "$1" ]; do
     fi
 
     DST="${1%.jpg}.thumb.jpg"
-    echo "Creating $DST ..."
 
-    rm -f "$DST"
-    convert "$1" -resize 500x -quality 80 "$DST"
+    if [ ! -f $DST ]; then
+        echo "Creating $DST ..."
+        convert "$1" -resize 500x -quality 80 "$DST"
+    fi
 
     shift
 done
