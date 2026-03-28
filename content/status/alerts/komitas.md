@@ -75,12 +75,14 @@ Over time, many original tree pits have been paved over. The city has an opportu
 
 Additionally, there are multiple locations, such as Komitas 38-40, where the sidewalk has been virtually eliminated and occupied by buildings. Collaboration between city administration departments is encouraged to restore these sidewalks and recreate a continuous, uninterrupted pedestrian space.
 
+<iframe width="100%" height="480" src="https://www.mapillary.com/embed?map_style=OpenStreetMap&image_key=26348251711454714&x=0.5833322881095423&y=0.58421667160553&style=photo" frameborder="0"></iframe>
+
 
 ## Protecting Roots
 
 During pipe installation and other renovations that require trenching, trenches are often dug very close to tree trunks. This causes severe structural damage, making trees vulnerable to falling in the wind, and destroys their ability to absorb necessary water and nutrients.
 
-The Decision of the Council of Elders N 405-N (March 16, 2012) mandates a 3-meter distance between mature trees and trenches. This regulation ensures that critical roots remain intact and that trees do not suffer unnecessary harm. Adhering to this 3-meter distance when setting up main pipelines is essential, and careful manual labor should be used to install outlets for individual trees.
+The <a href="/guidelines/legal/elders-construction/">Decision of the Council of Elders N 405-N</a> (March 16, 2012) mandates a 3-meter distance between mature trees and trenches. This regulation ensures that critical roots remain intact and that trees do not suffer unnecessary harm. Adhering to this 3-meter distance when setting up main pipelines is essential, and careful manual labor should be used to install outlets for individual trees.
 
 
 ## Modern Infrastructure (Silva Cells)
