@@ -13,6 +13,12 @@ status = "Published • March 2026"
 
 In March 2026, the city announced plans to renovate the sidewalks on Komitas Avenue, which includes replacing trees that have lost their vitality. Based on similar past projects, this likely means the removal of all elm trees. Elms make up 56% of the 1,053 trees growing on Komitas Avenue and comprise nearly 100% of the front row. They are the primary source of the street's essential shade.
 
+| Species  | Count | Percentage | Height, m | Crown, m |
+|:---------|------:|-----------:|----------:|---------:|
+| Ulmus    |   617 |        56% |       9,6 |      6,3 |
+| Robinia  |   152 |        14% |       4,7 |      3,4 |
+| Fraxinus |    26 |         2% |       5,0 |      3,4 |
+
 Removing all these trees at once would turn the street into a massive heat island for years. Replacing large canopy trees with small ornamental ones would lock in this problem for decades, permanently lowering the quality of life for residents, businesses, and pedestrians. Although the existing elms have suffered from improper care over the decades, with proper support, they can still serve the city for another 10 to 20 years. This window of time gives the city an opportunity to transform Komitas Avenue into a model green space.
 
 The following outlines an approach for this renovation project that creates a healthy, sustainable green space with multiple benefits, addresses past landscaping mistakes, and requires little to no budget increase.
