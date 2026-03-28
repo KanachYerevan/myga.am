@@ -19,6 +19,8 @@ In March 2026, the city announced plans to renovate the sidewalks on Komitas Ave
 | Robinia  |   152 |        14% |       4,7 |      3,4 |
 | Fraxinus |    26 |         2% |       5,0 |      3,4 |
 
+<p class="table-summary">Data provided by the <a href="https://yerevan.treemaps.app/report?address=Komitas+avenue">Trees of Yerevan</a> app.</p>
+
 Removing all these trees at once would turn the street into a massive heat island for years. Replacing large canopy trees with small ornamental ones would lock in this problem for decades, permanently lowering the quality of life for residents, businesses, and pedestrians. Although the existing elms have suffered from improper care over the decades, with proper support, they can still serve the city for another 10 to 20 years. This window of time gives the city an opportunity to transform Komitas Avenue into a model green space.
 
 The following outlines an approach for this renovation project that creates a healthy, sustainable green space with multiple benefits, addresses past landscaping mistakes, and requires little to no budget increase.
@@ -34,12 +36,14 @@ We strongly recommend a gradual, 4-to-5-step replacement process over 10 years a
 
 It is important to note that a 10-year replacement plan does not mean the sidewalk will need to be reconstructed multiple times. The heavy infrastructure work—such as installing underground irrigation pipes, preparing the soil, and laying the paving—is done all at once during the initial renovation. Only the actual planting of the trees is staggered over the years. With a 10-year schedule, by the time the final trees are replaced, the newly planted trees from the first phase will have grown large enough to offer significant shade.
 
-For context, with proper care, standard 4-meter-tall trees planted by the city can be expected to grow to the following sizes within 10 years:
+For context, with proper care, standard 4-meter-tall trees planted by the city can be expected to grow to the following sizes within 10 years, providing significantly more shade than the current mature but heavily topped trees:
 
-- plane (*Platanus*): 12-14 meters in height with an 8-10 meter canopy spread.
-- elm (*Ulmus*): 10-12 meters in height with an 8-10 meter canopy spread.
-- oak (*Quercus*): 9-11 meters in height with a 6-7 meter canopy spread.
-- globe catalpa (*Catalpa bignonioides 'Nana'*): 3-5 meters in height and canopy spread.
+| Species | Scientific name | Height, m | Crown, m |
+|:--------|:----------------|----------:|---------:|
+| Plane | *Platanus* | 14 | 10 |
+| Elm | *Ulmus* | 12 | 10 |
+| Oak | *Quercus* | 11 | 7 |
+| Globe catalpa | *Catalpa bignonioides 'Nana'* | 5 | 5 |
 
 
 ## Multi-Layer Planting Strategy
