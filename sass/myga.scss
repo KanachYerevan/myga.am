@@ -87,6 +87,10 @@ main {
     padding: 0 0 2rem;
 
     table {
+      max-width: 100%;
+      overflow-x: scroll;
+      display: block;
+
       td, th {
         padding: 0.5rem 1rem;
       }
