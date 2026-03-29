@@ -1,6 +1,19 @@
 # This file defines current campaigns, which need special attentions,
 # they are listed on the home page.  Only the first 2 are shown currently.
 
+- link: "@/status/alerts/komitas.md"
+  image: "/images/komitas/nissan-after.thumb.jpg"
+  content:
+    ru:
+      title: "Спасём проспект Комитаса"
+      description: "Прочтите наше предложение о том, как можно провести реконструкцию."
+    en:
+      title: "Save Komitas Avenue"
+      description: "Read our proposal on how the renovation could be handled."
+    hy:
+      title: "Փրկենք Կոմիտասի պողոտան"
+      description: "Կարդացեք մեր առաջարկը այն մասին, թե ինչպես կարելի է իրականացնել վերանորոգումը։"
+
 - link: "@/action/replant.md"
   old_link: "@/guidelines/legal/proactive-greening-draft.md"
   image: "/images/campaign-planting.jpg"
