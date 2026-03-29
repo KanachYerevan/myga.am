@@ -1,3 +1,26 @@
+# This document contains CTA sections that show up on the home screen.
+# Only the first section is shows, so please add new notifications to the beginning.
+# The rest should be kept for historic reasons.
+
+
+- link: "@/status/alerts/komitas.md"
+  color: "rgb(230 126 34 / 1)"
+  icon: >-
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="flame" class="lucide lucide-flame w-6 h-6"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"></path></svg>
+  content:
+    ru:
+      title: "Спасём проспект Комитаса"
+      description: "Прочтите наши рекомендации по проведению реконструкции."
+      cta: "Читать предложение"
+    en:
+      title: "Save Komitas Avenue"
+      description: "Read our proposal on how the renovation could be handled."
+      cta: "Read proposal"
+    hy:
+      title: "Փրկենք Կոմիտասի պողոտան"
+      description: "Կարդացեք մեր առաջարկը այն մասին, թե ինչպես կարելի է իրականացնել վերանորոգումը։"
+      cta: "Կարդալ առաջարկը"
+
 - link: "@/action/replant.md"
   color: "#5F8D4E"
   icon: >-
