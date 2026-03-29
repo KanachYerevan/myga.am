@@ -8,6 +8,7 @@ type = "analysis"
 title = "Komitas Avenue proposal"
 description = "Our recommendation on how to proceed with the Komitas Avenue update to make it a model green space."
 status = "Published • March 2026"
+card = "images/komitas/card.jpg"
 +++
 > TLDR: elm removal on Komitas avenue is imminent.  Instead of replacing all mature trees at once with ornamental ones, we suggest phased replacement over 10 years, and create a bio-diverse multi-layered green space.
 
