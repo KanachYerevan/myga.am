@@ -143,3 +143,14 @@ A 10-year phased replacement plan will only succeed if the new trees are maintai
 By adopting this approach, Yerevan can avoid turning one of its busiest avenues into a barren, overheated environment for the next decade. Instead, the city gains a sustainable, multi-layered urban forest that provides continuous shade, supports local businesses by maintaining a comfortable pedestrian environment, and sets a modern standard for resilient urban planning. The resulting "green tunnel" will stand as a testament to diverse, forward-thinking forestry.
 
 This phased strategy also prevents the mass-cutting of trees, a practice that often creates unnecessary tension within the community. Finally, a gradual replacement schedule gives the city the time needed to source a high-quality, diverse stock of trees for planting.
+
+
+## How You Can Help
+
+Public support is crucial to making this vision a reality. You can help by sending a formal request to the Mayor's Office via [e-request.am](https://e-request.am) asking them to consider these recommendations.
+
+Here is a template you can use (feel free to modify it):
+
+> I have read the proposal by Kanach Yerevan regarding the renovation of Komitas Avenue. I ask you to review their recommendations for a phased tree replacement, the use of soil cells, and a multi-layered planting strategy. Please consider implementing these practices if possible to ensure the street remains a comfortable, green, and healthy space for all residents.
+>
+> https://kanachyerevan.am/status/alerts/komitas/
