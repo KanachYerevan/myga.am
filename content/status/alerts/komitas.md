@@ -9,6 +9,8 @@ title = "Komitas Avenue proposal"
 description = "Our recommendation on how to proceed with the Komitas Avenue update to make it a model green space."
 status = "Published • March 2026"
 +++
+> TLDR: elm removal on Komitas avenue is imminent.  Instead of replacing all mature trees at once with ornamental ones, we suggest phased replacement over 10 years, and create a bio-diverse multi-layered green space.
+
 ## The Current Reality and The Threat
 
 In March 2026, the city announced plans to renovate the sidewalks on Komitas Avenue, which includes replacing trees that have lost their vitality. Based on similar past projects, this likely means the removal of all elm trees. Elms make up 56% of the 1,053 trees growing on Komitas Avenue and comprise nearly 100% of the front row. They are the primary source of the street's essential shade.
