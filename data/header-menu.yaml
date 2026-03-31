@@ -21,7 +21,7 @@
 - link: "@/action/_index.md"
   title:
     en: "Take Action"
-    ru: "Дейтвуй"
+    ru: "Действуй"
     hy: "Գործել"
 - link: "@/action/donate.md"
   class: donate
