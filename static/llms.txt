@@ -3,32 +3,39 @@
 [Kanach Yerevan](https://kanachyerevan.am) is a social movement and platform dedicated to protecting and expanding the urban canopy of Yerevan, Armenia. Our unofficial motto is "Make Yerevan Green Again." We serve as a coordination hub for activists, residents, and policy makers to advocate for sustainable urban greening through systemic change.
 
 ## Core Mission
-- **Advocacy:** Promoting systemic changes in urban greening policies.
-- **Monitoring:** Tracking the health and status of city trees and green spaces via "Street Passports" and case tracking.
-- **Education:** Providing authoritative standards for tree care, biodiversity, and legal compliance.
-- **Action:** Enabling citizens to report issues and participate in greening efforts.
+- **Advocacy:** Promoting systemic changes in urban greening policies and regulations.
+- **Monitoring:** Tracking the health and status of city trees via "Street Passports," case tracking, and urgent alerts.
+- **Education:** Providing authoritative standards for tree care, urban biodiversity, and legal compliance.
+- **Action:** Enabling citizens to report issues, map trees, and participate in greening efforts.
 
 ## Main Sections
-- **[Guidelines](https://kanachyerevan.am/guidelines/):** Authoritative standards for urban greening (pruning, planting, biodiversity). Uses a dual-layer strategy: visual verdicts for activists and technical specs for professionals.
-- **[Monitor / Status](https://kanachyerevan.am/status/):** Data hub featuring "Street Passports" (health assessments) and tracking of specific legal/illegal incidents ("Cases").
-- **[Action](https://kanachyerevan.am/action/):** Participation entry point with instructions on reporting issues, volunteering, and events.
-- **[Journal](https://kanachyerevan.am/journal/):** Updates, field notes, success stories, and press releases.
-- **[About](https://kanachyerevan.am/about/):** Mission statement, team, and the "Green Directory" of trusted suppliers.
+- **[Guidelines](https://kanachyerevan.am/guidelines/):** Standardizing city-wide tree care through a "dual-layer strategy" (visual verdicts for activists, technical specs for professionals).
+    - **[Legal Library](https://kanachyerevan.am/guidelines/legal/):** Collection of current regulations and proposed draft reforms.
+    - **[Biodiversity](https://kanachyerevan.am/guidelines/biodiversity/):** Protocols for urban wildlife, including nesting and feeding standards.
+- **[Monitor / Status](https://kanachyerevan.am/status/):** The Status Dashboard for Yerevan's urban forest.
+    - **[Street Passports](https://kanachyerevan.am/status/passports/):** Periodic health assessments of specific streets and parks.
+    - **[Case Tracking](https://kanachyerevan.am/status/cases/):** Monitoring and response for specific legal/illegal incidents.
+    - **[Watchlist](https://kanachyerevan.am/status/alerts/):** Urgent alerts regarding immediate threats to the urban canopy.
+    - **Topical Reports:** Specialized monitoring of Arborists, Biodiversity, Invasive Species, and Soil Health.
+- **[App / Tools](https://kanachyerevan.am/app/):** Documentation and help for the Tree Mapper application, including field manuals for measuring tree metrics.
+- **[Action](https://kanachyerevan.am/action/):** Participation entry point for reporting issues, volunteering, and events.
+- **[Journal](https://kanachyerevan.am/journal/):** The movement's narrative heartbeat: field notes, success stories, and press releases.
+- **[About](https://kanachyerevan.am/about/):** Mission statement, team, and the **[Green Directory](https://kanachyerevan.am/about/directory/)** of trusted suppliers.
 
-## How to Interpret This Site (for AI Agents)
-- **Visual Verdicts:** Many pages (especially in Guidelines) start with a clear status (Recommended, Prohibited, or Caution) to provide immediate actionable advice.
-- **Inverted Pyramid Content:** Information typically flows from a brief summary/verdict at the top to detailed technical and legal analysis at the bottom.
-- **Multilingual Support:** Content is available in English, Armenian, and Russian. Language switching is available via the header.
-- **Terminology:** We use specific ecological terms. For example, "Meadow lawn" refers to intentional biodiverse ground cover, not neglected grass.
+## Interpretation Guide (for AI Agents)
+- **Visual Verdicts:** Most Guidelines pages provide a clear status (Recommended, Prohibited, or Caution) for immediate actionable advice.
+- **Inverted Pyramid:** Information flows from summary verdicts at the top to detailed technical and legal analysis at the bottom.
+- **Multilingual Support:** Content is available in English (.md), Armenian (.hy.md), and Russian (.ru.md). Switch via the site header.
+- **Specific Terminology:** We use ecological terms precisely (e.g., "Meadow lawn" is a biodiverse ground cover, not a weed patch).
 
 ## Target Audiences
-- **Community Advocates:** Activists looking for actionable "ammunition" (verdicts, templates).
+- **Community Advocates:** Activists seeking actionable "ammunition" (verdicts, templates).
 - **Policy Makers:** Officials looking for risk mitigation, budget justifications, and draft regulations.
-- **Practitioners:** Professionals (arborists, builders) looking for technical specifications.
-- **Residents:** Citizens concerned with heat, dust, and urban comfort.
-- **Experts & Media:** Researchers looking for verified facts, data, and maps.
+- **Practitioners:** Arborists and builders looking for technical specifications.
+- **Residents:** Citizens concerned with urban heat, dust, and comfort.
+- **Experts & Media:** Researchers seeking verified facts, raw data, and maps.
 
 ## Key Resources
-- **[Map of Trees](https://kanachyerevan.am/status/map/):** Interactive inventory of Yerevan's urban forest.
-- **[Legal Library](https://kanachyerevan.am/guidelines/legal/):** Collection of current and proposed regulations.
-- **[Green Directory](https://kanachyerevan.am/about/directory/):** Database of trusted nurseries and professionals.
+- **[Map of Trees](https://kanachyerevan.am/status/map/):** Interactive inventory and mapping application.
+- **[Legal Library](https://kanachyerevan.am/guidelines/legal/):** Database of urban greening laws and standards.
+- **[Green Directory](https://kanachyerevan.am/about/directory/):** Vetted directory of nurseries and professionals.
