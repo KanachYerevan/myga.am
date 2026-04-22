@@ -9,8 +9,8 @@
                         {{ item.icon | safe }}
                     </div>
                     <div class="text">
-                        <div class="line">{{ item.content[lang].title }}</div>
-                        <div class="line">{{ item.content[lang].description }}</div>
+                        <div class="line">{{ item.content[lang].title | safe }}</div>
+                        <div class="line">{{ item.content[lang].description | safe }}</div>
                     </div>
                 </div>
 

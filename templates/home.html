@@ -9,8 +9,8 @@
     <section class="home-splash">
         <div class="container">
             <div class="content">
-                <h1>{{ section.title }}</h1>
-                <p class="description">{{ section.description }}</p>
+                <h1>{{ section.title | safe }}</h1>
+                <p class="description">{{ section.description | safe }}</p>
 
                 <div class="button-bar">
                     <a href="{{ get_url(path="@/action/report.md", lang=lang) }}" class="alert button">

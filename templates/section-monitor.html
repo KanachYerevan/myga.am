@@ -34,10 +34,10 @@
                             <div class="icon">{{ page.extra.icon }}</div>
                         {% endif %}
                         <div class="body">
-                            <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
-                            <div class="text">{{ page.extra.description | default(value=page.description) }}</div>
+                            <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) | safe }}</a></div>
+                            <div class="text">{{ page.extra.description | default(value=page.description) | safe }}</div>
                             {% if page.extra.status %}
-                                <div class="bottom">{{ page.extra.status | default(value="not set") }}</div>
+                                <div class="bottom">{{ page.extra.status | default(value="not set") | safe }}</div>
                             {% endif %}
                         </div>
                     </div>
@@ -50,15 +50,15 @@
                 {% set pass_path = macros::localized_path(base_path="status/passports/_index.md", lang=lang) %}
                 {% set pass_section = get_section(path=pass_path) %}
 
-                <h2>{{ pass_section.extra.title }}</h2>
+                <h2>{{ pass_section.extra.title | safe }}</h2>
 
                 <div>
                     {% for page in pass_section.pages %}
                         <div class="card action">
                             <div class="body">
-                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
+                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) | safe }}</a></div>
                                 <div class="date">{{ page.date }}</div>
-                                <div class="text">{{ page.description }}</div>
+                                <div class="text">{{ page.description | safe }}</div>
                             </div>
                         </div>
                     {% endfor %}
@@ -69,15 +69,15 @@
                 {% set cases_path = macros::localized_path(base_path="status/cases/_index.md", lang=lang) %}
                 {% set cases_section = get_section(path=cases_path) %}
 
-                <h2>{{ cases_section.extra.title | default(value=cases_section.title) }}</h2>
+                <h2>{{ cases_section.extra.title | default(value=cases_section.title) | safe }}</h2>
 
                 <div class="caselist">
                     {% for page in cases_section.pages %}
                         <div class="card action">
                             <div class="body">
-                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) }}</a></div>
-                                <div class="date">{{ page.date }} &middot; {{ page.extra.status | default(value="open") }}</div>
-                                <div class="text">{{ page.extra.description | default(value=page.description) }}</div>
+                                <div class="title"><a href="{{ page.permalink }}">{{ page.extra.title | default(value=page.title) | safe }}</a></div>
+                                <div class="date">{{ page.date }} &middot; {{ page.extra.status | default(value="open") | safe }}</div>
+                                <div class="text">{{ page.extra.description | default(value=page.description) | safe }}</div>
                             </div>
                         </div>
                     {% endfor %}

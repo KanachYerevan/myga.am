@@ -16,11 +16,11 @@
                     </td>
                     <td class="text">
                         {% if item.link %}
-                            <div class="title">[{{ item.number }}] <a class="link" href="{{ get_url(path=item.link, lang=lang) }}">{{ item.content[lang].title | default(value="(missing)") }}</a></div>
+                            <div class="title">[{{ item.number }}] <a class="link" href="{{ get_url(path=item.link, lang=lang) }}">{{ item.content[lang].title | default(value="(missing)") | safe }}</a></div>
                         {% else %}
-                            <div class="title">[{{ item.number }}] <span class="link">{{ item.content[lang].title | default(value="(missing)") }}</a></div>
+                            <div class="title">[{{ item.number }}] <span class="link">{{ item.content[lang].title | default(value="(missing)") | safe }}</a></div>
                         {% endif %}
-                        <div class="description">{{ item.content[lang].desc | default(value="(missing)") }}</div>
+                        <div class="description">{{ item.content[lang].desc | default(value="(missing)") | safe }}</div>
                     </td>
                     {% if item.score == 0 %}
                         <td class="score">

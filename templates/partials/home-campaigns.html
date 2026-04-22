@@ -13,8 +13,8 @@
                 </a>
                 <div class="body">
                     <div class="tag"><span>{{ trans(key="home_campaign", lang=lang) }}</span></div>
-                    <div class="title"><a href="{{ permalink }}">{{ campaign.content[lang].title }}</a></div>
-                    <div class="description">{{ campaign.content[lang].description }}</div>
+                    <div class="title"><a href="{{ permalink }}">{{ campaign.content[lang].title | safe }}</a></div>
+                    <div class="description">{{ campaign.content[lang].description | safe }}</div>
                     <div class="more">
                         <a href="{{ permalink }}">{{ trans(key="nav_more", lang=lang) }} →</a>
                     </div>
