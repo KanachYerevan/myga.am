@@ -7,7 +7,7 @@ date = "2026-04-22"
 category = "proposed"
 status = "recommended"
 title = "Draft on Fines"
-verdict_short = "Current fines cover only 5% of tree value. We need CTLA standards."
+verdict_short = "Current fines cover only 6% of tree value. We need CTLA standards."
 +++
 
 Yerevan's current legal framework for tree damage faces two structural challenges: the administrative fines are significantly lower than the actual asset replacement cost, and liability is often deferred until total biological death (growth cessation). This proposal introduces a methodology for objective financial appraisal of urban trees as capital infrastructure.
