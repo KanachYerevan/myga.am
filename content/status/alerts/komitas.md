@@ -155,3 +155,9 @@ Here is a template you can use (feel free to modify it):
 > I have read the proposal by Kanach Yerevan regarding the renovation of Komitas Avenue. I ask you to review their recommendations for a phased tree replacement, the use of soil cells, and a multi-layered planting strategy. Please consider implementing these practices if possible to ensure the street remains a comfortable, green, and healthy space for all residents.
 >
 > https://kanachyerevan.am/status/alerts/komitas/
+
+## Official feedback
+
+An activist sent a formal request to the Yerevan Municipality to review the proposed measures. The response from the City Hall (specifically from the "Greening and Environmental Protection" CNCO) focused on the proposal to use soil cells:
+
+> In response to your application sent to the Yerevan Municipality, I inform you that based on information from the "Greening and Environmental Protection" CNCO (HOAK), the CNCO does not find it appropriate to implement the replacement of trees using soil cells on the sidewalk of Komitas Avenue. The proposal is considered a rather expensive, time-consuming engineering work, and the HOAK concludes that the tree planting process does not significantly differ from the street redesign works already carried out by the CNCO.
