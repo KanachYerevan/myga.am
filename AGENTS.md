@@ -94,4 +94,5 @@ When asked to translate documents, use natural language, avoid anglicisms, offic
 ## Key Vocabulary Preference
 
 - Preferred: "meadow lawn", "biodiverse ground cover", "canopy retention", "Trees of Yerevan" (App name), "Street Passport".
-- Avoid: "weeds", "overgrown grass" (when referring to intentional meadows).
+- Avoid: "urban forest" (when referring to street trees), "городской лес", "քաղաքային անտառ", "weeds", "overgrown grass" (when referring to intentional meadows).
+- Prefer "urban canopy" (EN), "зелёный фонд" (RU), "կանաչ ֆոնդ" (HY) over "ubran forest" which is US-specific.

@@ -1,0 +1,36 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: rgba(128, 128, 128, 0.1);
+
+    &:hover {
+      text-decoration: none;
+      background-color: rgba(128, 128, 128, 0.2);
+    }
+  }
+
+  .space {
+    flex: 1 1 auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contacts {
+    flex-direction: column;
+  }
+}
