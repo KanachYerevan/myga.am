@@ -1,4 +1,4 @@
-MD_FILES := $(shell find docs content -name "*.md")
+MD_FILES := $(shell find AGENTS.md docs content -name "*.md")
 
 serve:
 	zola serve
