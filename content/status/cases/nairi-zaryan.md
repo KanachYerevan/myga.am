@@ -7,7 +7,8 @@ title = "Trenching on Nairi Zaryan St."
 description = "Complaint filed regarding damage to tree roots during sewer pipe replacement work near Milano and Firenze Towers Residential Complex."
 status = "open"
 +++
-* Status: response received (03.02.2026).
+
+- Status: response received (03.02.2026).
 
 In January 2026, work was done to replace pavement near the [new appartment building][1] at the intersection of Nairi Zaryan street and Azatutyan avenue.
 The work failed to follow regulations imposed by Resolutions of the Council of Elders [N 36-N][2], which regulates protection of green zones, and [405-N][3], which regulates tree protection during construction works.
@@ -26,7 +27,6 @@ This constitutes a violation of the prohibition on damaging green plantations in
 ### Initial request
 
 On January 18, a [request for investigation][4] was sent to the Ministry of Environment, registered under No. 1786556. We are waiting for an official response.
-
 
 ### Response
 

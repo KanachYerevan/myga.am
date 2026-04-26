@@ -2,6 +2,7 @@
 title = "Participatory Greening"
 date = "2025-12-26"
 +++
+
 **What is it?**
 Participatory Greening transforms unauthorized planting into a collaborative civic effort. It is a streamlined legal framework where the Municipality permits residents to replant empty tree pits, removed stump sites, or bare soil plots, provided they strictly adhere to established professional guidelines regarding species selection and technical placement.
 

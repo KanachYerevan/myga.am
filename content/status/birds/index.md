@@ -2,6 +2,7 @@
 title = "Attracting Birds and Bats"
 date = "2025-12-26"
 +++
+
 **What is it?**
 This initiative involves restoring the predator-prey balance in our urban environment by actively encouraging natural pest controllers, specifically insect-eating birds and bats. It shifts the city's focus from relying solely on artificial chemical sprays to utilizing biological solutions—essentially "hiring" nature to manage pest populations for us.
 

@@ -2,6 +2,7 @@
 title = "Ban on Topping"
 date = "2025-12-26"
 +++
+
 **What is it?**
 Topping is the indiscriminate cutting of tree branches to stubs or lateral branches that are too small to sustain the tree. Unlike professional pruning, which selectively removes branches to support health and structure, topping is a damaging practice that starves the tree, destroys its natural architecture, and inevitably initiates internal decay.
 

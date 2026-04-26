@@ -7,6 +7,7 @@ date = "2025-12-16"
 category = "proposed"
 title = "Draft on Cutting"
 +++
+
 > Yerevan's current tree removal process is opaque, relying on subjective visual assessments that cause public distrust. This draft regulation introduces a transparent, evidence-based procedure to replace arbitrary decisions.
 >
 > Status: In development.

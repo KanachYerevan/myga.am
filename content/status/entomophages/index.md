@@ -2,8 +2,9 @@
 title = "Attracting Entomophages"
 date = "2025-12-27"
 +++
+
 **What is it?**
-This strategy encourages natural predators—like ladybugs—to inhabit city green spaces. By installing "insect hotels," we create safe havens for these beneficial allies.  Instead of relying on broad chemical sprays, we use nature’s own defenders to hunt down and control harmful pest populations.
+This strategy encourages natural predators—like ladybugs—to inhabit city green spaces. By installing "insect hotels," we create safe havens for these beneficial allies. Instead of relying on broad chemical sprays, we use nature’s own defenders to hunt down and control harmful pest populations.
 
 **Why it matters for Yerevan.**
 Yerevan battles severe oak leaf miner outbreaks, with threats like the emerald ash borer approaching. Chemical spraying is flawed; the effective time window is too narrow to treat the whole city, rendering it largely ineffective. Worse, these poisons indiscriminately kill beneficial insects, collapsing the local ecosystem without solving the pest problem.

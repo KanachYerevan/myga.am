@@ -8,6 +8,7 @@ title = "Green Space Density"
 verdict_short = "Consider age"
 description = "An analysis of WHO recommendations for green space density and a review of the situation in Yerevan."
 +++
+
 Discussions about urban green space often get bogged down in dry statistics that fail to capture the actual quality of the environment. While the World Health Organization (WHO) has established specific metrics to safeguard physical and mental health, applying these standards to Yerevan requires a more nuanced analysis than simply checking boxes.
 
 {{ green_density() }}

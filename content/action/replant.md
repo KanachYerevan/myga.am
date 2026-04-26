@@ -3,12 +3,12 @@ title = "Replant a tree"
 description = "Plant a tree in the empty pit on a sidewalk."
 date = "2026-01-21"
 +++
+
 If you see an empty tree pit on a sidewalk—whether it contains a stump or not—and you would rather see a healthy new tree growing there, we can help you make it happen.
 
 Read below to find out how the process works.
 
 ![Missing tree][1]
-
 
 ## The Initiative
 
@@ -16,7 +16,6 @@ Kanach Yerevan is conducting a pilot project to see if residents are willing to 
 This approach, known as citizen-funded planting, is successful in many cities worldwide—so why not in Yerevan?
 We are running this experiment to demonstrate public demand to the city administration.
 If successful, [the community-led tree planting][3] could become an official municipal regulation.
-
 
 ## What you need to do
 
@@ -29,15 +28,13 @@ The following requirements must be met:
 - **Water.** Most empty spots lack irrigation (which is often why the city hasn't replanted there). You will need to water the tree for the first 2 to 3 years or coordinate with neighbors to ensure it stays hydrated.
 - **Maintenance.** Monitor the tree's health. If you notice drying leaves, pests, or broken branches, consult a specialist. It is also highly recommended to fertilize the tree twice a year.
 
-
 ## How we can help
 
-- **Find a location.** You likely already have a spot in mind, but you can also use [our map][2] to identify empty pits in your neighborhood.  This should be an empty pit on a street sidewalk, not in a park or courtyard.  This program is specifically about the sidewalks.
+- **Find a location.** You likely already have a spot in mind, but you can also use [our map][2] to identify empty pits in your neighborhood. This should be an empty pit on a street sidewalk, not in a park or courtyard. This program is specifically about the sidewalks.
 - **Species selection.** Based on the location, we can provide a list of recommended species that will thrive and match the existing urban canopy.
 - **Permits.** We coordinate with city officials to secure the necessary planting permissions for your chosen location and species.
 - **Irrigation support.** We can provide a "tree gator" (watering bag) to help water the tree efficiently in areas without fixed irrigation.
 - **Recognition.** We will share the story of your contribution—whether you are an individual, a business, or a community group.
-
 
 ## Next steps
 

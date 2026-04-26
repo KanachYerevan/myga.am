@@ -2,6 +2,7 @@
 title = "Modern Planting and Care Standards"
 date = "2025-12-26"
 +++
+
 **What is it?**
 This initiative marks a shift from aggressive cutting to scientific canopy management. Instead of removing leaning trees or severing their tops, this approach uses precision pruning and structural support systems—such as cabling and bracing—to preserve a tree's natural form while ensuring public safety. It treats the tree as a long-term asset, not a temporary fixture.
 

@@ -2,6 +2,7 @@
 title = "Engagement Tools"
 date = "2025-12-26"
 +++
+
 **What is it?**
 Engagement Tools are digital and physical systems designed to empower residents to actively participate in the stewardship of the urban forest. Rather than viewing greenery solely as a municipal responsibility, these tools foster a collaborative model where citizens act as partners. This includes mechanisms for reporting hazards, requesting new planting, and volunteering for essential maintenance tasks like watering and monitoring tree health.
 

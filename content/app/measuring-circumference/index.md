@@ -1,6 +1,7 @@
 +++
 title = "Measuring tree height"
 +++
+
 Tree **circumference**, or **grith** is the distance around the tree trunk.
 It is usually measured with an elastic tape measure at the height of 130 cm (4.5 ft) above the ground.
 This height is referred to as "chest level", but since not all people are equally tall, it is best to measure in advance where on your body is 130 cm approximately.

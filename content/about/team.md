@@ -2,6 +2,7 @@
 title = "Kanach Yerevan Team"
 aliases = ["team"]
 +++
+
 Behind Kanach Yerevan is a small team of around 6 founding members, who define strategic goals and roadmaps.
 All members are volunteers.
 Core team members prefer to stay anonymous for now.

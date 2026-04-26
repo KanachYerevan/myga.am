@@ -3,7 +3,8 @@ title = "Report bark damage caused during construction"
 description = "How to report tree damage caused by construction workers."
 date = "2026-01-18"
 +++
-If you witness construction works that go close to tree trunks, where there is a risk of bark damage, or if there is already some bark damage visible, please report this to the *Ministry of Environment* via the [e-request.am website][6] using [this message template][7].
+
+If you witness construction works that go close to tree trunks, where there is a risk of bark damage, or if there is already some bark damage visible, please report this to the _Ministry of Environment_ via the [e-request.am website][6] using [this message template][7].
 
 This damage significantly reduces tree's health and is usually fatal.
 Most trees cannot recover from this, they often decline and dry out.

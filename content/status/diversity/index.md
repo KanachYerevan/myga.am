@@ -2,6 +2,7 @@
 title = "Species Diversity"
 date = "2026-01-26"
 +++
+
 **What is it?**
 A diverse urban ecosystem is crucial to prevent the dominance of just a few tree species.
 This not only enhances aesthetic value but also ensures the urban forest is more resilient to pests and diseases.

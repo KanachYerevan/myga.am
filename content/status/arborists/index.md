@@ -2,6 +2,7 @@
 title = "Institute of Professional Arborists"
 date = "2025-12-26"
 +++
+
 **What is it?**
 This initiative transitions urban tree care from general labor to specialized science. It mandates that only certified experts—professionals who deeply understand tree biology, physics, and structural integrity—manage our canopy. This approach replaces unskilled "chainsaw operators" with qualified, independent arborists hired from the competitive market to ensure expert management of our green assets.
 

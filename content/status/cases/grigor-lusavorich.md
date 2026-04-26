@@ -8,6 +8,7 @@ title = "Illegal Trenching: Grigor Lusavorich St."
 description = "Complaint filed regarding damage to tree roots during sewer pipe replacement work near Milano and Firenze Towers Residential Complex."
 status = "open"
 +++
+
 During September 2025, work was done to replace pipes for the sewer system near 4/2 Grigor Lusavorich Street, where the Milano and Firenze Towers Residential Complex is being built.
 It was noted that the root system of 9 trees were severely damaged during the excavation work, with half of the root system removed completely.
 A [video][1] was recorded and [photos][2] were made by a city resident on the spot mid process, showing the damage to the trees.
@@ -29,7 +30,7 @@ On October 3, a response was received from the Ministry of Environment, stating 
 
 On October 2, a response (17/135207-25) was received from the Mayor's office, saying that protocol № A-010317 has been drawn up.
 
-On October 3, a request confirmation was received from the Ministry of Internal Affairs (ՄԴ/197137-25).  As of December 22, the request is marked as closed on e-request.am, with no progress or response indicated.
+On October 3, a request confirmation was received from the Ministry of Internal Affairs (ՄԴ/197137-25). As of December 22, the request is marked as closed on e-request.am, with no progress or response indicated.
 
 [1]: https://www.instagram.com/p/DPONhX5CPKf/
 [2]: https://www.dropbox.com/scl/fo/gb0e876dly9jzbhh06cil/ALQiGB0N3HWjWIKtndiiFWY?rlkey=yo1ur61trpmbvryoq89np6rvz&st=ivm81evy&dl=0

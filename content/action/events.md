@@ -2,6 +2,7 @@
 title = "Event Calendar"
 aliases = ["events"]
 +++
+
 Here we collect all green initiatives around Yerevan.
 If you are organizing something, please [let us know](/action/join/).
 

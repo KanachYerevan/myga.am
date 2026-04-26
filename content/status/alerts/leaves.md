@@ -9,6 +9,7 @@ title = "Campaign Against Leaf Burning"
 description = "Burning leaves harms human health and the environment. Join our campaign to demand an end to this practice in Yerevan."
 status = "In Progress • Oct - Dec"
 +++
+
 Burning leaves causes direct harm to the urban environment and constitutes an administrative offense. Smoldering biomass saturates the air with toxic combustion products and destroys the organic matter essential for natural soil nutrition. City law explicitly prohibits disposing of plant waste by fire, especially in [green zones](/guidelines/legal/elders-green-spaces/).
 
 > Attention! Burning leaves incurs a fine of 50,000 drams for individuals and 200,000 drams for organizations.

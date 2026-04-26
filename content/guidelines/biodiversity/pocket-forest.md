@@ -8,6 +8,7 @@ title = "Pocket Forests"
 image = "images/pocket-forest-1.jpg"
 description = "Compact green spaces are effective for constrained urban environments."
 +++
+
 Every summer, Yerevan faces a complex of environmental problems: extreme heat, high levels of air dust, and a shortage of land for greening. In a dense urban environment, it is difficult to allocate space for new parks, so creating pocket forests can be a rational solution. This method was proposed by the Japanese botanist Akira Miyawaki, and it allows for the formation of sustainable ecosystems on small plots of land in a short time.
 
 ![Pocket Forest](/images/pocket-forest-1.jpg)

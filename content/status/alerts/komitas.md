@@ -10,14 +10,15 @@ description = "Our recommendation on how to proceed with the Komitas Avenue upda
 status = "Published • March 2026"
 card = "images/komitas/card.jpg"
 +++
-> TLDR: elm removal on Komitas avenue is imminent.  Instead of replacing all mature trees at once with ornamental ones, we suggest phased replacement over 10 years, and create a bio-diverse multi-layered green space.
+
+> TLDR: elm removal on Komitas avenue is imminent. Instead of replacing all mature trees at once with ornamental ones, we suggest phased replacement over 10 years, and create a bio-diverse multi-layered green space.
 
 ## The Current Reality and The Threat
 
 In March 2026, the city [announced plans](https://t.me/make_yerevan_green_again/9960) to renovate the sidewalks on Komitas Avenue, which includes replacing trees that have lost their vitality. Based on similar past projects, this likely means the removal of all elm trees. Elms make up 56% of the 1,053 trees growing on Komitas Avenue and comprise nearly 100% of the front row. They are the primary source of the street's essential shade.
 
 | Species  | Count | Percentage | Height, m | Crown, m |
-|:---------|------:|-----------:|----------:|---------:|
+| :------- | ----: | ---------: | --------: | -------: |
 | Ulmus    |   617 |        56% |       9,6 |      6,3 |
 | Robinia  |   152 |        14% |       4,7 |      3,4 |
 | Fraxinus |    26 |         2% |       5,0 |      3,4 |
@@ -43,13 +44,12 @@ It is important to note that a 10-year replacement plan does not mean the sidewa
 
 For context, with proper care, standard 4-meter-tall trees planted by the city can be expected to grow to the following sizes within 10 years, providing significantly more shade than the current mature but heavily topped trees:
 
-| Species | Scientific name | Height, m | Crown, m |
-|:--------|:----------------|----------:|---------:|
-| Plane | *Platanus* | 14 | 10 |
-| Elm | *Ulmus* | 12 | 10 |
-| Oak | *Quercus* | 11 | 7 |
-| Globe catalpa | *Catalpa bignonioides 'Nana'* | 5 | 5 |
-
+| Species       | Scientific name               | Height, m | Crown, m |
+| :------------ | :---------------------------- | --------: | -------: |
+| Plane         | _Platanus_                    |        14 |       10 |
+| Elm           | _Ulmus_                       |        12 |       10 |
+| Oak           | _Quercus_                     |        11 |        7 |
+| Globe catalpa | _Catalpa bignonioides 'Nana'_ |         5 |        5 |
 
 ## Multi-Layer Planting Strategy
 
@@ -66,15 +66,13 @@ Reusing the existing grid also means trees can be replaced in their current spot
 
 <p class="table-summary">An example of two different levels of trees.</p>
 
-
 ## Diversity Equals Sustainability
 
 Planting another monoculture (a street with only one type of tree) should be avoided at all costs. Monocultures are highly vulnerable to diseases and pests; a single outbreak could require the entire street to be clear-cut again. Additionally, trees of the same species age at the same rate, meaning they will all need to be replaced at the same time in the future, repeating the current situation.
 
-A better approach is to plant a mixture of tree species that have proven to thrive in Yerevan. Excellent candidates for the top-tier canopy include planes, oaks, elms, maples, and sophoras. Introducing tulip trees and ginkgos, which have recently shown promising results in the city, would also be highly beneficial. Furthermore, integrating native trees like the Persian oak (*Quercus macranthera*) or European hackberry (*Celtis australis*) would add significant environmental value. Native species are naturally adapted to the local climate and are much more resistant to regional pests and diseases, which means they require less maintenance and generally live longer, healthier lives.
+A better approach is to plant a mixture of tree species that have proven to thrive in Yerevan. Excellent candidates for the top-tier canopy include planes, oaks, elms, maples, and sophoras. Introducing tulip trees and ginkgos, which have recently shown promising results in the city, would also be highly beneficial. Furthermore, integrating native trees like the Persian oak (_Quercus macranthera_) or European hackberry (_Celtis australis_) would add significant environmental value. Native species are naturally adapted to the local climate and are much more resistant to regional pests and diseases, which means they require less maintenance and generally live longer, healthier lives.
 
 For the understory, suitable options include catalpa, robinia, koelreuteria, cercis, sakura, or albizia. These provide lower canopies, visual beauty, and essential nesting spaces for birds.
-
 
 ## Restoring the Grid
 
@@ -93,7 +91,6 @@ Additionally, there are multiple locations, such as Komitas 38-40, where the sid
 
 <p class="table-summary">An example of a sidewalk that almost vanished.</p>
 
-
 ## Protecting Roots
 
 During pipe installation and other renovations that require trenching, trenches are often dug very close to tree trunks. This causes severe structural damage, making trees vulnerable to falling in the wind, and destroys their ability to absorb necessary water and nutrients.
@@ -107,7 +104,6 @@ The <a href="/guidelines/legal/elders-construction/">Decision of the Council of 
 </div>
 
 <p class="table-summary">An example of trenching that kills trees and should be forbidden.</p>
-
 
 ## Modern Infrastructure (Soil Cells)
 
@@ -125,7 +121,6 @@ A mature elm or oak tree requires access to about 30 cubic meters of soil, which
 
 <p class="table-summary">An example of soil cells, required for healthy trees.</p>
 
-
 ## Pruning and Maintenance Standards
 
 A 10-year phased replacement plan will only succeed if the new trees are maintained properly. It is crucial to adopt modern pruning and maintenance standards. This includes an absolute ban on "topping" (cutting off the top branches) and avoiding excessive, unnecessary cutting of the new trees. Trees must be allowed to grow naturally and develop the expansive crowns needed to shade the street. Assigning EAC/ISA-certified arborists to manage Komitas Avenue once the new trees are planted is highly recommended.
@@ -138,13 +133,11 @@ A 10-year phased replacement plan will only succeed if the new trees are maintai
 
 <p class="table-summary">An example of tree care that should absolutely be forbidden after renovation.</p>
 
-
 ## Conclusion: What the City Gains
 
 By adopting this approach, Yerevan can avoid turning one of its busiest avenues into a barren, overheated environment for the next decade. Instead, the city gains a sustainable, multi-layered urban forest that provides continuous shade, supports local businesses by maintaining a comfortable pedestrian environment, and sets a modern standard for resilient urban planning. The resulting "green tunnel" will stand as a testament to diverse, forward-thinking forestry.
 
 This phased strategy also prevents the mass-cutting of trees, a practice that often creates unnecessary tension within the community. Finally, a gradual replacement schedule gives the city the time needed to source a high-quality, diverse stock of trees for planting.
-
 
 ## How You Can Help
 

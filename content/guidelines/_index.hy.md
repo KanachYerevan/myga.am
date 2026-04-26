@@ -8,5 +8,6 @@ aliases = ["hy/guidelines/legal", "hy/guidelines/biodiversity"]
 grid_title = "Կառավարման լավագույն փորձը"
 grid_description = "Ինչ տեսակի կառավարումն է լավ, և ինչն է հակասում կենսաբանությանը։"
 +++
+
 +++
 Under construction.

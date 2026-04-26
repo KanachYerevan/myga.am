@@ -2,6 +2,7 @@
 title = "Public Tree Inventory"
 date = "2025-12-26"
 +++
+
 **What is it?**
 A Digital Inventory is a comprehensive, publicly accessible electronic map that catalogs every single tree in the city. It serves as a transparent "smart city" database, providing vital details on each tree’s species, age, health status, and maintenance history, utilizing modern professional tracking systems found in leading green capitals.
 

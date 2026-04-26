@@ -7,6 +7,7 @@ date = "2025-12-16"
 category = "local"
 title = "Yerevan Construction Tree Protection Law"
 +++
+
 Yerevan City Council Resolution No. 405-N from 16.03.2012 establishes a comprehensive set of mandatory "additional conditions" for construction projects within the city, supplementing national building codes to prioritize public safety, environmental hygiene, and proper site organization alongside its strict greenery protection measures.
 
 For Kanach Yerevan, this document is the definitive checklist for monitoring active construction sites. Because it incorporates strict tree protection amendments (such as mandatory fencing and root zone protection), it transforms tree care from a voluntary good deed into a binding legal obligation.

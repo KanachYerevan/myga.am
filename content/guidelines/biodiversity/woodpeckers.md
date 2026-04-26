@@ -8,13 +8,14 @@ title = "Syrian Woodpecker"
 description = "Primary predator of the flathead borers."
 image = "images/syrian-woodpecker.jpg"
 +++
-Yerevan’s urban forest is currently facing a critical ecological challenge from wood-boring and leaf-damaging insects. Conventional mechanical interventions, such as heavy pruning and chemical spraying, have proven ecologically disruptive and often fail to address the root cause of infestations deep within the tree timber. A more sustainable and scientifically grounded solution is to prioritize the conservation of the Syrian Woodpecker (*Dendrocopos syriacus*). This memo outlines the biological imperative for integrating this species into our Integrated Pest Management (IPM) strategy to ensure the longevity of our city's green canopy.
+
+Yerevan’s urban forest is currently facing a critical ecological challenge from wood-boring and leaf-damaging insects. Conventional mechanical interventions, such as heavy pruning and chemical spraying, have proven ecologically disruptive and often fail to address the root cause of infestations deep within the tree timber. A more sustainable and scientifically grounded solution is to prioritize the conservation of the Syrian Woodpecker (_Dendrocopos syriacus_). This memo outlines the biological imperative for integrating this species into our Integrated Pest Management (IPM) strategy to ensure the longevity of our city's green canopy.
 
 ![Image](/images/syrian-woodpecker.jpg)
 
 ## The problem: wood-boring pests
 
-The most destructive threats to Yerevan’s trees are not on the surface, but deep inside the wood. Flatheaded borers (such as *Capnodis* and *Agrilus* species) are particularly lethal because their larvae tunnel through the cambium and heartwood, cutting off the tree's nutrient and water transport systems—effectively strangling the tree from the inside.
+The most destructive threats to Yerevan’s trees are not on the surface, but deep inside the wood. Flatheaded borers (such as _Capnodis_ and _Agrilus_ species) are particularly lethal because their larvae tunnel through the cambium and heartwood, cutting off the tree's nutrient and water transport systems—effectively strangling the tree from the inside.
 
 Human observation rarely detects these pests until the tree is already dying. Furthermore, because the larvae are protected by layers of wood, surface-level chemical sprays are ineffective, and systemic treatments pose risks to pollinators and groundwater.
 

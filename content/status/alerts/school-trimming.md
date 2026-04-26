@@ -9,6 +9,7 @@ title = "Tree Pruning Near Schools"
 description = "We are observing deep pruning on school grounds. This is unsafe. Please share the EAC Pruning Guide with school principals."
 status = "Needs Publicity • In Progress"
 +++
+
 In early November, the Department of Landscaping [announced](https://www.facebook.com/reel/1379925900213232) plans for mass sanitary pruning of trees. Parents and citizens often interpret such news as a measure to ensure child safety. However, specialists see this term covering a practice that creates a delayed threat. Usually, "sanitary pruning" in our city implies severe crown reduction and topping—removing the entire canopy down to a bare trunk. This approach in schools is misguided and harmful: it does not increase safety, but rather decreases it, and here is why.
 
 First and foremost: a confusion of terms. According to arboriculture standards, sanitary pruning is the removal of dry, broken, or diseased branches, or those that pose an immediate threat. Removing healthy structural branches solely to reduce the tree's size is not a sanitary measure.

@@ -8,6 +8,7 @@ verdict_short = "Replacement Recommended"
 title = "Ailanthus altissima (Tree of Heaven)"
 description = "The harm of Ailanthus to Yerevan's ecosystem and the best ways to combat it."
 +++
+
 Ailanthus altissima, or Tree of Heaven, is an aggressive invasive species that actively displaces native flora, damages the urban landscape, and creates a false sense of greenery. Although it provides shade and is drought-resistant, the harm from reduced biodiversity and infrastructure damage outweighs its benefits. Simply cutting down the trees is ineffective and even harmful, as it provokes vigorous growth of suckers. To solve the problem, Yerevan needs a strategy that includes inventory, chemical treatment of stumps, and immediate replacement of Ailanthus with sustainable native species such as hackberry or ash.
 
 ## The Scale of the Problem and a Legacy of the Past

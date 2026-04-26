@@ -12,7 +12,7 @@ Yerevan’s Greening Department is officially structured as a Community Non-Comm
 
 The Charter serves as the definitive legal framework for the organization, outlining its mandate, official powers, and obligations regarding urban ecology and public maintenance.
 
-Below are the links to the Charter. Please note that while the Armenian version is the only legally binding document, the English and Russian translations have been prepared by *Kanach Yerevan* volunteers to ensure public transparency and facilitate expert oversight.
+Below are the links to the Charter. Please note that while the Armenian version is the only legally binding document, the English and Russian translations have been prepared by _Kanach Yerevan_ volunteers to ensure public transparency and facilitate expert oversight.
 
 <div class="buttons">
 

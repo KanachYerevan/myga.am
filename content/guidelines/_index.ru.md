@@ -8,5 +8,6 @@ aliases = ["ru/guidelines/legal", "ru/guidelines/biodiversity"]
 grid_title = "Лучшие практики управления"
 grid_description = "Что допустимо, а что нарушает закон и биологию."
 +++
+
 +++
 Under construction.

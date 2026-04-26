@@ -3,7 +3,8 @@ title = "Report root damage caused by trenching"
 description = "How to report tree damage caused by trenching."
 date = "2026-01-18"
 +++
-If you witness ground works or trenching taking place within 2 to 3 meters of a tree trunk, please report the incident to the *Ministry of Environment* via the [e-request.am website][6] using [this message template][7].
+
+If you witness ground works or trenching taking place within 2 to 3 meters of a tree trunk, please report the incident to the _Ministry of Environment_ via the [e-request.am website][6] using [this message template][7].
 
 This type of excavation is a serious concern because severing structural roots does more than just sicken a tree; it destabilizes it, making it highly vulnerable to collapsing during strong winds. A compromised root system poses a direct threat to pedestrians, vehicles, and everything else within the fall zone, which is why trees with significantly damaged roots should never be left standing as immediate safety hazards.
 

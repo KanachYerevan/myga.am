@@ -7,6 +7,7 @@ title = "Active Citizen: Greening Refused"
 description = "Active Citizen employees regularly refuse to replant previously felled trees. We are trying to understand the issue."
 status = "open"
 +++
+
 - Status: response received (26.12.2025), follow-up is being drafted.
 
 In the autumn of 2025, supporters of Kanach Yerevan sent a series of requests to restore trees where they used to grow but were cut down for some reason. We are not discussing the reasons for the removal of the trees—we assume they were valid. The decision of the Council of Elders No. 36-N of 18.12.2009 states that in this case, the trees must be restored, which was not done.

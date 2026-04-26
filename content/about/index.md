@@ -1,6 +1,7 @@
 +++
 title = "What is Kanach Yerevan?"
 +++
+
 **Kanach Yerevan** is a community-driven movement with the goal of making Yerevan a green and ecologically healthy city. We aim to organize the efforts of volunteers to make sure that the city's green spaces are properly maintained and expanded.
 
 To achieve this, our main focus is on creating **systemic change**. Our volunteers conduct public inspections of existing trees and new plantings, producing reports to document their condition. We use this data to work directly with municipal authorities, advocating for solutions to existing problems and helping to implement modern, sustainable approaches to tree care. A key part of this is helping to bring citizens back into the feedback loop, ensuring their voices are heard by municipal workers.

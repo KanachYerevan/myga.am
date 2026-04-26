@@ -2,6 +2,7 @@
 title = "Meadow (mixed) Lawns"
 date = "2025-12-27"
 +++
+
 **What is it?**
 Unlike monoculture turf, a [meadow lawn](/guidelines/lawns/) combines native grasses and wildflowers. This natural carpet requires significantly less mowing and water. It mimics nature, creating a resilient, living groundcover rather than a resource-intensive artificial surface.
 

@@ -2,10 +2,10 @@
 title = "Support Kanach Yerevan"
 aliases = ["donate"]
 +++
+
 Kanach Yerevan is a volunteer-driven civic initiative.
 Our primary tool is the [Trees of Yerevan][1] application, developed in-house to crowd-map Yerevan's entire urban forest.
 If you wish to support our mission, please consider contributing to our current needs listed below.
-
 
 ## Mapping Technology
 
@@ -21,7 +21,6 @@ Donating the following equipment would significantly advance our work:
 
   A mobile 3D scanner like Foxtech / Stonex SLAM100, or something similar.
 
-
 ## Ecological Impact
 
 - **[Meadow Lawn Seeds][8] (2,500+ AMD)**
@@ -31,7 +30,6 @@ Donating the following equipment would significantly advance our work:
 - **Trees for Planting ($200+)**
 
   In 2026, we are launching [a campaign][10] to liberalize citizen-funded tree planting. To succeed, we must submit a significant volume of requests to city officials to demonstrate tangible public demand. If you wish to back this initiative, your financial contribution will fund the purchase and planting of trees by our volunteers. A standard sapling costs between 50,000 and 80,000 AMD.
-
 
 ## Logistics & Delivery
 

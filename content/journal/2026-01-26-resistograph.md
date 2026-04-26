@@ -1,6 +1,7 @@
 +++
 title = "The Greening Department Acquires a Resistograph"
 +++
+
 On January 16, 2026, the City Greening Department posted [a video][1] showing their staff receiving instruction on the use of a resistograph. Ten days later, they released [another video][2] demonstrating a field test of the device.
 
 The device appears to be a [Rinntech R650-EA][3]. It operates as a precision drill with a long, thin needle that penetrates the tree to measure wood density, displaying the results on a graph. Because decayed wood is softer than healthy wood, the operator can readily assess the extent of internal rot. The device has a drilling depth of up to 50 cm and retails for approximately $6,900 USD.

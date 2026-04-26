@@ -2,6 +2,7 @@
 title = "Invasive Species Control"
 date = "2025-12-29"
 +++
+
 **What is it?**
 This entails the strategic identification and removal of aggressive, non-native plants that disrupt the local ecosystem. Rather than letting these weeds proliferate, the goal is to replace them with robust, high-value trees that support local wildlife and provide sustainable, long-term greenery.
 

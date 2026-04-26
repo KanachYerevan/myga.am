@@ -10,6 +10,7 @@ title = "Great Tit (Parus Major)"
 description = "Primary predator of the Oak Leaf Miner."
 image = "images/parus-major-2.jpg"
 +++
+
 The **great tit** (Parus major) is a bird that eats a huge number of insects, which makes it a great ally in the fight against pests.
 The bird has a unique talent: it can pull insect larvae out from inside the leaves, where pesticides can't reach them.
 A single great tit family can eat thousands of insects in a season, effectively protecting an area with hundreds of trees.
@@ -48,7 +49,6 @@ Together, we can build a living, breathing network of defense that will keep Yer
 Thank you for your interest and your contribution.
 
 [Connect with us](/action/join/) for updates and events.
-
 
 ## Additional resources
 

@@ -2,6 +2,7 @@
 title = "Public Green Council"
 date = "2025-12-26"
 +++
+
 **What is it?**
 A Public Greening Council is an independent, non-commercial advisory body designed to bridge the gap between city officials and the community. It brings together local scientists, ecologists, and concerned residents to participate in decision-making regarding the city's urban forest, ensuring transparency and expert oversight.
 

@@ -7,6 +7,7 @@ date = "2025-12-16"
 category = "local"
 title = "Yerevan Green Zone Law"
 +++
+
 This document, Decision N 36-N of the Yerevan Council of Elders dated November 18, 2009, establishes the mandatory regulations for the protection, maintenance, and usage of public green spaces in Yerevan, defining these areas to include parks, groves, lawns, and roadside vegetation.
 
 Please note that the decision does not regulate how exactly trees should be cut or planted, that's all up to the chief dendrologist.

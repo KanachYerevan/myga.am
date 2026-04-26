@@ -11,6 +11,7 @@ title = "Lawns Standard"
 verdict_short = "Meadow Recommended"
 description = "Native meadow lawns require 80% less water than turf and reduce fire risk compared to wild grass."
 +++
+
 Dusty wastelands and mud on the sidewalks are not what Yerevan deserves.
 We can change this by replacing "overgrown plots" with modern natural meadows — beautiful, economical, and beneficial for the ecosystem.
 Our ultimate goal is for the city services to adopt this approach as the new standard for landscaping.
@@ -22,7 +23,6 @@ Here you can download the complete guide to learn all the details, or go straigh
 > [Download the guide](/documents/Lawns.pdf)
 
 <img class="stripe" src="/images/meadow.jpg" alt="Meadow Lawn" />
-
 
 ## How to help
 
@@ -44,7 +44,6 @@ Natural lawns are not an additional expense, but a tool to solve existing proble
 3. Contact us.
    We (Kanach Yerevan) are ready to provide a free consultation, help with adapting seed mixes for our climate, and speak at meetings to justify this approach.
 
-
 ### For businesses
 
 For you, a natural lawn is not only a saving, but also a powerful image tool.
@@ -65,7 +64,6 @@ The area around your cafe, office center, or new residential complex is your bus
    Take a "before" and "after" photo.
    Write about it on your social networks.
    We, in turn, will be happy to tell about you as the first responsible business that has implemented this technology.
-
 
 ### For residents and activists
 

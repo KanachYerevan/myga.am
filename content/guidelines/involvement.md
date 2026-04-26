@@ -8,6 +8,7 @@ title = "Citizen Involvement"
 verdict_short = "Support"
 description = "Residents should be the city's main allies in caring for its trees."
 +++
+
 > The city needs a mechanism to involve citizens in the life of its trees. The municipality cannot physically assign an arborist to every tree, and crowdsourcing is an excellent solution.
 >
 > Status: The Active Citizen application is working well.

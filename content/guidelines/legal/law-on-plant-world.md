@@ -6,6 +6,7 @@ date = "2025-12-16"
 [extra]
 category = "local"
 +++
+
 The "Law on Plant World" (1999) classifies dendroparks, botanical gardens, and artificial forest plantations as protected objects, extending legal safeguards to urban greenery. It formally recognizes "greening," recreation, and aesthetic improvement as distinct forms of plant usage , mandating the preservation of the health-improving and recreational properties of vegetation. The legislation establishes state control over these social uses alongside general conservation measures like the Red Book.
 
 For Yerevan's urban planning, this law provides a critical and often underutilized legal shield for the semi-desert and steppe ecosystems remaining within city limits. Developers and city officials frequently classify these biodiverse areas as abandoned wastelands to justify clearing them for construction. By invoking the Law on Flora, we can demand mandatory environmental impact assessments for these zones, forcing the municipality to recognize native wildflowers and ground cover as protected biological assets rather than obstacles to development.

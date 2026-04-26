@@ -1,6 +1,7 @@
 +++
 title = "Received a response re Active Citizen and stumps"
 +++
+
 This autumn, we submitted [several requests][1] via Active Citizen to restore trees that had been removed. We are talking about spots on our streets where lonely stumps have sat for years—places that really need to be replanted, yet nobody does it.
 
 The replies in the app were all carbon copies: no irrigation pipes, no plans, we aren't planting anything.

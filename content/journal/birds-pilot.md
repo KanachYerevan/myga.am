@@ -2,6 +2,7 @@
 title = "Attracting tits to Yerevan's parks"
 date = "2025-12-01"
 +++
+
 This year, we launched a pilot project to attract tits to Yerevan’s parks.
 
 Tits are true pest-destroying machines. They are one of the most effective natural solutions to the problem of the leaf-mining moth, which massively infests Yerevan's oaks every year.

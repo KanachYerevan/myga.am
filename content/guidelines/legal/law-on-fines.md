@@ -6,6 +6,7 @@ date = "2025-12-16"
 [extra]
 category = "local"
 +++
+
 Adopted in 2005, the "Law on Tariffs for Compensation of Damages Caused to Fauna and Flora" establishes the legal framework and specific monetary values for calculating fines related to environmental violations in Armenia. The legislation categorizes offenses ranging from illegal hunting and fishing to the destruction of plant life, setting distinct base tariffs for specific species—such as Red Book animals and trees based on trunk diameter—while applying severe multipliers (up to ten times the base rate) for violations occurring in protected zones or within Yerevan. Furthermore, the law mandates that compensation is calculated based on the quantity or volume of the damaged resources and dictates that these funds are collected for the state budget, with legal provisions for court enforcement if payments are not made voluntarily within a set timeframe.
 
 For urban forestry in Yerevan, this document is a powerful but often unused tool. Article 4 specifically addresses the "illegal felling or partial damage of trees and shrubs," explicitly including those located in "common use areas of settlements." This definition is critical for combating "sanitary pruning" malpractice; by classifying severe topping as "partial damage" or "growth cessation," activists can use this law to demand compensation amounts that often far exceed standard administrative penalties, making tree destruction financially unviable for developers.
