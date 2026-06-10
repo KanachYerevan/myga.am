@@ -5,14 +5,14 @@ date = "2026-04-22"
 
 [extra]
 category = "proposed"
-status = "recommended"
+status = "proposal published"
 title = "Draft on Fines"
 verdict_short = "Current fines cover only 6% of tree value. We need CTLA standards."
 +++
 
 Yerevan's current legal framework for tree damage faces two structural challenges: the administrative fines are significantly lower than the actual asset replacement cost, and liability is often deferred until total biological death (growth cessation). This proposal introduces a methodology for objective financial appraisal of urban trees as capital infrastructure.
 
-Status: Draft Proposal / Policy Recommendation
+Status: Proposal Published
 
 ## Analysis of Current Regulatory Gaps
 
@@ -42,6 +42,6 @@ The first priority is to reclassify trees as capital infrastructure assets. Amen
 
 Secondly, the city should implement immediate citations for procedural violations. Penalties must be decoupled from biological death, allowing for fines based on the percentage of the critical root zone compromised, regardless of whether the tree dies immediately.
 
-Furthermore, a system for ring-fenced recovery should be established through a Green City Fund. This ensures that all compensation collected through appraised valuations is deposited into a dedicated fund used exclusively for urban forestry and canopy restoration.
+Furthermore, a system for ring-fenced recovery should be established through a dedicated green infrastructure fund. This ensures that all compensation collected through appraised valuations is deposited into a dedicated fund used exclusively for urban forestry and canopy restoration.
 
 Finally, professional oversight must be mandated for all works within root protection zones. Requiring that such activities be supervised by certified arborists will minimize the risk of uncompensated asset damage and ensure adherence to modern biological practices.
