@@ -16,6 +16,7 @@ We are an independent, grassroots movement dedicated to bringing professional st
 We believe in results over rhetoric. Through data and persistent advocacy, we have:
 
 - **Saved mature trees:** pressured the city to move away from "clear-cutting" during renovations. Now, the municipality usually retains up to 20% of healthy old trees—a vital first step toward a more sustainable approach.
+- **Educational outreach:** published dozens of educational videos on [Instagram](https://www.instagram.com/kanach.yerevan/) about urban tree biology, helping residents better understand the principles of professional tree care.
 - **Direct care and biodiversity:** we fix trees by removing harmful illegal objects—lamps, wires, and signs—while enhancing urban ecology by installing nesting boxes, insect hotels, and planting trees.
 - **Improved workflows:** successfully lobbied for scientific diagnostic tools (resistographs) and helped the municipality identify and resolve technical bottlenecks in internal operational workflows.
 - **Mapped the canopy:** built the city’s first [crowdsourced dataset](/action/mapping/) of urban trees. With over 11,000 trees already cataloged, we can finally plan the city's green future based on real data.
