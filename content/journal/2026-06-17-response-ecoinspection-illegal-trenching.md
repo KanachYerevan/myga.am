@@ -12,7 +12,7 @@ In June 2026 we sent an investigation request about 4 cases of illegal (as we th
 >
 > At the same time, I inform you that according to Article 219¹ of the Code of Administrative Offenses of the Republic of Armenia, the offenses provided for in Article 157 of the Code are examined by local self-government bodies.
 
-### Resolution
+### Our opinion
 
 This response highlights a critical gap in our environmental protection system. Under current legal interpretations, the Ecoinspection can effectively do nothing unless a tree is immediately killed or damaged so severely that it stops growing. They do not intervene in cases of obvious damage that does not cause immediate death, as there is no specific law they feel empowered to enforce for such intermediate damage.
 
