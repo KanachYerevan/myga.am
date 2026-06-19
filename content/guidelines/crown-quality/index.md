@@ -1,11 +1,11 @@
 +++
-title = "Crown Standards: How to Evaluate a New Tree"
+title = "Crown Quality Assessment"
 description = "Technical specifications for checking the quality of newly planted trees against international standards."
 date = "2026-06-19"
 
 [extra]
 status = "recommended"
-title = "Tree Quality Standard"
+title = "Crown Quality"
 verdict_short = "Crown Ratio 2:1"
 description = "A healthy tree must have a balanced crown-to-trunk ratio and a clear central leader to survive in the urban environment."
 +++
@@ -19,6 +19,13 @@ As a citizen or a professional, you can evaluate the quality of new plantings us
 The crown size directly relates to the amount of leaves and the size of the root ball. Leaves are essential for photosynthesis, providing the energy the tree needs to establish itself in its new location. A disproportionately small crown means the tree will be stressed, will suffer, and will spend years recovering its canopy instead of growing and developing.
 
 Let's examine a standard tree planted on the streets of Yerevan, which has a 4 m height and 14-16 cm circumference at breast height. Note that there is no published standard for these parameters, but this is the de-facto standard that we observe on the streets.
+
+<div class="album">
+<a href="https://yerevan.treemaps.app/tree/207146626094075908" target="_blank"><img src="crown-01.jpg" /></a>
+<a href="https://yerevan.treemaps.app/tree/328545585160392767" target="_blank"><img src="crown-02.jpg" /></a>
+<a href="https://yerevan.treemaps.app/tree/207144929758154756" target="_blank"><img src="crown-03.jpg" /></a>
+<a href="https://yerevan.treemaps.app/tree/189073153362890760" target="_blank"><img src="crown-04.jpg" /></a>
+</div>
 
 Russian standard [GOST 59370-2021](https://allgosts.ru/91/040/gost_r_59370-2021) mandates that trees have at least 45% of their height allocated for the crown. For a standard 4-meter tree, this means at least 180–185 cm of crown height (section 10.4.4.5). While it does not set a crown spread requirement, it specifies that the tree must have 7–9 skeletal branches (section 10.2.7), and they must not have been truncated or stubbed (section 4.4.3).
 

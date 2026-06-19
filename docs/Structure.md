@@ -18,7 +18,11 @@ The About section contains institutional information, including our mission stat
 
 ## Managing Images and Documents
 
-We keep images and downloadable files separate from the text content. All images go directly into the static/images folder, and all documents (PDFs, scans) go directly into the static/documents folder. Do not create subfolders. Since all files live in the same place, you must use unique, descriptive filenames. For example, use great-tit-nest-blueprint.pdf instead of blueprint.pdf to prevent conflicts.
+We use two primary methods for managing assets:
+
+1. **Page Bundles (Recommended):** For images or documents that belong to a specific page, we use Page Bundles. Instead of a single `page.md` file, we create a directory named `page/` with `index.md` (and any translation files like `index.ru.md`) inside it. All assets for that page are placed directly in the same folder. This allows for relative links and makes the content more portable.
+
+2. **Global Assets (`static/`):** Shared assets (logos, common icons, or files used across multiple pages) go directly into the `static/images/` or `static/documents/` folder. Since these files are shared, you must use unique, descriptive filenames (e.g., `logo-owl.png`) to prevent conflicts.
 
 ## Page Settings and Metadata
 
@@ -40,15 +44,21 @@ The Guidelines are our long-term reference library. These only need to be change
 
 ## Example Directory Structure
 
-Below is an example of how the files should be organized on disk. Note that the content folder has nested sections, while the static folder uses flat lists for easier asset management.
+Below is an example of how the files should be organized on disk. Note the use of Page Bundles for complex pages like `pruning` and `lawns`.
 
 ```
 content/
 ├── guidelines/
 │   ├── _index.md
-│   ├── pruning.md
+│   ├── pruning/
+│   │   ├── index.md
+│   │   ├── index.ru.md
+│   │   ├── branch-cut.jpg
+│   │   └── crown-thinning.png
 │   ├── mulching.md
-│   ├── lawns.md
+│   ├── lawns/
+│   │   ├── index.md
+│   │   └── biodiversity.jpg
 │   ├── planting.md
 │   │
 │   ├── biodiversity/
@@ -97,15 +107,19 @@ content/
     ├── mission.md
     ├── team.md
     └── directory.md
+```
 
+## Shared Assets (static/)
+
+Global assets used across multiple pages.
+
+```
 static/
 ├── images/
-│   ├── pruning-diagram.svg
-│   ├── great-tit-blueprint.png
-│   └── case-opera-damage.jpg
+│   ├── logo-owl.png
+│   └── favicon.ico
 │
 └── documents/
-    ├── tit-box-template.pdf
-    ├── feeder-v2.stl
+    ├── general-charter.pdf
     └── legal-draft-text.pdf
 ```

@@ -64,13 +64,21 @@ Mobilization entry point. Instructions on how to report, volunteer, or donate.
 
 The narrative heartbeat. Success stories, field notes, and press releases.
 
+### Assets & Page Bundles
+
+We prefer **Page Bundles** for organizing content and their specific assets (images, diagrams).
+
+- **Structure:** Instead of `page.md`, use a directory `page/` with `index.md` (and `index.ru.md`, `index.hy.md`).
+- **Co-location:** Place images used *only* by that page within the same directory. This allows for relative links and better portability.
+- **Shared Assets:** Global assets (logos, common icons) should still go to `static/images/`.
+- **Flat Fallback:** If Page Bundles are not used, follow the flat structure in `static/images/` with unique, descriptive filenames.
+
 ### Assets (`static/`)
 
-FLAT STRUCTURE ONLY.
+Shared global assets only.
 
-- Images: `static/images/` (e.g., `great-tit-blueprint.png`).
+- Images: `static/images/` (e.g., `logo-owl.png`).
 - Documents: `static/documents/` (e.g., `legal-draft.pdf`).
-- Rule: filenames must be descriptive and unique to prevent collisions.
 
 ## Language Guidelines
 
