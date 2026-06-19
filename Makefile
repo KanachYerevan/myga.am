@@ -13,7 +13,7 @@ build:
 	find dist -type f -print0 | xargs -0 ls -ldh
 
 format:
-	npx -y prettier --write $(MD_FILES)
+	@npx -y prettier --write --list-different $(MD_FILES)
 
 deploy-cloudflare:
 	npx wrangler pages deploy ./dist --project-name=myga --branch=master

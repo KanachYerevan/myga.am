@@ -69,7 +69,7 @@ The narrative heartbeat. Success stories, field notes, and press releases.
 We prefer **Page Bundles** for organizing content and their specific assets (images, diagrams).
 
 - **Structure:** Instead of `page.md`, use a directory `page/` with `index.md` (and `index.ru.md`, `index.hy.md`).
-- **Co-location:** Place images used *only* by that page within the same directory. This allows for relative links and better portability.
+- **Co-location:** Place images used _only_ by that page within the same directory. This allows for relative links and better portability.
 - **Shared Assets:** Global assets (logos, common icons) should still go to `static/images/`.
 - **Flat Fallback:** If Page Bundles are not used, follow the flat structure in `static/images/` with unique, descriptive filenames.
 
