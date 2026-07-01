@@ -1,12 +1,18 @@
 +++
-title = "Official responses on illegal trenching"
-date = "2026-06-17"
+title = "Trenching at four locations in Arabkir"
+date = "2026-06-09"
 
 [extra]
-type = "news"
+status = "lost"
+location = "Arabkir"
+description = "Investigation request regarding illegal trenching at several locations in the Arabkir district."
 +++
 
-In June 2026 we sent an investigation request about 4 cases of trenching to two instances: the Ecoinspection and the Yerevan Municipality. We believe these works are illegal according to the [Council of Elders Decision 405-N](@/guidelines/legal/elders-construction.md). We have received responses from both.
+- Status: response received (19.06.2026).
+
+In June 2026, we identified 4 cases of trenching in the Arabkir district that we believe are illegal according to the [Council of Elders Decision 405-N](@/guidelines/legal/elders-construction.md).
+
+On June 9, we sent investigation requests to both the Ecoinspection and the Yerevan Municipality.
 
 ### Response from the Ecoinspection
 

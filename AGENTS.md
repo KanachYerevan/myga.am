@@ -56,6 +56,16 @@ The Data Hub.
 - Cases: tracked legal/illegal incidents (`/cases/case-2024-01.md`).
   - Front Matter: must track `status` (Open/Won/Lost), `location`, and `date_opened`.
 
+### Legal Cases
+
+Path: `content/status/cases/`.
+
+This folder tracks the official requests we send and responses that we receive. Each document is a page with the information on the actual case, some photos of the problem, series of responses, and a conclusion. It should have a status field in the beginning. Example:
+
+```
+- Status: response received (03.02.2026).
+```
+
 ### Action (`content/action/`)
 
 Mobilization entry point. Instructions on how to report, volunteer, or donate.
