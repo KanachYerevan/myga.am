@@ -41,6 +41,7 @@ The second stage is pretty straightforward:
 6. celebrate!
 
 <div class="album">
+<a href="photo-06.jpg"><img src="photo-06.thumb.jpg" /></a>
 <a href="photo-01.jpg"><img src="photo-01.thumb.jpg" /></a>
 <a href="photo-02.jpg"><img src="photo-02.thumb.jpg" /></a>
 <a href="photo-03.jpg"><img src="photo-03.thumb.jpg" /></a>
