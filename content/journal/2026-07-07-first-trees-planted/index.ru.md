@@ -16,6 +16,10 @@ title = "Первая согласованная посадка"
 
 В результате нескольких месяцев переговоров мы добились осязаемого результата – провели первую согласованную посадку на выбранном нами участке.
 
+<div class="album">
+<a href="photo-06.jpg"><img src="photo-06.thumb.jpg" /></a>
+</div>
+
 Мы подобрали участок на улице Папазяна у ТЦ Rio Mall, потому что:
 
 * Улица активно используется пешеходами
@@ -41,7 +45,6 @@ title = "Первая согласованная посадка"
 6. Отпраздновать!
 
 <div class="album">
-<a href="photo-06.jpg"><img src="photo-06.thumb.jpg" /></a>
 <a href="photo-01.jpg"><img src="photo-01.thumb.jpg" /></a>
 <a href="photo-02.jpg"><img src="photo-02.thumb.jpg" /></a>
 <a href="photo-03.jpg"><img src="photo-03.thumb.jpg" /></a>
