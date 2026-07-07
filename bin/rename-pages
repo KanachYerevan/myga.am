@@ -24,9 +24,8 @@ def process_file(file_path):
     if not p.is_file() or p.suffix != '.md':
         return
 
-    # Skip index files and already bundled files
-    if p.name.startswith('_index') or p.name == 'index.md' or ('.' in p.name and p.name.startswith('index.')):
-        # print(f"Skipping: {p.name} (already an index or section file)")
+    if p.name.startswith(("index.", "_index.")):
+        print(f"Skipping: {p.name} (already an index or section file)")
         return
 
     try:
@@ -36,9 +35,6 @@ def process_file(file_path):
         return
 
     date_str = get_date_for_file(p, content)
-    if not date_str:
-        print(f"Error: No date found in {p.name} filename or front matter. Skipping.")
-        return
 
     # Zola files often have format: name.[lang].md
     # p.stem for 'foo.ru.md' is 'foo.ru'
@@ -53,11 +49,11 @@ def process_file(file_path):
         base = stem
         lang = ""
 
-    # Determine folder name: add date prefix if not already present in 'base'
-    if re.match(r'^\d{4}-\d{2}-\d{2}-', base):
-        folder_name = base
-    else:
+    # Determine folder name: add date prefix if available and not already present in 'base'
+    if date_str and not re.match(r'^\d{4}-\d{2}-\d{2}-', base):
         folder_name = f"{date_str}-{base}"
+    else:
+        folder_name = base
 
     target_dir = p.parent / folder_name
 
