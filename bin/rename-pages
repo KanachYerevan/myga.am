@@ -1,0 +1,89 @@
+#!/usr/bin/env python3
+import sys
+import re
+import argparse
+from pathlib import Path
+
+# Regex to extract date from Zola TOML front matter
+DATE_RE = re.compile(r'^\s*date\s*=\s*["\']([^"\']+)["\']', re.MULTILINE)
+
+def get_date_for_file(file_path, content):
+    # Try to extract date from filename first (YYYY-MM-DD)
+    filename_match = re.match(r'^(\d{4}-\d{2}-\d{2})', Path(file_path).name)
+    if filename_match:
+        return filename_match.group(1)
+
+    match = DATE_RE.search(content)
+    if match:
+        # Return only the YYYY-MM-DD part
+        return match.group(1)[:10]
+    return None
+
+def process_file(file_path):
+    p = Path(file_path).resolve()
+    if not p.is_file() or p.suffix != '.md':
+        return
+
+    # Skip index files and already bundled files
+    if p.name.startswith('_index') or p.name == 'index.md' or ('.' in p.name and p.name.startswith('index.')):
+        # print(f"Skipping: {p.name} (already an index or section file)")
+        return
+
+    try:
+        content = p.read_text(encoding='utf-8')
+    except Exception as e:
+        print(f"Error: Could not read {p.name}: {e}")
+        return
+
+    date_str = get_date_for_file(p, content)
+    if not date_str:
+        print(f"Error: No date found in {p.name} filename or front matter. Skipping.")
+        return
+
+    # Zola files often have format: name.[lang].md
+    # p.stem for 'foo.ru.md' is 'foo.ru'
+    stem = p.stem
+    parts = stem.rsplit('.', 1)
+
+    if len(parts) > 1 and len(parts[1]) == 2:
+        # Detected language suffix (e.g., .ru, .hy)
+        base = parts[0]
+        lang = f".{parts[1]}"
+    else:
+        base = stem
+        lang = ""
+
+    # Determine folder name: add date prefix if not already present in 'base'
+    if re.match(r'^\d{4}-\d{2}-\d{2}-', base):
+        folder_name = base
+    else:
+        folder_name = f"{date_str}-{base}"
+
+    target_dir = p.parent / folder_name
+
+    # Ensure the language code doesn't go into the folder name
+    # (The 'base' variable above already has the language extension stripped)
+
+    target_dir.mkdir(parents=True, exist_ok=True)
+    target_file = target_dir / f"index{lang}.md"
+
+    if target_file.exists():
+        print(f"Warning: Target {target_file.name} already exists in {folder_name}. Skipping {p.name}.")
+        return
+
+    print(f"Moving: {p.name} -> {folder_name}/index{lang}.md")
+    p.rename(target_file)
+
+def main():
+    parser = argparse.ArgumentParser(description="Convert Zola markdown pages into Page Bundles.")
+    parser.add_argument("files", nargs="+", help="Paths to markdown files")
+    args = parser.parse_args()
+
+    for file_path in args.files:
+        try:
+            process_file(file_path)
+        except Exception as e:
+            print(f"Exception while processing {file_path}: {e}")
+
+if __name__ == "__main__":
+    main()
