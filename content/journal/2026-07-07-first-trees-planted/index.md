@@ -15,7 +15,9 @@ There are several practical reasons why it’s better to coordinate plantings wi
 That’s why we are in talks with the City Hall and Kanachapatum to create a clear, accessible process for coordinating citizen-led street tree plantings. Planting a tree in a private yard doesn't require coordination.
 
 After months of negotiations, we achieved a tangible result — our first coordinated planting at a site we selected.
-
+<div class="album">
+<a href="photo-06.jpg"><img src="photo-06.thumb.jpg" /></a>
+</div>
 We chose a spot on Papazyan Street near Rio Mall because:
 
 *   the street is heavily used by pedestrians
@@ -41,7 +43,6 @@ The second stage is pretty straightforward:
 6. celebrate!
 
 <div class="album">
-<a href="photo-06.jpg"><img src="photo-06.thumb.jpg" /></a>
 <a href="photo-01.jpg"><img src="photo-01.thumb.jpg" /></a>
 <a href="photo-02.jpg"><img src="photo-02.thumb.jpg" /></a>
 <a href="photo-03.jpg"><img src="photo-03.thumb.jpg" /></a>
