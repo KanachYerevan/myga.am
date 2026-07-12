@@ -1,6 +1,7 @@
 +++
 title = "First coordinated planting"
 +++
+
 We successfully planted two trees on Papazyan Street!
 
 On Saturday, July 4, we planted our first trees coordinated with Kanachapatum — two horse chestnuts, 3.5 meters tall.
@@ -9,8 +10,8 @@ You might have seen that trees planted by Yerevan residents on their own initiat
 
 There are several practical reasons why it’s better to coordinate plantings with specialists. For example:
 
-*   the proposed location might be unsuitable if the tree blocks traffic signs or if underground utilities leave no room for roots
-*   the species chosen might be invasive, provide fewer ecosystem services than alternatives, or not fit the target biodiversity. We hope to see such ecological goals integrated into Yerevan’s urban planning soon
+- the proposed location might be unsuitable if the tree blocks traffic signs or if underground utilities leave no room for roots
+- the species chosen might be invasive, provide fewer ecosystem services than alternatives, or not fit the target biodiversity. We hope to see such ecological goals integrated into Yerevan’s urban planning soon
 
 That’s why we are in talks with the City Hall and Kanachapatum to create a clear, accessible process for coordinating citizen-led street tree plantings. Planting a tree in a private yard doesn't require coordination.
 
@@ -20,12 +21,12 @@ After months of negotiations, we achieved a tangible result — our first coordi
 </div>
 We chose a spot on Papazyan Street near Rio Mall because:
 
-*   the street is heavily used by pedestrians
-*   there were three gaps in the existing tree line
-*   two of these gaps surround a [large elm that currently provides at least 75 m² of shade](https://yerevan.treemaps.app/tree/414482186205532160/preview) but is in poor condition. While the elm is still standing, we need to grow new trees to compensate for the eventual loss of its shade
-*   one gap wasn't suitable because a tree there would have blocked a road sign
-*   several elderly residents approached us, highlighting the desperate need for shade on this specific stretch
-*   there are water sources nearby for filling watering bags
+- the street is heavily used by pedestrians
+- there were three gaps in the existing tree line
+- two of these gaps surround a [large elm that currently provides at least 75 m² of shade](https://yerevan.treemaps.app/tree/414482186205532160/preview) but is in poor condition. While the elm is still standing, we need to grow new trees to compensate for the eventual loss of its shade
+- one gap wasn't suitable because a tree there would have blocked a road sign
+- several elderly residents approached us, highlighting the desperate need for shade on this specific stretch
+- there are water sources nearby for filling watering bags
 
 The species and size were specified by Kanachapatum — they approved horse chestnuts for this street, and we found saplings that met their height and trunk diameter requirements.
 
