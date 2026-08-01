@@ -52,7 +52,7 @@
       title: "Կողմնակի առարկաներ"
       description: "Ծառի վրա չպետք է լինեն կողմնակի առարկաներ։ Քաղաքապետարանն ակտիվորեն հեռացնում է դրանք։"
 
-- link: "@/action/replant.md"
+- link: "@/action/replant/index.md"
   image: "/images/actions/replant.jpg"
   content:
     ru:

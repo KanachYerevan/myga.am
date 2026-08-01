@@ -14,7 +14,7 @@
       title: "Փրկենք Կոմիտասի պողոտան"
       description: "Կարդացեք մեր առաջարկը այն մասին, թե ինչպես կարելի է իրականացնել վերանորոգումը։"
 
-- link: "@/action/replant.md"
+- link: "@/action/replant/index.md"
   old_link: "@/guidelines/legal/proactive-greening-draft.md"
   image: "/images/campaign-planting.jpg"
   content:
