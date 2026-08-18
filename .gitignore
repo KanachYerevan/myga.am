@@ -1,3 +1,4 @@
 /dist
 /static/processed_images
 /.envrc
+/.env
