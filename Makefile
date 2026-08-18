@@ -15,5 +15,9 @@ build:
 format:
 	@npx -y prettier --write --list-different $(MD_FILES)
 
+index:
+	@echo "Updating doc-index.md ..."
+	@grep 'summary:' -r . --include '*.md' | sed -e 's/summary: / /g' | sed -e 's@^\./@@g' | sed -e 's@^@- @g' | sort > doc-index.md
+
 deploy-cloudflare:
 	npx wrangler pages deploy ./dist --project-name=myga --branch=master

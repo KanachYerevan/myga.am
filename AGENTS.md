@@ -100,14 +100,9 @@ When asked to translate documents, use natural language, avoid anglicisms, offic
 ## Operational Rules (The "Anti-Copy-Paste" Protocol)
 
 1. Markdown Native: you are working directly on Markdown files. Never strip Markdown formatting (headers, bolding, lists) unless asked.
-
 2. File Integrity: when asked to "edit" or "fix" a file, produce the complete updated text so it can be overwritten directly.
-
 3. Inverted Pyramid: for Guidelines, structure content from "Verdict" (Top/Activist) -> "Explanation" (Middle/Resident) -> "Technical Spec" (Bottom/Official).
-
 4. No "Coder" Talk: treat the text as an article or manifesto, not software code.
-
-5. Markdown Skill: always use the `markdown` skill when editing any markdown files.
 
 ## Key Vocabulary Preference
 
