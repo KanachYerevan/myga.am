@@ -1,12 +1,12 @@
-+++
-title = "Procedure for Tree Felling"
-description = "Annex N 1 to Decision N 1236-A of the Mayor of Yerevan, April 26, 2021"
-date = "2021-04-26"
-
-[extra]
-category = "local"
-title = "Procedure for Tree Felling"
-+++
+---
+title: "Procedure for Tree Felling"
+description: "Annex N 1 to Decision N 1236-A of the Mayor of Yerevan, April 26, 2021"
+summary: "Procedure for tree felling and accounting of resulting timber in Yerevan's public green areas (Annex 1 to Decision N 1236-A)"
+date: "2021-04-26"
+extra:
+  category: "local"
+  title: "Procedure for Tree Felling"
+---
 
 This document contains Annex 1 to [Decision N 1236-A](../decision-1236a-on-felling-trees/) of the Mayor of Yerevan (April 26, 2021), which establishes the procedure for tree felling and the accounting of resulting timber in public green areas of Yerevan.
 

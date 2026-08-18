@@ -9,8 +9,7 @@ Execute the implementation plan agreed upon in this session directly without sub
 
 1. Apply all planned document, graphic, or configuration changes directly.
 2. For any new or modified Markdown documents, ensure a YAML frontmatter `summary` is present.
-3. Run `make format index` to format files and update `doc-index.md`. Run relevant compilation targets (e.g., `make cards`, `make pdf`) if applicable.
+3. Run `make format index` to format files and update `doc-index.md`.
 4. Provide a concise summary of:
    - Modified/created files.
-   - Verification commands run and results.
    - Any follow-up steps or notes.
