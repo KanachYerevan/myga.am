@@ -1,3 +1,6 @@
+- content/action/report/index.hy.md: "Ինչպես հաղորդել Երևանում կոտրված ծառերի, նոր տնկումների կամ այլ անսովոր երևույթների մասին Telegram-ի միջոցով։"
+- content/action/report/index.md: "Instructions on how to report broken trees, new plantings, or other unusual activity in Yerevan via Telegram."
+- content/action/report/index.ru.md: "Инструкции о том, как сообщить о сломанных деревьях, новых посадках или другой необычной активности в Ереване через Telegram."
 - content/guidelines/legal/decision-1236a-on-felling-trees/index.hy.md: "Երևանի քաղաքապետի N 1236-Ա որոշումը ծառահատման կարգը և ձևաթղթերը հաստատելու մասին։"
 - content/guidelines/legal/decision-1236a-on-felling-trees/index.md: "Decision N 1236-A of the Mayor of Yerevan approving the procedure and documentation for tree felling."
 - content/guidelines/legal/decision-1236a-on-felling-trees/index.ru.md: "Решение мэра Еревана № 1236-А об утверждении порядка и форм документов для вырубки деревьев."
