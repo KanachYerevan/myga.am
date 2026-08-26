@@ -13,7 +13,7 @@
                 <p class="description">{{ section.description | safe }}</p>
 
                 <div class="button-bar">
-                    <a href="{{ get_url(path="@/action/report.md", lang=lang) }}" class="alert button">
+                    <a href="{{ get_url(path="@/action/report/index.md", lang=lang) }}" class="alert button">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="alert-triangle" class="lucide lucide-alert-triangle w-5 h-5"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
                         <span>{{ trans(key="home_report", lang=lang) }}</span>
                     </a>
