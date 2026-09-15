@@ -1,25 +1,39 @@
-{% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
+{# Social and search metadata shared by all pages. #}
+{% if page %}
+    {% set description = page.description | default(value=page.summary) %}
     <meta property="og:type" content="article" />
+    {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
     <meta property="og:site_name" content="{{ config.title }}" />
+    {% if description %}
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta name="twitter:description" content="{{ description }}" />
+    {% elif page.content %}
+        <meta name="description" content="{{ page.content | striptags | trim | truncate(length=155) }}" />
+    {% endif %}
+    {% if page.permalink %}
+        <meta property="og:url" content="{{ page.permalink | safe }}" />
+    {% endif %}
+{% elif section %}
+    {% set description = section.description | default(value=section.content | striptags | trim | truncate(length=155)) %}
+    <meta property="og:type" content="website" />
+    {% if section.title %}<meta property="og:title" content="{{ section.title }}" />{% endif %}
+    <meta property="og:site_name" content="{{ config.title }}" />
+    {% if description %}
+        <meta name="description" content="{{ description }}" />
+        <meta property="og:description" content="{{ description }}" />
+        <meta name="twitter:description" content="{{ description }}" />
+    {% endif %}
+    {% if section.permalink %}
+        <meta property="og:url" content="{{ section.permalink | safe }}" />
+    {% endif %}
 {% endif %}
 
-{% if page.description %}
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
-{% endif %}
-
-{% if page.permalink %}
-    <meta property="og:url" content="{{ page.permalink | safe }}" />
-{% endif %}
-
-{% if page.extra.card %}
+{% if page and page.extra.card %}
     {% set scaled = resize_image(path="static/" ~ page.extra.card, width=1200, height=630, op="fill") %}
-
     <meta property="og:image" content="{{ scaled.url | safe }}" />
-
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content="{{ scaled.url | safe }}" />
 {% else %}
-    <!-- No card for this page -->
+    <meta name="twitter:card" content="summary" />
 {% endif %}

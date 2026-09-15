@@ -1,0 +1,25 @@
+{# Structured data (JSON-LD) for search engines. #}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanach Yerevan",
+        "url": "{{ config.base_url | safe }}",
+        "logo": "{{ config.base_url | safe }}/icon-150x150.png",
+        "description": "A social movement working to make Yerevan's urban canopy greener and more resilient.",
+        "sameAs": ["https://t.me/make_yerevan_green_again"]
+    }
+</script>
+{% if page and page.date %}
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": {{ page.title | json_encode | safe }},
+            "datePublished": "{{ page.date | date(format="%Y-%m-%d") }}",
+            "inLanguage": "{{ lang }}",
+            "mainEntityOfPage": {{ page.permalink | json_encode | safe }},
+            "publisher": {"@type": "Organization", "name": "Kanach Yerevan"}
+        }
+    </script>
+{% endif %}

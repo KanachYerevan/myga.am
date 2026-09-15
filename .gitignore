@@ -2,3 +2,8 @@
 /static/processed_images
 /.envrc
 /.env
+/.secrets
+/.venv
+/.zola
+/data/seo-cache
+__pycache__

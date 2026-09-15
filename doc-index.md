@@ -7,3 +7,5 @@
 - content/guidelines/legal/tree-felling-rules/index.hy.md: "Երևանի ընդհանուր օգտագործման կանաչ տարածքներում ծառերի հատումների և փայտանյութի հաշվառման կարգ (Հավելված 1, որոշում N 1236-Ա)։"
 - content/guidelines/legal/tree-felling-rules/index.md: "Procedure for tree felling and accounting of resulting timber in Yerevan's public green areas (Annex 1 to Decision N 1236-A)"
 - content/guidelines/legal/tree-felling-rules/index.ru.md: "Порядок вырубки деревьев и учета древесины на территориях общего пользования Еревана (Приложение № 1 к решению № 1236-А)"
+- docs/reports/seo-2026-09.md: "Search Console and GA4 analysis for kanachyerevan.am with prioritised, file-level recommendations to improve search visibility."
+- docs/seo.md: "How to run the Search Console and GA4 analysis pipeline, where credentials live, and how to read the generated report."
