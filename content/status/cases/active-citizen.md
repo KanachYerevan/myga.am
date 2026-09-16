@@ -4,11 +4,16 @@ date = "2025-12-18"
 
 [extra]
 title = "Active Citizen: Greening Refused"
+seo_title = "Active Citizen platform: how to challenge a tree felling"
 description = "Active Citizen employees regularly refuse to replant previously felled trees. We are trying to understand the issue."
 status = "open"
 +++
 
 - Status: response received (26.12.2025), follow-up is being drafted.
+
+## What is the Active Citizen platform?
+
+[Active Citizen](https://activecitizen.yerevan.am/) is Yerevan Municipality's official online platform for residents' requests and complaints. Through it you can report a problem, ask for a tree to be planted or replaced, and track the official response. This page documents what happened when we used it to ask for felled trees to be restored — and why the platform's standard replies are not enough.
 
 In the autumn of 2025, supporters of Kanach Yerevan sent a series of requests to restore trees where they used to grow but were cut down for some reason. We are not discussing the reasons for the removal of the trees—we assume they were valid. The decision of the Council of Elders No. 36-N of 18.12.2009 states that in this case, the trees must be restored, which was not done.
 

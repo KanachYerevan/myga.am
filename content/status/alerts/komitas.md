@@ -5,6 +5,7 @@ date = "2026-03-27"
 [extra]
 icon = "🌳"
 type = "analysis"
+seo_title = "Komitas Avenue: stop the mass felling of mature elms"
 title = "Komitas Avenue proposal"
 description = "Our recommendation on how to proceed with the Komitas Avenue update to make it a model green space."
 status = "Published • March 2026"

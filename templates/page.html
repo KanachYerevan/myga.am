@@ -1,7 +1,7 @@
 {% extends "index.html" %}
 {% import "macros.html" as macros %}
 
-{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+{% block title %}{% if page.extra.seo_title %}{{ page.extra.seo_title }}{% elif page.title | length > 45 %}{{ page.title }}{% else %}{{ page.title }} — {{ config.title }}{% endif %}{% endblock %}
 
 {% block content %}
     <div class="post">

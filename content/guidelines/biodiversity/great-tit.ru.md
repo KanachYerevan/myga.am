@@ -7,6 +7,7 @@ aliases = ["ru/birds"]
 [extra]
 image = "images/parus-major-2.jpg"
 label = "Биологическая защита"
+seo_title = "Большая синица: как синичники помогают птицам Еревана"
 title = "Большая синица (Parus Major)"
 description = "Главный естественный враг дубовой минирующей моли."
 +++

@@ -4,6 +4,7 @@ description = "Профессиональное предложение по пр
 date = "2026-04-22"
 
 [extra]
+seo_title = "Пересмотр оценки стоимости деревьев и штрафов"
 category = "proposed"
 status = "proposal published"
 title = "Проект о штрафах"

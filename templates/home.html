@@ -3,7 +3,7 @@
 {% import "macros/bmp.html" as bmp %}
 {% import "macros/map.html" as map %}
 
-{% block title %}{{ section.title }}{% endblock %}
+{% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% else %}{{ section.title }}{% endif %}{% endblock %}
 
 {% block page_main %}
     <section class="home-splash">

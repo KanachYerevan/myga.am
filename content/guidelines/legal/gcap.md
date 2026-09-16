@@ -1,6 +1,6 @@
 +++
 title = "Green City Action Plan"
-description = "A strategy adopted in 2017 to improve Yerevan's environmental situation."
+description = "A 2017 strategy for Yerevan's environment: what it commits the city to, and what has actually changed since."
 date = "2025-12-22"
 
 [extra]

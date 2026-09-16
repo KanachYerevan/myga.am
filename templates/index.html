@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "macros/layout.html" as layout %}
 
-{% block title %}{{ section.title }} — {{ config.title }}{% endblock %}
+{% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% elif section.title | length > 45 %}{{ section.title }}{% else %}{{ section.title }} — {{ config.title }}{% endif %}{% endblock %}
 
 {% block page_body %}
     {% block header %}

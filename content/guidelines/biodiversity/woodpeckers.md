@@ -3,6 +3,7 @@ title = "Biological Pest Control via Syrian Woodpecker Population Enhancement"
 date = "2025-12-19"
 
 [extra]
+seo_title = "Syrian Woodpecker: natural pest control for Yerevan"
 label = "Biological Pest Control"
 title = "Syrian Woodpecker"
 description = "Primary predator of the flathead borers."

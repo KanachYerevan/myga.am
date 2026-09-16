@@ -1,6 +1,6 @@
 {% extends "index.html" %}
 
-{% block title %}{{ section.title }}{% endblock title %}
+{% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% else %}{{ section.title }}{% endif %}{% endblock title %}
 
 {% block content %}
 <div class="post">

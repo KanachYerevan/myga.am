@@ -1,0 +1,5 @@
+# Cloudflare Pages headers
+# Keep downloadable standards out of the search index so the HTML pages that
+# explain them keep the ranking and the visitors.
+/documents/*.pdf
+  X-Robots-Tag: noindex
