@@ -4,4 +4,4 @@ template = "section-monitor.html"
 aliases = ["hy/status/alerts", "hy/status/cases", "hy/status/passports"]
 +++
 
-Tracking the health of Yerevan's urban forest in real-time.
+Քաղաքի կանաչապատումը բազմաշերտ խնդիր է, որը ներառում է տարբեր ուղղություններ, որոնց միասնությունն էլ հանգեցնում է կայուն քաղաքային էկոհամակարգի ձևավորմանը: Այստեղ մենք հավաքել ենք հիմնական ուղղությունները, ներկայացրել, թե ինչու է դա կարևոր, և հետևում ենք ընթացիկ վիճակին:

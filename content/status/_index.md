@@ -4,4 +4,4 @@ template = "section-monitor.html"
 aliases = ["status/alerts", "status/cases", "status/passports"]
 +++
 
-Tracking the health of Yerevan's urban forest in real-time.
+Urban greening is a complex challenge comprising diverse initiatives that together build a sustainable urban ecosystem. Here, we outline the primary focus areas, explain their importance, and monitor current progress.
