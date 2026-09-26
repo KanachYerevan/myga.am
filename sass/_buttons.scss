@@ -23,6 +23,7 @@
     border: 1px solid transparent;
     padding: 0 30px;
     height: 50px;
+    white-space: nowrap;
 
     &.alert {
       background-color: red;
