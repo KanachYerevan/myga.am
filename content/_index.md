@@ -1,6 +1,6 @@
 +++
 title = "Kanach Yerevan"
-description = "Transforming discontent into systemic action. Professional standards, monitoring, and legal protection of urban flora."
+description = "A civic initiative dedicated to protecting urban trees and implementing modern care standards."
 template = "home.html"
 
 [extra]
