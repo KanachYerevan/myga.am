@@ -48,13 +48,13 @@ actions:
     hy: Actions
   links:
     - en:
-        link: /actions/
+        link: /action/mapping/
         title: Mapping
       ru:
-        link: /ru/action/
+        link: /ru/action/mapping/
         title: Картируй
       hy:
-        link: /hy/action/
+        link: /hy/action/mapping/
         title: Mapping
     - en:
         link: /action/report/
