@@ -6,7 +6,7 @@ date = "2026-01-21"
 
 Если вы видите пустую лунку на тротуаре — с пнем или без — и хотите, чтобы там росло здоровое новое дерево, мы поможем вам это осуществить.
 
-Читайте ниже, чтобы узнать, как работает этот процесс.
+Читайте дальше, чтобы узнать, как работает этот процесс.
 
 ![Отсутствующее дерево][1]
 
@@ -51,5 +51,5 @@ date = "2026-01-21"
 </div>
 
 [1]: /images/actions/replant.jpg
-[2]: https://yerevan.treemaps.app/map?q=gone
+[2]: https://yerevan.treemaps.app/search/results?query=state:gone
 [3]: /guidelines/legal/proactive-greening-draft/

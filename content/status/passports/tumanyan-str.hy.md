@@ -17,4 +17,4 @@ title = "Թումանյան փող."
 Այս զեկույցում օգտագործվել են կամավորների կողմից [Trees of Yerevan][2] հավելվածի միջոցով հավաքագրված տվյալները։
 
 [1]: /documents/Kanach-Report-Tumanyan-street.pdf
-[2]: https://yerevan.treemaps.app/map?q=addr:%22Tumanyan%20street%22
+[2]: https://yerevan.treemaps.app/search/results?query=addr:%22Tumanyan%20street%22

@@ -17,4 +17,4 @@ title = "Ул. Туманяна"
 В этом отчете используются данные, собранные волонтерами с помощью приложения [Trees of Yerevan][2].
 
 [1]: /documents/Kanach-Report-Tumanyan-street.pdf
-[2]: https://yerevan.treemaps.app/map?q=addr:%22Tumanyan%20street%22
+[2]: https://yerevan.treemaps.app/search/results?query=addr:%22Tumanyan%20street%22

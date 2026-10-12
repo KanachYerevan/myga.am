@@ -17,4 +17,4 @@ The report highlights a critical strategic error: the substitution of one monocu
 This report uses the data collected by volunteers using the [Trees of Yerevan][2] application.
 
 [1]: /documents/Kanach-Report-Tumanyan-street.pdf
-[2]: https://yerevan.treemaps.app/map?q=addr:%22Tumanyan%20street%22
+[2]: https://yerevan.treemaps.app/search/results?query=addr:%22Tumanyan%20street%22
