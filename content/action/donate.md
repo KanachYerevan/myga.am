@@ -37,7 +37,7 @@ Please contact us using [telegram][7] or by email <hex@umonkey.net> for shipping
 
 For local supporters, a convenient option is to order items via [Wildberries][11] to a designated pick-up point and forward us the QR code for collection.
 
-[1]: https://yerevan.tremaps.app/
+[1]: https://yerevan.treemaps.app/
 [6]: https://www.ardusimple.com/product/rtk-base-rover-calibrated-surveyor-kit/
 [7]: https://t.me/make_yerevan_green_again
 [8]: https://www.wildberries.am/catalog/0/search.aspx?search=%D1%81%D0%B5%D0%BC%D0%B5%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%B2%D1%80%D0%B8%D1%82%D0%B0%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B3%D0%B0%D0%B7%D0%BE%D0%BD
