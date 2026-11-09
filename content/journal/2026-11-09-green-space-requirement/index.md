@@ -145,4 +145,4 @@ When discussing urban greening in Yerevan, we should set aside the 9-square-mete
 
 The question that matters is practical: can an older resident or a child walk five minutes from home and sit under the shade of healthy trees? That is a clear, constructive standard that every neighborhood can work toward.
 
-*This analysis was prepared for Kanach Yerevan using open geographic data verified against satellite imagery and field checks.*
+*This analysis was prepared for Kanach Yerevan using open geographic data from OpenStreetMap and public reports.*
