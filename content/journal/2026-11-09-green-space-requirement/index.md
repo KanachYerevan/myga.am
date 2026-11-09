@@ -134,7 +134,7 @@ It is easy to assume that dense neighborhoods simply have no space left for new 
 
 Improving neighborhood green space does not require confrontation. It requires clear, polite communication supported by documented facts. District and municipal offices are far more responsive when requests cite specific locations and standards:
 
-- **Propose park spaces when garages are cleared.** When unauthorized garages are removed near your building, submit a written proposal to your district administration (_taghapetaran_) and the city via [e-request.am](https://e-request.am). Ask that adjacent cleared spaces be connected into a green park with shade trees and benches, rather than paved exclusively for vehicles or fenced courts.
+- **Propose park spaces when garages are cleared.** When unauthorized garages are removed near your building, submit a written proposal to your district administration (_taghapetaran_) and the city via [e-request.am](https://e-request.am). Ask that the adjacent cleared yards be turned into one green park with shade trees and benches, with playgrounds and sports courts placed inside it rather than one in each yard.
 
 - **Inquire about blocked public spaces.** If a mapped public park in your area is fenced off, locked, or restricted, take a clear photo and send an inquiry through [e-request.am](https://e-request.am) asking about its public access status.
 
