@@ -5,7 +5,7 @@ According to the World Health Organization, a city needs at least 9 square meter
 
 Nine is presented as the bare minimum. Above that sits the ideal target: 20 to 50 square meters per person, which is widely cited as the international standard for a healthy city.
 
-Yerevan's master plan reports 8.3 square meters per resident—just short of that baseline. In its official Green City Action Plan, the city set a target to cross 10 square meters per resident by 2030, with flagship projects like the 230-hectare Dalma Gardens park and hillside afforestation intended to close the gap. On paper, when these large parcels are added, the math works out, the target is reached, and the city looks green.
+Yerevan's master plan reports 8.4 square meters per resident—just short of that baseline. In its official Green City Action Plan, the city set a target to cross 10 square meters per resident by 2030, with flagship projects like the 230-hectare Dalma Gardens park and hillside afforestation intended to close the gap. On paper, when these large parcels are added, the math works out, the target is reached, and the city looks green.
 
 ![slide](20261021_170846.jpg)
 
@@ -91,9 +91,13 @@ Then, we drew a 300-meter boundary around each park to measure how much of the d
 
 Across the entire city, only **13.5% of Yerevan's land** sits within a 300-meter walk of a public park of at least half a hectare. Nearly 87% of the city has no qualifying park nearby.
 
+![Arabkir map](arabkir.jpg)
+
+> Park accessibility in Arabkir district.  Data from OpenStreetMap.
+
 **An important note:** These calculations measure straight lines on a map. In reality, human beings rarely fly. When pedestrians must walk around long walls, navigate broken steps, or make detours because there is no safe street crossing, the actual walking distance is much longer. These figures are therefore optimistic; the real walking situation on the ground is more restricted.
 
-In Kentron, more than half the land is near a park. But in Shengavit and Erebuni—where tens of thousands of families live—coverage falls below 5%. In Norq Marash, there is no qualifying public park at all. Relying on an official citywide average of 8.3 square meters per person does not reflect the reality of these neighborhoods.
+In Kentron, more than half the land is near a park. But in Shengavit and Erebuni—where tens of thousands of families live—coverage falls below 5%. In Norq Marash, there is no qualifying public park at all. Relying on an official citywide average of 8.4 square meters per person does not reflect the reality of these neighborhoods.
 
 ![Slide: basic information](20261021_171336.jpg)
 
