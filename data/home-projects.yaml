@@ -17,43 +17,43 @@ title:
   hy: "Ընթացիկ նախագծեր"
 
 intro:
-  en: "These are some of the projects we are running now or planning to start soon. Everyone is welcome to join them — or to support them in other ways."
-  ru: "Это некоторые из проектов, которые мы ведём сейчас или готовим к запуску в ближайшее время. Присоединиться может каждый — или поддержать их другим способом."
-  hy: "Սրանք այն նախագծերից են, որոնք ընթանում են հիմա կամ շուտով կսկսվեն։ Միանալ կամ այլ կերպ աջակցել կարող է յուրաքանչյուրը։"
+  en: "Here are some of the projects we are working on right now or launching soon. Everyone is welcome to join our team or support our work in other ways."
+  ru: "Вот проекты, над которыми мы работаем прямо сейчас или которые запустим в ближайшее время. Вы можете присоединиться к нашей команде или поддержать нас любым удобным способом."
+  hy: "Ահա այն նախագծերը, որոնց վրա աշխատում ենք հենց հիմա կամ պատրաստվում ենք սկսել առաջիկայում։ Յուրաքանչյուր ոք կարող է միանալ մեզ կամ աջակցել որևէ այլ կերպ։"
 
 items:
   - link: "@/action/mapping.md"
     content:
       ru:
         title: "Карта деревьев"
-        description: "Добавляйте деревья рядом с собой через наше мобильное приложение и следите за ними. Отмечайте все изменения и наблюдайте, как деревья растут: эти данные помогают нам понимать состояние зелёного фонда и планировать, где нужна помощь."
+        description: "Наносите деревья своего района на карту через наше приложение и следите за их состоянием. Фиксируйте любые изменения: эти данные помогают нам оценивать здоровье зелёного фонда Еревана и вовремя приходить на помощь."
       en:
         title: "Tree Map"
-        description: "Use our mobile app to add trees around you and keep an eye on them. Log every change and watch how trees grow — this data helps us understand the state of the urban canopy and plan where involvement is needed."
+        description: "Use our mobile app to map trees in your neighborhood and keep track of them. By logging changes, you help us monitor the health of Yerevan's urban canopy and direct care where it is needed most."
       hy:
         title: "Ծառերի քարտեզ"
-        description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ Այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
+        description: "Գրանցեք ձեր թաղամասի ծառերը մեր բջջային հավելվածով և հետևեք դրանց վիճակին։ Նշեք ցանկացած փոփոխություն. այս տվյալներն օգնում են մեզ գնահատել Երևանի կանաչ ֆոնդի առողջությունն ու տեսնել, թե որտեղ է օգնությունն առավել անհրաժեշտ։"
 
   - link: "@/guidelines/_index.md"
     content:
       ru:
         title: "Модельная улица"
-        description: "Делаем одну небольшую улицу образцовой: новые посадки, гнездовые домики и другие интересные методы — вдобавок ко всем щадящим приёмам ухода, доступным обычным жителям. Первый этап уже идёт в Арабкире."
+        description: "Превращаем одну из небольших улиц в образец для всего города: высаживаем новые растения, вешаем домики для птиц и показываем бережные приёмы ухода, доступные каждому жителю. Первые работы уже идут в Арабкире."
       en:
-        title: "Model street"
-        description: "We are making one small street exemplary with new plantings, nesting boxes and other interesting methods, on top of every non-destructive care technique available to ordinary residents. The first sprint is under way in Arabkir."
+        title: "Model Street"
+        description: "We are turning a quiet neighborhood street into a green model for the whole city: planting new greenery, installing bird nesting boxes, and showcasing gentle care techniques any resident can practice. Work on the first pilot is already under way in Arabkir."
       hy:
         title: "Օրինակելի փողոց"
-        description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ նոր տնկարկներ, բնադրատուփեր և այլ հետաքրքիր մեթոդներ, ի լրումն սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդների։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
+        description: "Երևանի փոքր փողոցներից մեկը վերածում ենք օրինակելիի՝ նոր տնկիներով, բնադրատուփերով և ծառերի խնամքի այնպիսի հոգատար միջոցներով, որոնք հասանելի են յուրաքանչյուր բնակչի։ Առաջին աշխատանքներն արդեն ընթանում են Արաբկիրում։"
 
   - link: "@/action/replant/index.md"
     content:
       ru:
-        title: "Сервис для приствольных лунок"
-        description: "Изучаем варианты мульчирования и сочетания растений, исходя из того, что реально доступно на месте, а затем популяризируем найденные решения в брошюре."
+        title: "Обустройство приствольных лунок"
+        description: "Подбираем удачные сочетания растений и способы мульчирования из доступных в Ереване материалов, а затем выпустим простое и наглядное руководство для горожан."
       en:
-        title: "Tree Pit Service"
-        description: "We are looking at mulching options and plant combinations that fit what is actually available locally, and will then popularise the solutions in a brochure."
+        title: "Greening Tree Pits"
+        description: "We are testing mulching methods and plant combinations using materials readily available in Yerevan, and will share the best practical solutions in a field guide for residents."
       hy:
-        title: "Ծառափոսերի ծառայություն"
-        description: "Ուսումնասիրում ենք ցանքածածկման տարբերակներ և բույսերի զուգակցումներ՝ հաշվի առնելով, թե ինչ է իրականում հասանելի տեղում, ապա բրոշյուրի միջոցով տարածում ենք գտնված լուծումները։"
+        title: "Ծառափոսերի բարեկարգում"
+        description: "Փորձարկում ենք մուլչապատման տարբերակներ և բույսերի համադրություններ՝ օգտագործելով տեղում հասանելի նյութերը, իսկ լավագույն լուծումները կներկայացնենք բնակիչների համար նախատեսված գործնական ուղեցույցում։"

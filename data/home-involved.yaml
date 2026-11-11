@@ -11,7 +11,7 @@
 
 title:
   en: "Get Involved"
-  ru: "Как участвовать"
+  ru: "Как помочь"
   hy: "Ինչպես մասնակցել"
 
 items:
@@ -19,70 +19,70 @@ items:
     content:
       ru:
         title: "Сообщите о проблеме"
-        description: "У деревьев нет ни глаз, ни интернета. Если вы видите что-то неладное — сломанный ствол, подозрительную обрезку, новую посадку — сообщите нам. Вы их единственная надежда."
+        description: "Деревья не могут позвать на помощь сами. Если вы заметили сломанный ствол, варварскую обрезку или сомнительные работы — дайте нам знать: защитить городские деревья можем только мы с вами."
       en:
         title: "Report a problem"
-        description: "Trees have no eyes and no internet. If you see something wrong — a broken trunk, suspicious pruning, fresh planting — report it. You are their only hope."
+        description: "Trees cannot speak or ask for help. If you spot a broken trunk, aggressive pruning, or suspicious felling, let us know — urban trees rely on residents to protect them."
       hy:
         title: "Հայտնեք խնդրի մասին"
-        description: "Ծառերը ոչ աչքեր ունեն, ոչ էլ ինտերնետ։ Եթե ինչ-որ բան այնպես չէ՝ կոտրված բուն, կասկածելի էտ, նոր տնկում, հայտնեք մեզ։ Դուք նրանց միակ հույսն եք։"
+        description: "Ծառերն ինքնուրույն չեն կարող օգնություն կանչել։ Եթե նկատել եք կոտրված բուն, անհասկանալի էտ կամ կասկածելի աշխատանքներ, տեղեկացրեք մեզ. քաղաքի ծառերին պաշտպանել կարող ենք միայն մենք։"
 
   - link: "@/action/replant/index.md"
     content:
       ru:
-        title: "Посадите что-нибудь"
-        description: "Каждый житель может посадить что угодно — от пучка травы до большого дерева. Мы рассказываем, как сделать это правильно: какие породы подходят, какой саженец брать, как сажать и как выходить его в первые годы."
+        title: "Посадите дерево или цветник"
+        description: "Озеленить свой двор или улицу под силу каждому — от небольшого цветника до полноценного дерева. Мы подскажем, как сделать всё правильно: какие породы выбрать, где найти здоровый саженец, как его посадить и выходить."
       en:
-        title: "Plant something"
-        description: "Every resident can plant something, from a patch of grass to a big tree. We describe how to do it the right way: which species fit, what to buy, how to plant and how to keep it alive."
+        title: "Plant a tree or garden"
+        description: "Anyone can help green their street or courtyard, from a small flowerbed to a full-grown shade tree. We guide you through choosing suitable species, picking healthy saplings, planting, and early care."
       hy:
-        title: "Տնկեք ինչ-որ բան"
-        description: "Յուրաքանչյուր բնակիչ կարող է տնկել ինչ ցանկանա՝ խոտի կտորից մինչև մեծ ծառ։ Մենք բացատրում ենք, թե ինչպես դա անել ճիշտ՝ որ տեսակներն են պիտանի, ինչ տնկի ընտրել, ինչպես տնկել և ինչպես խնամել առաջին տարիներին։"
+        title: "Տնկեք ծառ կամ ծաղիկներ"
+        description: "Յուրաքանչյուր ոք կարող է կանաչապատել իր շրջապատը՝ փոքր ծաղկանոցից մինչև ստվարաստվեր ծառ։ Մենք կհուշենք, թե ինչպես դա ճիշտ անել՝ որ տեսակներն ընտրել, ինչպիսի տնկի գնել, ինչպես տնկել և խնամել։"
 
   - link: "@/journal/2025-11-16-acorns/index.md"
     content:
       ru:
-        title: "Посадите что-нибудь дикое"
-        description: "Как собрать семена и посеять их на пустырях и других пустых местах вдали от главных улиц. Мы проверили «беличий метод» на жёлудях — вот что для этого нужно."
+        title: "Посейте деревья из семян"
+        description: "Как собрать семена местных деревьев и посеять их на склонах и пустырях вдали от шумных улиц. Мы проверили «беличий метод» на желудях и делимся подробной инструкцией."
       en:
-        title: "Plant something wild"
-        description: "Collect seeds and sow them on wastelands and other empty ground away from the main streets. We tested the squirrel method with acorns — here is what it takes."
+        title: "Grow trees from seed"
+        description: "How to collect native seeds and sow them on hillsides and vacant land away from busy streets. We tested the 'squirrel method' with acorns — here is everything you need to know."
       hy:
-        title: "Տնկեք վայրի բան"
-        description: "Ինչպես հավաքել սերմեր և ցանել դրանք անմշակ տարածքներում ու այլ դատարկ վայրերում՝ գլխավոր փողոցներից հեռու։ Մենք փորձարկել ենք «սկյուռի մեթոդը» կաղիններով։ ահա թե ինչ է պետք դրա համար։"
+        title: "Ծառեր աճեցրեք սերմերից"
+        description: "Ինչպես հավաքել տեղական ծառերի սերմերն ու ցանել դրանք լանջերին և ամայի տարածքներում։ Մենք կաղիններով փորձարկել ենք «սկյուռի մեթոդը» և կիսվում ենք մանրամասն ուղեցույցով։"
 
   - link: "@/guidelines/biodiversity/great-tit.md"
     content:
       ru:
-        title: "Повесьте гнездовой домик"
-        description: "Домик помогает птицам вывести птенцов, а птицы потом сдерживают вредителей. Где его вешать, как закрепить, не повредив ствол, и как сделать своими руками."
+        title: "Повесьте домик для птиц"
+        description: "Домик помогает городским птицам безопасно вывести птенцов, а они взамен защищают деревья от вредителей. Рассказываем, где повесить синичник, как закрепить его без вреда для ствола и как сделать домик своими руками."
       en:
-        title: "Install a nesting box"
-        description: "A nest box helps birds raise their young, and those birds then keep tree pests in check. Where to hang it, how to fix it without damaging the trunk, and how to build one yourself."
+        title: "Put up a bird box"
+        description: "A nest box gives urban birds a safe place to raise their chicks, and in return they protect trees from pests. Here is where to hang it, how to attach it safely to a trunk, and how to build one yourself."
       hy:
-        title: "Կախեք բնադրատուփ"
-        description: "Բնադրատուփն օգնում է թռչուններին ձագեր հանել, իսկ թռչուններն էլ հետո զսպում են վնասատուներին։ Որտեղ կախել, ինչպես ամրացնել՝ չվնասելով բունը, և ինչպես ինքնաշեն տուփ պատրաստել։"
+        title: "Տեղադրեք թռչնաբույն"
+        description: "Բնադրատուփն օգնում է քաղաքային թռչուններին ապահով ձագեր մեծացնել, իսկ նրանք պաշտպանում են ծառերը վնասատուներից։ Որտեղ տեղադրել այն, ինչպես ամրացնել՝ առանց բունը վնասելու, և ինչպես պատրաստել սեփական ձեռքերով։"
 
   - link: "@/status/birds/index.md"
     content:
       ru:
         title: "Повесьте домик для летучих мышей"
-        description: "То же самое, но для летучих мышей: домик на дереве или стене даёт им убежище, а колония съедает огромное количество ночных насекомых."
+        description: "Домик на дереве или стене даёт рукокрылым надёжное убежище, а небольшая колония летучих мышей за ночь уничтожает тысячи комаров и вредных насекомых."
       en:
         title: "Install a bat box"
-        description: "The same idea, for bats: a box on a tree or a wall gives them a roost, and a colony eats a remarkable amount of night-flying insects."
+        description: "A shelter on a tree or sunny wall provides safe roosting for bats, whose colonies naturally devour thousands of mosquitoes and garden pests each night."
       hy:
-        title: "Կախեք չղջիկների տուփ"
-        description: "Նույնը՝ չղջիկների համար։ ծառի կամ պատի վրա ամրացված տուփը նրանց ապաստան է տալիս, իսկ գաղութը հսկայական քանակությամբ գիշերային միջատներ է ուտում։"
+        title: "Տեղադրեք չղջիկների տուփ"
+        description: "Ծառի կամ պատի վրա ամրացված տուփը չղջիկներին հուսալի ապաստան է տալիս, իսկ նրանց գաղութը գիշերը ոչնչացնում է հազարավոր մոծակներ և վնասատու միջատներ։"
 
   - link: "@/about/directory.md"
     content:
       ru:
         title: "Где стать волонтёром"
-        description: "Список дружественных организаций, которые проводят посадки, уборки и другие зелёные события и всегда рады волонтёрам."
+        description: "Список инициатив и сообществ Еревана, которые высаживают деревья, проводят субботники и всегда рады волонтёрам."
       en:
         title: "Where to volunteer"
-        description: "A list of friendly organizations that run planting days, clean-ups and other green events — and are always glad to have volunteers."
+        description: "A directory of local groups and grassroots initiatives in Yerevan that run tree plantings and clean-ups — and are always happy to welcome volunteers."
       hy:
         title: "Որտեղ կամավորագրվել"
-        description: "Ընկերական կազմակերպությունների ցանկ, որոնք տնկումներ, մաքրումներ և այլ կանաչ միջոցառումներ են անցկացնում և միշտ ուրախ են կամավորներին։"
+        description: "Երևանի այն նախաձեռնություններն ու խմբերը, որոնք ծառատունկեր և շաբաթօրյակներ են կազմակերպում ու միշտ ուրախ են նոր կամավորների։"
