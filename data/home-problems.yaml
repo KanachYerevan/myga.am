@@ -3,7 +3,7 @@
 # One item per card, in the order given here.
 # "link" is a Zola internal path (@/...), so get_url resolves the translation
 # for the active language and one entry serves all three languages.
-# "content" holds the row title and teaser, which are editorial copy and are
+# "content" holds the card title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
 # The heading ("title"), the optional intro and the items are all here, so the
@@ -17,55 +17,55 @@ title:
   hy: "Կարո՞ղ է Երևանն ավելի կանաչ լինել։"
 
 intro:
-  ru: "Мы проанализировали ситуацию и выделили главные проблемы, которые мешают Еревану стать самым зелёным городом региона. Читайте об этих проблемах, о том, как их решают в мире, и о том, что Ереван может сделать, чтобы их преодолеть."
   en: "We have analysed the situation and identified the core problems that prevent Yerevan from becoming the greenest city in the region. Read about these problems, how they are dealt with worldwide, and what Yerevan can do to solve them."
+  ru: "Мы проанализировали ситуацию и выделили главные проблемы, которые мешают Еревану стать самым зелёным городом региона. Читайте об этих проблемах, о том, как их решают в мире, и о том, что Ереван может сделать, чтобы их преодолеть."
   hy: "Մենք վերլուծել ենք իրավիճակը և առանձնացրել ենք հիմնական խնդիրները, որոնք խանգարում են Երևանին դառնալ տարածաշրջանի ամենականաչ քաղաքը։ Կարդացեք այս խնդիրների մասին, թե ինչպես են դրանք լուծում աշխարհում, և թե ինչ կարող է անել Երևանը դրանք լուծելու համար։"
 
 items:
   - link: "@/journal/2026-11-09-green-space-requirement/index.md"
     content:
-      ru:
-        title: "Мало зелени и парков"
-        description: "Лишь около 13% Еревана находится в пешей доступности от общественного парка — это далеко от рекомендаций ВОЗ. Городу нужна широкая сеть небольших доступных парков в каждом районе, а не несколько крупных объектов."
       en:
-        title: "Poor green area coverage"
-        description: "Only about 13% of Yerevan lies within a short walk of a public park, far short of what the WHO recommends. The city needs a wider network of small, accessible parks in every district, not a handful of large destinations."
+        title: "Canopy coverage"
+        description: "Tree canopy is thin over most of Yerevan, and only about 13% of the city lies within a short walk of a public park, far short of what the WHO recommends. The city needs a wider network of small, accessible green spaces in every district, not a handful of large destinations."
+      ru:
+        title: "Покрытие кронами"
+        description: "Кроны деревьев покрывают лишь малую часть Еревана, а в пределах 300 метров от общественного парка находится лишь около 13% территории города — это далеко от рекомендаций ВОЗ. Городу нужна широкая сеть небольших доступных зелёных пространств в каждом районе, а не несколько крупных объектов."
       hy:
-        title: "Կանաչ տարածքների պակաս"
-        description: "Երևանի միայն մոտ 13%-ն է հասարակական այգուց կարճ քայլելու հեռավորության վրա, ինչը հեռու է ԱՀԿ առաջարկներից։ Քաղաքին պետք է փոքր, հասանելի այգիների լայն ցանց յուրաքանչյուր շրջանում, այլ ոչ թե մի քանի խոշոր օբյեկտ։"
+        title: "Սաղարթի ծածկույթ"
+        description: "Երևանի մեծ մասում ծառերի սաղարթը նոսր է, և քաղաքի տարածքի ընդամենը մոտ 13%-ն է գտնվում հանրային այգուց 300 մետրի սահմաններում, ինչը հեռու է ԱՀԿ առաջարկներից։ Քաղաքին պետք է փոքր, հասանելի կանաչ տարածքների լայն ցանց յուրաքանչյուր շրջանում, այլ ոչ թե մի քանի խոշոր օբյեկտ։"
 
   - link: "@/status/code/index.md"
     content:
-      ru:
-        title: "Устаревшие стандарты ухода"
-        description: "За деревьями по-прежнему ухаживают по советским нормам, устаревшим на десятилетия. Качество обрезки катастрофическое, почвой никто не занимается, а письменных стандартов не существует. Пора принять действующие кодексы — ANSI A300 и EAC."
       en:
-        title: "Poor management standards"
-        description: "Tree care still follows Soviet norms that are decades out of date. Pruning quality is a disaster and soil is not managed at all; written standards do not exist. Established codes such as ANSI A300 and EAC should be adopted."
+        title: "Management standards"
+        description: "Pruning and planting quality are a disaster, soil is left unmanaged, the management personnel are mostly unqualified, and written standards do not exist. Established international tree care codes should be adopted."
+      ru:
+        title: "Стандарты ухода"
+        description: "Качество обрезки и посадки катастрофическое, почвой никто не занимается, персонал зелёного хозяйства в большинстве своём не имеет квалификации, а письменных норм не существует. Пора принять действующие международные кодексы ухода за деревьями."
       hy:
-        title: "Խնամքի հնացած չափորոշիչներ"
-        description: "Ծառերի խնամքը դեռ կատարվում է տասնամյակներով հնացած խորհրդային նորմերով։ Էտի որակը աղետալի է, հողով ընդհանրապես չեն զբաղվում, իսկ գրավոր չափորոշիչներ չկան։ Պետք է ընդունել գործող կանոնագրերը՝ ANSI A300 և EAC։"
+        title: "Խնամքի չափորոշիչներ"
+        description: "Էտի և տնկման որակը աղետալի է, հողով ոչ ոք չի զբաղվում, կանաչ տնտեսության աշխատակազմի մեծ մասը որակավորում չունի, իսկ գրավոր չափորոշիչներ չկան։ Պետք է ընդունել ծառերի խնամքի գործող միջազգային կանոնագրերը։"
 
   - link: "@/status/council/index.md"
     content:
-      ru:
-        title: "Непрозрачные решения"
-        description: "Стандарты, если они вообще есть, скрыты от людей. Снос деревьев и крупные проекты случаются внезапно, за одну ночь. Общественность не участвует, хотя должна; процесс нужно сделать прозрачным и открытым."
       en:
-        title: "Poor transparency"
-        description: "The management standards, where they exist, are hidden. Felling and larger projects happen overnight as a surprise. The public is not involved, although it should be; the process must be made transparent and open."
+        title: "Transparency"
+        description: "Felling and larger projects happen overnight as a surprise, and the standards behind them stay hidden. The public is not involved in decision making, although it should be; the process must be made transparent and open."
+      ru:
+        title: "Прозрачность"
+        description: "Снос деревьев и крупные проекты случаются внезапно, за одну ночь, а нормы, на которых они основаны, скрыты. Общественность не участвует в принятии решений, хотя должна; процесс нужно сделать прозрачным и открытым."
       hy:
-        title: "Ոչ թափանցիկ որոշումներ"
-        description: "Չափորոշիչները, եթե նույնիսկ գոյություն ունեն, թաքցված են։ Ծառերի հատումն ու խոշոր նախագծերը տեղի են ունենում հանկարծակի՝ մեկ գիշերվա ընթացքում։ Հասարակությունը ներգրավված չէ, թեև պետք է լինի։ գործընթացը պետք է դարձնել թափանցիկ և բաց։"
+        title: "Թափանցիկություն"
+        description: "Ծառերի հատումն ու խոշոր նախագծերը տեղի են ունենում հանկարծակի՝ մեկ գիշերվա ընթացքում, իսկ դրանց հիմքում ընկած չափորոշիչները թաքցված են։ Հասարակությունը ներգրավված չէ որոշումների կայացմանը, թեև պետք է լինի։ Գործընթացը պետք է դարձնել թափանցիկ և բաց։"
 
   - link: "@/status/participation/index.md"
     content:
-      ru:
-        title: "Жители в стороне"
-        description: "Посадить дерево на улице технически можно, но процедура непонятна и требует общения с администрацией — слишком высокий барьер. Зелёным хозяйством управляют как неформальной монополией. Город должен опубликовать инструкцию о том, что жители могут делать без его разрешения."
       en:
-        title: "Poor resident involvement"
-        description: "Planting a tree on a street is technically possible, but the procedure is obscure and requires dealing with the administration — a high barrier. Green space is run as an informal monopoly. The city should publish instructions on what residents can do without its approval."
+        title: "Resident involvement"
+        description: "Planting a street tree is technically possible, but the procedure is obscure. Green space is run as an informal monopoly. There should be clear instructions on what residents may do without the city's approval."
+      ru:
+        title: "Участие жителей"
+        description: "Посадить дерево на улице технически можно, но процедура непонятна. Зелёным хозяйством управляют как неформальной монополией. Должна быть понятная инструкция о том, что жители могут делать без разрешения города."
       hy:
-        title: "Բնակիչների ներգրավվածության պակաս"
-        description: "Փողոցում ծառ տնկելը տեխնիկապես հնարավոր է, բայց ընթացակարգը մշուշոտ է և պահանջում է շփում վարչակազմի հետ՝ բարձր արգելք։ Կանաչ տարածքները կառավարվում են որպես ոչ պաշտոնական մենաշնորհ։ Քաղաքը պետք է հրապարակի ուղեցույց, թե ինչ կարող են բնակիչները անել առանց իր թույլտվության։"
+        title: "Բնակիչների ներգրավվածություն"
+        description: "Փողոցում ծառ տնկելը տեխնիկապես հնարավոր է, բայց ընթացակարգը մշուշոտ է։ Կանաչ տարածքները կառավարվում են որպես ոչ պաշտոնական մենաշնորհ։ Պետք է լինի հստակ ուղեցույց, թե ինչ կարող են բնակիչները անել առանց քաղաքի թույլտվության։"

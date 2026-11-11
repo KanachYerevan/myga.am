@@ -1,12 +1,12 @@
 ---
 title: "Reporting unusual activity"
-description: "Instructions on how to report broken trees, new plantings, or other unusual activity in Yerevan."
-summary: "Instructions on how to report broken trees, new plantings, or other unusual activity in Yerevan via Telegram."
+description: "Instructions on how to report broken trees, trenching, bark damage, felling notices, or other unusual activity in Yerevan."
+summary: "Instructions on how to report broken trees, trenching, bark damage, felling notices, or other unusual activity in Yerevan via Telegram."
 aliases: ["report"]
 date: "2025-11-24"
 ---
 
-If you notice any unusual activity regarding trees in Yerevan—such as broken or sick trees, suspicious pruning, or new trees being planted—please let us know! Simply send us a message, and we will handle the situation or guide you on the next steps.
+If you notice any unusual activity regarding trees in Yerevan—such as broken or sick trees, suspicious pruning, trenching, bark damage, or a felling notification—please let us know! Simply send us a message, and we will handle the situation or guide you on the next steps.
 
 You can report in two ways:
 

@@ -6,13 +6,20 @@
 # "content" holds the row title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
-# The heading ("title") and the items are both here, so the block owns
-# everything it renders; the position on the page is set in templates/home.html.
+# The heading ("title"), the optional intro and the items are all here, so the
+# block owns everything it renders; the position on the page is set in
+# templates/home.html. "intro" is one short paragraph above the list, rendered
+# only when present; it is plain text, so it cannot contain Markdown links.
 
 title:
   en: "Current Projects"
   ru: "Текущие проекты"
   hy: "Ընթացիկ նախագծեր"
+
+intro:
+  en: "These are some of the projects we are running now or planning to start soon. Everyone is welcome to join them — or to support them in other ways."
+  ru: "Это некоторые из проектов, которые мы ведём сейчас или готовим к запуску в ближайшее время. Присоединиться может каждый — или поддержать их другим способом."
+  hy: "Սրանք այն նախագծերից են, որոնք ընթանում են հիմա կամ շուտով կսկսվեն։ Միանալ կամ այլ կերպ աջակցել կարող է յուրաքանչյուրը։"
 
 items:
   - link: "@/action/mapping.md"
@@ -25,28 +32,28 @@ items:
         description: "Use our mobile app to add trees around you and keep an eye on them. Log every change and watch how trees grow — this data helps us understand the state of the urban canopy and plan where involvement is needed."
       hy:
         title: "Ծառերի քարտեզ"
-        description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
+        description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ Այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
 
   - link: "@/guidelines/_index.md"
     content:
       ru:
         title: "Модельная улица"
-        description: "Делаем одну небольшую улицу образцовой, применяя все известные щадящие методы ухода, доступные обычным жителям. Первый этап уже идёт в Арабкире."
+        description: "Делаем одну небольшую улицу образцовой: новые посадки, гнездовые домики и другие интересные методы — вдобавок ко всем щадящим приёмам ухода, доступным обычным жителям. Первый этап уже идёт в Арабкире."
       en:
         title: "Model street"
-        description: "We are making one small street exemplary by applying every non-destructive care method available to ordinary residents. The first sprint is under way in Arabkir."
+        description: "We are making one small street exemplary with new plantings, nesting boxes and other interesting methods, on top of every non-destructive care technique available to ordinary residents. The first sprint is under way in Arabkir."
       hy:
         title: "Օրինակելի փողոց"
-        description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ կիրառելով սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդները։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
+        description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ նոր տնկարկներ, բնադրատուփեր և այլ հետաքրքիր մեթոդներ, ի լրումն սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդների։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
 
   - link: "@/action/replant/index.md"
     content:
       ru:
         title: "Сервис для приствольных лунок"
-        description: "Готовим брошюру о том, как превратить небольшую лунку у дерева в живую и ухоженную: какие есть варианты и что реально может сделать житель."
+        description: "Изучаем варианты мульчирования и сочетания растений, исходя из того, что реально доступно на месте, а затем популяризируем найденные решения в брошюре."
       en:
         title: "Tree Pit Service"
-        description: "We are preparing a brochure that shows the available options for making a small tree pit thrive."
+        description: "We are looking at mulching options and plant combinations that fit what is actually available locally, and will then popularise the solutions in a brochure."
       hy:
         title: "Ծառափոսերի ծառայություն"
-        description: "Պատրաստում ենք բրոշյուր, որը ցույց կտա, թե ինչ հնարավորություններ կան փոքր ծառափոսը կենսունակ դարձնելու համար։"
+        description: "Ուսումնասիրում ենք ցանքածածկման տարբերակներ և բույսերի զուգակցումներ՝ հաշվի առնելով, թե ինչ է իրականում հասանելի տեղում, ապա բրոշյուրի միջոցով տարածում ենք գտնված լուծումները։"
