@@ -36,12 +36,15 @@
 
   Every block carries its own heading in its data file, so templates/home.html
   only decides which block goes where.
+
+  Each block is an <article class="home-block">, and the whole set sits inside
+  one <section class="home"> in templates/home.html.
 #}
 
 {% macro file_list(id, path, lang) %}
     {% set data = load_data(path=path) %}
 
-    <section class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+    <article class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
         <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
 
         {% if data.intro %}
@@ -59,13 +62,13 @@
                 </a>
             {% endfor %}
         </div>
-    </section>
+    </article>
 {% endmacro %}
 
 {% macro card_grid(id, path, lang) %}
     {% set data = load_data(path=path) %}
 
-    <section class="home-block home-cards" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+    <article class="home-block home-cards" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
         <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
 
         {% if data.intro %}
@@ -84,13 +87,13 @@
                 </a>
             {% endfor %}
         </div>
-    </section>
+    </article>
 {% endmacro %}
 
 {% macro prose(id, path, lang) %}
     {% set data = load_data(path=path) %}
 
-    <section class="home-block home-prose" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+    <article class="home-block home-prose" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
         <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
 
         <div class="prose-text">
@@ -113,5 +116,5 @@
                 </p>
             {% endif %}
         </div>
-    </section>
+    </article>
 {% endmacro %}

@@ -8,7 +8,7 @@
     <section class="home-splash">
         <div class="container">
             <div class="content">
-                <h1>{{ section.title | safe }}</h1>
+                <h1 id="home-title">{{ section.title | safe }}</h1>
                 <p class="description">{{ section.description | safe }}</p>
 
                 <div class="button-bar">
@@ -22,22 +22,25 @@
     </section>
 
     <main class="container">
-        {# Blocks are placed one call at a time, so other kinds of block can go
-           between them. Each data file holds the block's heading and items. #}
+        {# One section holds the whole set of blocks, and each block is an
+           article of its own. Blocks are placed one call at a time, so other
+           kinds of block can go between them. Each data file holds the block's
+           heading and items. #}
+        <section class="home" aria-labelledby="home-title">
+            {{ blocks::card_grid(id="problems", path="data/home-problems.yaml", lang=lang) }}
 
-        {{ blocks::card_grid(id="problems", path="data/home-problems.yaml", lang=lang) }}
+            {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
 
-        {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
+            {{ blocks::file_list(id="involved", path="data/home-involved.yaml", lang=lang) }}
 
-        {{ blocks::file_list(id="involved", path="data/home-involved.yaml", lang=lang) }}
+            {{ section.content | safe }}
 
-        {{ section.content | safe }}
+            {# The journal block builds its own list and lives in macros/journal.html. #}
+            {{ journal::recent(lang=lang, count=5, footer=true) }}
 
-        {# The journal block builds its own list and lives in macros/journal.html. #}
-        {{ journal::recent(lang=lang, count=5, footer=true) }}
+            {{ blocks::prose(id="events", path="data/home-events.yaml", lang=lang) }}
 
-        {{ blocks::prose(id="events", path="data/home-events.yaml", lang=lang) }}
-
-        {{ blocks::prose(id="about", path="data/home-about.yaml", lang=lang) }}
+            {{ blocks::prose(id="about", path="data/home-about.yaml", lang=lang) }}
+        </section>
     </main>
 {% endblock page_main %}

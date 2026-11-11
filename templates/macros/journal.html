@@ -10,7 +10,7 @@
 {% macro recent(lang, count=100, footer=false) %}
     {% set section = get_section(path="journal/_index.md", lang=lang) %}
 
-    <section class="home-block" id="home-journal" aria-labelledby="home-journal-title">
+    <article class="home-block" id="home-journal" aria-labelledby="home-journal-title">
         <h2 id="home-journal-title">{{ section.extra.home_title | safe }}</h2>
 
         <div class="dated-list">
@@ -33,5 +33,5 @@
         {% if footer %}
             <p class="more">{{ section.extra.home_footer | safe }}</p>
         {% endif %}
-    </section>
+    </article>
 {% endmacro %}
