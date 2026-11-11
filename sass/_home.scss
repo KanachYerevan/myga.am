@@ -68,6 +68,13 @@
     border-bottom: 2px solid #e5e7eb;
     margin: 50px 0 20px;
   }
+
+  // Optional lead paragraph of a link block, above the list. Only direct
+  // children: the prose blocks keep their own .intro inside .prose-text.
+  > .intro {
+    max-width: 700px;
+    font-size: 1.05rem;
+  }
 }
 
 // Prose blocks: one short statement, an optional list of points and one link.

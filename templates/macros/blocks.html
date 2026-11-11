@@ -7,8 +7,13 @@
 
   file_list(id, path, lang)
     id         anchor id, used as id="home-<id>" for linking to the block
-    path       data file holding the heading and the list of items
+    path       data file holding the heading, an optional intro and the list
+               of items
     lang       active language
+
+    "intro" is one short paragraph above the list and is rendered only when the
+    data file has one. Like the other copy here it is plain text, so it cannot
+    contain Markdown links.
 
   prose(id, path, lang)
     id         anchor id, used as id="home-<id>" and for the heading's id
@@ -29,6 +34,10 @@
 
     <section class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
         <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
+
+        {% if data.intro %}
+            <p class="intro">{{ data.intro[lang] | safe }}</p>
+        {% endif %}
 
         <div class="file-list">
             {% for item in data.items %}

@@ -6,13 +6,20 @@
 # "content" holds the row title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
-# The heading ("title") and the items are both here, so the block owns
-# everything it renders; the position on the page is set in templates/home.html.
+# The heading ("title"), the optional intro and the items are all here, so the
+# block owns everything it renders; the position on the page is set in
+# templates/home.html. "intro" is one short paragraph above the list, rendered
+# only when present; it is plain text, so it cannot contain Markdown links.
 
 title:
-  en: "Problems"
-  ru: "Проблемы"
-  hy: "Խնդիրներ"
+  en: "Could Yerevan be greener?"
+  ru: "Может ли Ереван стать зеленее?"
+  hy: "Կարո՞ղ է Երևանն ավելի կանաչ լինել։"
+
+intro:
+  ru: "Мы проанализировали ситуацию и выделили главные проблемы, которые мешают Еревану стать самым зелёным городом региона. Читайте об этих проблемах, о том, как их решают в мире, и о том, что Ереван может сделать, чтобы их преодолеть."
+  en: "We have analysed the situation and identified the core problems that prevent Yerevan from becoming the greenest city in the region. Read about these problems, how they are dealt with worldwide, and what Yerevan can do to solve them."
+  hy: "Մենք վերլուծել ենք իրավիճակը և առանձնացրել ենք հիմնական խնդիրները, որոնք խանգարում են Երևանին դառնալ տարածաշրջանի ամենականաչ քաղաքը։ Կարդացեք այս խնդիրների մասին, թե ինչպես են դրանք լուծում աշխարհում, և թե ինչ կարող է անել Երևանը դրանք լուծելու համար։"
 
 items:
   - link: "@/journal/2026-11-09-green-space-requirement/index.md"
