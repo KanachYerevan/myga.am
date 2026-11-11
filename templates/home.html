@@ -26,7 +26,7 @@
         {# Blocks are placed one call at a time, so other kinds of block can go
            between them. Each data file holds the block's heading and items. #}
 
-        {{ blocks::file_list(id="problems", path="data/home-problems.yaml", lang=lang) }}
+        {{ blocks::card_grid(id="problems", path="data/home-problems.yaml", lang=lang) }}
 
         {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
 

@@ -1,6 +1,6 @@
 # "Problems" block on the home page.
 #
-# One item per list row, in the order given here.
+# One item per card, in the order given here.
 # "link" is a Zola internal path (@/...), so get_url resolves the translation
 # for the active language and one entry serves all three languages.
 # "content" holds the row title and teaser, which are editorial copy and are
