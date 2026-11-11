@@ -9,74 +9,38 @@
 # The heading lives in config.toml ([translations] home_projects); the position
 # on the page is set in templates/home.html.
 
-- link: "@/status/pocket-forests/index.md"
+- link: "@/action/mapping.md"
   content:
     ru:
-      title: "Карманные леса"
-      description: "Плотные мини-леса из местных пород на заброшенных уголках города, которые через три года не требуют полива и ухода."
+      title: "Карта деревьев"
+      description: "Добавляйте деревья рядом с собой через наше мобильное приложение и следите за ними. Отмечайте все изменения и наблюдайте, как деревья растут: эти данные помогают нам понимать состояние зелёного фонда и планировать, где нужна помощь."
     en:
-      title: "Pocket forests"
-      description: "Dense native mini-forests on unused corners of the city, designed to need no watering or maintenance after three years."
+      title: "Tree Map"
+      description: "Use our mobile app to add trees around you and keep an eye on them. Log every change and watch how trees grow — this data helps us understand the state of the urban canopy and plan where involvement is needed."
     hy:
-      title: "Գրպանային անտառներ"
-      description: "Տեղական տեսակներից խիտ մինի-անտառներ քաղաքի չօգտագործվող անկյուններում, որոնք երեք տարի անց ջրելու և խնամքի կարիք չեն ունենա։"
+      title: "Ծառերի քարտեզ"
+      description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
 
-- link: "@/status/birds/index.md"
+- link: "@/guidelines/_index.md"
   content:
     ru:
-      title: "Птицы и летучие мыши"
-      description: "Гнездовья и деревья-убежища возвращают естественную защиту от вредителей: городу можно меньше опрыскивать и больше полагаться на живых охотников за насекомыми."
+      title: "Модельная улица"
+      description: "Делаем одну небольшую улицу образцовой, применяя все известные щадящие методы ухода, доступные обычным жителям. Первый этап уже идёт в Арабкире."
     en:
-      title: "Birds and bats"
-      description: "Nest boxes and habitat trees bring back natural pest control, so the city can spray less and rely on living insect traps."
+      title: "Model street"
+      description: "We are making one small street exemplary by applying every non-destructive care method available to ordinary residents. The first sprint is under way in Arabkir."
     hy:
-      title: "Թռչուններ և չղջիկներ"
-      description: "Թռչնանոցներն ու կացարանային ծառերը վերականգնում են վնասատուների բնական վերահսկումը, ուստի քաղաքը կարող է ավելի քիչ սրսկել և ապավինել կենդանի միջատակերներին։"
+      title: "Օրինակելի փողոց"
+      description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ կիրառելով սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդները։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
 
-- link: "@/status/composting/index.md"
+- link: "@/action/replant/index.md"
   content:
     ru:
-      title: "Компостирование листвы"
-      description: "Листья должны становиться компостом, а не дымом и мусором. Заброшенную городскую площадку компостирования нужно запустить и расширить."
+      title: "Сервис для приствольных лунок"
+      description: "Готовим брошюру о том, как превратить небольшую лунку у дерева в живую и ухоженную: какие есть варианты и что реально может сделать житель."
     en:
-      title: "Leaf composting"
-      description: "Leaves become compost instead of smoke or waste. The city's abandoned composting facility should be restarted and expanded."
+      title: "Tree Pit Service"
+      description: "We are preparing a brochure that shows the available options for making a small tree pit thrive."
     hy:
-      title: "Տերևների կոմպոստացում"
-      description: "Տերևները դառնում են կոմպոստ, ոչ թե ծուխ կամ թափոն։ Քաղաքի լքված կոմպոստացման հարթակը պետք է վերագործարկվի և ընդլայնվի։"
-
-- link: "@/status/participation/index.md"
-  content:
-    ru:
-      title: "Партисипативное озеленение"
-      description: "Правовой механизм, позволяющий жителям заново сажать деревья в пустых лунках утверждёнными породами, вместо фактической монополии города."
-    en:
-      title: "Participatory greening"
-      description: "A legal route for residents to replant empty tree pits with approved species, instead of a de facto municipal monopoly."
-    hy:
-      title: "Մասնակցային կանաչապատում"
-      description: "Իրավական ուղի, որը բնակիչներին թույլ կտա հաստատված տեսակներով վերատնկել դատարկ ծառափոսերը՝ քաղաքի փաստացի մենաշնորհի փոխարեն։"
-
-- link: "@/status/council/index.md"
-  content:
-    ru:
-      title: "Общественный совет по озеленению"
-      description: "Независимый орган из учёных, арбористов и жителей, публично рассматривающий разрешения на снос и проекты озеленения."
-    en:
-      title: "Public Green Council"
-      description: "An independent body of scientists, arborists and residents reviewing felling permits and landscape plans in public."
-    hy:
-      title: "Հանրային կանաչապատման խորհուրդ"
-      description: "Անկախ մարմին՝ գիտնականներից, արբորիստներից և բնակիչներից, որը հրապարակայնորեն քննարկում է հատման թույլտվությունները և կանաչապատման նախագծերը։"
-
-- link: "@/status/arborists/index.md"
-  content:
-    ru:
-      title: "Профессиональные арбористы"
-      description: "Уход за деревьями должны выполнять сертифицированные арбористы по контракту, а не любой, кто умеет держать бензопилу."
-    en:
-      title: "Certified arborists"
-      description: "Tree care should be done by certified arborists on contract, not by anyone who can hold a chainsaw."
-    hy:
-      title: "Սերտիֆիկացված արբորիստներ"
-      description: "Ծառերի խնամքը պետք է կատարեն պայմանագրով աշխատող սերտիֆիկացված արբորիստներ, այլ ոչ թե յուրաքանչյուրը, ով կարողանում է բենզասղոց պահել։"
+      title: "Ծառափոսերի ծառայություն"
+      description: "Պատրաստում ենք բրոշյուր, որը ցույց կտա, թե ինչ հնարավորություններ կան փոքր ծառափոսը կենսունակ դարձնելու համար։"

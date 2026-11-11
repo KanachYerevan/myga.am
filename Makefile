@@ -1,15 +1,17 @@
 MD_FILES := $(shell find AGENTS.md docs content -name "*.md")
+# Use zola from PATH when available, otherwise the local copy in bin/.
+ZOLA := $(shell command -v zola 2>/dev/null || echo ./bin/zola)
 
 serve:
-	zola serve
+	$(ZOLA) serve
 
 check:
-	zola check
+	$(ZOLA) check
 
 build:
 	rm -rf dist
 	mkdir -p dist
-	zola build
+	$(ZOLA) build
 	find dist -type f -print0 | xargs -0 ls -ldh
 
 format:
