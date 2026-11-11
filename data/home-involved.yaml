@@ -6,77 +6,83 @@
 # "content" holds the row title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
-# The heading lives in config.toml ([translations] home_involved); the position
-# on the page is set in templates/home.html.
+# The heading ("title") and the items are both here, so the block owns
+# everything it renders; the position on the page is set in templates/home.html.
 
-- link: "@/action/report/index.md"
-  content:
-    ru:
-      title: "Сообщите о проблеме"
-      description: "У деревьев нет ни глаз, ни интернета. Если вы видите что-то неладное — сломанный ствол, подозрительную обрезку, новую посадку — сообщите нам. Вы их единственная надежда."
-    en:
-      title: "Report a problem"
-      description: "Trees have no eyes and no internet. If you see something wrong — a broken trunk, suspicious pruning, fresh planting — report it. You are their only hope."
-    hy:
-      title: "Հայտնեք խնդրի մասին"
-      description: "Ծառերը ոչ աչքեր ունեն, ոչ էլ ինտերնետ։ Եթե ինչ-որ բան այնպես չէ՝ կոտրված բուն, կասկածելի էտ, նոր տնկում, հայտնեք մեզ։ Դուք նրանց միակ հույսն եք։"
+title:
+  en: "Get Involved"
+  ru: "Как участвовать"
+  hy: "Ինչպես մասնակցել"
 
-- link: "@/action/replant/index.md"
-  content:
-    ru:
-      title: "Посадите что-нибудь"
-      description: "Каждый житель может посадить что угодно — от пучка травы до большого дерева. Мы рассказываем, как сделать это правильно: какие породы подходят, какой саженец брать, как сажать и как выходить его в первые годы."
-    en:
-      title: "Plant something"
-      description: "Every resident can plant something, from a patch of grass to a big tree. We describe how to do it the right way: which species fit, what to buy, how to plant and how to keep it alive."
-    hy:
-      title: "Տնկեք ինչ-որ բան"
-      description: "Յուրաքանչյուր բնակիչ կարող է տնկել ինչ ցանկանա՝ խոտի կտորից մինչև մեծ ծառ։ Մենք բացատրում ենք, թե ինչպես դա անել ճիշտ՝ որ տեսակներն են պիտանի, ինչ տնկի ընտրել, ինչպես տնկել և ինչպես խնամել առաջին տարիներին։"
+items:
+  - link: "@/action/report/index.md"
+    content:
+      ru:
+        title: "Сообщите о проблеме"
+        description: "У деревьев нет ни глаз, ни интернета. Если вы видите что-то неладное — сломанный ствол, подозрительную обрезку, новую посадку — сообщите нам. Вы их единственная надежда."
+      en:
+        title: "Report a problem"
+        description: "Trees have no eyes and no internet. If you see something wrong — a broken trunk, suspicious pruning, fresh planting — report it. You are their only hope."
+      hy:
+        title: "Հայտնեք խնդրի մասին"
+        description: "Ծառերը ոչ աչքեր ունեն, ոչ էլ ինտերնետ։ Եթե ինչ-որ բան այնպես չէ՝ կոտրված բուն, կասկածելի էտ, նոր տնկում, հայտնեք մեզ։ Դուք նրանց միակ հույսն եք։"
 
-- link: "@/journal/2025-11-16-acorns/index.md"
-  content:
-    ru:
-      title: "Посадите что-нибудь дикое"
-      description: "Как собрать семена и посеять их на пустырях и других пустых местах вдали от главных улиц. Мы проверили «беличий метод» на жёлудях — вот что для этого нужно."
-    en:
-      title: "Plant something wild"
-      description: "Collect seeds and sow them on wastelands and other empty ground away from the main streets. We tested the squirrel method with acorns — here is what it takes."
-    hy:
-      title: "Տնկեք վայրի բան"
-      description: "Ինչպես հավաքել սերմեր և ցանել դրանք անմշակ տարածքներում ու այլ դատարկ վայրերում՝ գլխավոր փողոցներից հեռու։ Մենք փորձարկել ենք «սկյուռի մեթոդը» կաղիններով։ ահա թե ինչ է պետք դրա համար։"
+  - link: "@/action/replant/index.md"
+    content:
+      ru:
+        title: "Посадите что-нибудь"
+        description: "Каждый житель может посадить что угодно — от пучка травы до большого дерева. Мы рассказываем, как сделать это правильно: какие породы подходят, какой саженец брать, как сажать и как выходить его в первые годы."
+      en:
+        title: "Plant something"
+        description: "Every resident can plant something, from a patch of grass to a big tree. We describe how to do it the right way: which species fit, what to buy, how to plant and how to keep it alive."
+      hy:
+        title: "Տնկեք ինչ-որ բան"
+        description: "Յուրաքանչյուր բնակիչ կարող է տնկել ինչ ցանկանա՝ խոտի կտորից մինչև մեծ ծառ։ Մենք բացատրում ենք, թե ինչպես դա անել ճիշտ՝ որ տեսակներն են պիտանի, ինչ տնկի ընտրել, ինչպես տնկել և ինչպես խնամել առաջին տարիներին։"
 
-- link: "@/guidelines/biodiversity/great-tit.md"
-  content:
-    ru:
-      title: "Повесьте гнездовой домик"
-      description: "Домик помогает птицам вывести птенцов, а птицы потом сдерживают вредителей. Где его вешать, как закрепить, не повредив ствол, и как сделать своими руками."
-    en:
-      title: "Install a nesting box"
-      description: "A nest box helps birds raise their young, and those birds then keep tree pests in check. Where to hang it, how to fix it without damaging the trunk, and how to build one yourself."
-    hy:
-      title: "Կախեք բնադրատուփ"
-      description: "Բնադրատուփն օգնում է թռչուններին ձագեր հանել, իսկ թռչուններն էլ հետո զսպում են վնասատուներին։ Որտեղ կախել, ինչպես ամրացնել՝ չվնասելով բունը, և ինչպես ինքնաշեն տուփ պատրաստել։"
+  - link: "@/journal/2025-11-16-acorns/index.md"
+    content:
+      ru:
+        title: "Посадите что-нибудь дикое"
+        description: "Как собрать семена и посеять их на пустырях и других пустых местах вдали от главных улиц. Мы проверили «беличий метод» на жёлудях — вот что для этого нужно."
+      en:
+        title: "Plant something wild"
+        description: "Collect seeds and sow them on wastelands and other empty ground away from the main streets. We tested the squirrel method with acorns — here is what it takes."
+      hy:
+        title: "Տնկեք վայրի բան"
+        description: "Ինչպես հավաքել սերմեր և ցանել դրանք անմշակ տարածքներում ու այլ դատարկ վայրերում՝ գլխավոր փողոցներից հեռու։ Մենք փորձարկել ենք «սկյուռի մեթոդը» կաղիններով։ ահա թե ինչ է պետք դրա համար։"
 
-- link: "@/status/birds/index.md"
-  content:
-    ru:
-      title: "Повесьте домик для летучих мышей"
-      description: "То же самое, но для летучих мышей: домик на дереве или стене даёт им убежище, а колония съедает огромное количество ночных насекомых."
-    en:
-      title: "Install a bat box"
-      description: "The same idea, for bats: a box on a tree or a wall gives them a roost, and a colony eats a remarkable amount of night-flying insects."
-    hy:
-      title: "Կախեք չղջիկների տուփ"
-      description: "Նույնը՝ չղջիկների համար։ ծառի կամ պատի վրա ամրացված տուփը նրանց ապաստան է տալիս, իսկ գաղութը հսկայական քանակությամբ գիշերային միջատներ է ուտում։"
+  - link: "@/guidelines/biodiversity/great-tit.md"
+    content:
+      ru:
+        title: "Повесьте гнездовой домик"
+        description: "Домик помогает птицам вывести птенцов, а птицы потом сдерживают вредителей. Где его вешать, как закрепить, не повредив ствол, и как сделать своими руками."
+      en:
+        title: "Install a nesting box"
+        description: "A nest box helps birds raise their young, and those birds then keep tree pests in check. Where to hang it, how to fix it without damaging the trunk, and how to build one yourself."
+      hy:
+        title: "Կախեք բնադրատուփ"
+        description: "Բնադրատուփն օգնում է թռչուններին ձագեր հանել, իսկ թռչուններն էլ հետո զսպում են վնասատուներին։ Որտեղ կախել, ինչպես ամրացնել՝ չվնասելով բունը, և ինչպես ինքնաշեն տուփ պատրաստել։"
 
-- link: "@/about/directory.md"
-  content:
-    ru:
-      title: "Где стать волонтёром"
-      description: "Список дружественных организаций, которые проводят посадки, уборки и другие зелёные события и всегда рады волонтёрам."
-    en:
-      title: "Where to volunteer"
-      description: "A list of friendly organizations that run planting days, clean-ups and other green events — and are always glad to have volunteers."
-    hy:
-      title: "Որտեղ կամավորագրվել"
-      description: "Ընկերական կազմակերպությունների ցանկ, որոնք տնկումներ, մաքրումներ և այլ կանաչ միջոցառումներ են անցկացնում և միշտ ուրախ են կամավորներին։"
+  - link: "@/status/birds/index.md"
+    content:
+      ru:
+        title: "Повесьте домик для летучих мышей"
+        description: "То же самое, но для летучих мышей: домик на дереве или стене даёт им убежище, а колония съедает огромное количество ночных насекомых."
+      en:
+        title: "Install a bat box"
+        description: "The same idea, for bats: a box on a tree or a wall gives them a roost, and a colony eats a remarkable amount of night-flying insects."
+      hy:
+        title: "Կախեք չղջիկների տուփ"
+        description: "Նույնը՝ չղջիկների համար։ ծառի կամ պատի վրա ամրացված տուփը նրանց ապաստան է տալիս, իսկ գաղութը հսկայական քանակությամբ գիշերային միջատներ է ուտում։"
+
+  - link: "@/about/directory.md"
+    content:
+      ru:
+        title: "Где стать волонтёром"
+        description: "Список дружественных организаций, которые проводят посадки, уборки и другие зелёные события и всегда рады волонтёрам."
+      en:
+        title: "Where to volunteer"
+        description: "A list of friendly organizations that run planting days, clean-ups and other green events — and are always glad to have volunteers."
+      hy:
+        title: "Որտեղ կամավորագրվել"
+        description: "Ընկերական կազմակերպությունների ցանկ, որոնք տնկումներ, մաքրումներ և այլ կանաչ միջոցառումներ են անցկացնում և միշտ ուրախ են կամավորներին։"

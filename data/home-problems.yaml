@@ -6,53 +6,59 @@
 # "content" holds the row title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
-# The heading lives in config.toml ([translations] home_problems); the position
-# on the page is set in templates/home.html.
+# The heading ("title") and the items are both here, so the block owns
+# everything it renders; the position on the page is set in templates/home.html.
 
-- link: "@/journal/2026-11-09-green-space-requirement/index.md"
-  content:
-    ru:
-      title: "Мало зелени и парков"
-      description: "Лишь около 13% Еревана находится в пешей доступности от общественного парка — это далеко от рекомендаций ВОЗ. Городу нужна широкая сеть небольших доступных парков в каждом районе, а не несколько крупных объектов."
-    en:
-      title: "Poor green area coverage"
-      description: "Only about 13% of Yerevan lies within a short walk of a public park, far short of what the WHO recommends. The city needs a wider network of small, accessible parks in every district, not a handful of large destinations."
-    hy:
-      title: "Կանաչ տարածքների պակաս"
-      description: "Երևանի միայն մոտ 13%-ն է հասարակական այգուց կարճ քայլելու հեռավորության վրա, ինչը հեռու է ԱՀԿ առաջարկներից։ Քաղաքին պետք է փոքր, հասանելի այգիների լայն ցանց յուրաքանչյուր շրջանում, այլ ոչ թե մի քանի խոշոր օբյեկտ։"
+title:
+  en: "Problems"
+  ru: "Проблемы"
+  hy: "Խնդիրներ"
 
-- link: "@/status/code/index.md"
-  content:
-    ru:
-      title: "Устаревшие стандарты ухода"
-      description: "За деревьями по-прежнему ухаживают по советским нормам, устаревшим на десятилетия. Качество обрезки катастрофическое, почвой никто не занимается, а письменных стандартов не существует. Пора принять действующие кодексы — ANSI A300 и EAC."
-    en:
-      title: "Poor management standards"
-      description: "Tree care still follows Soviet norms that are decades out of date. Pruning quality is a disaster and soil is not managed at all; written standards do not exist. Established codes such as ANSI A300 and EAC should be adopted."
-    hy:
-      title: "Խնամքի հնացած չափորոշիչներ"
-      description: "Ծառերի խնամքը դեռ կատարվում է տասնամյակներով հնացած խորհրդային նորմերով։ Էտի որակը աղետալի է, հողով ընդհանրապես չեն զբաղվում, իսկ գրավոր չափորոշիչներ չկան։ Պետք է ընդունել գործող կանոնագրերը՝ ANSI A300 և EAC։"
+items:
+  - link: "@/journal/2026-11-09-green-space-requirement/index.md"
+    content:
+      ru:
+        title: "Мало зелени и парков"
+        description: "Лишь около 13% Еревана находится в пешей доступности от общественного парка — это далеко от рекомендаций ВОЗ. Городу нужна широкая сеть небольших доступных парков в каждом районе, а не несколько крупных объектов."
+      en:
+        title: "Poor green area coverage"
+        description: "Only about 13% of Yerevan lies within a short walk of a public park, far short of what the WHO recommends. The city needs a wider network of small, accessible parks in every district, not a handful of large destinations."
+      hy:
+        title: "Կանաչ տարածքների պակաս"
+        description: "Երևանի միայն մոտ 13%-ն է հասարակական այգուց կարճ քայլելու հեռավորության վրա, ինչը հեռու է ԱՀԿ առաջարկներից։ Քաղաքին պետք է փոքր, հասանելի այգիների լայն ցանց յուրաքանչյուր շրջանում, այլ ոչ թե մի քանի խոշոր օբյեկտ։"
 
-- link: "@/status/council/index.md"
-  content:
-    ru:
-      title: "Непрозрачные решения"
-      description: "Стандарты, если они вообще есть, скрыты от людей. Снос деревьев и крупные проекты случаются внезапно, за одну ночь. Общественность не участвует, хотя должна; процесс нужно сделать прозрачным и открытым."
-    en:
-      title: "Poor transparency"
-      description: "The management standards, where they exist, are hidden. Felling and larger projects happen overnight as a surprise. The public is not involved, although it should be; the process must be made transparent and open."
-    hy:
-      title: "Ոչ թափանցիկ որոշումներ"
-      description: "Չափորոշիչները, եթե նույնիսկ գոյություն ունեն, թաքցված են։ Ծառերի հատումն ու խոշոր նախագծերը տեղի են ունենում հանկարծակի՝ մեկ գիշերվա ընթացքում։ Հասարակությունը ներգրավված չէ, թեև պետք է լինի։ գործընթացը պետք է դարձնել թափանցիկ և բաց։"
+  - link: "@/status/code/index.md"
+    content:
+      ru:
+        title: "Устаревшие стандарты ухода"
+        description: "За деревьями по-прежнему ухаживают по советским нормам, устаревшим на десятилетия. Качество обрезки катастрофическое, почвой никто не занимается, а письменных стандартов не существует. Пора принять действующие кодексы — ANSI A300 и EAC."
+      en:
+        title: "Poor management standards"
+        description: "Tree care still follows Soviet norms that are decades out of date. Pruning quality is a disaster and soil is not managed at all; written standards do not exist. Established codes such as ANSI A300 and EAC should be adopted."
+      hy:
+        title: "Խնամքի հնացած չափորոշիչներ"
+        description: "Ծառերի խնամքը դեռ կատարվում է տասնամյակներով հնացած խորհրդային նորմերով։ Էտի որակը աղետալի է, հողով ընդհանրապես չեն զբաղվում, իսկ գրավոր չափորոշիչներ չկան։ Պետք է ընդունել գործող կանոնագրերը՝ ANSI A300 և EAC։"
 
-- link: "@/status/participation/index.md"
-  content:
-    ru:
-      title: "Жители в стороне"
-      description: "Посадить дерево на улице технически можно, но процедура непонятна и требует общения с администрацией — слишком высокий барьер. Зелёным хозяйством управляют как неформальной монополией. Город должен опубликовать инструкцию о том, что жители могут делать без его разрешения."
-    en:
-      title: "Poor resident involvement"
-      description: "Planting a tree on a street is technically possible, but the procedure is obscure and requires dealing with the administration — a high barrier. Green space is run as an informal monopoly. The city should publish instructions on what residents can do without its approval."
-    hy:
-      title: "Բնակիչների ներգրավվածության պակաս"
-      description: "Փողոցում ծառ տնկելը տեխնիկապես հնարավոր է, բայց ընթացակարգը մշուշոտ է և պահանջում է շփում վարչակազմի հետ՝ բարձր արգելք։ Կանաչ տարածքները կառավարվում են որպես ոչ պաշտոնական մենաշնորհ։ Քաղաքը պետք է հրապարակի ուղեցույց, թե ինչ կարող են բնակիչները անել առանց իր թույլտվության։"
+  - link: "@/status/council/index.md"
+    content:
+      ru:
+        title: "Непрозрачные решения"
+        description: "Стандарты, если они вообще есть, скрыты от людей. Снос деревьев и крупные проекты случаются внезапно, за одну ночь. Общественность не участвует, хотя должна; процесс нужно сделать прозрачным и открытым."
+      en:
+        title: "Poor transparency"
+        description: "The management standards, where they exist, are hidden. Felling and larger projects happen overnight as a surprise. The public is not involved, although it should be; the process must be made transparent and open."
+      hy:
+        title: "Ոչ թափանցիկ որոշումներ"
+        description: "Չափորոշիչները, եթե նույնիսկ գոյություն ունեն, թաքցված են։ Ծառերի հատումն ու խոշոր նախագծերը տեղի են ունենում հանկարծակի՝ մեկ գիշերվա ընթացքում։ Հասարակությունը ներգրավված չէ, թեև պետք է լինի։ գործընթացը պետք է դարձնել թափանցիկ և բաց։"
+
+  - link: "@/status/participation/index.md"
+    content:
+      ru:
+        title: "Жители в стороне"
+        description: "Посадить дерево на улице технически можно, но процедура непонятна и требует общения с администрацией — слишком высокий барьер. Зелёным хозяйством управляют как неформальной монополией. Город должен опубликовать инструкцию о том, что жители могут делать без его разрешения."
+      en:
+        title: "Poor resident involvement"
+        description: "Planting a tree on a street is technically possible, but the procedure is obscure and requires dealing with the administration — a high barrier. Green space is run as an informal monopoly. The city should publish instructions on what residents can do without its approval."
+      hy:
+        title: "Բնակիչների ներգրավվածության պակաս"
+        description: "Փողոցում ծառ տնկելը տեխնիկապես հնարավոր է, բայց ընթացակարգը մշուշոտ է և պահանջում է շփում վարչակազմի հետ՝ բարձր արգելք։ Կանաչ տարածքները կառավարվում են որպես ոչ պաշտոնական մենաշնորհ։ Քաղաքը պետք է հրապարակի ուղեցույց, թե ինչ կարող են բնակիչները անել առանց իր թույլտվության։"

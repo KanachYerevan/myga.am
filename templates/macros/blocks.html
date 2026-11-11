@@ -3,23 +3,33 @@
 
   Each block is rendered by an explicit call in templates/home.html, so blocks
   can be reordered and other kinds of block (cards, quotes, tables) can sit
-  between them. A block's items live in its own data file under data/.
+  between them. A block's heading and items live in its own data file under data/.
 
-  file_list(id, title_key, path, lang)
+  file_list(id, path, lang)
     id         anchor id, used as id="home-<id>" for linking to the block
-    title_key  heading, taken from [translations] in config.toml
-    path       data file holding the list of items (link + content per language)
+    path       data file holding the heading and the list of items
     lang       active language
+
+  about(path, lang)
+    path       data file holding the heading, the intro, the bullet points
+               and the link
+    lang       active language
+
+    A prose block rather than a link list: short statement, three points, and
+    one link to the full story. Copy is rendered as plain text.
+
+  Every block carries its own heading in its data file, so templates/home.html
+  only decides which block goes where.
 #}
 
-{% macro file_list(id, title_key, path, lang) %}
-    {% set items = load_data(path=path) %}
+{% macro file_list(id, path, lang) %}
+    {% set data = load_data(path=path) %}
 
     <section class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
-        <h2 id="home-{{ id }}-title">{{ trans(key=title_key, lang=lang) }}</h2>
+        <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
 
         <div class="file-list">
-            {% for item in items %}
+            {% for item in data.items %}
                 <a href="{{ get_url(path=item.link, lang=lang) }}" class="file">
                     <span class="text">
                         <span class="title">{{ item.content[lang].title | safe }}</span>
@@ -28,6 +38,31 @@
                     <span class="arrow" aria-hidden="true">→</span>
                 </a>
             {% endfor %}
+        </div>
+    </section>
+{% endmacro %}
+
+{% macro about(path, lang) %}
+    {% set data = load_data(path=path) %}
+
+    <section class="home-block home-about" id="home-about" aria-labelledby="home-about-title">
+        <h2 id="home-about-title">{{ data.title[lang] | safe }}</h2>
+
+        <div class="about-text">
+            <p class="intro">{{ data.intro[lang] | safe }}</p>
+
+            <ul class="points">
+                {% for point in data.points %}
+                    <li>{{ point[lang] | safe }}</li>
+                {% endfor %}
+            </ul>
+
+            <p class="more">
+                <a href="{{ get_url(path=data.link, lang=lang) }}">
+                    <span>{{ data.more[lang] | safe }}</span>
+                    <span class="arrow" aria-hidden="true">→</span>
+                </a>
+            </p>
         </div>
     </section>
 {% endmacro %}

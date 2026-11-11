@@ -6,41 +6,47 @@
 # "content" holds the row title and teaser, which are editorial copy and are
 # deliberately shorter than each page's own text.
 #
-# The heading lives in config.toml ([translations] home_projects); the position
-# on the page is set in templates/home.html.
+# The heading ("title") and the items are both here, so the block owns
+# everything it renders; the position on the page is set in templates/home.html.
 
-- link: "@/action/mapping.md"
-  content:
-    ru:
-      title: "Карта деревьев"
-      description: "Добавляйте деревья рядом с собой через наше мобильное приложение и следите за ними. Отмечайте все изменения и наблюдайте, как деревья растут: эти данные помогают нам понимать состояние зелёного фонда и планировать, где нужна помощь."
-    en:
-      title: "Tree Map"
-      description: "Use our mobile app to add trees around you and keep an eye on them. Log every change and watch how trees grow — this data helps us understand the state of the urban canopy and plan where involvement is needed."
-    hy:
-      title: "Ծառերի քարտեզ"
-      description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
+title:
+  en: "Current Projects"
+  ru: "Текущие проекты"
+  hy: "Ընթացիկ նախագծեր"
 
-- link: "@/guidelines/_index.md"
-  content:
-    ru:
-      title: "Модельная улица"
-      description: "Делаем одну небольшую улицу образцовой, применяя все известные щадящие методы ухода, доступные обычным жителям. Первый этап уже идёт в Арабкире."
-    en:
-      title: "Model street"
-      description: "We are making one small street exemplary by applying every non-destructive care method available to ordinary residents. The first sprint is under way in Arabkir."
-    hy:
-      title: "Օրինակելի փողոց"
-      description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ կիրառելով սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդները։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
+items:
+  - link: "@/action/mapping.md"
+    content:
+      ru:
+        title: "Карта деревьев"
+        description: "Добавляйте деревья рядом с собой через наше мобильное приложение и следите за ними. Отмечайте все изменения и наблюдайте, как деревья растут: эти данные помогают нам понимать состояние зелёного фонда и планировать, где нужна помощь."
+      en:
+        title: "Tree Map"
+        description: "Use our mobile app to add trees around you and keep an eye on them. Log every change and watch how trees grow — this data helps us understand the state of the urban canopy and plan where involvement is needed."
+      hy:
+        title: "Ծառերի քարտեզ"
+        description: "Ավելացրեք ձեր շուրջը գտնվող ծառերը մեր բջջային հավելվածով և հետևեք նրանց։ Գրանցեք բոլոր փոփոխությունները և դիտեք, թե ինչպես են ծառերը աճում։ այս տվյալները օգնում են մեզ հասկանալ կանաչ ֆոնդի վիճակը և պլանավորել, թե որտեղ է պետք ներգրավվածություն։"
 
-- link: "@/action/replant/index.md"
-  content:
-    ru:
-      title: "Сервис для приствольных лунок"
-      description: "Готовим брошюру о том, как превратить небольшую лунку у дерева в живую и ухоженную: какие есть варианты и что реально может сделать житель."
-    en:
-      title: "Tree Pit Service"
-      description: "We are preparing a brochure that shows the available options for making a small tree pit thrive."
-    hy:
-      title: "Ծառափոսերի ծառայություն"
-      description: "Պատրաստում ենք բրոշյուր, որը ցույց կտա, թե ինչ հնարավորություններ կան փոքր ծառափոսը կենսունակ դարձնելու համար։"
+  - link: "@/guidelines/_index.md"
+    content:
+      ru:
+        title: "Модельная улица"
+        description: "Делаем одну небольшую улицу образцовой, применяя все известные щадящие методы ухода, доступные обычным жителям. Первый этап уже идёт в Арабкире."
+      en:
+        title: "Model street"
+        description: "We are making one small street exemplary by applying every non-destructive care method available to ordinary residents. The first sprint is under way in Arabkir."
+      hy:
+        title: "Օրինակելի փողոց"
+        description: "Մեկ փոքր փողոց դարձնում ենք օրինակելի՝ կիրառելով սովորական բնակիչներին հասանելի խնամքի բոլոր ոչ կործանարար մեթոդները։ Առաջին փուլն ընթացքի մեջ է Արաբկիրում։"
+
+  - link: "@/action/replant/index.md"
+    content:
+      ru:
+        title: "Сервис для приствольных лунок"
+        description: "Готовим брошюру о том, как превратить небольшую лунку у дерева в живую и ухоженную: какие есть варианты и что реально может сделать житель."
+      en:
+        title: "Tree Pit Service"
+        description: "We are preparing a brochure that shows the available options for making a small tree pit thrive."
+      hy:
+        title: "Ծառափոսերի ծառայություն"
+        description: "Պատրաստում ենք բրոշյուր, որը ցույց կտա, թե ինչ հնարավորություններ կան փոքր ծառափոսը կենսունակ դարձնելու համար։"

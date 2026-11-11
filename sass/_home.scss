@@ -67,3 +67,39 @@
     margin: 50px 0 20px;
   }
 }
+
+// Closing "Who we are" prose block at the bottom of the home page.
+.home-about {
+  margin-bottom: 60px;
+
+  .about-text {
+    max-width: 700px;
+  }
+
+  .intro {
+    font-size: 1.05rem;
+  }
+
+  .points {
+    margin: 0 0 20px;
+    padding-left: 20px;
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  .more {
+    font-size: 0.95rem;
+
+    a {
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .arrow {
+      margin-left: 4px;
+      opacity: 0.6;
+    }
+  }
+}
