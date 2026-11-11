@@ -1,0 +1,70 @@
+# "Get Involved" block on the home page.
+#
+# One item per list row, in the order given here.
+# "link" is a Zola internal path (@/...), so get_url resolves the translation
+# for the active language and one entry serves all three languages.
+# "content" holds the row title and teaser, which are editorial copy and are
+# deliberately shorter than each page's own text.
+#
+# The heading lives in config.toml ([translations] home_involved); the position
+# on the page is set in templates/home.html.
+
+- link: "@/action/report/index.md"
+  content:
+    ru:
+      title: "Сообщить о проблеме"
+      description: "Сломанные деревья, подозрительная обрезка, новые посадки или раскопки — напишите в наш Telegram-чат или боту, и мы разберёмся."
+    en:
+      title: "Report a problem"
+      description: "Broken trees, suspicious pruning, fresh planting or trenching: send it to our Telegram chat or bot and we will follow up."
+    hy:
+      title: "Հայտնել խնդրի մասին"
+      description: "Կոտրված ծառերի, կասկածելի էտի, նոր տնկումների կամ փորումների մասին գրեք մեր Telegram զրուցարանին կամ բոտին, և մենք կզբաղվենք։"
+
+- link: "@/action/mapping.md"
+  content:
+    ru:
+      title: "Нанести деревья на карту"
+      description: "Добавьте деревья рядом с домом на карту Trees of Yerevan. Каждая запись — доказательство того, что зелёный фонд нельзя тихо уничтожить."
+    en:
+      title: "Map the trees"
+      description: "Add trees near your home to the Trees of Yerevan map. Every record is evidence of canopy that cannot be quietly removed."
+    hy:
+      title: "Քարտեզագրել ծառերը"
+      description: "Ավելացրեք ձեր տան մոտ գտնվող ծառերը «Trees of Yerevan» քարտեզին։ Յուրաքանչյուր գրառում ապացույց է, որ կանաչ ֆոնդը հնարավոր չէ լուռ ոչնչացնել։"
+
+- link: "@/action/join.md"
+  content:
+    ru:
+      title: "Присоединиться к команде"
+      description: "Нам нужны руки, головы и опыт: от соцсетей и переводов до полевых обследований и юридических текстов."
+    en:
+      title: "Join the team"
+      description: "We need hands, brains and experience — from social media and translation to field surveys and legal drafting."
+    hy:
+      title: "Միանալ թիմին"
+      description: "Մեզ պետք են ձեռքեր, միտք և փորձ՝ սոցցանցերից ու թարգմանությունից մինչև դաշտային հետազոտություններ և իրավական փաստաթղթեր։"
+
+- link: "@/action/donate.md"
+  content:
+    ru:
+      title: "Пожертвовать или передать оборудование"
+      description: "Поддержите посадки деревьев и луговых газонов или передайте геодезический GPS и LiDAR, которые сделают наше картографирование точным."
+    en:
+      title: "Donate or supply equipment"
+      description: "Fund trees and meadow seeds, or donate the survey-grade GPS and Lidar kit that would make our mapping precise."
+    hy:
+      title: "Նվիրաբերել կամ տրամադրել սարքավորում"
+      description: "Աջակցեք ծառերի և մարգագետնային խոտերի տնկմանը կամ նվիրաբերեք գեոդեզիական GPS և LiDAR սարքեր, որոնք կդարձնեն մեր քարտեզագրումը ճշգրիտ։"
+
+- link: "@/action/events.md"
+  content:
+    ru:
+      title: "Календарь событий"
+      description: "Общий календарь зелёных инициатив Еревана. Приходите на посадку деревьев или добавьте своё событие."
+    en:
+      title: "Events calendar"
+      description: "A shared calendar of green initiatives across Yerevan. Come to a planting day, or add your own event."
+    hy:
+      title: "Միջոցառումների օրացույց"
+      description: "Երևանի կանաչ նախաձեռնությունների ընդհանուր օրացույց։ Եկեք տնկման օրը կամ ավելացրեք ձեր միջոցառումը։"

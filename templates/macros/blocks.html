@@ -1,0 +1,33 @@
+{#
+  Blocks for the home page.
+
+  Each block is rendered by an explicit call in templates/home.html, so blocks
+  can be reordered and other kinds of block (cards, quotes, tables) can sit
+  between them. A block's items live in its own data file under data/.
+
+  file_list(id, title_key, path, lang)
+    id         anchor id, used as id="home-<id>" for linking to the block
+    title_key  heading, taken from [translations] in config.toml
+    path       data file holding the list of items (link + content per language)
+    lang       active language
+#}
+
+{% macro file_list(id, title_key, path, lang) %}
+    {% set items = load_data(path=path) %}
+
+    <section class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+        <h2 id="home-{{ id }}-title">{{ trans(key=title_key, lang=lang) }}</h2>
+
+        <div class="file-list">
+            {% for item in items %}
+                <a href="{{ get_url(path=item.link, lang=lang) }}" class="file">
+                    <span class="text">
+                        <span class="title">{{ item.content[lang].title | safe }}</span>
+                        <span class="description">{{ item.content[lang].description | safe }}</span>
+                    </span>
+                    <span class="arrow" aria-hidden="true">→</span>
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+{% endmacro %}

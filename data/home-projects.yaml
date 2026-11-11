@@ -1,0 +1,82 @@
+# "Current Projects" block on the home page.
+#
+# One item per list row, in the order given here.
+# "link" is a Zola internal path (@/...), so get_url resolves the translation
+# for the active language and one entry serves all three languages.
+# "content" holds the row title and teaser, which are editorial copy and are
+# deliberately shorter than each page's own text.
+#
+# The heading lives in config.toml ([translations] home_projects); the position
+# on the page is set in templates/home.html.
+
+- link: "@/status/pocket-forests/index.md"
+  content:
+    ru:
+      title: "Карманные леса"
+      description: "Плотные мини-леса из местных пород на заброшенных уголках города, которые через три года не требуют полива и ухода."
+    en:
+      title: "Pocket forests"
+      description: "Dense native mini-forests on unused corners of the city, designed to need no watering or maintenance after three years."
+    hy:
+      title: "Գրպանային անտառներ"
+      description: "Տեղական տեսակներից խիտ մինի-անտառներ քաղաքի չօգտագործվող անկյուններում, որոնք երեք տարի անց ջրելու և խնամքի կարիք չեն ունենա։"
+
+- link: "@/status/birds/index.md"
+  content:
+    ru:
+      title: "Птицы и летучие мыши"
+      description: "Гнездовья и деревья-убежища возвращают естественную защиту от вредителей: городу можно меньше опрыскивать и больше полагаться на живых охотников за насекомыми."
+    en:
+      title: "Birds and bats"
+      description: "Nest boxes and habitat trees bring back natural pest control, so the city can spray less and rely on living insect traps."
+    hy:
+      title: "Թռչուններ և չղջիկներ"
+      description: "Թռչնանոցներն ու կացարանային ծառերը վերականգնում են վնասատուների բնական վերահսկումը, ուստի քաղաքը կարող է ավելի քիչ սրսկել և ապավինել կենդանի միջատակերներին։"
+
+- link: "@/status/composting/index.md"
+  content:
+    ru:
+      title: "Компостирование листвы"
+      description: "Листья должны становиться компостом, а не дымом и мусором. Заброшенную городскую площадку компостирования нужно запустить и расширить."
+    en:
+      title: "Leaf composting"
+      description: "Leaves become compost instead of smoke or waste. The city's abandoned composting facility should be restarted and expanded."
+    hy:
+      title: "Տերևների կոմպոստացում"
+      description: "Տերևները դառնում են կոմպոստ, ոչ թե ծուխ կամ թափոն։ Քաղաքի լքված կոմպոստացման հարթակը պետք է վերագործարկվի և ընդլայնվի։"
+
+- link: "@/status/participation/index.md"
+  content:
+    ru:
+      title: "Партисипативное озеленение"
+      description: "Правовой механизм, позволяющий жителям заново сажать деревья в пустых лунках утверждёнными породами, вместо фактической монополии города."
+    en:
+      title: "Participatory greening"
+      description: "A legal route for residents to replant empty tree pits with approved species, instead of a de facto municipal monopoly."
+    hy:
+      title: "Մասնակցային կանաչապատում"
+      description: "Իրավական ուղի, որը բնակիչներին թույլ կտա հաստատված տեսակներով վերատնկել դատարկ ծառափոսերը՝ քաղաքի փաստացի մենաշնորհի փոխարեն։"
+
+- link: "@/status/council/index.md"
+  content:
+    ru:
+      title: "Общественный совет по озеленению"
+      description: "Независимый орган из учёных, арбористов и жителей, публично рассматривающий разрешения на снос и проекты озеленения."
+    en:
+      title: "Public Green Council"
+      description: "An independent body of scientists, arborists and residents reviewing felling permits and landscape plans in public."
+    hy:
+      title: "Հանրային կանաչապատման խորհուրդ"
+      description: "Անկախ մարմին՝ գիտնականներից, արբորիստներից և բնակիչներից, որը հրապարակայնորեն քննարկում է հատման թույլտվությունները և կանաչապատման նախագծերը։"
+
+- link: "@/status/arborists/index.md"
+  content:
+    ru:
+      title: "Профессиональные арбористы"
+      description: "Уход за деревьями должны выполнять сертифицированные арбористы по контракту, а не любой, кто умеет держать бензопилу."
+    en:
+      title: "Certified arborists"
+      description: "Tree care should be done by certified arborists on contract, not by anyone who can hold a chainsaw."
+    hy:
+      title: "Սերտիֆիկացված արբորիստներ"
+      description: "Ծառերի խնամքը պետք է կատարեն պայմանագրով աշխատող սերտիֆիկացված արբորիստներ, այլ ոչ թե յուրաքանչյուրը, ով կարողանում է բենզասղոց պահել։"

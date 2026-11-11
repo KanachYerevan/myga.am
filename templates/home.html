@@ -2,6 +2,7 @@
 {% import "macros/journal.html" as journal %}
 {% import "macros/bmp.html" as bmp %}
 {% import "macros/map.html" as map %}
+{% import "macros/blocks.html" as blocks %}
 
 {% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% else %}{{ section.title }}{% endif %}{% endblock %}
 
@@ -31,7 +32,14 @@
     {% include "partials/home-alert.html" %}
 
     <main class="container">
-        {% include "partials/home-blocks.html" %}
+        {# Blocks are placed one call at a time, so other kinds of block can go
+           between them. Item data: data/home-<id>.yaml. #}
+
+        {{ blocks::file_list(id="problems", title_key="home_problems", path="data/home-problems.yaml", lang=lang) }}
+
+        {{ blocks::file_list(id="projects", title_key="home_projects", path="data/home-projects.yaml", lang=lang) }}
+
+        {{ blocks::file_list(id="involved", title_key="home_involved", path="data/home-involved.yaml", lang=lang) }}
 
         {% include "partials/home-campaigns.html" %}
 
