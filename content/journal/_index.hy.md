@@ -6,5 +6,5 @@ aliases = ["hy/blog"]
 
 [extra]
 home_title = "Վերջին օրագրային գրառումներ"
-home_footer = "Ավելին կարդացեք <a href='/hy/journal/'>մեր օրագրում</a>։"
+home_footer = "<a href='/hy/journal/'>Բացել օրագիրը →</a>"
 +++

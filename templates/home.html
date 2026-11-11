@@ -1,7 +1,6 @@
 {% extends "index.html" %}
 {% import "macros/journal.html" as journal %}
 {% import "macros/bmp.html" as bmp %}
-{% import "macros/map.html" as map %}
 {% import "macros/blocks.html" as blocks %}
 
 {% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% else %}{{ section.title }}{% endif %}{% endblock %}
@@ -23,8 +22,6 @@
                         <span>{{ trans(key="home_guidelines", lang=lang) }}</span>
                     </a>
                 </div>
-
-                {{ map::numbers(lang=lang) }}
             </div>
         </div>
     </section>
