@@ -10,13 +10,15 @@
     path       data file holding the heading and the list of items
     lang       active language
 
-  about(path, lang)
-    path       data file holding the heading, the intro, the bullet points
-               and the link
+  prose(id, path, lang)
+    id         anchor id, used as id="home-<id>" and for the heading's id
+    path       data file holding the heading, the intro, an optional list of
+               bullet points and an optional link
     lang       active language
 
-    A prose block rather than a link list: short statement, three points, and
-    one link to the full story. Copy is rendered as plain text.
+    A prose block rather than a link list: one short statement, then the
+    optional points and the link. Copy is rendered as plain text, so the
+    points in the data file cannot contain Markdown links.
 
   Every block carries its own heading in its data file, so templates/home.html
   only decides which block goes where.
@@ -42,27 +44,31 @@
     </section>
 {% endmacro %}
 
-{% macro about(path, lang) %}
+{% macro prose(id, path, lang) %}
     {% set data = load_data(path=path) %}
 
-    <section class="home-block home-about" id="home-about" aria-labelledby="home-about-title">
-        <h2 id="home-about-title">{{ data.title[lang] | safe }}</h2>
+    <section class="home-block home-prose" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+        <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
 
-        <div class="about-text">
+        <div class="prose-text">
             <p class="intro">{{ data.intro[lang] | safe }}</p>
 
-            <ul class="points">
-                {% for point in data.points %}
-                    <li>{{ point[lang] | safe }}</li>
-                {% endfor %}
-            </ul>
+            {% if data.points %}
+                <ul class="points">
+                    {% for point in data.points %}
+                        <li>{{ point[lang] | safe }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
 
-            <p class="more">
-                <a href="{{ get_url(path=data.link, lang=lang) }}">
-                    <span>{{ data.more[lang] | safe }}</span>
-                    <span class="arrow" aria-hidden="true">→</span>
-                </a>
-            </p>
+            {% if data.link %}
+                <p class="more">
+                    <a href="{{ get_url(path=data.link, lang=lang) }}">
+                        <span>{{ data.more[lang] | safe }}</span>
+                        <span class="arrow" aria-hidden="true">→</span>
+                    </a>
+                </p>
+            {% endif %}
         </div>
     </section>
 {% endmacro %}

@@ -51,6 +51,8 @@
             {{ journal::recent(lang=lang, count=5, footer=true) }}
         </div>
 
-        {{ blocks::about(path="data/home-about.yaml", lang=lang) }}
+        {{ blocks::prose(id="events", path="data/home-events.yaml", lang=lang) }}
+
+        {{ blocks::prose(id="about", path="data/home-about.yaml", lang=lang) }}
     </main>
 {% endblock page_main %}

@@ -68,11 +68,10 @@
   }
 }
 
-// Closing "Who we are" prose block at the bottom of the home page.
-.home-about {
-  margin-bottom: 60px;
-
-  .about-text {
+// Prose blocks: one short statement, an optional list of points and one link.
+// Used by "Community Events" and by the closing "Who we are" block.
+.home-prose {
+  .prose-text {
     max-width: 700px;
   }
 
@@ -101,5 +100,10 @@
       margin-left: 4px;
       opacity: 0.6;
     }
+  }
+
+  // Only the block that closes the page needs room below it.
+  &:last-of-type {
+    margin-bottom: 60px;
   }
 }

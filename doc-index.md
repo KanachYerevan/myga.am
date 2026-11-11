@@ -1,3 +1,6 @@
+- content/action/events.hy.md: "Երևանում կանաչ միջոցառումների ընդհանուր օրացույց՝ ներառյալ այլ կազմակերպությունների իրադարձությունները, հեռախոսում ավելացնելու հրահանգով։"
+- content/action/events.md: "Shared calendar of tree and green-space events in Yerevan, including events run by other organizations, with instructions for adding it to a phone."
+- content/action/events.ru.md: "Общий календарь событий о деревьях и зелёных пространствах Еревана, включая мероприятия других организаций, с инструкцией по добавлению в телефон."
 - content/action/report/index.hy.md: "Ինչպես հաղորդել Երևանում կոտրված ծառերի, նոր տնկումների կամ այլ անսովոր երևույթների մասին Telegram-ի միջոցով։"
 - content/action/report/index.md: "Instructions on how to report broken trees, new plantings, or other unusual activity in Yerevan via Telegram."
 - content/action/report/index.ru.md: "Инструкции о том, как сообщить о сломанных деревьях, новых посадках или другой необычной активности в Ереване через Telegram."
