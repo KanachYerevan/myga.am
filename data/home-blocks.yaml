@@ -1,0 +1,221 @@
+# Home page index blocks: Problems, Current Projects and Get Involved.
+#
+# Blocks and items are rendered in the order given here.
+# "link" is a Zola internal path (@/...); get_url resolves the translation for
+# the active language, so one item entry covers English, Russian and Armenian.
+#
+# Block headings live in config.toml under [translations] as home_problems,
+# home_projects and home_involved.
+
+- key: problems
+  title_key: home_problems
+  items:
+    - link: "@/status/topping/index.md"
+      content:
+        ru:
+          title: "Топпинг и варварская обрезка"
+          description: "Деревья по всему городу по-прежнему превращают в пни. Мы добиваемся официального запрета и перехода к структурной обрезке силами обученных арбористов."
+        en:
+          title: "Topping and destructive pruning"
+          description: "Trees across the city are still cut back to stubs. We are pushing for a formal ban and a switch to structural pruning by trained arborists."
+        hy:
+          title: "Գագաթատում և կոպիտ էտ"
+          description: "Քաղաքում ծառերը դեռ կտրվում են կոճղերի։ Մենք պահանջում ենք պաշտոնական արգելք և անցում վերապատրաստված արբորիստների կողմից կատարվող կառուցվածքային էտի։"
+
+    - link: "@/status/code/index.md"
+      content:
+        ru:
+          title: "Нет стандарта ухода за деревьями"
+          description: "В Ереване нет обязательных норм посадки и обрезки: решения зависят от мнения одного чиновника. Мы адаптируем европейские стандарты и ANSI A300 к местным условиям."
+        en:
+          title: "No modern care standards"
+          description: "Yerevan has no binding standard for planting and pruning; decisions rest on one official's opinion. We are adapting European and ANSI A300 practice to local conditions."
+        hy:
+          title: "Խնամքի ժամանակակից չափորոշիչների բացակայություն"
+          description: "Երևանում տնկման և էտի պարտադիր չափորոշիչ չկա։ Որոշումները կախված են մեկ պաշտոնյայի կարծիքից։ Մենք հարմարեցնում ենք եվրոպական և ANSI A300 պրակտիկան տեղական պայմաններին։"
+
+    - link: "@/status/invasive/index.md"
+      content:
+        ru:
+          title: "Инвазивные виды"
+          description: "Айлант захватывает пустыри и трещины в асфальте. Новые посадки прекращены, но программы удаления взрослых деревьев и их замены до сих пор нет."
+        en:
+          title: "Invasive species"
+          description: "Ailanthus keeps colonizing vacant land and asphalt cracks. New plantings have stopped, but there is still no program to remove mature trees and replace them."
+        hy:
+          title: "Ինվազիվ տեսակներ"
+          description: "Այլանտը զավթում է անխնամ տարածքներն ու ասֆալտի ճեղքերը։ Նոր տնկումները դադարեցվել են, սակայն հասուն ծառերի հեռացման և փոխարինման ծրագիր դեռ չկա։"
+
+    - link: "@/status/lawns/index.md"
+      content:
+        ru:
+          title: "Голая земля и стриженые газоны"
+          description: "Большая часть общественных территорий — голая пыльная земля, а коммунальщики по-прежнему выпалывают дикие травы, которые её удерживают. Смешанные луговые газоны — проверенная альтернатива."
+        en:
+          title: "Bare soil and close-cropped turf"
+          description: "Most public land is bare, dusty soil — and crews still weed out the wild grass that holds it. Mixed meadow lawns are the proven alternative."
+        hy:
+          title: "Մերկ հող և միատեսակ սիզամարգեր"
+          description: "Հանրային տարածքների մեծ մասը մերկ, փոշոտ հող է, իսկ աշխատակիցները դեռ պոկում են այն պահող վայրի խոտը։ Խառը մարգագետնային սիզամարգերը ապացուցված այլընտրանքն են։"
+
+    - link: "@/status/valuation/index.md"
+      content:
+        ru:
+          title: "Мизерные штрафы за деревья"
+          description: "Ущерб взрослому дереву стоит дешевле дров, поэтому корни обрубают, а стволы калечат без последствий. Штрафы должны покрывать полную стоимость замены."
+        en:
+          title: "Token fines for tree damage"
+          description: "Damaging a mature tree costs less than firewood, so roots are severed and trunks scarred without consequence. Fines must reflect the full cost of replacement."
+        hy:
+          title: "Ծառերին հասցված վնասի խորհրդանշական տուգանքներ"
+          description: "Հասուն ծառին վնասելն ավելի էժան է, քան վառելափայտը, ուստի արմատներն ու բունը վնասվում են առանց հետևանքների։ Տուգանքները պետք է արտացոլեն փոխարինման ամբողջական արժեքը։"
+
+    - link: "@/status/instrumental/index.md"
+      content:
+        ru:
+          title: "Снос без доказательств"
+          description: "Деревья сносят по визуальной оценке, без инструментальных данных и публичного уведомления. Мы готовим закон, который потребует инструментальных доказательств и 30 дней на обжалование."
+        en:
+          title: "Removals without evidence"
+          description: "Trees are felled on visual guesses, with no diagnostic data and no public notice. We are drafting a law that requires instrumental proof and a 30-day appeal window."
+        hy:
+          title: "Հատումներ առանց ապացույցների"
+          description: "Ծառերը հատվում են աչքի գնահատականով՝ առանց գործիքային տվյալների և հրապարակային ծանուցման։ Մենք մշակում ենք օրենք, որը կպահանջի գործիքային ապացույցներ և բողոքարկման 30-օրյա ժամկետ։"
+
+- key: projects
+  title_key: home_projects
+  items:
+    - link: "@/status/pocket-forests/index.md"
+      content:
+        ru:
+          title: "Карманные леса"
+          description: "Плотные мини-леса из местных пород на заброшенных уголках города, которые через три года не требуют полива и ухода."
+        en:
+          title: "Pocket forests"
+          description: "Dense native mini-forests on unused corners of the city, designed to need no watering or maintenance after three years."
+        hy:
+          title: "Գրպանային անտառներ"
+          description: "Տեղական տեսակներից խիտ մինի-անտառներ քաղաքի չօգտագործվող անկյուններում, որոնք երեք տարի անց ջրելու և խնամքի կարիք չեն ունենա։"
+
+    - link: "@/status/birds/index.md"
+      content:
+        ru:
+          title: "Птицы и летучие мыши"
+          description: "Гнездовья и деревья-убежища возвращают естественную защиту от вредителей: городу можно меньше опрыскивать и больше полагаться на живых охотников за насекомыми."
+        en:
+          title: "Birds and bats"
+          description: "Nest boxes and habitat trees bring back natural pest control, so the city can spray less and rely on living insect traps."
+        hy:
+          title: "Թռչուններ և չղջիկներ"
+          description: "Թռչնանոցներն ու կացարանային ծառերը վերականգնում են վնասատուների բնական վերահսկումը, ուստի քաղաքը կարող է ավելի քիչ սրսկել և ապավինել կենդանի միջատակերներին։"
+
+    - link: "@/status/composting/index.md"
+      content:
+        ru:
+          title: "Компостирование листвы"
+          description: "Листья должны становиться компостом, а не дымом и мусором. Заброшенную городскую площадку компостирования нужно запустить и расширить."
+        en:
+          title: "Leaf composting"
+          description: "Leaves become compost instead of smoke or waste. The city's abandoned composting facility should be restarted and expanded."
+        hy:
+          title: "Տերևների կոմպոստացում"
+          description: "Տերևները դառնում են կոմպոստ, ոչ թե ծուխ կամ թափոն։ Քաղաքի լքված կոմպոստացման հարթակը պետք է վերագործարկվի և ընդլայնվի։"
+
+    - link: "@/status/participation/index.md"
+      content:
+        ru:
+          title: "Партисипативное озеленение"
+          description: "Правовой механизм, позволяющий жителям заново сажать деревья в пустых лунках утверждёнными породами, вместо фактической монополии города."
+        en:
+          title: "Participatory greening"
+          description: "A legal route for residents to replant empty tree pits with approved species, instead of a de facto municipal monopoly."
+        hy:
+          title: "Մասնակցային կանաչապատում"
+          description: "Իրավական ուղի, որը բնակիչներին թույլ կտա հաստատված տեսակներով վերատնկել դատարկ ծառափոսերը՝ քաղաքի փաստացի մենաշնորհի փոխարեն։"
+
+    - link: "@/status/council/index.md"
+      content:
+        ru:
+          title: "Общественный совет по озеленению"
+          description: "Независимый орган из учёных, арбористов и жителей, публично рассматривающий разрешения на снос и проекты озеленения."
+        en:
+          title: "Public Green Council"
+          description: "An independent body of scientists, arborists and residents reviewing felling permits and landscape plans in public."
+        hy:
+          title: "Հանրային կանաչապատման խորհուրդ"
+          description: "Անկախ մարմին՝ գիտնականներից, արբորիստներից և բնակիչներից, որը հրապարակայնորեն քննարկում է հատման թույլտվությունները և կանաչապատման նախագծերը։"
+
+    - link: "@/status/arborists/index.md"
+      content:
+        ru:
+          title: "Профессиональные арбористы"
+          description: "Уход за деревьями должны выполнять сертифицированные арбористы по контракту, а не любой, кто умеет держать бензопилу."
+        en:
+          title: "Certified arborists"
+          description: "Tree care should be done by certified arborists on contract, not by anyone who can hold a chainsaw."
+        hy:
+          title: "Սերտիֆիկացված արբորիստներ"
+          description: "Ծառերի խնամքը պետք է կատարեն պայմանագրով աշխատող սերտիֆիկացված արբորիստներ, այլ ոչ թե յուրաքանչյուրը, ով կարողանում է բենզասղոց պահել։"
+
+- key: involved
+  title_key: home_involved
+  items:
+    - link: "@/action/report/index.md"
+      content:
+        ru:
+          title: "Сообщить о проблеме"
+          description: "Сломанные деревья, подозрительная обрезка, новые посадки или раскопки — напишите в наш Telegram-чат или боту, и мы разберёмся."
+        en:
+          title: "Report a problem"
+          description: "Broken trees, suspicious pruning, fresh planting or trenching: send it to our Telegram chat or bot and we will follow up."
+        hy:
+          title: "Հայտնել խնդրի մասին"
+          description: "Կոտրված ծառերի, կասկածելի էտի, նոր տնկումների կամ փորումների մասին գրեք մեր Telegram զրուցարանին կամ բոտին, և մենք կզբաղվենք։"
+
+    - link: "@/action/mapping.md"
+      content:
+        ru:
+          title: "Нанести деревья на карту"
+          description: "Добавьте деревья рядом с домом на карту Trees of Yerevan. Каждая запись — доказательство того, что зелёный фонд нельзя тихо уничтожить."
+        en:
+          title: "Map the trees"
+          description: "Add trees near your home to the Trees of Yerevan map. Every record is evidence of canopy that cannot be quietly removed."
+        hy:
+          title: "Քարտեզագրել ծառերը"
+          description: "Ավելացրեք ձեր տան մոտ գտնվող ծառերը «Trees of Yerevan» քարտեզին։ Յուրաքանչյուր գրառում ապացույց է, որ կանաչ ֆոնդը հնարավոր չէ լուռ ոչնչացնել։"
+
+    - link: "@/action/join.md"
+      content:
+        ru:
+          title: "Присоединиться к команде"
+          description: "Нам нужны руки, головы и опыт: от соцсетей и переводов до полевых обследований и юридических текстов."
+        en:
+          title: "Join the team"
+          description: "We need hands, brains and experience — from social media and translation to field surveys and legal drafting."
+        hy:
+          title: "Միանալ թիմին"
+          description: "Մեզ պետք են ձեռքեր, միտք և փորձ՝ սոցցանցերից ու թարգմանությունից մինչև դաշտային հետազոտություններ և իրավական փաստաթղթեր։"
+
+    - link: "@/action/donate.md"
+      content:
+        ru:
+          title: "Пожертвовать или передать оборудование"
+          description: "Поддержите посадки деревьев и луговых газонов или передайте геодезический GPS и LiDAR, которые сделают наше картографирование точным."
+        en:
+          title: "Donate or supply equipment"
+          description: "Fund trees and meadow seeds, or donate the survey-grade GPS and Lidar kit that would make our mapping precise."
+        hy:
+          title: "Նվիրաբերել կամ տրամադրել սարքավորում"
+          description: "Աջակցեք ծառերի և մարգագետնային խոտերի տնկմանը կամ նվիրաբերեք գեոդեզիական GPS և LiDAR սարքեր, որոնք կդարձնեն մեր քարտեզագրումը ճշգրիտ։"
+
+    - link: "@/action/events.md"
+      content:
+        ru:
+          title: "Календарь событий"
+          description: "Общий календарь зелёных инициатив Еревана. Приходите на посадку деревьев или добавьте своё событие."
+        en:
+          title: "Events calendar"
+          description: "A shared calendar of green initiatives across Yerevan. Come to a planting day, or add your own event."
+        hy:
+          title: "Միջոցառումների օրացույց"
+          description: "Երևանի կանաչ նախաձեռնությունների ընդհանուր օրացույց։ Եկեք տնկման օրը կամ ավելացրեք ձեր միջոցառումը։"
