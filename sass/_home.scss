@@ -80,6 +80,41 @@
   }
 }
 
+// The link at the bottom of a block: one label with an arrow. Kept as plain
+// black text, so it reads as part of the block rather than as a highlighted
+// link. Card grids set their own, smaller size.
+.home-block .more {
+  font-size: 0.95rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    // The link is plain text at rest, so hover is the only cue that it is one.
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .arrow {
+    margin-left: 4px;
+    opacity: 0.6;
+  }
+}
+
+// The journal block's dated list follows the heading directly, so it needs the
+// gap that the file lists get from their own top margin. Its entry titles are
+// plain black text too, like the titles in the file lists.
+.home-block .dated-list {
+  margin-top: 1rem;
+  gap: 0.5rem;
+
+  a {
+    color: inherit;
+    font-weight: 400;
+  }
+}
+
 // Card blocks: the two-column verdict cards from /guidelines/ without the
 // coloured strip. The grid, radius and shadow come from .cards; only the body
 // copy and the bottom-aligned link are set here.
@@ -141,20 +176,6 @@
 
     li {
       margin-bottom: 8px;
-    }
-  }
-
-  .more {
-    font-size: 0.95rem;
-
-    a {
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    .arrow {
-      margin-left: 4px;
-      opacity: 0.6;
     }
   }
 

@@ -31,11 +31,10 @@
 
         {{ blocks::file_list(id="involved", path="data/home-involved.yaml", lang=lang) }}
 
-        <div class="post">
-            {{ section.content | safe }}
+        {{ section.content | safe }}
 
-            {{ journal::recent(lang=lang, count=5, footer=true) }}
-        </div>
+        {# The journal block builds its own list and lives in macros/journal.html. #}
+        {{ journal::recent(lang=lang, count=5, footer=true) }}
 
         {{ blocks::prose(id="events", path="data/home-events.yaml", lang=lang) }}
 
