@@ -102,6 +102,11 @@ main {
         opacity: 0.8;
       }
 
+      th.numeric,
+      td.numeric {
+        text-align: right;
+      }
+
       tr {
         background-color: rgba(#888, 0.2);
 

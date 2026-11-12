@@ -1,8 +1,8 @@
 ---
 title: Trees for Yerevan
-description: Woody species recorded in Yerevan and selected for the city's climate, with their OPALS allergy scores.
+description: Woody species recorded in Yerevan and selected for the city's climate, with their mature size and OPALS allergy scores.
 date: 2026-11-12
-summary: A table of woody species recorded in Yerevan with their Latin names, English names, and OPALS allergy scores.
+summary: A table of woody species recorded in Yerevan with their Latin names, English names, mature height and width, and OPALS allergy scores.
 extra:
   status: recommended
   title: Species Selection
@@ -13,6 +13,10 @@ extra:
 This page is your guide to selecting trees and woody plants for planting in Yerevan, Armenia.
 It combines species suited to the city's long, hot and dry summers, alkaline soils, and winter lows that regularly reach −10 to −15 °C with woody species recorded growing in Yerevan.
 The list includes native trees of the Armenian highland alongside species long proven in the city's parks, streets, and courtyards.
+
+The H and W columns give the average height and width of a mature specimen, in metres.
+These are typical landscape dimensions rather than record sizes: a tree grown in a street pit or a dry courtyard will usually stay smaller, while one in an irrigated park may exceed them.
+For climbers, H is the height the plant typically reaches on a support and W is its spread along it.
 
 The OPALS column gives the Ogren Plant Allergy Scale rating for each species, from 1 to 10.
 A score of 1 means the lowest potential to cause allergic reactions, and 10 means the highest.
