@@ -15,6 +15,11 @@
     data file has one. Like the other copy here it is plain text, so it cannot
     contain Markdown links.
 
+    Icons are optional and live in the data file: "default_icon" holds the svg
+    markup shown on every row, and an item's own "icon" replaces it for that
+    row. With neither key the list renders without icons, so a data file that
+    predates icons keeps working unchanged.
+
   card_grid(id, path, lang)
     id         anchor id, used as id="home-<id>" for linking to the block
     path       data file holding the heading, an optional intro and the items
@@ -54,6 +59,13 @@
         <div class="file-list">
             {% for item in data.items %}
                 <a href="{{ get_url(path=item.link, lang=lang) }}" class="file">
+                    {# Tera errors on a missing key, so the item's own icon and
+                       the block default are both checked before use. #}
+                    {% if item.icon is defined %}
+                        <span class="icon" aria-hidden="true">{{ item.icon | safe }}</span>
+                    {% elif data.default_icon is defined %}
+                        <span class="icon" aria-hidden="true">{{ data.default_icon | safe }}</span>
+                    {% endif %}
                     <span class="text">
                         <span class="title">{{ item.content[lang].title | safe }}</span>
                         <span class="description">{{ item.content[lang].description | safe }}</span>

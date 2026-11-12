@@ -107,6 +107,37 @@ section.home {
   }
 }
 
+// Link blocks with icons: the home teasers run to two or three lines, so the
+// icon box is centred on the row rather than pinned to the first line. The
+// icon itself is drawn by .file-list in sass/partials/file-list.scss.
+.home-block .file-list .file {
+  align-items: center;
+}
+
+.home-block .file svg {
+  width: 20px;
+}
+
+// On a phone the icon, the gap and the arrow leave too little room for the
+// text, so the row chrome shrinks and the icon gives up some of its box.
+@media screen and (max-width: 600px) {
+  .home-block .file-list .file {
+    padding: 10px 12px;
+    gap: 14px;
+
+    .icon {
+      flex: 0 0 32px;
+      width: 32px;
+      height: 32px;
+    }
+
+    .arrow {
+      flex: 0 0 24px;
+      width: 24px;
+    }
+  }
+}
+
 // The journal block's dated list follows the heading directly, so it needs the
 // gap that the file lists get from their own top margin. Its entry titles are
 // plain black text too, like the titles in the file lists.
