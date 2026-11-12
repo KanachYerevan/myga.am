@@ -7,6 +7,13 @@
 # Water is the WUCOLS IV water-use class: vl (very low), l (low), m (moderate), h (high).
 # It describes the irrigation a species needs once established. Classes follow WUCOLS IV
 # where the taxon is listed there, and native habitat or regional floras otherwise.
+# Light is the shadiest exposure in which a species persists: s (full sun only), sp (sun or
+# part shade), p (part shade), f (full shade). It is a floor rather than an optimum and is
+# read against the canopy a site will carry in twenty years. Classes follow Ellenberg light
+# values for European taxa, Silvics of North America for North American taxa, and native
+# habitat or regional floras otherwise.
+# Shelter marks a species that scorches in full summer sun and needs dappling or afternoon
+# shade in Yerevan.
 
 - latin: Abies nordmanniana
   english: Caucasian fir
@@ -15,6 +22,7 @@
   width: 8
   zone: 6
   water: m
+  light: s
 - latin: Acer buergerianum
   english: Trident maple
   group: tree
@@ -22,6 +30,7 @@
   width: 8
   zone: 5
   water: m
+  light: sp
 - latin: Acer campestre
   english: Field maple
   group: tree
@@ -29,6 +38,7 @@
   width: 10
   zone: 4
   water: l
+  light: p
   opals: 6
 - latin: Acer cappadocicum
   english: Cappadocian maple
@@ -37,6 +47,7 @@
   width: 12
   zone: 5
   water: m
+  light: sp
 - latin: Acer heldreichii
   english: Heldreich's maple
   group: tree
@@ -44,6 +55,7 @@
   width: 10
   zone: 6
   water: m
+  light: sp
 - latin: Acer hyrcanum
   english: Balkan maple
   group: tree
@@ -51,6 +63,7 @@
   width: 8
   zone: 6
   water: l
+  light: p
 - latin: Acer monspessulanum
   english: Montpellier maple
   group: tree
@@ -58,6 +71,7 @@
   width: 6
   zone: 6
   water: l
+  light: sp
 - latin: Acer negundo
   english: Box elder
   group: tree
@@ -65,6 +79,7 @@
   width: 12
   zone: 3
   water: m
+  light: sp
   opals: 10
 - latin: Acer palmatum
   english: Japanese maple
@@ -73,6 +88,8 @@
   width: 5
   zone: 5
   water: m
+  light: p
+  shelter: true
   opals: 6
 - latin: Acer platanoides
   english: Norway maple
@@ -81,6 +98,7 @@
   width: 15
   zone: 3
   water: m
+  light: p
   opals: 8
 - latin: Acer pseudoplatanus
   english: Sycamore maple
@@ -89,6 +107,7 @@
   width: 16
   zone: 4
   water: m
+  light: p
 - latin: Acer rubrum
   english: Red maple
   group: tree
@@ -96,6 +115,7 @@
   width: 12
   zone: 3
   water: m
+  light: sp
   opals: 9
 - latin: Acer tataricum
   english: Tatarian maple
@@ -104,6 +124,7 @@
   width: 6
   zone: 3
   water: l
+  light: p
 - latin: Aesculus hippocastanum
   english: Horse chestnut
   group: tree
@@ -111,6 +132,7 @@
   width: 15
   zone: 4
   water: h
+  light: sp
   opals: 7
 - latin: Aesculus × carnea
   english: Red horse-chestnut
@@ -119,6 +141,7 @@
   width: 12
   zone: 4
   water: m
+  light: sp
 - latin: Ailanthus altissima
   english: Tree of heaven
   group: tree
@@ -126,6 +149,7 @@
   width: 12
   zone: 4
   water: l
+  light: s
   opals: 7
 - latin: Albizia julibrissin
   english: Persian silk tree
@@ -134,6 +158,7 @@
   width: 8
   zone: 6
   water: l
+  light: s
   opals: 8
 - latin: Alnus incana
   english: Grey alder
@@ -142,6 +167,7 @@
   width: 8
   zone: 3
   water: h
+  light: s
 - latin: Alnus oblongifolia
   english: Arizona alder
   group: tree
@@ -149,6 +175,7 @@
   width: 10
   zone: 6
   water: h
+  light: s
 - latin: Amelanchier spp.
   english: Serviceberry
   group: shrub
@@ -156,6 +183,7 @@
   width: 4
   zone: 4
   water: m
+  light: sp
   opals: 3
 - latin: Amorpha fruticosa
   english: False indigo bush
@@ -164,18 +192,21 @@
   width: 3
   zone: 4
   water: m
+  light: sp
 - latin: Atraphaxis replicata
   group: shrub
   height: 1
   width: 1.2
   zone: 6
   water: vl
+  light: s
 - latin: Atraphaxis spinosa
   group: shrub
   height: 1
   width: 1.2
   zone: 6
   water: vl
+  light: s
 - latin: Berberis amurensis
   english: Amur barberry
   group: shrub
@@ -183,6 +214,7 @@
   width: 2.5
   zone: 4
   water: m
+  light: sp
 - latin: Berberis aquifolium
   english: Oregon grape
   group: shrub
@@ -190,6 +222,8 @@
   width: 1.5
   zone: 5
   water: l
+  light: p
+  shelter: true
 - latin: Berberis dictyota
   english: Shining netvein barberry
   group: shrub
@@ -197,6 +231,7 @@
   width: 2
   zone: 6
   water: l
+  light: sp
 - latin: Berberis thunbergii
   english: Japanese barberry
   group: shrub
@@ -204,6 +239,7 @@
   width: 2
   zone: 4
   water: m
+  light: sp
 - latin: Berberis vulgaris
   english: European barberry
   group: shrub
@@ -211,6 +247,7 @@
   width: 2.5
   zone: 3
   water: l
+  light: sp
 - latin: Betula papyrifera
   english: Paper birch
   group: tree
@@ -218,6 +255,7 @@
   width: 10
   zone: 2
   water: m
+  light: s
 - latin: Betula pendula
   english: Silver birch
   group: tree
@@ -225,6 +263,7 @@
   width: 10
   zone: 2
   water: m
+  light: s
 - latin: Betula utilis
   english: Himalayan birch
   group: tree
@@ -232,6 +271,7 @@
   width: 8
   zone: 5
   water: m
+  light: s
 - latin: Broussonetia papyrifera
   english: Paper mulberry
   group: tree
@@ -239,6 +279,7 @@
   width: 10
   zone: 6
   water: l
+  light: s
 - latin: Buddleja davidii
   english: Butterfly bush
   group: shrub
@@ -246,6 +287,7 @@
   width: 3
   zone: 5
   water: l
+  light: s
 - latin: Buxus colchica
   english: Colchic boxwood
   group: shrub
@@ -253,6 +295,7 @@
   width: 5
   zone: 6
   water: m
+  light: f
 - latin: Buxus microphylla
   english: Small-leaved box
   group: shrub
@@ -260,6 +303,7 @@
   width: 1.5
   zone: 5
   water: m
+  light: p
 - latin: Buxus sempervirens
   english: Common box
   group: shrub
@@ -267,6 +311,7 @@
   width: 3
   zone: 5
   water: l
+  light: f
 - latin: Campsis radicans
   english: American trumpet vine
   group: vine
@@ -274,6 +319,7 @@
   width: 6
   zone: 4
   water: m
+  light: s
 - latin: Campsis × tagliabueana
   english: Hybrid trumpet vine
   group: vine
@@ -281,6 +327,7 @@
   width: 5
   zone: 5
   water: m
+  light: s
 - latin: Caragana halodendron
   english: Russian salt tree
   group: shrub
@@ -288,6 +335,7 @@
   width: 2.5
   zone: 4
   water: vl
+  light: s
 - latin: Caragana pygmaea
   english: Pygmy caragana
   group: shrub
@@ -295,6 +343,7 @@
   width: 1.2
   zone: 3
   water: vl
+  light: s
 - latin: Carpinus betulus
   english: European hornbeam
   group: tree
@@ -302,6 +351,7 @@
   width: 15
   zone: 4
   water: m
+  light: p
   opals: 7
 - latin: Carpinus orientalis
   english: Eastern hornbeam
@@ -310,6 +360,7 @@
   width: 8
   zone: 5
   water: l
+  light: sp
 - latin: Castanea sativa
   english: Sweet chestnut
   group: tree
@@ -317,6 +368,7 @@
   width: 15
   zone: 5
   water: m
+  light: sp
 - latin: Catalpa bignonioides
   english: Southern catalpa
   group: tree
@@ -324,6 +376,7 @@
   width: 10
   zone: 5
   water: m
+  light: s
   opals: 8
 - latin: Catalpa ovata
   english: Chinese catalpa
@@ -332,6 +385,7 @@
   width: 8
   zone: 5
   water: m
+  light: s
 - latin: Catalpa speciosa
   english: Northern catalpa
   group: tree
@@ -339,6 +393,7 @@
   width: 12
   zone: 4
   water: m
+  light: s
 - latin: Cedrus atlantica
   english: Atlas cedar
   group: conifer
@@ -346,6 +401,7 @@
   width: 15
   zone: 6
   water: l
+  light: s
 - latin: Cedrus libani
   english: Cedar of Lebanon
   group: conifer
@@ -353,6 +409,7 @@
   width: 20
   zone: 5
   water: l
+  light: s
   opals: 2
 - latin: Celtis australis
   english: European hackberry
@@ -361,6 +418,7 @@
   width: 15
   zone: 6
   water: l
+  light: sp
   opals: 8
 - latin: Celtis caucasica
   english: Caucasian hackberry
@@ -369,6 +427,7 @@
   width: 12
   zone: 5
   water: vl
+  light: sp
   opals: 8
 - latin: Celtis planchoniana
   english: Planchon's hackberry
@@ -377,6 +436,7 @@
   width: 10
   zone: 6
   water: l
+  light: sp
 - latin: Cercis canadensis
   english: Eastern redbud
   group: tree
@@ -384,6 +444,7 @@
   width: 8
   zone: 4
   water: m
+  light: p
 - latin: Cercis siliquastrum
   english: Judas tree
   group: tree
@@ -391,6 +452,7 @@
   width: 8
   zone: 6
   water: l
+  light: s
   opals: 5
 - latin: Chaenomeles japonica
   english: Japanese quince
@@ -399,6 +461,7 @@
   width: 2
   zone: 5
   water: m
+  light: sp
 - latin: Chaenomeles speciosa
   english: Chinese quince
   group: shrub
@@ -406,6 +469,7 @@
   width: 3
   zone: 5
   water: m
+  light: sp
 - latin: Chamaecyparis obtusa
   english: Hinoki cypress
   group: conifer
@@ -413,6 +477,7 @@
   width: 6
   zone: 4
   water: m
+  light: sp
 - latin: Chamaecyparis pisifera
   english: Sawara cypress
   group: conifer
@@ -420,6 +485,7 @@
   width: 6
   zone: 4
   water: m
+  light: sp
 - latin: Clematis ligusticifolia
   english: Western white clematis
   group: vine
@@ -427,6 +493,7 @@
   width: 3
   zone: 4
   water: l
+  light: sp
 - latin: Clematis orientalis
   english: Oriental Virgin's-bower
   group: vine
@@ -434,6 +501,7 @@
   width: 3
   zone: 5
   water: l
+  light: s
 - latin: Clematis vitalba
   english: Old man's beard
   group: vine
@@ -441,6 +509,7 @@
   width: 5
   zone: 5
   water: m
+  light: sp
 - latin: Colutea spp.
   english: Bladder senna
   group: shrub
@@ -448,6 +517,7 @@
   width: 3
   zone: 5
   water: vl
+  light: s
 - latin: Cornus alternifolia
   english: Alternate-leaved dogwood
   group: tree
@@ -455,6 +525,7 @@
   width: 6
   zone: 3
   water: m
+  light: p
 - latin: Cornus mas
   english: Cornelian cherry
   group: tree
@@ -462,6 +533,7 @@
   width: 6
   zone: 5
   water: l
+  light: p
 - latin: Cornus sanguinea
   english: Common dogwood
   group: shrub
@@ -469,6 +541,7 @@
   width: 3
   zone: 3
   water: m
+  light: sp
 - latin: Corylus avellana
   english: Common hazel
   group: shrub
@@ -476,6 +549,7 @@
   width: 5
   zone: 3
   water: m
+  light: p
 - latin: Corylus colurna
   english: Turkish hazel
   group: tree
@@ -483,6 +557,7 @@
   width: 12
   zone: 4
   water: m
+  light: sp
 - latin: Cotinus coggygria
   english: Smokebush
   group: shrub
@@ -490,6 +565,7 @@
   width: 4
   zone: 5
   water: l
+  light: s
 - latin: Cotoneaster hjelmqvistii
   english: Hjelmqvist's cotoneaster
   group: shrub
@@ -497,6 +573,7 @@
   width: 2
   zone: 5
   water: l
+  light: sp
 - latin: Cotoneaster horizontalis
   english: Wall cotoneaster
   group: shrub
@@ -504,6 +581,7 @@
   width: 2.5
   zone: 5
   water: l
+  light: sp
 - latin: Cotoneaster pannosus
   english: Silverleaf cotoneaster
   group: shrub
@@ -511,6 +589,7 @@
   width: 3
   zone: 6
   water: l
+  light: sp
 - latin: Crataegus azarolus
   english: Azarole
   group: tree
@@ -518,6 +597,7 @@
   width: 7
   zone: 6
   water: l
+  light: sp
 - latin: Crataegus germanica
   english: Medlar
   group: tree
@@ -525,6 +605,7 @@
   width: 5
   zone: 4
   water: l
+  light: sp
 - latin: Crataegus laevigata
   english: Midland hawthorn
   group: tree
@@ -532,6 +613,7 @@
   width: 6
   zone: 4
   water: m
+  light: sp
 - latin: Crataegus macracantha
   english: Large-thorn hawthorn
   group: tree
@@ -539,6 +621,7 @@
   width: 7
   zone: 3
   water: l
+  light: sp
 - latin: Crataegus microphylla
   english: Small-leaved hawthorn
   group: tree
@@ -546,6 +629,7 @@
   width: 3
   zone: 5
   water: l
+  light: sp
 - latin: Crataegus mollis
   english: Downy hawthorn
   group: tree
@@ -553,6 +637,7 @@
   width: 9
   zone: 3
   water: m
+  light: sp
 - latin: Crataegus monogyna
   english: Common hawthorn
   group: tree
@@ -560,6 +645,7 @@
   width: 7
   zone: 4
   water: l
+  light: sp
 - latin: Crataegus orientalis
   english: Oriental hawthorn
   group: tree
@@ -567,6 +653,7 @@
   width: 6
   zone: 5
   water: l
+  light: s
 - latin: Crataegus pentagyna
   english: Five-seeded hawthorn
   group: tree
@@ -574,6 +661,7 @@
   width: 7
   zone: 4
   water: m
+  light: sp
 - latin: Cupressus cashmeriana
   english: Kashmir cypress
   group: conifer
@@ -581,6 +669,7 @@
   width: 6
   zone: 8
   water: m
+  light: s
   opals: 10
 - latin: Cupressus sempervirens
   english: Mediterranean cypress
@@ -589,6 +678,7 @@
   width: 4
   zone: 7
   water: l
+  light: s
   opals: 10
 - latin: Cydonia oblonga
   english: Quince
@@ -597,6 +687,7 @@
   width: 4
   zone: 5
   water: m
+  light: s
 - latin: Diospyros kaki
   english: Japanese persimmon
   group: tree
@@ -604,6 +695,7 @@
   width: 8
   zone: 7
   water: m
+  light: s
 - latin: Diospyros lotus
   english: Date plum
   group: tree
@@ -611,6 +703,7 @@
   width: 10
   zone: 6
   water: m
+  light: sp
   opals: 6
 - latin: Elaeagnus angustifolia
   english: Russian olive
@@ -619,6 +712,7 @@
   width: 7
   zone: 3
   water: l
+  light: s
 - latin: Elaeagnus umbellata
   english: Autumn olive
   group: shrub
@@ -626,12 +720,14 @@
   width: 4
   zone: 4
   water: l
+  light: s
 - latin: Ephedra procera
   group: shrub
   height: 2
   width: 2
   zone: 6
   water: vl
+  light: s
 - latin: Eriobotrya deflexa
   english: Bronze loquat
   group: tree
@@ -639,6 +735,7 @@
   width: 8
   zone: 8
   water: m
+  light: sp
 - latin: Eriobotrya japonica
   english: Loquat
   group: tree
@@ -646,6 +743,7 @@
   width: 8
   zone: 8
   water: m
+  light: s
 - latin: Euonymus europaeus
   english: Spindle
   group: shrub
@@ -653,6 +751,7 @@
   width: 4
   zone: 4
   water: m
+  light: p
 - latin: Euonymus japonicus
   english: Japanese spindle tree
   group: shrub
@@ -660,6 +759,7 @@
   width: 3
   zone: 6
   water: m
+  light: sp
 - latin: Euonymus latifolius
   english: Large-leaved spindle
   group: shrub
@@ -667,6 +767,7 @@
   width: 4
   zone: 5
   water: m
+  light: p
 - latin: Euonymus verrucosus
   english: Warty spindle
   group: shrub
@@ -674,6 +775,7 @@
   width: 3
   zone: 4
   water: m
+  light: p
 - latin: Fagus orientalis
   english: Oriental beech
   group: tree
@@ -681,6 +783,7 @@
   width: 20
   zone: 5
   water: m
+  light: f
 - latin: Fagus sylvatica
   english: European beech
   group: tree
@@ -688,6 +791,7 @@
   width: 20
   zone: 4
   water: m
+  light: f
 - latin: Fallopia baldschuanica
   english: Bukhara fleeceflower
   group: vine
@@ -695,6 +799,7 @@
   width: 6
   zone: 4
   water: m
+  light: sp
 - latin: Ficus benjamina
   english: Weeping fig
   group: tree
@@ -702,6 +807,7 @@
   width: 5
   zone: 10
   water: m
+  light: sp
   opals: 2
 - latin: Ficus carica
   english: Common fig
@@ -710,6 +816,7 @@
   width: 6
   zone: 6
   water: l
+  light: s
   opals: 2
 - latin: Ficus palmata
   english: Punjab fig
@@ -718,6 +825,7 @@
   width: 5
   zone: 8
   water: l
+  light: s
 - latin: Forsythia koreana
   english: Korean goldenbell tree
   group: shrub
@@ -725,6 +833,7 @@
   width: 3
   zone: 5
   water: m
+  light: s
 - latin: Forsythia suspensa
   english: Golden-bell
   group: shrub
@@ -732,6 +841,7 @@
   width: 3
   zone: 4
   water: m
+  light: s
 - latin: Forsythia × intermedia
   english: Border forsythia
   group: shrub
@@ -739,6 +849,7 @@
   width: 3
   zone: 5
   water: m
+  light: s
 - latin: Fraxinus angustifolia
   english: Narrow-leaved ash
   group: tree
@@ -746,6 +857,7 @@
   width: 12
   zone: 5
   water: m
+  light: s
   opals: 7
 - latin: Fraxinus excelsior
   english: European ash
@@ -754,6 +866,7 @@
   width: 18
   zone: 4
   water: m
+  light: sp
   opals: 7
 - latin: Fraxinus latifolia
   english: Oregon ash
@@ -762,6 +875,7 @@
   width: 12
   zone: 6
   water: h
+  light: sp
 - latin: Fraxinus ornus
   english: Manna ash
   group: tree
@@ -769,6 +883,7 @@
   width: 8
   zone: 5
   water: l
+  light: s
   opals: 7
 - latin: Fraxinus pennsylvanica
   english: Green ash
@@ -777,6 +892,7 @@
   width: 12
   zone: 3
   water: m
+  light: sp
 - latin: Fraxinus profunda
   english: Pumpkin ash
   group: tree
@@ -784,6 +900,7 @@
   width: 15
   zone: 4
   water: h
+  light: sp
 - latin: Fraxinus uhdei
   english: Tropical ash
   group: tree
@@ -791,6 +908,7 @@
   width: 15
   zone: 8
   water: m
+  light: s
 - latin: Fraxinus velutina
   english: Velvet ash
   group: tree
@@ -798,6 +916,7 @@
   width: 10
   zone: 6
   water: l
+  light: s
 - latin: Ginkgo biloba
   english: Ginkgo
   group: tree
@@ -805,6 +924,7 @@
   width: 12
   zone: 3
   water: m
+  light: s
   opals: 7
 - latin: Gleditsia caspica
   english: Caspian locust
@@ -813,6 +933,7 @@
   width: 10
   zone: 5
   water: l
+  light: s
 - latin: Gleditsia triacanthos
   english: Honey locust
   group: tree
@@ -820,6 +941,7 @@
   width: 15
   zone: 4
   water: l
+  light: s
   opals: 4
 - latin: Gymnocladus dioicus
   english: Kentucky coffeetree
@@ -828,6 +950,7 @@
   width: 15
   zone: 3
   water: m
+  light: sp
   opals: 9
 - latin: Hedera colchica
   english: Persian ivy
@@ -836,6 +959,7 @@
   width: 5
   zone: 6
   water: m
+  light: f
 - latin: Hedera helix
   english: Common ivy
   group: vine
@@ -843,6 +967,7 @@
   width: 5
   zone: 5
   water: m
+  light: f
 - latin: Hesperocyparis arizonica
   english: Arizona cypress
   group: conifer
@@ -850,6 +975,7 @@
   width: 6
   zone: 7
   water: l
+  light: s
 - latin: Hesperocyparis forbesii
   english: Tecate cypress
   group: conifer
@@ -857,6 +983,7 @@
   width: 6
   zone: 8
   water: l
+  light: s
 - latin: Hesperocyparis lusitanica
   english: Mexican cypress
   group: conifer
@@ -864,6 +991,7 @@
   width: 8
   zone: 7
   water: l
+  light: sp
 - latin: Hesperocyparis macrocarpa
   english: Monterey cypress
   group: conifer
@@ -871,6 +999,7 @@
   width: 12
   zone: 7
   water: l
+  light: s
 - latin: Hibiscus syriacus
   english: Common hibiscus
   group: shrub
@@ -878,6 +1007,7 @@
   width: 2.5
   zone: 5
   water: m
+  light: s
 - latin: Hippophae rhamnoides
   english: Sea-buckthorn
   group: shrub
@@ -885,6 +1015,7 @@
   width: 5
   zone: 4
   water: l
+  light: s
 - latin: Hydrangea macrophylla
   english: Mophead hydrangea
   group: shrub
@@ -892,6 +1023,8 @@
   width: 1.5
   zone: 5
   water: h
+  light: p
+  shelter: true
 - latin: Hydrangea paniculata
   english: Panicle hydrangea
   group: shrub
@@ -899,6 +1032,7 @@
   width: 3
   zone: 4
   water: m
+  light: sp
 - latin: Hydrangea petiolaris
   english: Climbing hydrangea
   group: vine
@@ -906,6 +1040,7 @@
   width: 5
   zone: 4
   water: m
+  light: p
 - latin: Ilex spp.
   english: Holly
   group: shrub
@@ -913,6 +1048,7 @@
   width: 3
   zone: 6
   water: m
+  light: p
 - latin: Juglans ailantifolia
   english: Japanese walnut
   group: tree
@@ -920,12 +1056,14 @@
   width: 12
   zone: 4
   water: m
+  light: s
 - latin: Juglans australis
   group: tree
   height: 15
   width: 12
   zone: 8
   water: m
+  light: sp
 - latin: Juglans hindsii
   english: Northern California black walnut
   group: tree
@@ -933,6 +1071,7 @@
   width: 12
   zone: 7
   water: m
+  light: s
 - latin: Juglans nigra
   english: Black walnut
   group: tree
@@ -940,6 +1079,7 @@
   width: 18
   zone: 4
   water: m
+  light: s
   opals: 9
 - latin: Juglans regia
   english: Persian walnut
@@ -948,6 +1088,7 @@
   width: 15
   zone: 5
   water: m
+  light: s
   opals: 8
 - latin: Juniperus chinensis
   english: Chinese juniper
@@ -956,6 +1097,7 @@
   width: 3
   zone: 4
   water: l
+  light: s
 - latin: Juniperus communis
   english: Common juniper
   group: conifer
@@ -963,6 +1105,7 @@
   width: 3
   zone: 2
   water: l
+  light: s
 - latin: Juniperus deltoides
   english: Eastern prickly juniper
   group: conifer
@@ -970,6 +1113,7 @@
   width: 3
   zone: 6
   water: l
+  light: s
 - latin: Juniperus excelsa
   english: Greek juniper
   group: conifer
@@ -977,6 +1121,7 @@
   width: 6
   zone: 5
   water: vl
+  light: s
   opals: 10
 - latin: Juniperus foetidissima
   english: Foetid juniper
@@ -985,6 +1130,7 @@
   width: 6
   zone: 6
   water: vl
+  light: s
 - latin: Juniperus horizontalis
   english: Creeping juniper
   group: conifer
@@ -992,6 +1138,7 @@
   width: 2.5
   zone: 2
   water: l
+  light: s
 - latin: Juniperus polycarpos
   english: Persian juniper
   group: conifer
@@ -999,6 +1146,7 @@
   width: 4
   zone: 6
   water: vl
+  light: s
 - latin: Juniperus sabina
   english: Savin juniper
   group: conifer
@@ -1006,6 +1154,7 @@
   width: 3
   zone: 3
   water: vl
+  light: s
 - latin: Juniperus squamata
   english: Flaky juniper
   group: conifer
@@ -1013,6 +1162,7 @@
   width: 2
   zone: 5
   water: l
+  light: s
 - latin: Juniperus virginiana
   english: Eastern red cedar
   group: conifer
@@ -1020,6 +1170,7 @@
   width: 5
   zone: 3
   water: l
+  light: sp
   opals: 10
 - latin: Koelreuteria paniculata
   english: Goldenrain tree
@@ -1028,6 +1179,7 @@
   width: 10
   zone: 5
   water: l
+  light: s
   opals: 4
 - latin: Krascheninnikovia ceratoides
   english: Pamirian winterfat
@@ -1036,6 +1188,7 @@
   width: 1
   zone: 4
   water: vl
+  light: s
 - latin: Krascheninnikovia lanata
   english: Winterfat
   group: shrub
@@ -1043,6 +1196,7 @@
   width: 1
   zone: 3
   water: vl
+  light: s
 - latin: Laburnum anagyroides
   english: Golden chain
   group: tree
@@ -1050,6 +1204,7 @@
   width: 5
   zone: 5
   water: m
+  light: sp
   opals: 7
 - latin: Lagerstroemia indica
   english: Crape-myrtle
@@ -1058,6 +1213,7 @@
   width: 4
   zone: 7
   water: m
+  light: s
 - latin: Laurus nobilis
   english: Bay laurel
   group: tree
@@ -1065,6 +1221,7 @@
   width: 6
   zone: 8
   water: l
+  light: sp
 - latin: Ligustrum sinense
   english: Chinese privet
   group: shrub
@@ -1072,6 +1229,7 @@
   width: 3
   zone: 7
   water: m
+  light: sp
 - latin: Ligustrum vulgare
   english: Common privet
   group: shrub
@@ -1079,6 +1237,7 @@
   width: 3
   zone: 4
   water: m
+  light: p
 - latin: Liriodendron chinense
   english: Chinese tulip tree
   group: tree
@@ -1086,6 +1245,7 @@
   width: 12
   zone: 6
   water: m
+  light: sp
 - latin: Liriodendron tulipifera
   english: Tulip tree
   group: tree
@@ -1093,6 +1253,7 @@
   width: 15
   zone: 4
   water: m
+  light: sp
   opals: 4
 - latin: Lonicera caprifolium
   english: Perfoliate honeysuckle
@@ -1101,6 +1262,7 @@
   width: 4
   zone: 5
   water: m
+  light: sp
 - latin: Lonicera caucasica
   english: Caucasian honeysuckle
   group: shrub
@@ -1108,12 +1270,14 @@
   width: 2
   zone: 5
   water: l
+  light: sp
 - latin: Lonicera floribunda
   group: shrub
   height: 2
   width: 2
   zone: 6
   water: l
+  light: sp
 - latin: Lonicera japonica
   english: Japanese honeysuckle
   group: vine
@@ -1121,6 +1285,7 @@
   width: 5
   zone: 5
   water: m
+  light: p
 - latin: Lonicera maackii
   english: Amur honeysuckle
   group: shrub
@@ -1128,6 +1293,7 @@
   width: 4
   zone: 3
   water: m
+  light: p
 - latin: Lonicera periclymenum
   english: Common honeysuckle
   group: vine
@@ -1135,6 +1301,7 @@
   width: 4
   zone: 5
   water: m
+  light: sp
 - latin: Lonicera sempervirens
   english: Coral honeysuckle
   group: vine
@@ -1142,6 +1309,7 @@
   width: 3
   zone: 4
   water: m
+  light: sp
 - latin: Lonicera tatarica
   english: Tatarian honeysuckle
   group: shrub
@@ -1149,6 +1317,7 @@
   width: 3
   zone: 3
   water: l
+  light: sp
 - latin: Lycium barbarum
   english: Matrimony vine
   group: shrub
@@ -1156,6 +1325,7 @@
   width: 3
   zone: 4
   water: l
+  light: s
 - latin: Maclura pomifera
   english: Osage orange
   group: tree
@@ -1163,6 +1333,7 @@
   width: 10
   zone: 4
   water: l
+  light: s
   opals: 9
 - latin: Maclura tricuspidata
   english: Silkworm thorn
@@ -1171,6 +1342,7 @@
   width: 7
   zone: 5
   water: l
+  light: s
 - latin: Magnolia acuminata
   english: Cucumber-tree
   group: tree
@@ -1178,6 +1350,7 @@
   width: 12
   zone: 4
   water: m
+  light: sp
 - latin: Magnolia denudata
   english: Yulan magnolia
   group: tree
@@ -1185,6 +1358,7 @@
   width: 8
   zone: 6
   water: m
+  light: sp
 - latin: Magnolia kobus
   english: Kobus magnolia
   group: tree
@@ -1192,6 +1366,7 @@
   width: 8
   zone: 5
   water: m
+  light: sp
 - latin: Magnolia liliiflora
   english: Lily magnolia
   group: tree
@@ -1199,6 +1374,7 @@
   width: 4
   zone: 5
   water: m
+  light: sp
 - latin: Magnolia × soulangeana
   english: Saucer magnolia
   group: tree
@@ -1206,6 +1382,7 @@
   width: 6
   zone: 5
   water: m
+  light: sp
 - latin: Malus baccata
   english: Siberian crabapple
   group: tree
@@ -1213,6 +1390,7 @@
   width: 6
   zone: 3
   water: m
+  light: s
 - latin: Malus domestica
   english: Apple
   group: tree
@@ -1220,6 +1398,7 @@
   width: 6
   zone: 3
   water: m
+  light: s
   opals: 3
 - latin: Malus orientalis
   english: Caucasus apple
@@ -1228,6 +1407,7 @@
   width: 7
   zone: 4
   water: m
+  light: s
 - latin: Malus sylvestris
   english: European wild apple
   group: tree
@@ -1235,6 +1415,7 @@
   width: 6
   zone: 3
   water: m
+  light: s
 - latin: Metasequoia glyptostroboides
   english: Dawn redwood
   group: conifer
@@ -1242,6 +1423,7 @@
   width: 8
   zone: 5
   water: h
+  light: s
   opals: 4
 - latin: Morus alba
   english: White mulberry
@@ -1250,6 +1432,7 @@
   width: 12
   zone: 4
   water: l
+  light: s
   opals: 10
 - latin: Morus nigra
   english: Black mulberry
@@ -1258,6 +1441,7 @@
   width: 12
   zone: 5
   water: m
+  light: s
   opals: 2
 - latin: Nerium oleander
   english: Oleander
@@ -1266,6 +1450,7 @@
   width: 3
   zone: 8
   water: l
+  light: s
 - latin: Ostrya carpinifolia
   english: European hop hornbeam
   group: tree
@@ -1273,6 +1458,7 @@
   width: 12
   zone: 5
   water: l
+  light: sp
   opals: 6
 - latin: Ostrya knowltonii
   english: Knowlton's hophornbeam
@@ -1281,6 +1467,7 @@
   width: 6
   zone: 6
   water: l
+  light: sp
 - latin: Paliurus spina-christi
   english: Jerusalem thorn
   group: shrub
@@ -1288,6 +1475,7 @@
   width: 3
   zone: 6
   water: vl
+  light: s
 - latin: Parrotia persica
   english: Persian ironwood
   group: tree
@@ -1295,6 +1483,7 @@
   width: 8
   zone: 5
   water: m
+  light: sp
   opals: 4
 - latin: Parthenocissus inserta
   english: Thicket creeper
@@ -1303,6 +1492,7 @@
   width: 5
   zone: 3
   water: m
+  light: sp
 - latin: Parthenocissus quinquefolia
   english: Virginia creeper
   group: vine
@@ -1310,6 +1500,7 @@
   width: 6
   zone: 3
   water: m
+  light: p
 - latin: Parthenocissus tricuspidata
   english: Japanese creeper
   group: vine
@@ -1317,6 +1508,7 @@
   width: 8
   zone: 4
   water: m
+  light: sp
 - latin: Passiflora caerulea
   english: Bluecrown passionflower
   group: vine
@@ -1324,6 +1516,7 @@
   width: 4
   zone: 7
   water: m
+  light: s
 - latin: Paulownia tomentosa
   english: Princess tree
   group: tree
@@ -1331,6 +1524,7 @@
   width: 12
   zone: 5
   water: m
+  light: s
 - latin: Philadelphus coronarius
   english: Sweet mock orange
   group: shrub
@@ -1338,6 +1532,7 @@
   width: 2.5
   zone: 4
   water: m
+  light: sp
 - latin: Phillyrea latifolia
   english: Green olive tree
   group: shrub
@@ -1345,6 +1540,7 @@
   width: 4
   zone: 7
   water: l
+  light: sp
 - latin: Photinia spp.
   english: Photinia
   group: shrub
@@ -1352,6 +1548,7 @@
   width: 4
   zone: 7
   water: m
+  light: sp
 - latin: Picea abies
   english: Norway spruce
   group: conifer
@@ -1359,6 +1556,7 @@
   width: 8
   zone: 2
   water: m
+  light: sp
 - latin: Picea omorika
   english: Serbian spruce
   group: conifer
@@ -1366,6 +1564,7 @@
   width: 5
   zone: 4
   water: m
+  light: sp
 - latin: Picea orientalis
   english: Oriental spruce
   group: conifer
@@ -1373,6 +1572,7 @@
   width: 8
   zone: 5
   water: m
+  light: p
   opals: 3
 - latin: Picea pungens
   english: Blue spruce
@@ -1381,6 +1581,7 @@
   width: 8
   zone: 2
   water: m
+  light: sp
   opals: 3
 - latin: Pinus brutia
   english: Turkish pine
@@ -1389,6 +1590,7 @@
   width: 8
   zone: 8
   water: l
+  light: s
 - latin: Pinus contorta
   english: Lodgepole pine
   group: conifer
@@ -1396,6 +1598,7 @@
   width: 6
   zone: 4
   water: l
+  light: s
 - latin: Pinus mugo
   english: Mountain pine
   group: conifer
@@ -1403,6 +1606,7 @@
   width: 4
   zone: 2
   water: l
+  light: s
 - latin: Pinus nigra
   english: Austrian pine
   group: conifer
@@ -1410,6 +1614,7 @@
   width: 10
   zone: 4
   water: l
+  light: s
   opals: 4
 - latin: Pinus pinaster
   english: Maritime pine
@@ -1418,6 +1623,7 @@
   width: 10
   zone: 7
   water: l
+  light: s
 - latin: Pinus pinea
   english: Stone pine
   group: conifer
@@ -1425,6 +1631,7 @@
   width: 12
   zone: 7
   water: l
+  light: s
   opals: 4
 - latin: Pinus resinosa
   english: Red pine
@@ -1433,6 +1640,7 @@
   width: 8
   zone: 2
   water: l
+  light: s
 - latin: Pinus sylvestris
   english: Scots pine
   group: conifer
@@ -1440,6 +1648,7 @@
   width: 10
   zone: 2
   water: l
+  light: s
 - latin: Pinus wallichiana
   english: Blue pine
   group: conifer
@@ -1447,6 +1656,7 @@
   width: 10
   zone: 6
   water: m
+  light: s
 - latin: Pistacia vera
   english: Pistachio
   group: tree
@@ -1454,6 +1664,7 @@
   width: 8
   zone: 7
   water: l
+  light: s
 - latin: Platanus mexicana
   english: Mexican sycamore
   group: tree
@@ -1461,6 +1672,7 @@
   width: 15
   zone: 7
   water: h
+  light: s
 - latin: Platanus orientalis
   english: Oriental plane
   group: tree
@@ -1468,6 +1680,7 @@
   width: 20
   zone: 5
   water: h
+  light: s
   opals: 8
 - latin: Platanus wrightii
   english: Arizona sycamore
@@ -1476,6 +1689,7 @@
   width: 15
   zone: 7
   water: h
+  light: s
 - latin: Platanus × hispanica
   english: London plane
   group: tree
@@ -1483,6 +1697,7 @@
   width: 20
   zone: 5
   water: h
+  light: s
   opals: 8
 - latin: Platycladus orientalis
   english: Oriental arborvitae
@@ -1491,6 +1706,7 @@
   width: 5
   zone: 5
   water: l
+  light: sp
   opals: 7
 - latin: Plumbago europaea
   english: Common leadwort
@@ -1499,6 +1715,7 @@
   width: 1.5
   zone: 7
   water: l
+  light: s
 - latin: Populus alba
   english: White poplar
   group: tree
@@ -1506,6 +1723,7 @@
   width: 18
   zone: 3
   water: h
+  light: s
   opals: 9
 - latin: Populus euphratica
   english: Euphrates poplar
@@ -1514,6 +1732,7 @@
   width: 10
   zone: 6
   water: h
+  light: s
 - latin: Populus nigra
   english: Black poplar
   group: tree
@@ -1521,6 +1740,7 @@
   width: 15
   zone: 3
   water: h
+  light: s
   opals: 9
 - latin: Populus tremula
   english: European aspen
@@ -1529,6 +1749,7 @@
   width: 10
   zone: 2
   water: m
+  light: s
 - latin: Prunus amygdalus
   english: Almond
   group: tree
@@ -1536,6 +1757,7 @@
   width: 7
   zone: 5
   water: l
+  light: s
   opals: 10
 - latin: Prunus argentea
   english: Silver almond
@@ -1544,6 +1766,7 @@
   width: 4
   zone: 6
   water: vl
+  light: s
 - latin: Prunus armeniaca
   english: Apricot
   group: tree
@@ -1551,6 +1774,7 @@
   width: 6
   zone: 5
   water: m
+  light: s
   opals: 3
 - latin: Prunus avium
   english: Sweet cherry
@@ -1559,6 +1783,7 @@
   width: 12
   zone: 3
   water: m
+  light: sp
   opals: 7
 - latin: Prunus campanulata
   english: Taiwan cherry
@@ -1567,6 +1792,7 @@
   width: 6
   zone: 7
   water: m
+  light: s
 - latin: Prunus cerasifera
   english: Cherry plum
   group: tree
@@ -1574,6 +1800,7 @@
   width: 7
   zone: 4
   water: m
+  light: s
   opals: 3
 - latin: Prunus cerasus
   english: Sour cherry
@@ -1582,6 +1809,7 @@
   width: 7
   zone: 3
   water: m
+  light: s
   opals: 7
 - latin: Prunus domestica
   english: Plum
@@ -1590,6 +1818,7 @@
   width: 7
   zone: 4
   water: m
+  light: s
 - latin: Prunus fenzliana
   english: Fenzl's almond
   group: tree
@@ -1597,6 +1826,7 @@
   width: 5
   zone: 6
   water: vl
+  light: s
 - latin: Prunus incana
   english: Willow leaf cherry
   group: tree
@@ -1604,6 +1834,7 @@
   width: 4
   zone: 6
   water: l
+  light: s
 - latin: Prunus mahaleb
   english: St Lucie cherry
   group: tree
@@ -1611,6 +1842,7 @@
   width: 8
   zone: 5
   water: l
+  light: s
 - latin: Prunus mexicana
   english: Mexican plum
   group: tree
@@ -1618,6 +1850,7 @@
   width: 9
   zone: 5
   water: m
+  light: s
 - latin: Prunus persica
   english: Peach
   group: tree
@@ -1625,6 +1858,7 @@
   width: 6
   zone: 5
   water: m
+  light: s
   opals: 3
 - latin: Prunus serrulata
   english: Japanese cherry
@@ -1633,6 +1867,7 @@
   width: 10
   zone: 5
   water: m
+  light: s
   opals: 7
 - latin: Prunus spinosa
   english: Blackthorn
@@ -1641,6 +1876,7 @@
   width: 4
   zone: 4
   water: l
+  light: sp
 - latin: Punica granatum
   english: Pomegranate
   group: shrub
@@ -1648,6 +1884,7 @@
   width: 4
   zone: 7
   water: l
+  light: s
 - latin: Pyracantha angustifolia
   english: Narrowleaf firethorn
   group: shrub
@@ -1655,6 +1892,7 @@
   width: 3
   zone: 6
   water: l
+  light: sp
 - latin: Pyracantha coccinea
   english: Firethorn
   group: shrub
@@ -1662,6 +1900,7 @@
   width: 3
   zone: 5
   water: l
+  light: sp
 - latin: Pyrus caucasica
   english: Caucasian pear
   group: tree
@@ -1669,6 +1908,7 @@
   width: 10
   zone: 5
   water: m
+  light: s
   opals: 3
 - latin: Pyrus communis
   english: Common pear
@@ -1677,6 +1917,7 @@
   width: 10
   zone: 4
   water: m
+  light: s
 - latin: Pyrus salicifolia
   english: Willow-leaved pear
   group: tree
@@ -1684,6 +1925,7 @@
   width: 6
   zone: 5
   water: l
+  light: s
 - latin: Quercus canariensis
   english: Mirbeck's oak
   group: tree
@@ -1691,6 +1933,7 @@
   width: 15
   zone: 7
   water: m
+  light: sp
 - latin: Quercus castaneifolia
   english: Chestnut-leaved oak
   group: tree
@@ -1698,6 +1941,7 @@
   width: 15
   zone: 6
   water: m
+  light: sp
   opals: 8
 - latin: Quercus frainetto
   english: Hungarian oak
@@ -1706,6 +1950,7 @@
   width: 18
   zone: 5
   water: m
+  light: sp
 - latin: Quercus macranthera
   english: Caucasian oak
   group: tree
@@ -1713,6 +1958,7 @@
   width: 15
   zone: 5
   water: l
+  light: s
   opals: 8
 - latin: Quercus petraea
   english: Sessile oak
@@ -1721,6 +1967,7 @@
   width: 18
   zone: 4
   water: m
+  light: sp
 - latin: Quercus pubescens
   english: Downy oak
   group: tree
@@ -1728,6 +1975,7 @@
   width: 15
   zone: 5
   water: l
+  light: s
 - latin: Quercus robur
   english: English oak
   group: tree
@@ -1735,6 +1983,7 @@
   width: 20
   zone: 4
   water: m
+  light: sp
   opals: 8
 - latin: Quercus rubra
   english: Northern red oak
@@ -1743,6 +1992,7 @@
   width: 18
   zone: 3
   water: m
+  light: sp
   opals: 8
 - latin: Quercus shumardii
   english: Shumard oak
@@ -1751,6 +2001,7 @@
   width: 15
   zone: 5
   water: m
+  light: sp
 - latin: Rhamnus cathartica
   english: Common buckthorn
   group: shrub
@@ -1758,6 +2009,7 @@
   width: 5
   zone: 3
   water: m
+  light: sp
 - latin: Rhamnus erythroxyloides
   english: Pallas' buckthorn
   group: shrub
@@ -1765,12 +2017,14 @@
   width: 2
   zone: 6
   water: vl
+  light: sp
 - latin: Rhamnus spathulifolia
   group: shrub
   height: 2
   width: 2
   zone: 6
   water: vl
+  light: sp
 - latin: Rhododendron ponticum
   english: Pontic rhododendron
   group: shrub
@@ -1778,6 +2032,8 @@
   width: 4
   zone: 6
   water: m
+  light: p
+  shelter: true
 - latin: Rhus typhina
   english: Staghorn sumac
   group: tree
@@ -1785,6 +2041,7 @@
   width: 8
   zone: 3
   water: l
+  light: s
 - latin: Ribes aureum
   english: Golden currant
   group: shrub
@@ -1792,6 +2049,7 @@
   width: 2
   zone: 3
   water: l
+  light: sp
 - latin: Ribes viburnifolium
   english: Santa Catalina Island currant
   group: shrub
@@ -1799,6 +2057,7 @@
   width: 2
   zone: 8
   water: l
+  light: p
 - latin: Robinia hispida
   english: Bristly locust
   group: shrub
@@ -1806,6 +2065,7 @@
   width: 3
   zone: 4
   water: l
+  light: s
 - latin: Robinia neomexicana
   english: New Mexico locust
   group: tree
@@ -1813,6 +2073,7 @@
   width: 7
   zone: 5
   water: l
+  light: s
 - latin: Robinia pseudoacacia
   english: Black locust
   group: tree
@@ -1820,6 +2081,7 @@
   width: 12
   zone: 3
   water: l
+  light: s
   opals: 5
 - latin: Rosa banksiae
   english: Lady Banks' rose
@@ -1828,6 +2090,7 @@
   width: 4
   zone: 7
   water: l
+  light: s
 - latin: Rosa canina
   english: Dog-rose
   group: shrub
@@ -1835,6 +2098,7 @@
   width: 3
   zone: 4
   water: l
+  light: sp
 - latin: Rosa chinensis
   english: China rose
   group: shrub
@@ -1842,6 +2106,7 @@
   width: 1.5
   zone: 7
   water: m
+  light: s
 - latin: Rosa corymbifera
   english: Hairy dog-rose
   group: shrub
@@ -1849,6 +2114,7 @@
   width: 3
   zone: 4
   water: l
+  light: sp
 - latin: Rosa dumalis
   english: Glaucous dog rose
   group: shrub
@@ -1856,6 +2122,7 @@
   width: 3
   zone: 4
   water: l
+  light: sp
 - latin: Rosa hemisphaerica
   english: Sulfur rose
   group: shrub
@@ -1863,6 +2130,7 @@
   width: 2
   zone: 6
   water: l
+  light: s
 - latin: Rosa luciae
   english: Memorial rose
   group: shrub
@@ -1870,6 +2138,7 @@
   width: 4
   zone: 5
   water: l
+  light: s
 - latin: Rosa micrantha
   english: Small-flowered sweet-briar
   group: shrub
@@ -1877,6 +2146,7 @@
   width: 2.5
   zone: 5
   water: l
+  light: sp
 - latin: Rosa multiflora
   english: Multiflora rose
   group: shrub
@@ -1884,12 +2154,14 @@
   width: 4
   zone: 4
   water: m
+  light: sp
 - latin: Rosa platyacantha
   group: shrub
   height: 1.5
   width: 2
   zone: 5
   water: vl
+  light: s
 - latin: Rosa rubiginosa
   english: Sweet-brier
   group: shrub
@@ -1897,6 +2169,7 @@
   width: 3
   zone: 4
   water: l
+  light: sp
 - latin: Rosa rugosa
   english: Rugosa rose
   group: shrub
@@ -1904,6 +2177,7 @@
   width: 1.5
   zone: 2
   water: m
+  light: s
 - latin: Rosa sempervirens
   english: Evergreen rose
   group: shrub
@@ -1911,6 +2185,7 @@
   width: 4
   zone: 7
   water: m
+  light: sp
 - latin: Rosa spinosissima
   english: Burnet rose
   group: shrub
@@ -1918,6 +2193,7 @@
   width: 2
   zone: 3
   water: l
+  light: s
 - latin: Rosa villosa
   english: Apple rose
   group: shrub
@@ -1925,6 +2201,7 @@
   width: 2.5
   zone: 4
   water: l
+  light: sp
 - latin: Rubus affinis
   english: Vigorous bramble
   group: shrub
@@ -1932,6 +2209,7 @@
   width: 3
   zone: 6
   water: m
+  light: sp
 - latin: Rubus armeniacus
   english: Armenian blackberry
   group: shrub
@@ -1939,6 +2217,7 @@
   width: 4
   zone: 5
   water: m
+  light: sp
 - latin: Rubus caesius
   english: European dewberry
   group: shrub
@@ -1946,6 +2225,7 @@
   width: 2
   zone: 4
   water: m
+  light: sp
 - latin: Rubus creticus
   english: Holy bramble
   group: shrub
@@ -1953,6 +2233,7 @@
   width: 1.5
   zone: 8
   water: l
+  light: s
 - latin: Rubus idaeus
   english: Red raspberry
   group: shrub
@@ -1960,6 +2241,7 @@
   width: 1.5
   zone: 3
   water: m
+  light: sp
 - latin: Rubus ulmifolius
   english: Elmleaf blackberry
   group: shrub
@@ -1967,6 +2249,7 @@
   width: 3
   zone: 6
   water: m
+  light: sp
 - latin: Salix alba
   english: White willow
   group: tree
@@ -1974,6 +2257,7 @@
   width: 15
   zone: 2
   water: h
+  light: s
   opals: 10
 - latin: Salix babylonica
   english: Weeping willow
@@ -1982,6 +2266,7 @@
   width: 15
   zone: 5
   water: h
+  light: s
 - latin: Salix cinerea
   english: Grey willow
   group: tree
@@ -1989,6 +2274,7 @@
   width: 6
   zone: 3
   water: h
+  light: s
 - latin: Salix discolor
   english: Pussy willow
   group: tree
@@ -1996,6 +2282,7 @@
   width: 5
   zone: 2
   water: h
+  light: s
 - latin: Salix eriocephala
   english: Heart-leaved willow
   group: tree
@@ -2003,6 +2290,7 @@
   width: 5
   zone: 2
   water: h
+  light: s
 - latin: Salix euxina
   english: Crack willow
   group: tree
@@ -2010,6 +2298,7 @@
   width: 12
   zone: 4
   water: h
+  light: s
 - latin: Salix lasiandra
   english: Pacific willow
   group: tree
@@ -2017,6 +2306,7 @@
   width: 8
   zone: 3
   water: h
+  light: s
 - latin: Salix nigra
   english: Black willow
   group: tree
@@ -2024,6 +2314,7 @@
   width: 12
   zone: 3
   water: h
+  light: s
 - latin: Salix triandra
   english: Almond willow
   group: tree
@@ -2031,6 +2322,7 @@
   width: 6
   zone: 3
   water: h
+  light: s
 - latin: Salix × fragilis
   english: Hybrid crack willow
   group: tree
@@ -2038,6 +2330,7 @@
   width: 15
   zone: 4
   water: h
+  light: s
 - latin: Sambucus nigra
   english: European black elderberry
   group: shrub
@@ -2045,6 +2338,7 @@
   width: 5
   zone: 4
   water: m
+  light: p
 - latin: Sorbus aucuparia
   english: European mountain ash
   group: tree
@@ -2052,6 +2346,7 @@
   width: 8
   zone: 2
   water: m
+  light: sp
 - latin: Sorbus hajastana
   english: Hajastan mountain ash
   group: tree
@@ -2059,6 +2354,7 @@
   width: 6
   zone: 5
   water: l
+  light: sp
 - latin: Spiraea betulifolia
   english: Birch-leaved spirea
   group: shrub
@@ -2066,6 +2362,7 @@
   width: 1.5
   zone: 3
   water: m
+  light: sp
 - latin: Spiraea cantoniensis
   english: Reeve's spirea
   group: shrub
@@ -2073,6 +2370,7 @@
   width: 2
   zone: 5
   water: m
+  light: s
 - latin: Spiraea hypericifolia
   english: Iberian spirea
   group: shrub
@@ -2080,6 +2378,7 @@
   width: 1.5
   zone: 4
   water: l
+  light: s
 - latin: Spiraea japonica
   english: Japanese spirea
   group: shrub
@@ -2087,6 +2386,7 @@
   width: 1.5
   zone: 4
   water: m
+  light: s
 - latin: Spiraea trilobata
   english: Threelobe spirea
   group: shrub
@@ -2094,6 +2394,7 @@
   width: 1.5
   zone: 3
   water: l
+  light: sp
 - latin: Spiraea × vanhouttei
   english: Van Houtte's spirea
   group: shrub
@@ -2101,6 +2402,7 @@
   width: 2.5
   zone: 4
   water: m
+  light: s
 - latin: Styphnolobium japonicum
   english: Japanese pagoda tree
   group: tree
@@ -2108,6 +2410,7 @@
   width: 12
   zone: 4
   water: l
+  light: s
   opals: 5
 - latin: Symphoricarpos albus
   english: Common snowberry
@@ -2116,6 +2419,7 @@
   width: 1.5
   zone: 3
   water: m
+  light: p
 - latin: Symphoricarpos orbiculatus
   english: Coralberry
   group: shrub
@@ -2123,6 +2427,7 @@
   width: 1.5
   zone: 3
   water: m
+  light: p
 - latin: Syringa vulgaris
   english: Common lilac
   group: shrub
@@ -2130,6 +2435,7 @@
   width: 4
   zone: 3
   water: m
+  light: s
 - latin: Syringa × chinensis
   english: Rouen lilac
   group: shrub
@@ -2137,6 +2443,7 @@
   width: 3
   zone: 4
   water: m
+  light: s
 - latin: Tamarix aphylla
   english: Athel tamarisk
   group: shrub
@@ -2144,6 +2451,7 @@
   width: 8
   zone: 8
   water: vl
+  light: s
 - latin: Tamarix chinensis
   english: Five-stamen tamarisk
   group: shrub
@@ -2151,6 +2459,7 @@
   width: 4
   zone: 5
   water: vl
+  light: s
 - latin: Tamarix gallica
   english: French tamarisk
   group: shrub
@@ -2158,6 +2467,7 @@
   width: 5
   zone: 6
   water: vl
+  light: s
 - latin: Tamarix ramosissima
   english: Saltcedar
   group: shrub
@@ -2165,6 +2475,7 @@
   width: 4
   zone: 3
   water: vl
+  light: s
 - latin: Taxus baccata
   english: European yew
   group: conifer
@@ -2172,6 +2483,7 @@
   width: 8
   zone: 5
   water: m
+  light: f
   opals: 10
 - latin: Thuja occidentalis
   english: Northern whitecedar
@@ -2180,6 +2492,7 @@
   width: 4
   zone: 3
   water: m
+  light: p
 - latin: Tilia cordata
   english: Small-leaved lime
   group: tree
@@ -2187,6 +2500,7 @@
   width: 15
   zone: 3
   water: m
+  light: p
   opals: 7
 - latin: Tilia dasystyla
   english: Crimean lime
@@ -2195,6 +2509,7 @@
   width: 15
   zone: 5
   water: m
+  light: p
 - latin: Tilia platyphyllos
   english: Large-leaved lime
   group: tree
@@ -2202,6 +2517,7 @@
   width: 18
   zone: 4
   water: m
+  light: sp
   opals: 7
 - latin: Ulmus glabra
   english: Wych elm
@@ -2210,6 +2526,7 @@
   width: 18
   zone: 3
   water: m
+  light: sp
   opals: 8
 - latin: Ulmus laevis
   english: Fluttering elm
@@ -2218,6 +2535,7 @@
   width: 18
   zone: 4
   water: h
+  light: sp
 - latin: Ulmus minor
   english: Field elm
   group: tree
@@ -2225,6 +2543,7 @@
   width: 15
   zone: 4
   water: m
+  light: sp
   opals: 8
 - latin: Ulmus parvifolia
   english: Chinese elm
@@ -2233,6 +2552,7 @@
   width: 10
   zone: 5
   water: m
+  light: sp
 - latin: Ulmus pumila
   english: Siberian elm
   group: tree
@@ -2240,6 +2560,7 @@
   width: 12
   zone: 3
   water: l
+  light: s
 - latin: Viburnum lantana
   english: Wayfaring-tree
   group: shrub
@@ -2247,6 +2568,7 @@
   width: 4
   zone: 4
   water: l
+  light: sp
 - latin: Viburnum macrocephalum
   english: Chinese snowball viburnum
   group: shrub
@@ -2254,6 +2576,7 @@
   width: 4
   zone: 6
   water: m
+  light: sp
 - latin: Viburnum opulus
   english: Guelder-rose
   group: shrub
@@ -2261,6 +2584,7 @@
   width: 4
   zone: 3
   water: m
+  light: sp
 - latin: Viburnum prunifolium
   english: Blackhaw
   group: shrub
@@ -2268,6 +2592,7 @@
   width: 5
   zone: 3
   water: m
+  light: p
 - latin: Vinca major
   english: Greater periwinkle
   group: shrub
@@ -2275,6 +2600,7 @@
   width: 2
   zone: 6
   water: m
+  light: f
 - latin: Vinca minor
   english: Lesser periwinkle
   group: shrub
@@ -2282,6 +2608,7 @@
   width: 1.5
   zone: 4
   water: m
+  light: f
 - latin: Vitis labrusca
   english: Fox grape
   group: vine
@@ -2289,6 +2616,7 @@
   width: 4
   zone: 4
   water: m
+  light: s
 - latin: Vitis rotundifolia
   english: Muscadine
   group: vine
@@ -2296,6 +2624,7 @@
   width: 5
   zone: 6
   water: m
+  light: s
 - latin: Vitis vinifera
   english: Wine grape
   group: vine
@@ -2303,6 +2632,7 @@
   width: 4
   zone: 6
   water: m
+  light: s
 - latin: Weigela florida
   english: Old fashioned weigela
   group: shrub
@@ -2310,6 +2640,7 @@
   width: 3
   zone: 4
   water: m
+  light: sp
 - latin: Wisteria floribunda
   english: Japanese wisteria
   group: vine
@@ -2317,6 +2648,7 @@
   width: 6
   zone: 5
   water: m
+  light: s
 - latin: Wisteria sinensis
   english: Chinese wisteria
   group: vine
@@ -2324,6 +2656,7 @@
   width: 6
   zone: 5
   water: m
+  light: s
 - latin: Yucca filamentosa
   english: Common yucca
   group: shrub
@@ -2331,6 +2664,7 @@
   width: 1.5
   zone: 4
   water: l
+  light: s
 - latin: Yucca flaccida
   english: Weak-leaf yucca
   group: shrub
@@ -2338,6 +2672,7 @@
   width: 1.2
   zone: 5
   water: l
+  light: s
 - latin: Yucca gloriosa
   english: Moundlily yucca
   group: shrub
@@ -2345,6 +2680,7 @@
   width: 1.5
   zone: 7
   water: l
+  light: s
 - latin: Yucca rupicola
   english: Twisted-leaf yucca
   group: shrub
@@ -2352,6 +2688,7 @@
   width: 1
   zone: 6
   water: l
+  light: s
 - latin: Zelkova carpinifolia
   english: Caucasian zelkova
   group: tree
@@ -2359,6 +2696,7 @@
   width: 18
   zone: 5
   water: m
+  light: sp
   opals: 10
 - latin: Ziziphus jujuba
   english: Jujube
@@ -2367,6 +2705,7 @@
   width: 6
   zone: 5
   water: l
+  light: s
 - latin: Ziziphus mucronata
   english: Buffalo-thorn
   group: tree
@@ -2374,3 +2713,4 @@
   width: 6
   zone: 9
   water: l
+  light: s
