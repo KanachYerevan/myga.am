@@ -1,3 +1,11 @@
+{#
+    Cards for the Best Management Practices grid.
+
+    Renders the pages of the guidelines section, then any subsection carrying
+    `extra.tile = true` in its front matter, with the same card markup. A
+    subsection gets a card when its content has moved down a level, as the
+    species tables did, so it does not drop out of the grid.
+#}
 {% macro tiles(lang, count=100) %}
     {% set bmp_section = get_section(path="guidelines/_index.md", lang=lang) %}
 
@@ -20,6 +28,25 @@
                         </div>
                     </div>
                 </div>
+            {% endfor %}
+
+            {% for sub in bmp_section.subsections %}
+                {% set sec = get_section(path=sub) %}
+                {% if sec.extra.tile %}
+                    <div class="card verdict-card">
+                        <div class="status-strip {{ sec.extra.status | default(value='neutral') }}">
+                            {{ sec.extra.verdict_short | default(value='Standard') }}
+                        </div>
+
+                        <div class="body">
+                            <h3><a href="{{ sec.permalink }}">{{ sec.extra.title | default(value=sec.title) }}</a></h3>
+                            <p>{{ sec.extra.description | safe }}</p>
+                            <div class="more">
+                                <a href="{{ sec.permalink }}">{{ trans(key="nav_more", lang=lang) }} →</a>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

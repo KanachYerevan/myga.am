@@ -102,6 +102,18 @@ main {
         opacity: 0.8;
       }
 
+      th.numeric,
+      td.numeric {
+        text-align: right;
+      }
+
+      th.tick,
+      td.tick {
+        text-align: center;
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+      }
+
       tr {
         background-color: rgba(#888, 0.2);
 
