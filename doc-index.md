@@ -10,7 +10,10 @@
 - content/guidelines/legal/tree-felling-rules/index.hy.md: "Երևանի ընդհանուր օգտագործման կանաչ տարածքներում ծառերի հատումների և փայտանյութի հաշվառման կարգ (Հավելված 1, որոշում N 1236-Ա)։"
 - content/guidelines/legal/tree-felling-rules/index.md: "Procedure for tree felling and accounting of resulting timber in Yerevan's public green areas (Annex 1 to Decision N 1236-A)"
 - content/guidelines/legal/tree-felling-rules/index.ru.md: "Порядок вырубки деревьев и учета древесины на территориях общего пользования Еревана (Приложение № 1 к решению № 1236-А)"
-- content/guidelines/species/index.md: A table of woody species recorded in Yerevan with their Latin names, English names, mature height and width, whether they are evergreen, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
+- content/guidelines/species/climbers/_index.md: "Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
+- content/guidelines/species/_index.md: "Entry page for the Yerevan planting list, splitting the woody species recorded in the city into trees, shrubs and climbers, with the column notes repeated on every table."
+- content/guidelines/species/shrubs/_index.md: "Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
+- content/guidelines/species/trees/_index.md: "Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 - docs/reports/seo-2026-09-actions.md: "Problem inventory and prioritised action items derived from the September 2026 Search Console and GA4 report, with proposed titles, file targets and a 90-day measurement plan."
 - docs/reports/seo-2026-09.md: "Search Console and GA4 analysis for kanachyerevan.am with prioritised, file-level recommendations to improve search visibility."
 - docs/seo.md: "How to run the Search Console and GA4 analysis pipeline, where credentials live, and how to read the generated report."

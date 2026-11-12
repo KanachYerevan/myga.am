@@ -2,6 +2,8 @@
 # Sources: iNaturalist observations (place "Erevan", place_id 10430), retrieved 2026-11-12,
 # and the curated selection previously maintained on /guidelines/species/.
 # Woody taxa only. OPALS is the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most allergenic).
+# Group is a display bucket, not a taxonomic rank: tree and conifer render on the trees
+# table, shrub on the shrubs table, vine on the climbers table.
 # Height and width are the average dimensions of a mature specimen, in metres.
 # Zone is the coldest USDA hardiness zone in which the species is normally hardy outdoors.
 # Water is the WUCOLS IV water-use class: vl (very low), l (low), m (moderate), h (high).

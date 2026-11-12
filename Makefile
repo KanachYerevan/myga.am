@@ -19,7 +19,7 @@ format:
 
 index:
 	@echo "Updating doc-index.md ..."
-	@grep 'summary:' -r . --include '*.md' --exclude-dir=.git --exclude-dir=.venv --exclude-dir=node_modules | sed -e 's/summary: / /g' | sed -e 's@^\./@@g' | sed -e 's@^@- @g' | sort > doc-index.md
+	@grep 'summary:' -r . --include '*.md' --exclude-dir=.git --exclude-dir=.venv --exclude-dir=node_modules | sed -e 's/[[:space:]]*summary: / /g' | sed -e 's@^\./@@g' | sed -e 's@^@- @g' | sort > doc-index.md
 
 seo:
 	.venv/bin/python bin/seo/gsc_report.py
