@@ -6,7 +6,7 @@ extra:
   summary: "Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
-Part of [Trees, Shrubs and Climbers for Yerevan](@/guidelines/species/_index.md).
+Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
 A climber needs something to hold: a wall, a pergola, a trunk, a railing. Pick the support before the plant, because the way a species climbs decides what it can be trusted against — twining stems and tendrils grip a frame, while adhesive roots and holdfasts take hold of the wall itself and are the wrong choice on a rendered facade.
 Here H is the height reached on a support and W the spread along it.

@@ -6,7 +6,7 @@ extra:
   summary: "Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
-Part of [Trees, Shrubs and Climbers for Yerevan](@/guidelines/species/_index.md).
+Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
 A shrub branches from the base and keeps its leaves to the ground, which is what makes it useful: a screen at eye level, a hedge that takes shearing, underplanting beneath a canopy that is already there.
 Its mature width matters more than its height, because a 2 m shrub that spreads 4 m will close a path.

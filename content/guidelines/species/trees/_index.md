@@ -6,7 +6,7 @@ extra:
   summary: "Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
-Part of [Trees, Shrubs and Climbers for Yerevan](@/guidelines/species/_index.md).
+Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
 A tree here means anything that lifts a crown on a trunk, conifers included: the choice between an oak and a cedar is a choice about size, water and shelter rather than about botany.
 Half a dozen of the conifers are shrub-sized, and their H and W say so.
