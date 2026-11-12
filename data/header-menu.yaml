@@ -13,19 +13,9 @@
     en: "Journal"
     ru: "Журнал"
     hy: "Անդրադարձ"
-- link: "@/about/index.md"
+- link: "@/action/report/index.md"
+  class: report
   title:
-    en: "About"
-    ru: "О нас"
-    hy: "Մեր մասին"
-- link: "@/action/_index.md"
-  title:
-    en: "Take Action"
-    ru: "Действуй"
-    hy: "Գործել"
-- link: "@/action/donate.md"
-  class: donate
-  title:
-    en: "♥ Donate"
-    ru: "♥ Поддержать"
-    hy: "♥ Աջակցել"
+    en: "Report"
+    ru: "Сообщить"
+    hy: "Հաղորդել"
