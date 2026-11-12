@@ -3,1712 +3,2042 @@
 # and the curated selection previously maintained on /guidelines/species/.
 # Woody taxa only. OPALS is the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most allergenic).
 # Height and width are the average dimensions of a mature specimen, in metres.
+# Zone is the coldest USDA hardiness zone in which the species is normally hardy outdoors.
 
 - latin: Abies nordmanniana
   english: Caucasian fir
   group: conifer
   height: 25
   width: 8
+  zone: 6
 - latin: Acer buergerianum
   english: Trident maple
   group: tree
   height: 10
   width: 8
+  zone: 5
 - latin: Acer campestre
   english: Field maple
   group: tree
   height: 12
   width: 10
+  zone: 4
   opals: 6
 - latin: Acer cappadocicum
   english: Cappadocian maple
   group: tree
   height: 18
   width: 12
+  zone: 5
 - latin: Acer heldreichii
   english: Heldreich's maple
   group: tree
   height: 15
   width: 10
+  zone: 6
 - latin: Acer hyrcanum
   english: Balkan maple
   group: tree
   height: 10
   width: 8
+  zone: 6
 - latin: Acer monspessulanum
   english: Montpellier maple
   group: tree
   height: 8
   width: 6
+  zone: 6
 - latin: Acer negundo
   english: Box elder
   group: tree
   height: 15
   width: 12
+  zone: 3
   opals: 10
 - latin: Acer palmatum
   english: Japanese maple
   group: tree
   height: 6
   width: 5
+  zone: 5
   opals: 6
 - latin: Acer platanoides
   english: Norway maple
   group: tree
   height: 20
   width: 15
+  zone: 3
   opals: 8
 - latin: Acer pseudoplatanus
   english: Sycamore maple
   group: tree
   height: 22
   width: 16
+  zone: 4
 - latin: Acer rubrum
   english: Red maple
   group: tree
   height: 18
   width: 12
+  zone: 3
   opals: 9
 - latin: Acer tataricum
   english: Tatarian maple
   group: tree
   height: 8
   width: 6
+  zone: 3
 - latin: Aesculus hippocastanum
   english: Horse chestnut
   group: tree
   height: 20
   width: 15
+  zone: 4
   opals: 7
 - latin: Aesculus × carnea
   english: Red horse-chestnut
   group: tree
   height: 15
   width: 12
+  zone: 4
 - latin: Ailanthus altissima
   english: Tree of heaven
   group: tree
   height: 20
   width: 12
+  zone: 4
   opals: 7
 - latin: Albizia julibrissin
   english: Persian silk tree
   group: tree
   height: 8
   width: 8
+  zone: 6
   opals: 8
 - latin: Alnus incana
   english: Grey alder
   group: tree
   height: 15
   width: 8
+  zone: 3
 - latin: Alnus oblongifolia
   english: Arizona alder
   group: tree
   height: 15
   width: 10
+  zone: 6
 - latin: Amelanchier spp.
   english: Serviceberry
   group: shrub
   height: 5
   width: 4
+  zone: 4
   opals: 3
 - latin: Amorpha fruticosa
   english: False indigo bush
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Atraphaxis replicata
   group: shrub
   height: 1
   width: 1.2
+  zone: 6
 - latin: Atraphaxis spinosa
   group: shrub
   height: 1
   width: 1.2
+  zone: 6
 - latin: Berberis amurensis
   english: Amur barberry
   group: shrub
   height: 2.5
   width: 2.5
+  zone: 4
 - latin: Berberis aquifolium
   english: Oregon grape
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 5
 - latin: Berberis dictyota
   english: Shining netvein barberry
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Berberis thunbergii
   english: Japanese barberry
   group: shrub
   height: 1.5
   width: 2
+  zone: 4
 - latin: Berberis vulgaris
   english: European barberry
   group: shrub
   height: 2.5
   width: 2.5
+  zone: 3
 - latin: Betula papyrifera
   english: Paper birch
   group: tree
   height: 15
   width: 10
+  zone: 2
 - latin: Betula pendula
   english: Silver birch
   group: tree
   height: 18
   width: 10
+  zone: 2
 - latin: Betula utilis
   english: Himalayan birch
   group: tree
   height: 15
   width: 8
+  zone: 5
 - latin: Broussonetia papyrifera
   english: Paper mulberry
   group: tree
   height: 12
   width: 10
+  zone: 6
 - latin: Buddleja davidii
   english: Butterfly bush
   group: shrub
   height: 3
   width: 3
+  zone: 5
 - latin: Buxus colchica
   english: Colchic boxwood
   group: shrub
   height: 5
   width: 5
+  zone: 6
 - latin: Buxus microphylla
   english: Small-leaved box
   group: shrub
   height: 1
   width: 1.5
+  zone: 5
 - latin: Buxus sempervirens
   english: Common box
   group: shrub
   height: 3
   width: 3
+  zone: 5
 - latin: Campsis radicans
   english: American trumpet vine
   group: vine
   height: 10
   width: 6
+  zone: 4
 - latin: Campsis × tagliabueana
   english: Hybrid trumpet vine
   group: vine
   height: 8
   width: 5
+  zone: 5
 - latin: Caragana halodendron
   english: Russian salt tree
   group: shrub
   height: 2
   width: 2.5
+  zone: 4
 - latin: Caragana pygmaea
   english: Pygmy caragana
   group: shrub
   height: 1
   width: 1.2
+  zone: 3
 - latin: Carpinus betulus
   english: European hornbeam
   group: tree
   height: 20
   width: 15
+  zone: 4
   opals: 7
 - latin: Carpinus orientalis
   english: Eastern hornbeam
   group: tree
   height: 10
   width: 8
+  zone: 5
 - latin: Castanea sativa
   english: Sweet chestnut
   group: tree
   height: 20
   width: 15
+  zone: 5
 - latin: Catalpa bignonioides
   english: Southern catalpa
   group: tree
   height: 12
   width: 10
+  zone: 5
   opals: 8
 - latin: Catalpa ovata
   english: Chinese catalpa
   group: tree
   height: 10
   width: 8
+  zone: 5
 - latin: Catalpa speciosa
   english: Northern catalpa
   group: tree
   height: 15
   width: 12
+  zone: 4
 - latin: Cedrus atlantica
   english: Atlas cedar
   group: conifer
   height: 25
   width: 15
+  zone: 6
 - latin: Cedrus libani
   english: Cedar of Lebanon
   group: conifer
   height: 25
   width: 20
+  zone: 5
   opals: 2
 - latin: Celtis australis
   english: European hackberry
   group: tree
   height: 18
   width: 15
+  zone: 6
   opals: 8
 - latin: Celtis caucasica
   english: Caucasian hackberry
   group: tree
   height: 15
   width: 12
+  zone: 5
   opals: 8
 - latin: Celtis planchoniana
   english: Planchon's hackberry
   group: tree
   height: 12
   width: 10
+  zone: 6
 - latin: Cercis canadensis
   english: Eastern redbud
   group: tree
   height: 8
   width: 8
+  zone: 4
 - latin: Cercis siliquastrum
   english: Judas tree
   group: tree
   height: 8
   width: 8
+  zone: 6
   opals: 5
 - latin: Chaenomeles japonica
   english: Japanese quince
   group: shrub
   height: 1.5
   width: 2
+  zone: 5
 - latin: Chaenomeles speciosa
   english: Chinese quince
   group: shrub
   height: 2.5
   width: 3
+  zone: 5
 - latin: Chamaecyparis obtusa
   english: Hinoki cypress
   group: conifer
   height: 15
   width: 6
+  zone: 4
 - latin: Chamaecyparis pisifera
   english: Sawara cypress
   group: conifer
   height: 12
   width: 6
+  zone: 4
 - latin: Clematis ligusticifolia
   english: Western white clematis
   group: vine
   height: 6
   width: 3
+  zone: 4
 - latin: Clematis orientalis
   english: Oriental Virgin's-bower
   group: vine
   height: 5
   width: 3
+  zone: 5
 - latin: Clematis vitalba
   english: Old man's beard
   group: vine
   height: 10
   width: 5
+  zone: 5
 - latin: Colutea spp.
   english: Bladder senna
   group: shrub
   height: 3
   width: 3
+  zone: 5
 - latin: Cornus alternifolia
   english: Alternate-leaved dogwood
   group: tree
   height: 6
   width: 6
+  zone: 3
 - latin: Cornus mas
   english: Cornelian cherry
   group: tree
   height: 6
   width: 6
+  zone: 5
 - latin: Cornus sanguinea
   english: Common dogwood
   group: shrub
   height: 3
   width: 3
+  zone: 3
 - latin: Corylus avellana
   english: Common hazel
   group: shrub
   height: 5
   width: 5
+  zone: 3
 - latin: Corylus colurna
   english: Turkish hazel
   group: tree
   height: 18
   width: 12
+  zone: 4
 - latin: Cotinus coggygria
   english: Smokebush
   group: shrub
   height: 4
   width: 4
+  zone: 5
 - latin: Cotoneaster hjelmqvistii
   english: Hjelmqvist's cotoneaster
   group: shrub
   height: 1.5
   width: 2
+  zone: 5
 - latin: Cotoneaster horizontalis
   english: Wall cotoneaster
   group: shrub
   height: 1
   width: 2.5
+  zone: 5
 - latin: Cotoneaster pannosus
   english: Silverleaf cotoneaster
   group: shrub
   height: 2.5
   width: 3
+  zone: 6
 - latin: Crataegus azarolus
   english: Azarole
   group: tree
   height: 8
   width: 7
+  zone: 6
 - latin: Crataegus germanica
   english: Medlar
   group: tree
   height: 5
   width: 5
+  zone: 4
 - latin: Crataegus laevigata
   english: Midland hawthorn
   group: tree
   height: 7
   width: 6
+  zone: 4
 - latin: Crataegus macracantha
   english: Large-thorn hawthorn
   group: tree
   height: 8
   width: 7
+  zone: 3
 - latin: Crataegus microphylla
   english: Small-leaved hawthorn
   group: tree
   height: 3
   width: 3
+  zone: 5
 - latin: Crataegus mollis
   english: Downy hawthorn
   group: tree
   height: 9
   width: 9
+  zone: 3
 - latin: Crataegus monogyna
   english: Common hawthorn
   group: tree
   height: 8
   width: 7
+  zone: 4
 - latin: Crataegus orientalis
   english: Oriental hawthorn
   group: tree
   height: 6
   width: 6
+  zone: 5
 - latin: Crataegus pentagyna
   english: Five-seeded hawthorn
   group: tree
   height: 8
   width: 7
+  zone: 4
 - latin: Cupressus cashmeriana
   english: Kashmir cypress
   group: conifer
   height: 20
   width: 6
+  zone: 8
   opals: 10
 - latin: Cupressus sempervirens
   english: Mediterranean cypress
   group: conifer
   height: 25
   width: 4
+  zone: 7
   opals: 10
 - latin: Cydonia oblonga
   english: Quince
   group: tree
   height: 5
   width: 4
+  zone: 5
 - latin: Diospyros kaki
   english: Japanese persimmon
   group: tree
   height: 10
   width: 8
+  zone: 7
 - latin: Diospyros lotus
   english: Date plum
   group: tree
   height: 12
   width: 10
+  zone: 6
   opals: 6
 - latin: Elaeagnus angustifolia
   english: Russian olive
   group: tree
   height: 8
   width: 7
+  zone: 3
 - latin: Elaeagnus umbellata
   english: Autumn olive
   group: shrub
   height: 4
   width: 4
+  zone: 4
 - latin: Ephedra procera
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Eriobotrya deflexa
   english: Bronze loquat
   group: tree
   height: 8
   width: 8
+  zone: 8
 - latin: Eriobotrya japonica
   english: Loquat
   group: tree
   height: 8
   width: 8
+  zone: 8
 - latin: Euonymus europaeus
   english: Spindle
   group: shrub
   height: 5
   width: 4
+  zone: 4
 - latin: Euonymus japonicus
   english: Japanese spindle tree
   group: shrub
   height: 4
   width: 3
+  zone: 6
 - latin: Euonymus latifolius
   english: Large-leaved spindle
   group: shrub
   height: 5
   width: 4
+  zone: 5
 - latin: Euonymus verrucosus
   english: Warty spindle
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Fagus orientalis
   english: Oriental beech
   group: tree
   height: 30
   width: 20
+  zone: 5
 - latin: Fagus sylvatica
   english: European beech
   group: tree
   height: 28
   width: 20
+  zone: 4
 - latin: Fallopia baldschuanica
   english: Bukhara fleeceflower
   group: vine
   height: 12
   width: 6
+  zone: 4
 - latin: Ficus benjamina
   english: Weeping fig
   group: tree
   height: 6
   width: 5
+  zone: 10
   opals: 2
 - latin: Ficus carica
   english: Common fig
   group: tree
   height: 6
   width: 6
+  zone: 6
   opals: 2
 - latin: Ficus palmata
   english: Punjab fig
   group: tree
   height: 5
   width: 5
+  zone: 8
 - latin: Forsythia koreana
   english: Korean goldenbell tree
   group: shrub
   height: 2.5
   width: 3
+  zone: 5
 - latin: Forsythia suspensa
   english: Golden-bell
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Forsythia × intermedia
   english: Border forsythia
   group: shrub
   height: 2.5
   width: 3
+  zone: 5
 - latin: Fraxinus angustifolia
   english: Narrow-leaved ash
   group: tree
   height: 20
   width: 12
+  zone: 5
   opals: 7
 - latin: Fraxinus excelsior
   english: European ash
   group: tree
   height: 25
   width: 18
+  zone: 4
   opals: 7
 - latin: Fraxinus latifolia
   english: Oregon ash
   group: tree
   height: 20
   width: 12
+  zone: 6
 - latin: Fraxinus ornus
   english: Manna ash
   group: tree
   height: 12
   width: 8
+  zone: 5
   opals: 7
 - latin: Fraxinus pennsylvanica
   english: Green ash
   group: tree
   height: 18
   width: 12
+  zone: 3
 - latin: Fraxinus profunda
   english: Pumpkin ash
   group: tree
   height: 20
   width: 15
+  zone: 4
 - latin: Fraxinus uhdei
   english: Tropical ash
   group: tree
   height: 20
   width: 15
+  zone: 8
 - latin: Fraxinus velutina
   english: Velvet ash
   group: tree
   height: 12
   width: 10
+  zone: 6
 - latin: Ginkgo biloba
   english: Ginkgo
   group: tree
   height: 20
   width: 12
+  zone: 3
   opals: 7
 - latin: Gleditsia caspica
   english: Caspian locust
   group: tree
   height: 12
   width: 10
+  zone: 5
 - latin: Gleditsia triacanthos
   english: Honey locust
   group: tree
   height: 20
   width: 15
+  zone: 4
   opals: 4
 - latin: Gymnocladus dioicus
   english: Kentucky coffeetree
   group: tree
   height: 20
   width: 15
+  zone: 3
   opals: 9
 - latin: Hedera colchica
   english: Persian ivy
   group: vine
   height: 15
   width: 5
+  zone: 6
 - latin: Hedera helix
   english: Common ivy
   group: vine
   height: 15
   width: 5
+  zone: 5
 - latin: Hesperocyparis arizonica
   english: Arizona cypress
   group: conifer
   height: 15
   width: 6
+  zone: 7
 - latin: Hesperocyparis forbesii
   english: Tecate cypress
   group: conifer
   height: 12
   width: 6
+  zone: 8
 - latin: Hesperocyparis lusitanica
   english: Mexican cypress
   group: conifer
   height: 20
   width: 8
+  zone: 7
 - latin: Hesperocyparis macrocarpa
   english: Monterey cypress
   group: conifer
   height: 18
   width: 12
+  zone: 7
 - latin: Hibiscus syriacus
   english: Common hibiscus
   group: shrub
   height: 3
   width: 2.5
+  zone: 5
 - latin: Hippophae rhamnoides
   english: Sea-buckthorn
   group: shrub
   height: 5
   width: 5
+  zone: 4
 - latin: Hydrangea macrophylla
   english: Mophead hydrangea
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 5
 - latin: Hydrangea paniculata
   english: Panicle hydrangea
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Hydrangea petiolaris
   english: Climbing hydrangea
   group: vine
   height: 12
   width: 5
+  zone: 4
 - latin: Ilex spp.
   english: Holly
   group: shrub
   height: 4
   width: 3
+  zone: 6
 - latin: Juglans ailantifolia
   english: Japanese walnut
   group: tree
   height: 15
   width: 12
+  zone: 4
 - latin: Juglans australis
   group: tree
   height: 15
   width: 12
+  zone: 8
 - latin: Juglans hindsii
   english: Northern California black walnut
   group: tree
   height: 15
   width: 12
+  zone: 7
 - latin: Juglans nigra
   english: Black walnut
   group: tree
   height: 25
   width: 18
+  zone: 4
   opals: 9
 - latin: Juglans regia
   english: Persian walnut
   group: tree
   height: 20
   width: 15
+  zone: 5
   opals: 8
 - latin: Juniperus chinensis
   english: Chinese juniper
   group: conifer
   height: 6
   width: 3
+  zone: 4
 - latin: Juniperus communis
   english: Common juniper
   group: conifer
   height: 5
   width: 3
+  zone: 2
 - latin: Juniperus deltoides
   english: Eastern prickly juniper
   group: conifer
   height: 4
   width: 3
+  zone: 6
 - latin: Juniperus excelsa
   english: Greek juniper
   group: conifer
   height: 12
   width: 6
+  zone: 5
   opals: 10
 - latin: Juniperus foetidissima
   english: Foetid juniper
   group: conifer
   height: 10
   width: 6
+  zone: 6
 - latin: Juniperus horizontalis
   english: Creeping juniper
   group: conifer
   height: 0.5
   width: 2.5
+  zone: 2
 - latin: Juniperus polycarpos
   english: Persian juniper
   group: conifer
   height: 6
   width: 4
+  zone: 6
 - latin: Juniperus sabina
   english: Savin juniper
   group: conifer
   height: 1.5
   width: 3
+  zone: 3
 - latin: Juniperus squamata
   english: Flaky juniper
   group: conifer
   height: 1.5
   width: 2
+  zone: 5
 - latin: Juniperus virginiana
   english: Eastern red cedar
   group: conifer
   height: 12
   width: 5
+  zone: 3
   opals: 10
 - latin: Koelreuteria paniculata
   english: Goldenrain tree
   group: tree
   height: 10
   width: 10
+  zone: 5
   opals: 4
 - latin: Krascheninnikovia ceratoides
   english: Pamirian winterfat
   group: shrub
   height: 1
   width: 1
+  zone: 4
 - latin: Krascheninnikovia lanata
   english: Winterfat
   group: shrub
   height: 0.8
   width: 1
+  zone: 3
 - latin: Laburnum anagyroides
   english: Golden chain
   group: tree
   height: 6
   width: 5
+  zone: 5
   opals: 7
 - latin: Lagerstroemia indica
   english: Crape-myrtle
   group: shrub
   height: 5
   width: 4
+  zone: 7
 - latin: Laurus nobilis
   english: Bay laurel
   group: tree
   height: 8
   width: 6
+  zone: 8
 - latin: Ligustrum sinense
   english: Chinese privet
   group: shrub
   height: 3
   width: 3
+  zone: 7
 - latin: Ligustrum vulgare
   english: Common privet
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Liriodendron chinense
   english: Chinese tulip tree
   group: tree
   height: 20
   width: 12
+  zone: 6
 - latin: Liriodendron tulipifera
   english: Tulip tree
   group: tree
   height: 25
   width: 15
+  zone: 4
   opals: 4
 - latin: Lonicera caprifolium
   english: Perfoliate honeysuckle
   group: vine
   height: 6
   width: 4
+  zone: 5
 - latin: Lonicera caucasica
   english: Caucasian honeysuckle
   group: shrub
   height: 2
   width: 2
+  zone: 5
 - latin: Lonicera floribunda
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Lonicera japonica
   english: Japanese honeysuckle
   group: vine
   height: 8
   width: 5
+  zone: 5
 - latin: Lonicera maackii
   english: Amur honeysuckle
   group: shrub
   height: 4
   width: 4
+  zone: 3
 - latin: Lonicera periclymenum
   english: Common honeysuckle
   group: vine
   height: 5
   width: 4
+  zone: 5
 - latin: Lonicera sempervirens
   english: Coral honeysuckle
   group: vine
   height: 5
   width: 3
+  zone: 4
 - latin: Lonicera tatarica
   english: Tatarian honeysuckle
   group: shrub
   height: 3
   width: 3
+  zone: 3
 - latin: Lycium barbarum
   english: Matrimony vine
   group: shrub
   height: 2.5
   width: 3
+  zone: 4
 - latin: Maclura pomifera
   english: Osage orange
   group: tree
   height: 12
   width: 10
+  zone: 4
   opals: 9
 - latin: Maclura tricuspidata
   english: Silkworm thorn
   group: tree
   height: 8
   width: 7
+  zone: 5
 - latin: Magnolia acuminata
   english: Cucumber-tree
   group: tree
   height: 15
   width: 12
+  zone: 4
 - latin: Magnolia denudata
   english: Yulan magnolia
   group: tree
   height: 10
   width: 8
+  zone: 6
 - latin: Magnolia kobus
   english: Kobus magnolia
   group: tree
   height: 10
   width: 8
+  zone: 5
 - latin: Magnolia liliiflora
   english: Lily magnolia
   group: tree
   height: 4
   width: 4
+  zone: 5
 - latin: Magnolia × soulangeana
   english: Saucer magnolia
   group: tree
   height: 6
   width: 6
+  zone: 5
 - latin: Malus baccata
   english: Siberian crabapple
   group: tree
   height: 8
   width: 6
+  zone: 3
 - latin: Malus domestica
   english: Apple
   group: tree
   height: 7
   width: 6
+  zone: 3
   opals: 3
 - latin: Malus orientalis
   english: Caucasus apple
   group: tree
   height: 8
   width: 7
+  zone: 4
 - latin: Malus sylvestris
   english: European wild apple
   group: tree
   height: 8
   width: 6
+  zone: 3
 - latin: Metasequoia glyptostroboides
   english: Dawn redwood
   group: conifer
   height: 25
   width: 8
+  zone: 5
   opals: 4
 - latin: Morus alba
   english: White mulberry
   group: tree
   height: 12
   width: 12
+  zone: 4
   opals: 10
 - latin: Morus nigra
   english: Black mulberry
   group: tree
   height: 12
   width: 12
+  zone: 5
   opals: 2
 - latin: Nerium oleander
   english: Oleander
   group: shrub
   height: 4
   width: 3
+  zone: 8
 - latin: Ostrya carpinifolia
   english: European hop hornbeam
   group: tree
   height: 15
   width: 12
+  zone: 5
   opals: 6
 - latin: Ostrya knowltonii
   english: Knowlton's hophornbeam
   group: tree
   height: 8
   width: 6
+  zone: 6
 - latin: Paliurus spina-christi
   english: Jerusalem thorn
   group: shrub
   height: 3
   width: 3
+  zone: 6
 - latin: Parrotia persica
   english: Persian ironwood
   group: tree
   height: 8
   width: 8
+  zone: 5
   opals: 4
 - latin: Parthenocissus inserta
   english: Thicket creeper
   group: vine
   height: 10
   width: 5
+  zone: 3
 - latin: Parthenocissus quinquefolia
   english: Virginia creeper
   group: vine
   height: 12
   width: 6
+  zone: 3
 - latin: Parthenocissus tricuspidata
   english: Japanese creeper
   group: vine
   height: 15
   width: 8
+  zone: 4
 - latin: Passiflora caerulea
   english: Bluecrown passionflower
   group: vine
   height: 6
   width: 4
+  zone: 7
 - latin: Paulownia tomentosa
   english: Princess tree
   group: tree
   height: 15
   width: 12
+  zone: 5
 - latin: Philadelphus coronarius
   english: Sweet mock orange
   group: shrub
   height: 3
   width: 2.5
+  zone: 4
 - latin: Phillyrea latifolia
   english: Green olive tree
   group: shrub
   height: 4
   width: 4
+  zone: 7
 - latin: Photinia spp.
   english: Photinia
   group: shrub
   height: 5
   width: 4
+  zone: 7
 - latin: Picea abies
   english: Norway spruce
   group: conifer
   height: 30
   width: 8
+  zone: 2
 - latin: Picea omorika
   english: Serbian spruce
   group: conifer
   height: 25
   width: 5
+  zone: 4
 - latin: Picea orientalis
   english: Oriental spruce
   group: conifer
   height: 25
   width: 8
+  zone: 5
   opals: 3
 - latin: Picea pungens
   english: Blue spruce
   group: conifer
   height: 20
   width: 8
+  zone: 2
   opals: 3
 - latin: Pinus brutia
   english: Turkish pine
   group: conifer
   height: 20
   width: 8
+  zone: 8
 - latin: Pinus contorta
   english: Lodgepole pine
   group: conifer
   height: 15
   width: 6
+  zone: 4
 - latin: Pinus mugo
   english: Mountain pine
   group: conifer
   height: 3
   width: 4
+  zone: 2
 - latin: Pinus nigra
   english: Austrian pine
   group: conifer
   height: 25
   width: 10
+  zone: 4
   opals: 4
 - latin: Pinus pinaster
   english: Maritime pine
   group: conifer
   height: 25
   width: 10
+  zone: 7
 - latin: Pinus pinea
   english: Stone pine
   group: conifer
   height: 20
   width: 12
+  zone: 7
   opals: 4
 - latin: Pinus resinosa
   english: Red pine
   group: conifer
   height: 20
   width: 8
+  zone: 2
 - latin: Pinus sylvestris
   english: Scots pine
   group: conifer
   height: 25
   width: 10
+  zone: 2
 - latin: Pinus wallichiana
   english: Blue pine
   group: conifer
   height: 25
   width: 10
+  zone: 6
 - latin: Pistacia vera
   english: Pistachio
   group: tree
   height: 8
   width: 8
+  zone: 7
 - latin: Platanus mexicana
   english: Mexican sycamore
   group: tree
   height: 20
   width: 15
+  zone: 7
 - latin: Platanus orientalis
   english: Oriental plane
   group: tree
   height: 25
   width: 20
+  zone: 5
   opals: 8
 - latin: Platanus wrightii
   english: Arizona sycamore
   group: tree
   height: 18
   width: 15
+  zone: 7
 - latin: Platanus × hispanica
   english: London plane
   group: tree
   height: 25
   width: 20
+  zone: 5
   opals: 8
 - latin: Platycladus orientalis
   english: Oriental arborvitae
   group: conifer
   height: 12
   width: 5
+  zone: 5
   opals: 7
 - latin: Plumbago europaea
   english: Common leadwort
   group: shrub
   height: 0.8
   width: 1.5
+  zone: 7
 - latin: Populus alba
   english: White poplar
   group: tree
   height: 25
   width: 18
+  zone: 3
   opals: 9
 - latin: Populus euphratica
   english: Euphrates poplar
   group: tree
   height: 15
   width: 10
+  zone: 6
 - latin: Populus nigra
   english: Black poplar
   group: tree
   height: 25
   width: 15
+  zone: 3
   opals: 9
 - latin: Populus tremula
   english: European aspen
   group: tree
   height: 20
   width: 10
+  zone: 2
 - latin: Prunus amygdalus
   english: Almond
   group: tree
   height: 8
   width: 7
+  zone: 5
   opals: 10
 - latin: Prunus argentea
   english: Silver almond
   group: tree
   height: 4
   width: 4
+  zone: 6
 - latin: Prunus armeniaca
   english: Apricot
   group: tree
   height: 8
   width: 6
+  zone: 5
   opals: 3
 - latin: Prunus avium
   english: Sweet cherry
   group: tree
   height: 15
   width: 12
+  zone: 3
   opals: 7
 - latin: Prunus campanulata
   english: Taiwan cherry
   group: tree
   height: 8
   width: 6
+  zone: 7
 - latin: Prunus cerasifera
   english: Cherry plum
   group: tree
   height: 8
   width: 7
+  zone: 4
   opals: 3
 - latin: Prunus cerasus
   english: Sour cherry
   group: tree
   height: 8
   width: 7
+  zone: 3
   opals: 7
 - latin: Prunus domestica
   english: Plum
   group: tree
   height: 8
   width: 7
+  zone: 4
 - latin: Prunus fenzliana
   english: Fenzl's almond
   group: tree
   height: 5
   width: 5
+  zone: 6
 - latin: Prunus incana
   english: Willow leaf cherry
   group: tree
   height: 4
   width: 4
+  zone: 6
 - latin: Prunus mahaleb
   english: St Lucie cherry
   group: tree
   height: 8
   width: 8
+  zone: 5
 - latin: Prunus mexicana
   english: Mexican plum
   group: tree
   height: 9
   width: 9
+  zone: 5
 - latin: Prunus persica
   english: Peach
   group: tree
   height: 6
   width: 6
+  zone: 5
   opals: 3
 - latin: Prunus serrulata
   english: Japanese cherry
   group: tree
   height: 10
   width: 10
+  zone: 5
   opals: 7
 - latin: Prunus spinosa
   english: Blackthorn
   group: tree
   height: 4
   width: 4
+  zone: 4
 - latin: Punica granatum
   english: Pomegranate
   group: shrub
   height: 4
   width: 4
+  zone: 7
 - latin: Pyracantha angustifolia
   english: Narrowleaf firethorn
   group: shrub
   height: 2.5
   width: 3
+  zone: 6
 - latin: Pyracantha coccinea
   english: Firethorn
   group: shrub
   height: 3
   width: 3
+  zone: 5
 - latin: Pyrus caucasica
   english: Caucasian pear
   group: tree
   height: 12
   width: 10
+  zone: 5
   opals: 3
 - latin: Pyrus communis
   english: Common pear
   group: tree
   height: 12
   width: 10
+  zone: 4
 - latin: Pyrus salicifolia
   english: Willow-leaved pear
   group: tree
   height: 8
   width: 6
+  zone: 5
 - latin: Quercus canariensis
   english: Mirbeck's oak
   group: tree
   height: 20
   width: 15
+  zone: 7
 - latin: Quercus castaneifolia
   english: Chestnut-leaved oak
   group: tree
   height: 25
   width: 15
+  zone: 6
   opals: 8
 - latin: Quercus frainetto
   english: Hungarian oak
   group: tree
   height: 20
   width: 18
+  zone: 5
 - latin: Quercus macranthera
   english: Caucasian oak
   group: tree
   height: 20
   width: 15
+  zone: 5
   opals: 8
 - latin: Quercus petraea
   english: Sessile oak
   group: tree
   height: 25
   width: 18
+  zone: 4
 - latin: Quercus pubescens
   english: Downy oak
   group: tree
   height: 15
   width: 15
+  zone: 5
 - latin: Quercus robur
   english: English oak
   group: tree
   height: 30
   width: 20
+  zone: 4
   opals: 8
 - latin: Quercus rubra
   english: Northern red oak
   group: tree
   height: 22
   width: 18
+  zone: 3
   opals: 8
 - latin: Quercus shumardii
   english: Shumard oak
   group: tree
   height: 20
   width: 15
+  zone: 5
 - latin: Rhamnus cathartica
   english: Common buckthorn
   group: shrub
   height: 6
   width: 5
+  zone: 3
 - latin: Rhamnus erythroxyloides
   english: Pallas' buckthorn
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Rhamnus spathulifolia
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Rhododendron ponticum
   english: Pontic rhododendron
   group: shrub
   height: 3
   width: 4
+  zone: 6
 - latin: Rhus typhina
   english: Staghorn sumac
   group: tree
   height: 8
   width: 8
+  zone: 3
 - latin: Ribes aureum
   english: Golden currant
   group: shrub
   height: 2
   width: 2
+  zone: 3
 - latin: Ribes viburnifolium
   english: Santa Catalina Island currant
   group: shrub
   height: 1.5
   width: 2
+  zone: 8
 - latin: Robinia hispida
   english: Bristly locust
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Robinia neomexicana
   english: New Mexico locust
   group: tree
   height: 8
   width: 7
+  zone: 5
 - latin: Robinia pseudoacacia
   english: Black locust
   group: tree
   height: 20
   width: 12
+  zone: 3
   opals: 5
 - latin: Rosa banksiae
   english: Lady Banks' rose
   group: shrub
   height: 6
   width: 4
+  zone: 7
 - latin: Rosa canina
   english: Dog-rose
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Rosa chinensis
   english: China rose
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 7
 - latin: Rosa corymbifera
   english: Hairy dog-rose
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Rosa dumalis
   english: Glaucous dog rose
   group: shrub
   height: 2.5
   width: 3
+  zone: 4
 - latin: Rosa hemisphaerica
   english: Sulfur rose
   group: shrub
   height: 2
   width: 2
+  zone: 6
 - latin: Rosa luciae
   english: Memorial rose
   group: shrub
   height: 3
   width: 4
+  zone: 5
 - latin: Rosa micrantha
   english: Small-flowered sweet-briar
   group: shrub
   height: 2.5
   width: 2.5
+  zone: 5
 - latin: Rosa multiflora
   english: Multiflora rose
   group: shrub
   height: 3
   width: 4
+  zone: 4
 - latin: Rosa platyacantha
   group: shrub
   height: 1.5
   width: 2
+  zone: 5
 - latin: Rosa rubiginosa
   english: Sweet-brier
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Rosa rugosa
   english: Rugosa rose
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 2
 - latin: Rosa sempervirens
   english: Evergreen rose
   group: shrub
   height: 4
   width: 4
+  zone: 7
 - latin: Rosa spinosissima
   english: Burnet rose
   group: shrub
   height: 1.5
   width: 2
+  zone: 3
 - latin: Rosa villosa
   english: Apple rose
   group: shrub
   height: 2.5
   width: 2.5
+  zone: 4
 - latin: Rubus affinis
   english: Vigorous bramble
   group: shrub
   height: 2
   width: 3
+  zone: 6
 - latin: Rubus armeniacus
   english: Armenian blackberry
   group: shrub
   height: 3
   width: 4
+  zone: 5
 - latin: Rubus caesius
   english: European dewberry
   group: shrub
   height: 1
   width: 2
+  zone: 4
 - latin: Rubus creticus
   english: Holy bramble
   group: shrub
   height: 1
   width: 1.5
+  zone: 8
 - latin: Rubus idaeus
   english: Red raspberry
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 3
 - latin: Rubus ulmifolius
   english: Elmleaf blackberry
   group: shrub
   height: 2.5
   width: 3
+  zone: 6
 - latin: Salix alba
   english: White willow
   group: tree
   height: 20
   width: 15
+  zone: 2
   opals: 10
 - latin: Salix babylonica
   english: Weeping willow
   group: tree
   height: 15
   width: 15
+  zone: 5
 - latin: Salix cinerea
   english: Grey willow
   group: tree
   height: 6
   width: 6
+  zone: 3
 - latin: Salix discolor
   english: Pussy willow
   group: tree
   height: 5
   width: 5
+  zone: 2
 - latin: Salix eriocephala
   english: Heart-leaved willow
   group: tree
   height: 5
   width: 5
+  zone: 2
 - latin: Salix euxina
   english: Crack willow
   group: tree
   height: 15
   width: 12
+  zone: 4
 - latin: Salix lasiandra
   english: Pacific willow
   group: tree
   height: 10
   width: 8
+  zone: 3
 - latin: Salix nigra
   english: Black willow
   group: tree
   height: 15
   width: 12
+  zone: 3
 - latin: Salix triandra
   english: Almond willow
   group: tree
   height: 8
   width: 6
+  zone: 3
 - latin: Salix × fragilis
   english: Hybrid crack willow
   group: tree
   height: 20
   width: 15
+  zone: 4
 - latin: Sambucus nigra
   english: European black elderberry
   group: shrub
   height: 6
   width: 5
+  zone: 4
 - latin: Sorbus aucuparia
   english: European mountain ash
   group: tree
   height: 12
   width: 8
+  zone: 2
 - latin: Sorbus hajastana
   english: Hajastan mountain ash
   group: tree
   height: 8
   width: 6
+  zone: 5
 - latin: Spiraea betulifolia
   english: Birch-leaved spirea
   group: shrub
   height: 1
   width: 1.5
+  zone: 3
 - latin: Spiraea cantoniensis
   english: Reeve's spirea
   group: shrub
   height: 1.5
   width: 2
+  zone: 5
 - latin: Spiraea hypericifolia
   english: Iberian spirea
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 4
 - latin: Spiraea japonica
   english: Japanese spirea
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 4
 - latin: Spiraea trilobata
   english: Threelobe spirea
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 3
 - latin: Spiraea × vanhouttei
   english: Van Houtte's spirea
   group: shrub
   height: 2
   width: 2.5
+  zone: 4
 - latin: Styphnolobium japonicum
   english: Japanese pagoda tree
   group: tree
   height: 15
   width: 12
+  zone: 4
   opals: 5
 - latin: Symphoricarpos albus
   english: Common snowberry
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 3
 - latin: Symphoricarpos orbiculatus
   english: Coralberry
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 3
 - latin: Syringa vulgaris
   english: Common lilac
   group: shrub
   height: 4
   width: 4
+  zone: 3
 - latin: Syringa × chinensis
   english: Rouen lilac
   group: shrub
   height: 3
   width: 3
+  zone: 4
 - latin: Tamarix aphylla
   english: Athel tamarisk
   group: shrub
   height: 10
   width: 8
+  zone: 8
 - latin: Tamarix chinensis
   english: Five-stamen tamarisk
   group: shrub
   height: 5
   width: 4
+  zone: 5
 - latin: Tamarix gallica
   english: French tamarisk
   group: shrub
   height: 5
   width: 5
+  zone: 6
 - latin: Tamarix ramosissima
   english: Saltcedar
   group: shrub
   height: 5
   width: 4
+  zone: 3
 - latin: Taxus baccata
   english: European yew
   group: conifer
   height: 12
   width: 8
+  zone: 5
   opals: 10
 - latin: Thuja occidentalis
   english: Northern whitecedar
   group: conifer
   height: 12
   width: 4
+  zone: 3
 - latin: Tilia cordata
   english: Small-leaved lime
   group: tree
   height: 20
   width: 15
+  zone: 3
   opals: 7
 - latin: Tilia dasystyla
   english: Crimean lime
   group: tree
   height: 22
   width: 15
+  zone: 5
 - latin: Tilia platyphyllos
   english: Large-leaved lime
   group: tree
   height: 25
   width: 18
+  zone: 4
   opals: 7
 - latin: Ulmus glabra
   english: Wych elm
   group: tree
   height: 25
   width: 18
+  zone: 3
   opals: 8
 - latin: Ulmus laevis
   english: Fluttering elm
   group: tree
   height: 25
   width: 18
+  zone: 4
 - latin: Ulmus minor
   english: Field elm
   group: tree
   height: 20
   width: 15
+  zone: 4
   opals: 8
 - latin: Ulmus parvifolia
   english: Chinese elm
   group: tree
   height: 12
   width: 10
+  zone: 5
 - latin: Ulmus pumila
   english: Siberian elm
   group: tree
   height: 18
   width: 12
+  zone: 3
 - latin: Viburnum lantana
   english: Wayfaring-tree
   group: shrub
   height: 4
   width: 4
+  zone: 4
 - latin: Viburnum macrocephalum
   english: Chinese snowball viburnum
   group: shrub
   height: 4
   width: 4
+  zone: 6
 - latin: Viburnum opulus
   english: Guelder-rose
   group: shrub
   height: 4
   width: 4
+  zone: 3
 - latin: Viburnum prunifolium
   english: Blackhaw
   group: shrub
   height: 5
   width: 5
+  zone: 3
 - latin: Vinca major
   english: Greater periwinkle
   group: shrub
   height: 0.5
   width: 2
+  zone: 6
 - latin: Vinca minor
   english: Lesser periwinkle
   group: shrub
   height: 0.3
   width: 1.5
+  zone: 4
 - latin: Vitis labrusca
   english: Fox grape
   group: vine
   height: 6
   width: 4
+  zone: 4
 - latin: Vitis rotundifolia
   english: Muscadine
   group: vine
   height: 8
   width: 5
+  zone: 6
 - latin: Vitis vinifera
   english: Wine grape
   group: vine
   height: 6
   width: 4
+  zone: 6
 - latin: Weigela florida
   english: Old fashioned weigela
   group: shrub
   height: 2.5
   width: 3
+  zone: 4
 - latin: Wisteria floribunda
   english: Japanese wisteria
   group: vine
   height: 10
   width: 6
+  zone: 5
 - latin: Wisteria sinensis
   english: Chinese wisteria
   group: vine
   height: 10
   width: 6
+  zone: 5
 - latin: Yucca filamentosa
   english: Common yucca
   group: shrub
   height: 1.5
   width: 1.5
+  zone: 4
 - latin: Yucca flaccida
   english: Weak-leaf yucca
   group: shrub
   height: 1.2
   width: 1.2
+  zone: 5
 - latin: Yucca gloriosa
   english: Moundlily yucca
   group: shrub
   height: 2
   width: 1.5
+  zone: 7
 - latin: Yucca rupicola
   english: Twisted-leaf yucca
   group: shrub
   height: 1
   width: 1
+  zone: 6
 - latin: Zelkova carpinifolia
   english: Caucasian zelkova
   group: tree
   height: 25
   width: 18
+  zone: 5
   opals: 10
 - latin: Ziziphus jujuba
   english: Jujube
   group: tree
   height: 8
   width: 6
+  zone: 5
 - latin: Ziziphus mucronata
   english: Buffalo-thorn
   group: tree
   height: 8
   width: 6
+  zone: 9
