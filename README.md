@@ -20,3 +20,8 @@ The built site is deployed to Cloudflare Pages.
 - `data`: YAML based data files for some sections.
 - `docs`: additional documentation on how the site works.
 - `static`: images, documents and other static files.
+
+
+## Icon sources
+
+- https://www.svgrepo.com/vectors/
