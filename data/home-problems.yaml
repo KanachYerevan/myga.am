@@ -22,7 +22,7 @@ intro:
   hy: "Մենք վերլուծել ենք իրավիճակն ու առանձնացրել այն հիմնական խնդիրները, որոնք խոչընդոտում են Երևանին դառնալ տարածաշրջանի ամենականաչ քաղաքը։ Ծանոթացեք այս խնդիրներին, դրանց հաղթահարման միջազգային փորձին և այն լուծումներին, որոնք կարող է կիրառել Երևանը։"
 
 items:
-  - link: "@/journal/2026-11-09-green-space-requirement/index.md"
+  - link: "@/guidelines/green-zone-availability/_index.md"
     content:
       en:
         title: "Canopy coverage"
