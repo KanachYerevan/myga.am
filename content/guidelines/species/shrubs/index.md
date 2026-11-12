@@ -1,17 +1,18 @@
 ---
-title: Trees for Yerevan
-description: Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
-sort_by: weight
-template: section-species.html
+title: Shrubs for Yerevan
+description: Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
+weight: 2
+template: page-species.html
 extra:
-  summary: "Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
+  summary: "Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
 Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
-A tree here means anything that lifts a crown on a trunk, conifers included: the choice between an oak and a cedar is a choice about size, water and shelter rather than about botany.
+A shrub branches from the base rather than lifting a single crown on a trunk, and most keep their leaves down to the ground. That is what makes them useful: a screen at eye level, a hedge that takes shearing, underplanting beneath a canopy that is already there.
+Its mature width matters more than its height, because a 2 m shrub that spreads 4 m will close a path.
 
-{{ species_table(groups="tree,conifer") }}
+{{ species_table(groups="shrub") }}
 
 <p class="table-summary">Species records from <a href="https://www.inaturalist.org/places/erevan">iNaturalist</a>, retrieved 12 November 2026. Names follow iNaturalist taxonomy.</p>
 

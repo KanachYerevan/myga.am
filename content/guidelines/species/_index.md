@@ -15,7 +15,3 @@ We have collected information on the many trees, shrubs and climbers that can he
 Here we share it with everyone.
 
 Use it freely for your own projects, and [send us updates](https://t.me/make_yerevan_green_again) when you find something wrong or missing.
-
-- [Trees for Yerevan](@/guidelines/species/trees/_index.md)
-- [Shrubs for Yerevan](@/guidelines/species/shrubs/_index.md)
-- [Climbers for Yerevan](@/guidelines/species/climbers/_index.md)

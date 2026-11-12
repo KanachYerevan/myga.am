@@ -1,18 +1,17 @@
 ---
-title: Climbers for Yerevan
-description: Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
-sort_by: weight
-template: section-species.html
+title: Trees for Yerevan
+description: Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
+weight: 1
+template: page-species.html
 extra:
-  summary: "Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
+  summary: "Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
 Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
-A climber needs something to hold: a wall, a pergola, a trunk, a railing. Pick the support before the plant, because the way a species climbs decides what it can be trusted against — twining stems and tendrils grip a frame, while adhesive roots and holdfasts take hold of the wall itself and are the wrong choice on a rendered facade.
-Here H is the height reached on a support and W the spread along it.
+A tree here means anything that lifts a crown on a trunk, conifers included: the choice between an oak and a cedar is a choice about size, water and shelter rather than about botany.
 
-{{ species_table(groups="vine") }}
+{{ species_table(groups="tree,conifer") }}
 
 <p class="table-summary">Species records from <a href="https://www.inaturalist.org/places/erevan">iNaturalist</a>, retrieved 12 November 2026. Names follow iNaturalist taxonomy.</p>
 

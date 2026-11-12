@@ -1,18 +1,18 @@
 ---
-title: Shrubs for Yerevan
-description: Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
-sort_by: weight
-template: section-species.html
+title: Climbers for Yerevan
+description: Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
+weight: 3
+template: page-species.html
 extra:
-  summary: "Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
+  summary: "Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---
 
 Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
-A shrub branches from the base rather than lifting a single crown on a trunk, and most keep their leaves down to the ground. That is what makes them useful: a screen at eye level, a hedge that takes shearing, underplanting beneath a canopy that is already there.
-Its mature width matters more than its height, because a 2 m shrub that spreads 4 m will close a path.
+A climber needs something to hold: a wall, a pergola, a trunk, a railing. Pick the support before the plant, because the way a species climbs decides what it can be trusted against — twining stems and tendrils grip a frame, while adhesive roots and holdfasts take hold of the wall itself and are the wrong choice on a rendered facade.
+Here H is the height reached on a support and W the spread along it.
 
-{{ species_table(groups="shrub") }}
+{{ species_table(groups="vine") }}
 
 <p class="table-summary">Species records from <a href="https://www.inaturalist.org/places/erevan">iNaturalist</a>, retrieved 12 November 2026. Names follow iNaturalist taxonomy.</p>
 
