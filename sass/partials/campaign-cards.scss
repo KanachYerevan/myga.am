@@ -1,3 +1,10 @@
+/**
+ * Image cards with a title and a short description.
+ *
+ * Used by the report tiles on /action/ (templates/partials/grid-report.html);
+ * the home page's campaigns block used the same markup before it was dropped.
+ */
+
 .campaign.cards {
   .card {
     a.image {

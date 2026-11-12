@@ -1,0 +1,40 @@
+# "Who we are" block on the home page.
+#
+# Fills the bottom of the home page with a short statement of who is behind
+# Kanach Yerevan, synthesized from content/about/index.md, and links there for
+# the full story. All three languages live here so the block stays self-contained.
+#
+# The heading ("title"), the intro, the points and the link all live here, so
+# the block owns everything it renders; the position on the page is set in
+# templates/home.html. "points" is a list of short statements, one per bullet;
+# "more" is the link label.
+
+title:
+  en: "Who we are"
+  ru: "Кто мы"
+  hy: "Ովքեր ենք մենք"
+
+intro:
+  ru: "«Kanach Yerevan» — это движение горожан, а не организация с офисом и бюджетом. Мы начали в апреле 2024 года, когда массовая вырубка в центре города вызвала общественное возмущение, и остаёмся теми же людьми: жителями, которым важно, чтобы за деревьями ухаживали по-настоящему."
+  en: "Kanach Yerevan is a movement of city residents, not an organization with an office and a budget. We started in April 2024, when mass felling in the city centre caused public outrage, and we are still the same people: residents who want the city's trees cared for properly."
+  hy: "«Կանաչ Երևանը» քաղաքացիների շարժում է, ոչ թե գրասենյակ ու բյուջե ունեցող կազմակերպություն։ Մենք սկսել ենք 2024 թվականի ապրիլին, երբ քաղաքի կենտրոնում ծառերի զանգվածային հատումները հանրային վրդովմունք առաջացրին, և մնում ենք նույն մարդիկ՝ բնակիչներ, որոնց համար կարևոր է, որ ծառերը պատշաճ խնամք ստանան։"
+
+points:
+  - ru: "Мы — низовая инициатива. За нами нет организации: только волонтёры, которые вкладывают в это своё время."
+    en: "We are a grass-roots initiative. There is no organization behind us, only volunteers who give their own time."
+    hy: "Մենք ժողովրդական նախաձեռնություն ենք։ Մեզանից այն կողմ կազմակերպություն չկա՝ միայն կամավորներ, ովքեր իրենց ժամանակն են նվիրում դրան։"
+
+  - ru: "Мы вне политики и никого не поддерживаем — ни партию, ни кандидата."
+    en: "We are not political and we do not endorse anyone — no party, no candidate."
+    hy: "Մենք քաղաքականությունից դուրս ենք և ոչ մեկին չենք սատարում՝ ոչ կուսակցության, ոչ թեկնածուի։"
+
+  - ru: "Мы не против и не за какую-либо персону. Нам важно поднять стандарт ухода за деревьями."
+    en: "We are neither against nor in favour of any personality. What we care about is raising the standard of tree care."
+    hy: "Մենք ոչ դեմ ենք, ոչ էլ կողմ որևէ անձի։ Մեզ համար կարևորը ծառերի խնամքի չափորոշիչի բարձրացումն է։"
+
+more:
+  ru: "Подробнее о нас"
+  en: "Read more about us"
+  hy: "Ավելին մեր մասին"
+
+link: "@/about/index.md"

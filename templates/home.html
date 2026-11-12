@@ -1,7 +1,6 @@
 {% extends "index.html" %}
 {% import "macros/journal.html" as journal %}
-{% import "macros/bmp.html" as bmp %}
-{% import "macros/map.html" as map %}
+{% import "macros/blocks.html" as blocks %}
 
 {% block title %}{% if section.extra.seo_title %}{{ section.extra.seo_title }}{% else %}{{ section.title }}{% endif %}{% endblock %}
 
@@ -9,36 +8,39 @@
     <section class="home-splash">
         <div class="container">
             <div class="content">
-                <h1>{{ section.title | safe }}</h1>
+                <h1 id="home-title">{{ section.title | safe }}</h1>
                 <p class="description">{{ section.description | safe }}</p>
 
                 <div class="button-bar">
-                    <a href="{{ get_url(path="@/action/report/index.md", lang=lang) }}" class="alert button">
+                    <a href="{{ get_url(path="@/action/report/index.md", lang=lang) }}" class="shy button">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="alert-triangle" class="lucide lucide-alert-triangle w-5 h-5"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
                         <span>{{ trans(key="home_report", lang=lang) }}</span>
                     </a>
-                    <a href="{{ get_url(path="@/guidelines/_index.md", lang=lang) }}" class="shy button">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="book-open" class="lucide lucide-book-open w-5 h-5"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg>
-                        <span>{{ trans(key="home_guidelines", lang=lang) }}</span>
-                    </a>
                 </div>
-
-                {{ map::numbers(lang=lang) }}
             </div>
         </div>
     </section>
 
-    {% include "partials/home-alert.html" %}
-
     <main class="container">
-        {% include "partials/home-campaigns.html" %}
+        {# One section holds the whole set of blocks, and each block is an
+           article of its own. Blocks are placed one call at a time, so other
+           kinds of block can go between them. Each data file holds the block's
+           heading and items. #}
+        <section class="home" aria-labelledby="home-title">
+            {{ blocks::card_grid(id="problems", path="data/home-problems.yaml", lang=lang) }}
 
-        <div class="post">
+            {{ blocks::file_list(id="involved", path="data/home-involved.yaml", lang=lang) }}
+
+            {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
+
             {{ section.content | safe }}
 
-            {{ bmp::tiles(lang=lang, count=2) }}
-
+            {# The journal block builds its own list and lives in macros/journal.html. #}
             {{ journal::recent(lang=lang, count=5, footer=true) }}
-        </div>
+
+            {{ blocks::prose(id="events", path="data/home-events.yaml", lang=lang) }}
+
+            {{ blocks::prose(id="about", path="data/home-about.yaml", lang=lang) }}
+        </section>
     </main>
 {% endblock page_main %}

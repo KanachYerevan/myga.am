@@ -1,28 +1,37 @@
 {% import "macros/logo.html" as logo %}
 
+{#
+  Recent journal entries, laid out as a home page block: the same frame,
+  heading and bottom link as the blocks built from data files.
+
+  footer=true adds the link to the journal section itself, using the same
+  "more" line as the prose blocks.
+#}
 {% macro recent(lang, count=100, footer=false) %}
     {% set section = get_section(path="journal/_index.md", lang=lang) %}
 
-    <h2>{{ section.extra.home_title | safe }}</h2>
+    <article class="home-block" id="home-journal" aria-labelledby="home-journal-title">
+        <h2 id="home-journal-title">{{ section.extra.home_title | safe }}</h2>
 
-    <div class="dated-list">
-        {% for page in section.pages | slice(end=count) %}
-            <div class="item">
-                {% if page.date %}
-                    <div class="date">{{ page.date | date(format="%d.%m.%Y") }}</div>
-                {% endif %}
-                <div class="title">
-                    {% if page.extra.link %}
-                        <a href="{{ get_url(path=page.extra.link, lang=lang) }}">{{ page.title }}</a>
-                    {% else %}
-                        <a href="{{ page.permalink }}">{{ page.title }}</a>
+        <div class="dated-list">
+            {% for page in section.pages | slice(end=count) %}
+                <div class="item">
+                    {% if page.date %}
+                        <div class="date">{{ page.date | date(format="%d.%m.%Y") }}</div>
                     {% endif %}
+                    <div class="title">
+                        {% if page.extra.link %}
+                            <a href="{{ get_url(path=page.extra.link, lang=lang) }}">{{ page.title }}</a>
+                        {% else %}
+                            <a href="{{ page.permalink }}">{{ page.title }}</a>
+                        {% endif %}
+                    </div>
                 </div>
-            </div>
-        {% endfor %}
-    </div>
+            {% endfor %}
+        </div>
 
-    {% if footer %}
-        <p>{{ section.extra.home_footer | safe }}</p>
-    {% endif %}
+        {% if footer %}
+            <p class="more">{{ section.extra.home_footer | safe }}</p>
+        {% endif %}
+    </article>
 {% endmacro %}

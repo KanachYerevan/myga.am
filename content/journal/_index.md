@@ -6,5 +6,5 @@ aliases = ["blog"]
 
 [extra]
 home_title = "Recent journal entries"
-home_footer = "Find more records in the <a href='/journal/'>journal section</a>."
+home_footer = '<a href="/journal/"><span>Open the journal</span><span class="arrow" aria-hidden="true">→</span></a>'
 +++

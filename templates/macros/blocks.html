@@ -1,0 +1,132 @@
+{#
+  Blocks for the home page.
+
+  Each block is rendered by an explicit call in templates/home.html, so blocks
+  can be reordered and other kinds of block (cards, quotes, tables) can sit
+  between them. A block's heading and items live in its own data file under data/.
+
+  file_list(id, path, lang)
+    id         anchor id, used as id="home-<id>" for linking to the block
+    path       data file holding the heading, an optional intro and the list
+               of items
+    lang       active language
+
+    "intro" is one short paragraph above the list and is rendered only when the
+    data file has one. Like the other copy here it is plain text, so it cannot
+    contain Markdown links.
+
+    Icons are optional and live in the data file: "default_icon" holds the svg
+    markup shown on every row, and an item's own "icon" replaces it for that
+    row. With neither key the list renders without icons, so a data file that
+    predates icons keeps working unchanged.
+
+  card_grid(id, path, lang)
+    id         anchor id, used as id="home-<id>" for linking to the block
+    path       data file holding the heading, an optional intro and the items
+    lang       active language
+
+    The same data as file_list, laid out as a two-column grid of cards instead
+    of rows. Each card is a single link to its page, so the whole tile is
+    clickable; the "Read More" label at the bottom is the visual cue.
+
+  prose(id, path, lang)
+    id         anchor id, used as id="home-<id>" and for the heading's id
+    path       data file holding the heading, the intro, an optional list of
+               bullet points and an optional link
+    lang       active language
+
+    A prose block rather than a link list: one short statement, then the
+    optional points and the link. Copy is rendered as plain text, so the
+    points in the data file cannot contain Markdown links.
+
+  Every block carries its own heading in its data file, so templates/home.html
+  only decides which block goes where.
+
+  Each block is an <article class="home-block">, and the whole set sits inside
+  one <section class="home"> in templates/home.html.
+#}
+
+{% macro file_list(id, path, lang) %}
+    {% set data = load_data(path=path) %}
+
+    <article class="home-block" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+        <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
+
+        {% if data.intro %}
+            <p class="intro">{{ data.intro[lang] | safe }}</p>
+        {% endif %}
+
+        <div class="file-list">
+            {% for item in data.items %}
+                <a href="{{ get_url(path=item.link, lang=lang) }}" class="file">
+                    {# Tera errors on a missing key, so the item's own icon and
+                       the block default are both checked before use. #}
+                    {% if item.icon is defined %}
+                        <span class="icon" aria-hidden="true">{{ item.icon | safe }}</span>
+                    {% elif data.default_icon is defined %}
+                        <span class="icon" aria-hidden="true">{{ data.default_icon | safe }}</span>
+                    {% endif %}
+                    <span class="text">
+                        <span class="title">{{ item.content[lang].title | safe }}</span>
+                        <span class="description">{{ item.content[lang].description | safe }}</span>
+                    </span>
+                    <span class="arrow" aria-hidden="true">→</span>
+                </a>
+            {% endfor %}
+        </div>
+    </article>
+{% endmacro %}
+
+{% macro card_grid(id, path, lang) %}
+    {% set data = load_data(path=path) %}
+
+    <article class="home-block home-cards" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+        <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
+
+        {% if data.intro %}
+            <p class="intro">{{ data.intro[lang] | safe }}</p>
+        {% endif %}
+
+        <div class="cards">
+            {% for item in data.items %}
+                {% set permalink = get_url(path=item.link, lang=lang) %}
+                <a href="{{ permalink }}" class="card">
+                    <div class="body">
+                        <h3>{{ item.content[lang].title | safe }}</h3>
+                        <p>{{ item.content[lang].description | safe }}</p>
+                        <div class="more">{{ trans(key="nav_more", lang=lang) }} →</div>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </article>
+{% endmacro %}
+
+{% macro prose(id, path, lang) %}
+    {% set data = load_data(path=path) %}
+
+    <article class="home-block home-prose" id="home-{{ id }}" aria-labelledby="home-{{ id }}-title">
+        <h2 id="home-{{ id }}-title">{{ data.title[lang] | safe }}</h2>
+
+        <div class="prose-text">
+            <p class="intro">{{ data.intro[lang] | safe }}</p>
+
+            {% if data.points %}
+                <ul class="points">
+                    {% for point in data.points %}
+                        <li>{{ point[lang] | safe }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% if data.link %}
+                <p class="more">
+                    <a href="{{ get_url(path=data.link, lang=lang) }}">
+                        <span>{{ data.more[lang] | safe }}</span>
+                        <span class="arrow" aria-hidden="true">→</span>
+                    </a>
+                </p>
+            {% endif %}
+        </div>
+    </article>
+{% endmacro %}

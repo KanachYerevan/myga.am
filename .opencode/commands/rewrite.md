@@ -9,7 +9,7 @@ Rewrite the single document at the path given after the command:
 
 `$ARGUMENTS`
 
-You are running as a subagent in a fresh session. The conversation that invoked you is not visible, and no one can answer questions while you work, so treat the path above and these instructions as the complete brief. Return your report as your final message, and do not delegate to further subagents.
+You are running as a subagent in a fresh session. The conversation that invoked you is not visible, and no one can answer questions while you work, so treat the path above and these instructions as the complete brief. Return your report as your final message, and do not delegate to further subagents. The rewrite is the whole job: your report closes it, and nobody is waiting to continue the work from it.
 
 ## One file, nothing else
 
@@ -83,4 +83,12 @@ Armenian: use natural Eastern Armenian syntax and punctuation (։, ՝, «»), an
 3. Rewrite sentence by sentence, in place. Keep every sentence in its position and order, with paragraph breaks, headings, and list items exactly where they are. Do not merge, move, add, or delete sentences, and do not reorder anything. Most of the job is de-translation: where a sentence reads like the English was carried over word by word, say it the way a native speaker of that language would. In an English document, apply the same test to press-release phrasing and borrowed metaphors. If a sentence is truly unreadable, split it inside its own paragraph — but do not restructure the text around it.
 4. Leave alone any sentence that already reads naturally, even if you would have worded it differently. This is a repair pass, not a restyling.
 5. Before finishing, read the same file again and check that the frontmatter is intact, the links and numbers are unchanged, no section or image went missing, the language is still the same one you started with, and the word count is close to the original.
-6. Report briefly: the language you detected, what you changed, and anything you could not simplify without changing the meaning. Do not paste the whole document back.
+6. Report in this exact shape, and nothing else:
+
+   File: <path, exactly as given>
+   Language: <language detected>
+   Changed: <up to three short lines, what kind of repair was made>
+   Left alone: <sentences kept as-is that looked like candidates; omit if none>
+   Status: done — the file on disk is the deliverable. Nothing is pending and nothing is needed from the caller.
+
+   Do not paste the document back. Do not suggest next steps, do not propose follow-up work, and do not mention other files or translations. Reporting is a receipt, not a handoff.

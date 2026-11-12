@@ -1,0 +1,27 @@
+# "Community Events" block on the home page.
+#
+# A prose block rather than a link list: one short statement about the shared
+# calendar, then one link to the calendar page, which carries the instructions
+# for adding it to a phone. All three languages live here so the block stays
+# self-contained.
+#
+# The heading ("title"), the intro and the link all live here, so the block owns
+# everything it renders; the position on the page is set in templates/home.html.
+# "more" is the link label.
+
+title:
+  en: "Community Events"
+  ru: "События сообщества"
+  hy: "Համայնքի միջոցառումներ"
+
+intro:
+  en: "We keep a calendar of tree and green-space events in Yerevan — our own plantings and workshops, and events run by other organizations. Add it to your phone once and upcoming events appear in your calendar, so you stay in touch with what's happening."
+  ru: "Мы ведём календарь событий о деревьях и зелёных пространствах Еревана: наши посадки и мастер-классы, а также мероприятия других организаций. Добавьте его в телефон — и события появятся в вашем календаре, чтобы вы оставались в курсе происходящего."
+  hy: "Մենք վարում ենք Երևանում ծառերի և կանաչ տարածքների հետ կապված միջոցառումների օրացույց՝ մեր տնկումներն ու այլ կազմակերպությունների իրադարձությունները։ Ավելացրեք այն ձեր հեռախոսում՝ ծանուցումներ ստանալու և ոչինչ բաց չթողնելու համար։"
+
+more:
+  en: "Open the calendar"
+  ru: "Открыть календарь"
+  hy: "Բացել օրացույցը"
+
+link: "@/action/events.md"

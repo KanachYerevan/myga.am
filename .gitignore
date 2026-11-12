@@ -1,4 +1,6 @@
 /dist
+# Local zola binary (see Makefile); keep it out of the repo.
+/bin/zola
 /static/processed_images
 /.envrc
 /.env

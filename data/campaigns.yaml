@@ -1,5 +1,9 @@
-# This file defines current campaigns, which need special attentions,
-# they are listed on the home page.  Only the first 2 are shown currently.
+# Current campaigns, with their copy in all three languages.
+#
+# Nothing on the site renders this file at the moment: the home page no longer
+# has a campaigns block. The entries are kept so a campaigns page or a
+# reintroduced home block can pick them up without rewriting the copy.
+# "link" is a Zola internal path (@/...), so get_url resolves the translation.
 
 - link: "@/status/alerts/komitas.md"
   image: "/images/komitas/nissan-after.thumb.jpg"

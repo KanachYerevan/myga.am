@@ -1,0 +1,71 @@
+# "Problems" block on the home page.
+#
+# One item per card, in the order given here.
+# "link" is a Zola internal path (@/...), so get_url resolves the translation
+# for the active language and one entry serves all three languages.
+# "content" holds the card title and teaser, which are editorial copy and are
+# deliberately shorter than each page's own text.
+#
+# The heading ("title"), the optional intro and the items are all here, so the
+# block owns everything it renders; the position on the page is set in
+# templates/home.html. "intro" is one short paragraph above the list, rendered
+# only when present; it is plain text, so it cannot contain Markdown links.
+
+title:
+  en: "Could Yerevan be greener?"
+  ru: "Может ли Ереван быть зеленее?"
+  hy: "Կարո՞ղ է Երևանն ավելի կանաչ դառնալ։"
+
+intro:
+  en: "We have analysed the situation and identified the core problems that prevent Yerevan from becoming the greenest city in the region. Read about these problems, how they are tackled worldwide, and what Yerevan can do to solve them."
+  ru: "Мы разобрались, что мешает Еревану стать самым зелёным городом региона, и собрали главные проблемы. Рассказываем, как с ними справляются в мире и что может сделать наш город."
+  hy: "Մենք վերլուծել ենք իրավիճակն ու առանձնացրել այն հիմնական խնդիրները, որոնք խոչընդոտում են Երևանին դառնալ տարածաշրջանի ամենականաչ քաղաքը։ Ծանոթացեք այս խնդիրներին, դրանց հաղթահարման միջազգային փորձին և այն լուծումներին, որոնք կարող է կիրառել Երևանը։"
+
+items:
+  - link: "@/guidelines/green-zone-availability/_index.md"
+    content:
+      en:
+        title: "Canopy coverage"
+        description: "Tree canopy is thin across most of Yerevan, and only about 13% of the city lies within a short walk of a public park—well below WHO recommendations. The city needs a wide network of accessible green spaces in every neighborhood, rather than just a few large parks."
+      ru:
+        title: "Доступность зелени"
+        description: "В большинстве районов Еревана деревьев и тени не хватает, а дойти до ближайшего парка пешком могут всего 13% горожан — это в разы меньше норм ВОЗ. Городу нужны не лесопарки на окраине, а зелёные зоны рядом с домом."
+      hy:
+        title: "Ծառածածկույթ"
+        description: "Երևանի մեծ մասում ծառերի սաղարթը նոսր է, իսկ հանրային այգիներից քայլելու հեռավորության վրա է գտնվում քաղաքի տարածքի ընդամենը 13%-ը, ինչը խիստ զիջում է ԱՀԿ չափանիշներին։ Քաղաքին անհրաժեշտ է փոքր ու հասանելի կանաչ տարածքների լայն ցանց բոլոր թաղամասերում, այլ ոչ թե մի քանի խոշոր զբոսայգի։"
+
+  - link: "@/status/code/index.md"
+    content:
+      en:
+        title: "Management standards"
+        description: "Pruning and planting are often carried out haphazardly, soil care is neglected, municipal workers lack proper qualifications, and official guidelines are nonexistent. Yerevan must adopt established international tree care standards."
+      ru:
+        title: "Стандарты ухода"
+        description: "Деревья обрезают и высаживают как придётся, о земле под ними никто не заботится, у работников нет нужных знаний, а чётких правил просто не существует. Городу нужны современные стандарты ухода за деревьями."
+      hy:
+        title: "Խնամքի չափորոշիչներ"
+        description: "Ծառերի էտն ու տնկումն իրականացվում են անգրագետ, հողի խնամքն իսպառ անտեսված է, աշխատակիցները հիմնականում չունեն մասնագիտական որակավորում, իսկ պաշտոնական կանոնակարգեր ընդհանրապես չկան։ Քաղաքին անհրաժեշտ է ներդնել ծառերի խնամքի միջազգային փորձված չափորոշիչներ։"
+
+  - link: "@/status/council/index.md"
+    content:
+      en:
+        title: "Transparency"
+        description: "Tree felling and major landscape projects happen without warning, while the standards and decisions behind them remain hidden. The public has no voice in the process, which must become open, transparent, and accountable."
+      ru:
+        title: "Прозрачность"
+        description: "Деревья пилят без предупреждения, масштабные работы начинаются внезапно, жители в принятии решений не участвуют. Их просто ставят перед фактом, хотя городское озеленение должно быть открытым и понятным каждому."
+      hy:
+        title: "Թափանցիկություն"
+        description: "Ծառահատումներն ու լայնածավալ աշխատանքները սկսվում են անսպասելիորեն, առանց նախազգուշացման, իսկ որոշումների հիմնավորումները մնում են անհասանելի։ Քաղաքացիները զրկված են որոշումների կայացմանը մասնակցելուց, մինչդեռ ողջ գործընթացը պետք է լինի թափանցիկ և հաշվետու։"
+
+  - link: "@/status/participation/index.md"
+    content:
+      en:
+        title: "Resident involvement"
+        description: "Planting a street tree is technically permitted, but the process is completely obscure. Green spaces are treated as an informal monopoly. Yerevan needs clear rules outlining what residents can do on their own without endless municipal permits."
+      ru:
+        title: "Участие жителей"
+        description: "Посадить дерево у дома вроде бы можно, но как именно — никто толком не знает, озеленение остаётся де-факто монополией городских служб. Людям нужны простые правила: что разрешено делать самим, без бесконечной беготни по кабинетам."
+      hy:
+        title: "Բնակիչների մասնակցություն"
+        description: "Փողոցում ծառ տնկելը ձևականորեն թույլատրված է, բայց կարգն անհասկանալի է, իսկ կանաչապատումը վերածվել է փակ մենաշնորհի։ Բնակիչներին անհրաժեշտ են հստակ կանոններ, թե ինչ կարելի է անել սեփական ուժերով՝ առանց քաղաքապետարանի հետ երկարատև համաձայնեցումների։"
