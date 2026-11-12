@@ -1511,6 +1511,16 @@
   light: p
   opals: 8
   opals_basis: genus
+- latin: Liquidambar styraciflua
+  english: Sweetgum
+  group: tree
+  height: 20
+  width: 12
+  zone: 5
+  water: m
+  light: s
+  opals: 7
+  opals_basis: genus
 - latin: Liriodendron chinense
   english: Chinese tulip tree
   group: tree
