@@ -1,0 +1,19 @@
+{#
+    Shortcode bridge: Markdown cannot import macros directly, so the page
+    calls {{ species_table() }} and this loads the data and hands it over.
+
+    Optional argument:
+        groups="tree,conifer"   limit to those groups
+    Without it every entry is rendered.
+#}
+{% import "macros/species.html" as species %}
+
+{% set entries = load_data(path="data/species.yaml") %}
+
+{% if groups is defined %}
+    {% set selected = groups | split(pat=",") %}
+{% else %}
+    {% set selected = [] %}
+{% endif %}
+
+{{ species::table(entries=entries, groups=selected) }}

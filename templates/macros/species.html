@@ -1,0 +1,31 @@
+{#
+    Species table.
+
+    Renders the rows of data/species.yaml as a table. `groups` is a list of
+    group values to include (tree, conifer, shrub, vine); pass an empty list
+    or omit it in the caller to render every entry.
+
+    Required data keys: latin. Optional: english, opals.
+#}
+{% macro table(entries, groups) %}
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Latin name</th>
+                <th scope="col">English name</th>
+                <th scope="col">OPALS</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for species in entries | sort(attribute="latin") %}
+                {% if groups | length == 0 or species.group in groups %}
+                    <tr>
+                        <td><i>{{ species.latin }}</i></td>
+                        <td>{% if species.english is defined %}{{ species.english }}{% endif %}</td>
+                        <td>{% if species.opals is defined %}{{ species.opals }}{% else %}-{% endif %}</td>
+                    </tr>
+                {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+{% endmacro %}
