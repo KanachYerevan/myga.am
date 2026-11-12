@@ -18,10 +18,10 @@ The H and W columns give the average height and width of a mature specimen, in m
 These are typical landscape dimensions rather than record sizes: a tree grown in a street pit or a dry courtyard will usually stay smaller, while one in an irrigated park may exceed them.
 For climbers, H is the height the plant typically reaches on a support and W is its spread along it.
 
-The OPALS column gives the Ogren Plant Allergy Scale rating for each species, from 1 to 10.
+The OPALS column gives the [Ogren Plant Allergy Scale](https://en.wikipedia.org/wiki/Ogren_Plant_Allergy_Scale) rating for each species, from 1 to 10.
 A score of 1 means the lowest potential to cause allergic reactions, and 10 means the highest.
 A dash means no published score was found.
-Scores are compiled from published OPALS ratings by Thomas Leo Ogren.
+Scores are compiled from [published OPALS ratings by Thomas Leo Ogren](https://archive.org/details/allergyfreegarde00thom/).
 
 {{ species_table() }}
 
