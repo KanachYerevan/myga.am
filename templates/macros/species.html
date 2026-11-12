@@ -9,6 +9,10 @@
     opals, zone, water, light, shelter. `opals_basis` (genus or species) records
     where the score came from and is deliberately not rendered.
 
+    `lang` selects the language of the column headings and of the <abbr>
+    tooltips; the species names themselves come from the data file and are
+    not translated.
+
     H and W are the average height and width of a mature specimen, in metres.
     Evergreen is set on species that hold their foliage through winter; an
     entry without the key is deciduous. It renders as a tick, and there is no
@@ -22,20 +26,20 @@
     the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most), shown in
     the O column.
 #}
-{% macro table(entries, groups) %}
+{% macro table(entries, groups, lang) %}
     {% set site_zone = 7 %}
     <table class="species">
         <thead>
             <tr>
-                <th scope="col">Latin name</th>
-                <th scope="col">English name</th>
-                <th scope="col" class="numeric"><abbr title="Average height of a mature specimen, in metres">H</abbr></th>
-                <th scope="col" class="numeric"><abbr title="Average width of a mature specimen, in metres">W</abbr></th>
-                <th scope="col" class="tick"><abbr title="Evergreen: holds its foliage through winter">E</abbr></th>
-                <th scope="col" class="numeric"><abbr title="Coldest USDA hardiness zone in which the species is normally hardy outdoors">Z</abbr></th>
-                <th scope="col"><abbr title="Water use class once established, on the WUCOLS IV scale: very low, low, moderate or high">WU</abbr></th>
-                <th scope="col"><abbr title="Shadiest exposure in which the species persists: full sun, sun or part shade, part shade, full shade">L</abbr></th>
-                <th scope="col" class="numeric"><abbr title="Ogren Plant Allergy Scale: 1 least allergenic, 10 most allergenic">O</abbr></th>
+                <th scope="col">{{ trans(key="species_latin", lang=lang) }}</th>
+                <th scope="col">{{ trans(key="species_english", lang=lang) }}</th>
+                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_h_title", lang=lang) }}">H</abbr></th>
+                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_w_title", lang=lang) }}">W</abbr></th>
+                <th scope="col" class="tick"><abbr title="{{ trans(key="species_e_title", lang=lang) }}">E</abbr></th>
+                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_z_title", lang=lang) }}">Z</abbr></th>
+                <th scope="col"><abbr title="{{ trans(key="species_wu_title", lang=lang) }}">WU</abbr></th>
+                <th scope="col"><abbr title="{{ trans(key="species_l_title", lang=lang) }}">L</abbr></th>
+                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_o_title", lang=lang) }}">O</abbr></th>
             </tr>
         </thead>
         <tbody>
@@ -46,10 +50,10 @@
                         <td>{% if species.english is defined %}{{ species.english }}{% endif %}</td>
                         <td class="numeric">{% if species.height is defined %}{{ species.height }}{% else %}-{% endif %}</td>
                         <td class="numeric">{% if species.width is defined %}{{ species.width }}{% else %}-{% endif %}</td>
-                        <td class="tick">{% if species.evergreen is defined %}<abbr title="Evergreen: holds its foliage through winter">✓</abbr>{% endif %}</td>
+                        <td class="tick">{% if species.evergreen is defined %}<abbr title="{{ trans(key="species_e_title", lang=lang) }}">✓</abbr>{% endif %}</td>
                         <td class="numeric{% if species.zone is defined and species.zone > site_zone %} marginal{% endif %}">{% if species.zone is defined %}{{ species.zone }}{% else %}-{% endif %}{% if species.zone is defined and species.zone > site_zone %}*{% endif %}</td>
                         <td>{% if species.water is defined %}{{ species.water | upper }}{% else %}-{% endif %}</td>
-                        <td>{% if species.light is defined %}{{ species.light | upper }}{% else %}-{% endif %}{% if species.shelter is defined %}<abbr title="Scorches in full summer sun: needs dappling or afternoon shade">†</abbr>{% endif %}</td>
+                        <td>{% if species.light is defined %}{{ species.light | upper }}{% else %}-{% endif %}{% if species.shelter is defined %}<abbr title="{{ trans(key="species_shelter_title", lang=lang) }}">†</abbr>{% endif %}</td>
                         <td class="numeric">{% if species.opals is defined %}{{ species.opals }}{% else %}-{% endif %}</td>
                     </tr>
                 {% endif %}
