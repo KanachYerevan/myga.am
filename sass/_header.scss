@@ -140,6 +140,9 @@ body {
 
     .bars {
       width: 42px;
+      // On mobile the nav is out of flow, so nothing else pushes the menu
+      // button right. Without this the logo and the button huddle on the left.
+      margin-left: auto;
 
       button {
         display: block;
