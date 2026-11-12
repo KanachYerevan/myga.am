@@ -5,10 +5,13 @@
     group values to include (tree, conifer, shrub, vine); pass an empty list
     or omit it in the caller to render every entry.
 
-    Required data keys: latin. Optional: english, height, width, opals, zone,
-    water, light, shelter.
+    Required data keys: latin. Optional: english, height, width, evergreen,
+    opals, zone, water, light, shelter.
 
     H and W are the average height and width of a mature specimen, in metres.
+    Evergreen is set on species that hold their foliage through winter; an
+    entry without the key is deciduous. It renders as a tick, and there is no
+    unknown state, so an empty cell always means deciduous.
     Z is the coldest USDA hardiness zone in which the species is normally
     hardy outdoors. Entries needing a warmer zone than Yerevan (7b) are
     marked with an asterisk. Water is the WUCOLS IV water-use class: vl, l,
@@ -27,6 +30,7 @@
                 <th scope="col">English name</th>
                 <th scope="col" class="numeric"><abbr title="Average height of a mature specimen, in metres">H</abbr></th>
                 <th scope="col" class="numeric"><abbr title="Average width of a mature specimen, in metres">W</abbr></th>
+                <th scope="col" class="tick"><abbr title="Evergreen: holds its foliage through winter">E</abbr></th>
                 <th scope="col" class="numeric"><abbr title="Coldest USDA hardiness zone in which the species is normally hardy outdoors">Z</abbr></th>
                 <th scope="col"><abbr title="Water use class once established, on the WUCOLS IV scale: very low, low, moderate or high">WU</abbr></th>
                 <th scope="col"><abbr title="Shadiest exposure in which the species persists: full sun, sun or part shade, part shade, full shade">L</abbr></th>
@@ -41,6 +45,7 @@
                         <td>{% if species.english is defined %}{{ species.english }}{% endif %}</td>
                         <td class="numeric">{% if species.height is defined %}{{ species.height }}{% else %}-{% endif %}</td>
                         <td class="numeric">{% if species.width is defined %}{{ species.width }}{% else %}-{% endif %}</td>
+                        <td class="tick">{% if species.evergreen is defined %}<abbr title="Evergreen: holds its foliage through winter">✓</abbr>{% endif %}</td>
                         <td class="numeric{% if species.zone is defined and species.zone > site_zone %} marginal{% endif %}">{% if species.zone is defined %}{{ species.zone }}{% else %}-{% endif %}{% if species.zone is defined and species.zone > site_zone %}*{% endif %}</td>
                         <td>{% if species.water is defined %}{{ species.water | upper }}{% else %}-{% endif %}</td>
                         <td>{% if species.light is defined %}{{ species.light | upper }}{% else %}-{% endif %}{% if species.shelter is defined %}<abbr title="Scorches in full summer sun: needs dappling or afternoon shade">†</abbr>{% endif %}</td>
