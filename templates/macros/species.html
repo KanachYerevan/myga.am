@@ -27,39 +27,44 @@
     shade). Shelter marks a species that scorches in full summer sun. Opals is
     the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most), shown in
     the O column.
+
+    The table is wrapped in .species-table, which owns the horizontal scroll
+    on narrow screens so the table itself can fill the whole content column.
 #}
 {% macro table(entries, groups, lang) %}
     {% set site_zone = 7 %}
-    <table class="species">
-        <thead>
-            <tr>
-                <th scope="col">{{ trans(key="species_latin", lang=lang) }}</th>
-                <th scope="col">{{ trans(key="species_common", lang=lang) }}</th>
-                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_h_title", lang=lang) }}">H</abbr></th>
-                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_w_title", lang=lang) }}">W</abbr></th>
-                <th scope="col" class="tick"><abbr title="{{ trans(key="species_e_title", lang=lang) }}">E</abbr></th>
-                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_z_title", lang=lang) }}">Z</abbr></th>
-                <th scope="col"><abbr title="{{ trans(key="species_wu_title", lang=lang) }}">WU</abbr></th>
-                <th scope="col"><abbr title="{{ trans(key="species_l_title", lang=lang) }}">L</abbr></th>
-                <th scope="col" class="numeric"><abbr title="{{ trans(key="species_o_title", lang=lang) }}">O</abbr></th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for species in entries | sort(attribute="latin") %}
-                {% if groups | length == 0 or species.group in groups %}
-                    <tr>
-                        <td><i>{{ species.latin }}</i></td>
-                        <td>{% if lang == "ru" %}{{ species.russian }}{% elif lang == "hy" %}{{ species.armenian }}{% elif species.english is defined %}{{ species.english }}{% endif %}</td>
-                        <td class="numeric">{% if species.height is defined %}{{ species.height }}{% else %}-{% endif %}</td>
-                        <td class="numeric">{% if species.width is defined %}{{ species.width }}{% else %}-{% endif %}</td>
-                        <td class="tick">{% if species.evergreen is defined %}<abbr title="{{ trans(key="species_e_title", lang=lang) }}">✓</abbr>{% endif %}</td>
-                        <td class="numeric{% if species.zone is defined and species.zone > site_zone %} marginal{% endif %}">{% if species.zone is defined %}{{ species.zone }}{% else %}-{% endif %}{% if species.zone is defined and species.zone > site_zone %}*{% endif %}</td>
-                        <td>{% if species.water is defined %}{{ species.water | upper }}{% else %}-{% endif %}</td>
-                        <td>{% if species.light is defined %}{{ species.light | upper }}{% else %}-{% endif %}{% if species.shelter is defined %}<abbr title="{{ trans(key="species_shelter_title", lang=lang) }}">†</abbr>{% endif %}</td>
-                        <td class="numeric">{% if species.opals is defined %}{{ species.opals }}{% else %}-{% endif %}</td>
-                    </tr>
-                {% endif %}
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="species-table">
+        <table class="species">
+            <thead>
+                <tr>
+                    <th scope="col">{{ trans(key="species_latin", lang=lang) }}</th>
+                    <th scope="col">{{ trans(key="species_common", lang=lang) }}</th>
+                    <th scope="col" class="numeric"><abbr title="{{ trans(key="species_h_title", lang=lang) }}">H</abbr></th>
+                    <th scope="col" class="numeric"><abbr title="{{ trans(key="species_w_title", lang=lang) }}">W</abbr></th>
+                    <th scope="col" class="tick"><abbr title="{{ trans(key="species_e_title", lang=lang) }}">E</abbr></th>
+                    <th scope="col" class="numeric"><abbr title="{{ trans(key="species_z_title", lang=lang) }}">Z</abbr></th>
+                    <th scope="col"><abbr title="{{ trans(key="species_wu_title", lang=lang) }}">WU</abbr></th>
+                    <th scope="col"><abbr title="{{ trans(key="species_l_title", lang=lang) }}">L</abbr></th>
+                    <th scope="col" class="numeric"><abbr title="{{ trans(key="species_o_title", lang=lang) }}">O</abbr></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for species in entries | sort(attribute="latin") %}
+                    {% if groups | length == 0 or species.group in groups %}
+                        <tr>
+                            <td><i>{{ species.latin }}</i></td>
+                            <td>{% if lang == "ru" %}{{ species.russian }}{% elif lang == "hy" %}{{ species.armenian }}{% elif species.english is defined %}{{ species.english }}{% endif %}</td>
+                            <td class="numeric">{% if species.height is defined %}{{ species.height }}{% else %}-{% endif %}</td>
+                            <td class="numeric">{% if species.width is defined %}{{ species.width }}{% else %}-{% endif %}</td>
+                            <td class="tick">{% if species.evergreen is defined %}<abbr title="{{ trans(key="species_e_title", lang=lang) }}">✓</abbr>{% endif %}</td>
+                            <td class="numeric{% if species.zone is defined and species.zone > site_zone %} marginal{% endif %}">{% if species.zone is defined %}{{ species.zone }}{% else %}-{% endif %}{% if species.zone is defined and species.zone > site_zone %}*{% endif %}</td>
+                            <td>{% if species.water is defined %}{{ species.water | upper }}{% else %}-{% endif %}</td>
+                            <td>{% if species.light is defined %}{{ species.light | upper }}{% else %}-{% endif %}{% if species.shelter is defined %}<abbr title="{{ trans(key="species_shelter_title", lang=lang) }}">†</abbr>{% endif %}</td>
+                            <td class="numeric">{% if species.opals is defined %}{{ species.opals }}{% else %}-{% endif %}</td>
+                        </tr>
+                    {% endif %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 {% endmacro %}

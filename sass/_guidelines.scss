@@ -65,8 +65,24 @@
   }
 }
 
+// Species tables are the widest content on the site, so they fill the whole
+// column instead of shrinking to their content. The wrapper owns the
+// horizontal scroll on narrow screens, where nine columns cannot fit.
+.species-table {
+  overflow-x: auto;
+}
+
 table.species {
+  width: 100%;
   font-size: 0.8rem;
+}
+
+// Undo the generic block-level table styles (see main .post table in
+// myga.scss): the wrapper scrolls now, and the table must stay a real table so
+// width: 100% can spread the columns across the column.
+main .post table.species {
+  display: table;
+  overflow: visible;
 }
 
 nav.species-tabs {

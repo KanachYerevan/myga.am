@@ -25,6 +25,12 @@
 @import 'partials/campaign-cards';
 @import 'partials/contacts';
 
+// Width of the centred content column. Header, page body and footer all
+// reference this so their edges stay on the same grid.
+:root {
+  --content-width: 1000px;
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -38,7 +44,7 @@ body {
 
 .container {
   width: 100%;
-  max-width: 800px;
+  max-width: var(--content-width);
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -48,7 +54,7 @@ main {
       box-sizing: border-box;
 
       width: 100%;
-      max-width: 800px;
+      max-width: var(--content-width);
       margin: 0 auto;
       padding: 0 30px;
 

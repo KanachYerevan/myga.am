@@ -27,6 +27,8 @@ header {
     .wrapper {
       box-sizing: border-box;
       width: 100%;
+      max-width: var(--content-width);
+      margin: 0 auto;
       padding: 10px 30px;
 
       display: flex;
