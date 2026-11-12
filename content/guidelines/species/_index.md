@@ -16,9 +16,9 @@ A species earns its place by surviving the city's long, hot and dry summers, its
 Every entry has been recorded growing in Yerevan, and the dimensions are those of a mature specimen rather than a record one.
 Native trees of the Armenian highland sit alongside species long proven in the city's parks, streets and courtyards.
 
-- [Trees](@/guidelines/species/trees/_index.md), everything that lifts a crown on a trunk, conifers included.
-- [Shrubs](@/guidelines/species/shrubs/_index.md), woody plants that branch from the base and keep their leaves to the ground.
-- [Climbers](@/guidelines/species/climbers/_index.md), vines that need a wall, a pergola or a trunk to hold on to.
+- [Trees for Yerevan](@/guidelines/species/trees/_index.md) — everything that lifts a crown on a trunk, conifers included.
+- [Shrubs for Yerevan](@/guidelines/species/shrubs/_index.md) — woody plants that branch from the base and keep their leaves to the ground.
+- [Climbers for Yerevan](@/guidelines/species/climbers/_index.md) — vines that need a wall, a pergola or a trunk to hold on to.
 
 Choose by the space you have rather than by the picture you like: a courtyard that takes a 4 m tree will not take a 25 m one, and the width matters more than the height once the crown is full.
 Then check the water class against what you can irrigate, and the light class against the canopy the site will carry in twenty years.
