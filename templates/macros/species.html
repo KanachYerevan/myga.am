@@ -14,7 +14,9 @@
     marked with an asterisk. Water is the WUCOLS IV water-use class: vl, l,
     m or h. Light is the shadiest exposure in which the species persists:
     s (full sun only), sp (sun or part shade), p (part shade) or f (full
-    shade). Shelter marks a species that scorches in full summer sun.
+    shade). Shelter marks a species that scorches in full summer sun. Opals is
+    the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most), shown in
+    the O column.
 #}
 {% macro table(entries, groups) %}
     {% set site_zone = 7 %}
@@ -28,7 +30,7 @@
                 <th scope="col" class="numeric"><abbr title="Coldest USDA hardiness zone in which the species is normally hardy outdoors">Z</abbr></th>
                 <th scope="col"><abbr title="Water use class once established, on the WUCOLS IV scale: very low, low, moderate or high">WU</abbr></th>
                 <th scope="col"><abbr title="Shadiest exposure in which the species persists: full sun, sun or part shade, part shade, full shade">L</abbr></th>
-                <th scope="col" class="numeric">OPALS</th>
+                <th scope="col" class="numeric"><abbr title="Ogren Plant Allergy Scale: 1 least allergenic, 10 most allergenic">O</abbr></th>
             </tr>
         </thead>
         <tbody>
