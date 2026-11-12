@@ -75,6 +75,13 @@
 table.species {
   width: 100%;
   font-size: 0.8rem;
+
+  // The evergreen column carries at most a single tick, so without a floor it
+  // collapses to the glyph and looks cramped next to the numeric columns.
+  th.tick,
+  td.tick {
+    min-width: 40px;
+  }
 }
 
 // Undo the generic block-level table styles (see main .post table in
