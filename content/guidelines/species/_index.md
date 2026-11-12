@@ -2,7 +2,6 @@
 title: Plant Species for Yerevan
 description: Information collected on the trees, shrubs and climbers that can make Yerevan greener, each with its mature size, evergreen or deciduous habit, shade tolerance, water use class, winter hardiness zone, and OPALS allergy scores.
 sort_by: weight
-template: section-species.html
 extra:
   summary: "Entry page for the shared reference on trees, shrubs and climbers that can make Yerevan greener, with the column notes repeated on every table."
   status: recommended
@@ -16,3 +15,7 @@ We have collected information on the many trees, shrubs and climbers that can he
 Here we share it with everyone.
 
 Use it freely for your own projects, and [send us updates](https://t.me/make_yerevan_green_again) when you find something wrong or missing.
+
+- [Trees for Yerevan](@/guidelines/species/trees/_index.md)
+- [Shrubs for Yerevan](@/guidelines/species/shrubs/_index.md)
+- [Climbers for Yerevan](@/guidelines/species/climbers/_index.md)
