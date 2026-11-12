@@ -10,7 +10,6 @@ extra:
 Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
 A tree here means anything that lifts a crown on a trunk, conifers included: the choice between an oak and a cedar is a choice about size, water and shelter rather than about botany.
-Half a dozen of the conifers are shrub-sized, and their H and W say so.
 
 {{ species_table(groups="tree,conifer") }}
 

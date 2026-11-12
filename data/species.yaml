@@ -3,7 +3,8 @@
 # and the curated selection previously maintained on /guidelines/species/.
 # Woody taxa only. OPALS is the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most allergenic).
 # Group is a display bucket, not a taxonomic rank: tree and conifer render on the trees
-# table, shrub on the shrubs table, vine on the climbers table.
+# table, shrub on the shrubs table, vine on the climbers table. Shrub covers prostrate
+# and multi-stemmed woody plants at any height, including the low junipers.
 # Height and width are the average dimensions of a mature specimen, in metres.
 # Zone is the coldest USDA hardiness zone in which the species is normally hardy outdoors.
 # Water is the WUCOLS IV water-use class: vl (very low), l (low), m (moderate), h (high).
@@ -533,7 +534,7 @@
   light: s
 - latin: Cornus alternifolia
   english: Alternate-leaved dogwood
-  group: tree
+  group: shrub
   height: 6
   width: 6
   zone: 3
@@ -541,7 +542,7 @@
   light: p
 - latin: Cornus mas
   english: Cornelian cherry
-  group: tree
+  group: shrub
   height: 6
   width: 6
   zone: 5
@@ -637,7 +638,7 @@
   light: sp
 - latin: Crataegus microphylla
   english: Small-leaved hawthorn
-  group: tree
+  group: shrub
   height: 3
   width: 3
   zone: 5
@@ -1115,7 +1116,7 @@
   opals: 8
 - latin: Juniperus chinensis
   english: Chinese juniper
-  group: conifer
+  group: shrub
   height: 6
   width: 3
   evergreen: true
@@ -1124,7 +1125,7 @@
   light: s
 - latin: Juniperus communis
   english: Common juniper
-  group: conifer
+  group: shrub
   height: 5
   width: 3
   evergreen: true
@@ -1133,7 +1134,7 @@
   light: s
 - latin: Juniperus deltoides
   english: Eastern prickly juniper
-  group: conifer
+  group: shrub
   height: 4
   width: 3
   evergreen: true
@@ -1161,7 +1162,7 @@
   light: s
 - latin: Juniperus horizontalis
   english: Creeping juniper
-  group: conifer
+  group: shrub
   height: 0.5
   width: 2.5
   evergreen: true
@@ -1179,7 +1180,7 @@
   light: s
 - latin: Juniperus sabina
   english: Savin juniper
-  group: conifer
+  group: shrub
   height: 1.5
   width: 3
   evergreen: true
@@ -1188,7 +1189,7 @@
   light: s
 - latin: Juniperus squamata
   english: Flaky juniper
-  group: conifer
+  group: shrub
   height: 1.5
   width: 2
   evergreen: true
@@ -1403,7 +1404,7 @@
   light: sp
 - latin: Magnolia liliiflora
   english: Lily magnolia
-  group: tree
+  group: shrub
   height: 4
   width: 4
   zone: 5
@@ -1644,7 +1645,7 @@
   light: s
 - latin: Pinus mugo
   english: Mountain pine
-  group: conifer
+  group: shrub
   height: 3
   width: 4
   evergreen: true
@@ -1812,7 +1813,7 @@
   opals: 10
 - latin: Prunus argentea
   english: Silver almond
-  group: tree
+  group: shrub
   height: 4
   width: 4
   zone: 6
@@ -1872,7 +1873,7 @@
   light: s
 - latin: Prunus fenzliana
   english: Fenzl's almond
-  group: tree
+  group: shrub
   height: 5
   width: 5
   zone: 6
@@ -1880,7 +1881,7 @@
   light: s
 - latin: Prunus incana
   english: Willow leaf cherry
-  group: tree
+  group: shrub
   height: 4
   width: 4
   zone: 6
@@ -1922,7 +1923,7 @@
   opals: 7
 - latin: Prunus spinosa
   english: Blackthorn
-  group: tree
+  group: shrub
   height: 4
   width: 4
   zone: 4
@@ -2323,7 +2324,7 @@
   light: s
 - latin: Salix cinerea
   english: Grey willow
-  group: tree
+  group: shrub
   height: 6
   width: 6
   zone: 3
@@ -2331,7 +2332,7 @@
   light: s
 - latin: Salix discolor
   english: Pussy willow
-  group: tree
+  group: shrub
   height: 5
   width: 5
   zone: 2
@@ -2339,7 +2340,7 @@
   light: s
 - latin: Salix eriocephala
   english: Heart-leaved willow
-  group: tree
+  group: shrub
   height: 5
   width: 5
   zone: 2
@@ -2500,7 +2501,7 @@
   light: s
 - latin: Tamarix aphylla
   english: Athel tamarisk
-  group: shrub
+  group: tree
   height: 10
   width: 8
   zone: 8
