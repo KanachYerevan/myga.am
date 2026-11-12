@@ -5,13 +5,15 @@
     group values to include (tree, conifer, shrub, vine); pass an empty list
     or omit it in the caller to render every entry.
 
-    Required data keys: latin. Optional: english, height, width, evergreen,
-    opals, zone, water, light, shelter. `opals_basis` (genus or species) records
-    where the score came from and is deliberately not rendered.
+    Required data keys: latin, russian, armenian. Optional: english, height,
+    width, evergreen, opals, zone, water, light, shelter. `opals_basis` (genus
+    or species) records where the score came from and is deliberately not
+    rendered.
 
-    `lang` selects the language of the column headings and of the <abbr>
-    tooltips; the species names themselves come from the data file and are
-    not translated.
+    `lang` selects the language of the column headings, the <abbr> tooltips and
+    the common-name column: the table shows the Russian name on the Russian
+    pages, the Armenian name on the Armenian ones and the English name
+    otherwise. Latin is always shown.
 
     H and W are the average height and width of a mature specimen, in metres.
     Evergreen is set on species that hold their foliage through winter; an
@@ -32,7 +34,7 @@
         <thead>
             <tr>
                 <th scope="col">{{ trans(key="species_latin", lang=lang) }}</th>
-                <th scope="col">{{ trans(key="species_english", lang=lang) }}</th>
+                <th scope="col">{{ trans(key="species_common", lang=lang) }}</th>
                 <th scope="col" class="numeric"><abbr title="{{ trans(key="species_h_title", lang=lang) }}">H</abbr></th>
                 <th scope="col" class="numeric"><abbr title="{{ trans(key="species_w_title", lang=lang) }}">W</abbr></th>
                 <th scope="col" class="tick"><abbr title="{{ trans(key="species_e_title", lang=lang) }}">E</abbr></th>
@@ -47,7 +49,7 @@
                 {% if groups | length == 0 or species.group in groups %}
                     <tr>
                         <td><i>{{ species.latin }}</i></td>
-                        <td>{% if species.english is defined %}{{ species.english }}{% endif %}</td>
+                        <td>{% if lang == "ru" %}{{ species.russian }}{% elif lang == "hy" %}{{ species.armenian }}{% elif species.english is defined %}{{ species.english }}{% endif %}</td>
                         <td class="numeric">{% if species.height is defined %}{{ species.height }}{% else %}-{% endif %}</td>
                         <td class="numeric">{% if species.width is defined %}{{ species.width }}{% else %}-{% endif %}</td>
                         <td class="tick">{% if species.evergreen is defined %}<abbr title="{{ trans(key="species_e_title", lang=lang) }}">✓</abbr>{% endif %}</td>

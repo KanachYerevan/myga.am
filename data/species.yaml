@@ -2,6 +2,10 @@
 # Sources: iNaturalist observations (place "Erevan", place_id 10430), retrieved 2026-11-12,
 # and the curated selection previously maintained on /guidelines/species/.
 # Woody taxa only. OPALS is the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most allergenic).
+# latin follows iNaturalist taxonomy. english, russian and armenian are the common
+# names used in each language, with a descriptive translation where a language has
+# no established name. The species table shows the Latin name plus the common name
+# in the page's language.
 # opals_basis records whether a score is for the species itself or for its genus.
 # It is internal and is not rendered on the page.
 # Group is a display bucket, not a taxonomic rank: tree and conifer render on the trees
@@ -24,6 +28,8 @@
 
 - latin: Abies nordmanniana
   english: Caucasian fir
+  russian: пихта Нордмана
+  armenian: Նորդմանյան եղևնի
   group: conifer
   height: 25
   width: 8
@@ -35,6 +41,8 @@
   opals_basis: genus
 - latin: Acer buergerianum
   english: Trident maple
+  russian: клён Бюргера
+  armenian: Բյուրգերի թխկի
   group: tree
   height: 10
   width: 8
@@ -45,6 +53,8 @@
   opals_basis: species
 - latin: Acer campestre
   english: Field maple
+  russian: клён полевой
+  armenian: դաշտային թխկի
   group: tree
   height: 12
   width: 10
@@ -55,6 +65,8 @@
   opals_basis: species
 - latin: Acer cappadocicum
   english: Cappadocian maple
+  russian: клён каппадокийский
+  armenian: կապադովկյան թխկի
   group: tree
   height: 18
   width: 12
@@ -65,6 +77,8 @@
   opals_basis: species
 - latin: Acer heldreichii
   english: Heldreich's maple
+  russian: клён Хельдрейха
+  armenian: Հելդրեյխի թխկի
   group: tree
   height: 15
   width: 10
@@ -73,6 +87,8 @@
   light: sp
 - latin: Acer hyrcanum
   english: Balkan maple
+  russian: клён гирканский
+  armenian: հիրկանյան թխկի
   group: tree
   height: 10
   width: 8
@@ -81,6 +97,8 @@
   light: p
 - latin: Acer monspessulanum
   english: Montpellier maple
+  russian: клён монпелийский
+  armenian: Մոնպելիեի թխկի
   group: tree
   height: 8
   width: 6
@@ -89,6 +107,8 @@
   light: sp
 - latin: Acer negundo
   english: Box elder
+  russian: клён ясенелистный
+  armenian: հացենատերև թխկի
   group: tree
   height: 15
   width: 12
@@ -99,6 +119,8 @@
   opals_basis: species
 - latin: Acer palmatum
   english: Japanese maple
+  russian: клён дланевидный
+  armenian: ճապոնական թխկի
   group: tree
   height: 6
   width: 5
@@ -110,6 +132,8 @@
   opals_basis: species
 - latin: Acer platanoides
   english: Norway maple
+  russian: клён остролистный
+  armenian: սրատերև թխկի
   group: tree
   height: 20
   width: 15
@@ -120,6 +144,8 @@
   opals_basis: species
 - latin: Acer pseudoplatanus
   english: Sycamore maple
+  russian: клён ложноплатановый
+  armenian: սոսիատերև թխկի
   group: tree
   height: 22
   width: 16
@@ -130,6 +156,8 @@
   opals_basis: species
 - latin: Acer rubrum
   english: Red maple
+  russian: клён красный
+  armenian: կարմիր թխկի
   group: tree
   height: 18
   width: 12
@@ -140,6 +168,8 @@
   opals_basis: species
 - latin: Acer tataricum
   english: Tatarian maple
+  russian: клён татарский
+  armenian: թաթարական թխկի
   group: tree
   height: 8
   width: 6
@@ -150,6 +180,8 @@
   opals_basis: species
 - latin: Aesculus hippocastanum
   english: Horse chestnut
+  russian: конский каштан обыкновенный
+  armenian: ձիաշագանակ
   group: tree
   height: 20
   width: 15
@@ -160,6 +192,8 @@
   opals_basis: species
 - latin: Aesculus × carnea
   english: Red horse-chestnut
+  russian: конский каштан мясо-красный
+  armenian: մսագույն ձիաշագանակ
   group: tree
   height: 15
   width: 12
@@ -170,6 +204,8 @@
   opals_basis: species
 - latin: Ailanthus altissima
   english: Tree of heaven
+  russian: айлант высочайший
+  armenian: բարձր այլանտուս
   group: tree
   height: 20
   width: 12
@@ -180,6 +216,8 @@
   opals_basis: species
 - latin: Albizia julibrissin
   english: Persian silk tree
+  russian: альбиция ленкоранская
+  armenian: լենքորանյան ալբիցիա
   group: tree
   height: 8
   width: 8
@@ -190,6 +228,8 @@
   opals_basis: species
 - latin: Alnus incana
   english: Grey alder
+  russian: ольха серая
+  armenian: գորշ լաստենի
   group: tree
   height: 15
   width: 8
@@ -200,6 +240,8 @@
   opals_basis: species
 - latin: Alnus oblongifolia
   english: Arizona alder
+  russian: ольха длиннолистная
+  armenian: երկարատերև լաստենի
   group: tree
   height: 15
   width: 10
@@ -210,6 +252,8 @@
   opals_basis: species
 - latin: Amelanchier spp.
   english: Serviceberry
+  russian: ирга
+  armenian: ամելանքիեր
   group: shrub
   height: 5
   width: 4
@@ -220,6 +264,8 @@
   opals_basis: species
 - latin: Amorpha fruticosa
   english: False indigo bush
+  russian: аморфа кустарниковая
+  armenian: թփային ամորֆա
   group: shrub
   height: 3
   width: 3
@@ -227,6 +273,8 @@
   water: m
   light: sp
 - latin: Atraphaxis replicata
+  russian: атрафаксис отогнутый
+  armenian: կրկնված ատրաֆաքսիս
   group: shrub
   height: 1
   width: 1.2
@@ -234,6 +282,8 @@
   water: vl
   light: s
 - latin: Atraphaxis spinosa
+  russian: атрафаксис колючий
+  armenian: փշոտ ատրաֆաքսիս
   group: shrub
   height: 1
   width: 1.2
@@ -242,6 +292,8 @@
   light: s
 - latin: Berberis amurensis
   english: Amur barberry
+  russian: барбарис амурский
+  armenian: ամուրյան կծոխուր
   group: shrub
   height: 2.5
   width: 2.5
@@ -252,6 +304,8 @@
   opals_basis: genus
 - latin: Berberis aquifolium
   english: Oregon grape
+  russian: барбарис падуболистный
+  armenian: սամշիտատերև կծոխուր
   group: shrub
   height: 1.5
   width: 1.5
@@ -264,6 +318,8 @@
   opals_basis: genus
 - latin: Berberis dictyota
   english: Shining netvein barberry
+  russian: барбарис сетчатый
+  armenian: ցանցավոր կծոխուր
   group: shrub
   height: 2
   width: 2
@@ -274,6 +330,8 @@
   opals_basis: genus
 - latin: Berberis thunbergii
   english: Japanese barberry
+  russian: барбарис Тунберга
+  armenian: Թունբերգի կծոխուր
   group: shrub
   height: 1.5
   width: 2
@@ -284,6 +342,8 @@
   opals_basis: genus
 - latin: Berberis vulgaris
   english: European barberry
+  russian: барбарис обыкновенный
+  armenian: սովորական կծոխուր
   group: shrub
   height: 2.5
   width: 2.5
@@ -294,6 +354,8 @@
   opals_basis: genus
 - latin: Betula papyrifera
   english: Paper birch
+  russian: берёза бумажная
+  armenian: թղթային կեչի
   group: tree
   height: 15
   width: 10
@@ -304,6 +366,8 @@
   opals_basis: genus
 - latin: Betula pendula
   english: Silver birch
+  russian: берёза повислая
+  armenian: կախված կեչի
   group: tree
   height: 18
   width: 10
@@ -314,6 +378,8 @@
   opals_basis: genus
 - latin: Betula utilis
   english: Himalayan birch
+  russian: берёза полезная
+  armenian: օգտակար կեչի
   group: tree
   height: 15
   width: 8
@@ -324,6 +390,8 @@
   opals_basis: genus
 - latin: Broussonetia papyrifera
   english: Paper mulberry
+  russian: бруссонетия бумажная
+  armenian: թղթային բրուսոնետիա
   group: tree
   height: 12
   width: 10
@@ -334,6 +402,8 @@
   opals_basis: species
 - latin: Buddleja davidii
   english: Butterfly bush
+  russian: будлея Давида
+  armenian: Դավիդի բուդլեա
   group: shrub
   height: 3
   width: 3
@@ -344,6 +414,8 @@
   opals_basis: genus
 - latin: Buxus colchica
   english: Colchic boxwood
+  russian: самшит колхидский
+  armenian: կոլխական տոսախ
   group: shrub
   height: 5
   width: 5
@@ -355,6 +427,8 @@
   opals_basis: genus
 - latin: Buxus microphylla
   english: Small-leaved box
+  russian: самшит мелколистный
+  armenian: մանրատերև տոսախ
   group: shrub
   height: 1
   width: 1.5
@@ -366,6 +440,8 @@
   opals_basis: genus
 - latin: Buxus sempervirens
   english: Common box
+  russian: самшит вечнозелёный
+  armenian: մշտադալար տոսախ
   group: shrub
   height: 3
   width: 3
@@ -377,6 +453,8 @@
   opals_basis: genus
 - latin: Campsis radicans
   english: American trumpet vine
+  russian: кампсис укореняющийся
+  armenian: արմատակալող կամպսիս
   group: vine
   height: 10
   width: 6
@@ -387,6 +465,8 @@
   opals_basis: genus
 - latin: Campsis × tagliabueana
   english: Hybrid trumpet vine
+  russian: кампсис Таглиабуэ
+  armenian: հիբրիդային կամպսիս
   group: vine
   height: 8
   width: 5
@@ -397,6 +477,8 @@
   opals_basis: genus
 - latin: Caragana halodendron
   english: Russian salt tree
+  russian: карагана солянковая
+  armenian: աղուտային կարագանա
   group: shrub
   height: 2
   width: 2.5
@@ -407,6 +489,8 @@
   opals_basis: genus
 - latin: Caragana pygmaea
   english: Pygmy caragana
+  russian: карагана карликовая
+  armenian: թզուկ կարագանա
   group: shrub
   height: 1
   width: 1.2
@@ -417,6 +501,8 @@
   opals_basis: genus
 - latin: Carpinus betulus
   english: European hornbeam
+  russian: граб обыкновенный
+  armenian: սովորական բոխի
   group: tree
   height: 20
   width: 15
@@ -427,6 +513,8 @@
   opals_basis: species
 - latin: Carpinus orientalis
   english: Eastern hornbeam
+  russian: граб восточный
+  armenian: արևելյան բոխի
   group: tree
   height: 10
   width: 8
@@ -437,6 +525,8 @@
   opals_basis: species
 - latin: Castanea sativa
   english: Sweet chestnut
+  russian: каштан посевной
+  armenian: ցանովի շագանակենի
   group: tree
   height: 20
   width: 15
@@ -447,6 +537,8 @@
   opals_basis: species
 - latin: Catalpa bignonioides
   english: Southern catalpa
+  russian: катальпа бигнониевидная
+  armenian: բիգնոնիատերև կատալպա
   group: tree
   height: 12
   width: 10
@@ -457,6 +549,8 @@
   opals_basis: species
 - latin: Catalpa ovata
   english: Chinese catalpa
+  russian: катальпа яйцевидная
+  armenian: ձվատերև կատալպա
   group: tree
   height: 10
   width: 8
@@ -467,6 +561,8 @@
   opals_basis: species
 - latin: Catalpa speciosa
   english: Northern catalpa
+  russian: катальпа прекрасная
+  armenian: գեղեցիկ կատալպա
   group: tree
   height: 15
   width: 12
@@ -477,6 +573,8 @@
   opals_basis: species
 - latin: Cedrus atlantica
   english: Atlas cedar
+  russian: кедр атласский
+  armenian: ատլասյան մայրի
   group: conifer
   height: 25
   width: 15
@@ -488,6 +586,8 @@
   opals_basis: species
 - latin: Cedrus libani
   english: Cedar of Lebanon
+  russian: кедр ливанский
+  armenian: լիբանանյան մայրի
   group: conifer
   height: 25
   width: 20
@@ -499,6 +599,8 @@
   opals_basis: species
 - latin: Celtis australis
   english: European hackberry
+  russian: каркас южный
+  armenian: հարավային կելտիս
   group: tree
   height: 18
   width: 15
@@ -509,6 +611,8 @@
   opals_basis: species
 - latin: Celtis caucasica
   english: Caucasian hackberry
+  russian: каркас кавказский
+  armenian: կովկասյան կելտիս
   group: tree
   height: 15
   width: 12
@@ -519,6 +623,8 @@
   opals_basis: species
 - latin: Celtis planchoniana
   english: Planchon's hackberry
+  russian: каркас Планшона
+  armenian: Պլանշոնի կելտիս
   group: tree
   height: 12
   width: 10
@@ -529,6 +635,8 @@
   opals_basis: genus
 - latin: Cercis canadensis
   english: Eastern redbud
+  russian: церцис канадский
+  armenian: կանադական ցերկիս
   group: tree
   height: 8
   width: 8
@@ -539,6 +647,8 @@
   opals_basis: species
 - latin: Cercis siliquastrum
   english: Judas tree
+  russian: церцис стручковый
+  armenian: պատիճավոր ցերկիս
   group: tree
   height: 8
   width: 8
@@ -549,6 +659,8 @@
   opals_basis: species
 - latin: Chaenomeles japonica
   english: Japanese quince
+  russian: хеномелес японский
+  armenian: ճապոնական քենոմելես
   group: shrub
   height: 1.5
   width: 2
@@ -559,6 +671,8 @@
   opals_basis: genus
 - latin: Chaenomeles speciosa
   english: Chinese quince
+  russian: хеномелес прекрасный
+  armenian: գեղեցիկ քենոմելես
   group: shrub
   height: 2.5
   width: 3
@@ -569,6 +683,8 @@
   opals_basis: genus
 - latin: Chamaecyparis obtusa
   english: Hinoki cypress
+  russian: кипарисовик туполистный
+  armenian: բթատերև կեղծնոճի
   group: conifer
   height: 15
   width: 6
@@ -580,6 +696,8 @@
   opals_basis: species
 - latin: Chamaecyparis pisifera
   english: Sawara cypress
+  russian: кипарисовик горохоплодный
+  armenian: ոլոռատերև կեղծնոճի
   group: conifer
   height: 12
   width: 6
@@ -591,6 +709,8 @@
   opals_basis: species
 - latin: Clematis ligusticifolia
   english: Western white clematis
+  russian: ломонос лигустролистный
+  armenian: լիգուստրատերև մամուխ
   group: vine
   height: 6
   width: 3
@@ -601,6 +721,8 @@
   opals_basis: genus
 - latin: Clematis orientalis
   english: Oriental Virgin's-bower
+  russian: ломонос восточный
+  armenian: արևելյան մամուխ
   group: vine
   height: 5
   width: 3
@@ -611,6 +733,8 @@
   opals_basis: genus
 - latin: Clematis vitalba
   english: Old man's beard
+  russian: ломонос виноградолистный
+  armenian: խաղողատերև մամուխ
   group: vine
   height: 10
   width: 5
@@ -621,6 +745,8 @@
   opals_basis: genus
 - latin: Colutea spp.
   english: Bladder senna
+  russian: пузырник
+  armenian: կոլուտեա
   group: shrub
   height: 3
   width: 3
@@ -629,6 +755,8 @@
   light: s
 - latin: Cornus alternifolia
   english: Alternate-leaved dogwood
+  russian: дерен очереднолистный
+  armenian: հերթատերև հոնենի
   group: shrub
   height: 6
   width: 6
@@ -639,6 +767,8 @@
   opals_basis: genus
 - latin: Cornus mas
   english: Cornelian cherry
+  russian: кизил
+  armenian: հոն
   group: shrub
   height: 6
   width: 6
@@ -649,6 +779,8 @@
   opals_basis: genus
 - latin: Cornus sanguinea
   english: Common dogwood
+  russian: свидина кроваво-красная
+  armenian: արյունագույն հոնենի
   group: shrub
   height: 3
   width: 3
@@ -659,6 +791,8 @@
   opals_basis: genus
 - latin: Corylus avellana
   english: Common hazel
+  russian: лещина обыкновенная
+  armenian: սովորական տկողնի
   group: shrub
   height: 5
   width: 5
@@ -669,6 +803,8 @@
   opals_basis: species
 - latin: Corylus colurna
   english: Turkish hazel
+  russian: лещина медвежья
+  armenian: ծառանման տկողնի
   group: tree
   height: 18
   width: 12
@@ -679,6 +815,8 @@
   opals_basis: species
 - latin: Cotinus coggygria
   english: Smokebush
+  russian: скумпия кожевенная
+  armenian: սկումպիա
   group: shrub
   height: 4
   width: 4
@@ -689,6 +827,8 @@
   opals_basis: species
 - latin: Cotoneaster hjelmqvistii
   english: Hjelmqvist's cotoneaster
+  russian: кизильник Хьельмквиста
+  armenian: Հյելմքվիստի կոտոնեաստր
   group: shrub
   height: 1.5
   width: 2
@@ -699,6 +839,8 @@
   opals_basis: species
 - latin: Cotoneaster horizontalis
   english: Wall cotoneaster
+  russian: кизильник горизонтальный
+  armenian: հորիզոնական կոտոնեաստր
   group: shrub
   height: 1
   width: 2.5
@@ -709,6 +851,8 @@
   opals_basis: species
 - latin: Cotoneaster pannosus
   english: Silverleaf cotoneaster
+  russian: кизильник войлочный
+  armenian: թավոտ կոտոնեաստր
   group: shrub
   height: 2.5
   width: 3
@@ -719,6 +863,8 @@
   opals_basis: species
 - latin: Crataegus azarolus
   english: Azarole
+  russian: боярышник азароль
+  armenian: ազարոլ ալոճենի
   group: tree
   height: 8
   width: 7
@@ -731,6 +877,8 @@
   opals_basis: species
 - latin: Crataegus germanica
   english: Medlar
+  russian: мушмула германская
+  armenian: գերմանական ալոճենի
   group: tree
   height: 5
   width: 5
@@ -743,6 +891,8 @@
   opals_basis: species
 - latin: Crataegus laevigata
   english: Midland hawthorn
+  russian: боярышник сглаженный
+  armenian: հարթ ալոճենի
   group: tree
   height: 7
   width: 6
@@ -753,6 +903,8 @@
   opals_basis: genus
 - latin: Crataegus macracantha
   english: Large-thorn hawthorn
+  russian: боярышник крупноколючковый
+  armenian: խոշորափուշ ալոճենի
   group: tree
   height: 8
   width: 7
@@ -763,6 +915,8 @@
   opals_basis: genus
 - latin: Crataegus microphylla
   english: Small-leaved hawthorn
+  russian: боярышник мелколистный
+  armenian: մանրատերև ալոճենի
   group: shrub
   height: 3
   width: 3
@@ -773,6 +927,8 @@
   opals_basis: genus
 - latin: Crataegus mollis
   english: Downy hawthorn
+  russian: боярышник мягкий
+  armenian: փափուկ ալոճենի
   group: tree
   height: 9
   width: 9
@@ -783,6 +939,8 @@
   opals_basis: genus
 - latin: Crataegus monogyna
   english: Common hawthorn
+  russian: боярышник однопестичный
+  armenian: միասերմ ալոճենի
   group: tree
   height: 8
   width: 7
@@ -793,6 +951,8 @@
   opals_basis: genus
 - latin: Crataegus orientalis
   english: Oriental hawthorn
+  russian: боярышник восточный
+  armenian: արևելյան ալոճենի
   group: tree
   height: 6
   width: 6
@@ -803,6 +963,8 @@
   opals_basis: genus
 - latin: Crataegus pentagyna
   english: Five-seeded hawthorn
+  russian: боярышник пятипестичный
+  armenian: հնգասերմ ալոճենի
   group: tree
   height: 8
   width: 7
@@ -813,6 +975,8 @@
   opals_basis: genus
 - latin: Cupressus cashmeriana
   english: Kashmir cypress
+  russian: кипарис кашмирский
+  armenian: քաշմիրյան նոճի
   group: conifer
   height: 20
   width: 6
@@ -824,6 +988,8 @@
   opals_basis: species
 - latin: Cupressus sempervirens
   english: Mediterranean cypress
+  russian: кипарис вечнозелёный
+  armenian: մշտադալար նոճի
   group: conifer
   height: 25
   width: 4
@@ -835,6 +1001,8 @@
   opals_basis: species
 - latin: Cydonia oblonga
   english: Quince
+  russian: айва продолговатая
+  armenian: սերկևիլ
   group: tree
   height: 5
   width: 4
@@ -843,6 +1011,8 @@
   light: s
 - latin: Diospyros kaki
   english: Japanese persimmon
+  russian: хурма восточная
+  armenian: արևելյան խուրմա
   group: tree
   height: 10
   width: 8
@@ -853,6 +1023,8 @@
   opals_basis: genus
 - latin: Diospyros lotus
   english: Date plum
+  russian: хурма кавказская
+  armenian: կովկասյան խուրմա
   group: tree
   height: 12
   width: 10
@@ -863,6 +1035,8 @@
   opals_basis: genus
 - latin: Elaeagnus angustifolia
   english: Russian olive
+  russian: лох узколистный
+  armenian: նեղատերև էլեագնուս
   group: tree
   height: 8
   width: 7
@@ -873,6 +1047,8 @@
   opals_basis: species
 - latin: Elaeagnus umbellata
   english: Autumn olive
+  russian: лох зонтичный
+  armenian: հովանոցավոր էլեագնուս
   group: shrub
   height: 4
   width: 4
@@ -882,6 +1058,8 @@
   opals: 9
   opals_basis: genus
 - latin: Ephedra procera
+  russian: эфедра высокая
+  armenian: բարձր եֆեդրա
   group: shrub
   height: 2
   width: 2
@@ -892,6 +1070,8 @@
   opals_basis: genus
 - latin: Eriobotrya deflexa
   english: Bronze loquat
+  russian: эриоботрия отогнутая
+  armenian: թեքված էրիոբոտրիա
   group: tree
   height: 8
   width: 8
@@ -902,6 +1082,8 @@
   opals_basis: genus
 - latin: Eriobotrya japonica
   english: Loquat
+  russian: эриоботрия японская
+  armenian: ճապոնական էրիոբոտրիա
   group: tree
   height: 8
   width: 8
@@ -912,6 +1094,8 @@
   opals_basis: genus
 - latin: Euonymus europaeus
   english: Spindle
+  russian: бересклет европейский
+  armenian: եվրոպական իլենի
   group: shrub
   height: 5
   width: 4
@@ -922,6 +1106,8 @@
   opals_basis: genus
 - latin: Euonymus japonicus
   english: Japanese spindle tree
+  russian: бересклет японский
+  armenian: ճապոնական իլենի
   group: shrub
   height: 4
   width: 3
@@ -933,6 +1119,8 @@
   opals_basis: genus
 - latin: Euonymus latifolius
   english: Large-leaved spindle
+  russian: бересклет широколистный
+  armenian: լայնատերև իլենի
   group: shrub
   height: 5
   width: 4
@@ -943,6 +1131,8 @@
   opals_basis: genus
 - latin: Euonymus verrucosus
   english: Warty spindle
+  russian: бересклет бородавчатый
+  armenian: գորտնուկավոր իլենի
   group: shrub
   height: 3
   width: 3
@@ -953,6 +1143,8 @@
   opals_basis: genus
 - latin: Fagus orientalis
   english: Oriental beech
+  russian: бук восточный
+  armenian: արևելյան հաճարենի
   group: tree
   height: 30
   width: 20
@@ -963,6 +1155,8 @@
   opals_basis: genus
 - latin: Fagus sylvatica
   english: European beech
+  russian: бук лесной
+  armenian: անտառային հաճարենի
   group: tree
   height: 28
   width: 20
@@ -973,6 +1167,8 @@
   opals_basis: genus
 - latin: Fallopia baldschuanica
   english: Bukhara fleeceflower
+  russian: фаллопия бальджуанская
+  armenian: բալջուանյան ֆալոպիա
   group: vine
   height: 12
   width: 6
@@ -981,6 +1177,8 @@
   light: sp
 - latin: Ficus benjamina
   english: Weeping fig
+  russian: фикус Бенджамина
+  armenian: Բենջամինի ֆիկուս
   group: tree
   height: 6
   width: 5
@@ -991,6 +1189,8 @@
   opals_basis: species
 - latin: Ficus carica
   english: Common fig
+  russian: инжир
+  armenian: թզենի
   group: tree
   height: 6
   width: 6
@@ -1001,6 +1201,8 @@
   opals_basis: species
 - latin: Ficus palmata
   english: Punjab fig
+  russian: фикус пальчатый
+  armenian: ափաձև ֆիկուս
   group: tree
   height: 5
   width: 5
@@ -1011,6 +1213,8 @@
   opals_basis: genus
 - latin: Forsythia koreana
   english: Korean goldenbell tree
+  russian: форзиция корейская
+  armenian: կորեական ֆորսիցիա
   group: shrub
   height: 2.5
   width: 3
@@ -1021,6 +1225,8 @@
   opals_basis: genus
 - latin: Forsythia suspensa
   english: Golden-bell
+  russian: форзиция пониклая
+  armenian: կախված ֆորսիցիա
   group: shrub
   height: 3
   width: 3
@@ -1031,6 +1237,8 @@
   opals_basis: genus
 - latin: Forsythia × intermedia
   english: Border forsythia
+  russian: форзиция промежуточная
+  armenian: միջանկյալ ֆորսիցիա
   group: shrub
   height: 2.5
   width: 3
@@ -1041,6 +1249,8 @@
   opals_basis: genus
 - latin: Fraxinus angustifolia
   english: Narrow-leaved ash
+  russian: ясень узколистный
+  armenian: նեղատերև հացենի
   group: tree
   height: 20
   width: 12
@@ -1051,6 +1261,8 @@
   opals_basis: species
 - latin: Fraxinus excelsior
   english: European ash
+  russian: ясень обыкновенный
+  armenian: սովորական հացենի
   group: tree
   height: 25
   width: 18
@@ -1061,6 +1273,8 @@
   opals_basis: species
 - latin: Fraxinus latifolia
   english: Oregon ash
+  russian: ясень широколистный
+  armenian: լայնատերև հացենի
   group: tree
   height: 20
   width: 12
@@ -1071,6 +1285,8 @@
   opals_basis: species
 - latin: Fraxinus ornus
   english: Manna ash
+  russian: ясень белый
+  armenian: սպիտակ հացենի
   group: tree
   height: 12
   width: 8
@@ -1081,6 +1297,8 @@
   opals_basis: species
 - latin: Fraxinus pennsylvanica
   english: Green ash
+  russian: ясень пенсильванский
+  armenian: փենսիլվանյան հացենի
   group: tree
   height: 18
   width: 12
@@ -1091,6 +1309,8 @@
   opals_basis: species
 - latin: Fraxinus profunda
   english: Pumpkin ash
+  russian: ясень глубокий
+  armenian: խորը հացենի
   group: tree
   height: 20
   width: 15
@@ -1099,6 +1319,8 @@
   light: sp
 - latin: Fraxinus uhdei
   english: Tropical ash
+  russian: ясень Уде
+  armenian: Ուդեի հացենի
   group: tree
   height: 20
   width: 15
@@ -1109,6 +1331,8 @@
   opals_basis: species
 - latin: Fraxinus velutina
   english: Velvet ash
+  russian: ясень бархатистый
+  armenian: թավշյա հացենի
   group: tree
   height: 12
   width: 10
@@ -1119,6 +1343,8 @@
   opals_basis: species
 - latin: Ginkgo biloba
   english: Ginkgo
+  russian: гинкго двулопастный
+  armenian: երկբլթակ գինկգո
   group: tree
   height: 20
   width: 12
@@ -1129,6 +1355,8 @@
   opals_basis: species
 - latin: Gleditsia caspica
   english: Caspian locust
+  russian: гледичия каспийская
+  armenian: կասպյան գլեդիչիա
   group: tree
   height: 12
   width: 10
@@ -1139,6 +1367,8 @@
   opals_basis: genus
 - latin: Gleditsia triacanthos
   english: Honey locust
+  russian: гледичия трёхколючковая
+  armenian: եռափուշ գլեդիչիա
   group: tree
   height: 20
   width: 15
@@ -1149,6 +1379,8 @@
   opals_basis: species
 - latin: Gymnocladus dioicus
   english: Kentucky coffeetree
+  russian: гимнокладус двудомный
+  armenian: երկտուն գիմնոկլադուս
   group: tree
   height: 20
   width: 15
@@ -1159,6 +1391,8 @@
   opals_basis: species
 - latin: Hedera colchica
   english: Persian ivy
+  russian: плющ колхидский
+  armenian: կոլխական բաղեղ
   group: vine
   height: 15
   width: 5
@@ -1170,6 +1404,8 @@
   opals_basis: species
 - latin: Hedera helix
   english: Common ivy
+  russian: плющ обыкновенный
+  armenian: սովորական բաղեղ
   group: vine
   height: 15
   width: 5
@@ -1181,6 +1417,8 @@
   opals_basis: species
 - latin: Hesperocyparis arizonica
   english: Arizona cypress
+  russian: кипарис аризонский
+  armenian: արիզոնյան նոճի
   group: conifer
   height: 15
   width: 6
@@ -1190,6 +1428,8 @@
   light: s
 - latin: Hesperocyparis forbesii
   english: Tecate cypress
+  russian: кипарис Форбса
+  armenian: Ֆորբսի նոճի
   group: conifer
   height: 12
   width: 6
@@ -1199,6 +1439,8 @@
   light: s
 - latin: Hesperocyparis lusitanica
   english: Mexican cypress
+  russian: кипарис мексиканский
+  armenian: մեքսիկական նոճի
   group: conifer
   height: 20
   width: 8
@@ -1208,6 +1450,8 @@
   light: sp
 - latin: Hesperocyparis macrocarpa
   english: Monterey cypress
+  russian: кипарис крупноплодный
+  armenian: խոշորապտուղ նոճի
   group: conifer
   height: 18
   width: 12
@@ -1217,6 +1461,8 @@
   light: s
 - latin: Hibiscus syriacus
   english: Common hibiscus
+  russian: гибискус сирийский
+  armenian: սիրիական բաղրջուկ
   group: shrub
   height: 3
   width: 2.5
@@ -1227,6 +1473,8 @@
   opals_basis: species
 - latin: Hippophae rhamnoides
   english: Sea-buckthorn
+  russian: облепиха крушиновидная
+  armenian: դառնահամ չիչխան
   group: shrub
   height: 5
   width: 5
@@ -1237,6 +1485,8 @@
   opals_basis: genus
 - latin: Hydrangea macrophylla
   english: Mophead hydrangea
+  russian: гортензия крупнолистная
+  armenian: խոշորատերև հորտենզիա
   group: shrub
   height: 1.5
   width: 1.5
@@ -1248,6 +1498,8 @@
   opals_basis: species
 - latin: Hydrangea paniculata
   english: Panicle hydrangea
+  russian: гортензия метельчатая
+  armenian: հուրանավոր հորտենզիա
   group: shrub
   height: 3
   width: 3
@@ -1258,6 +1510,8 @@
   opals_basis: species
 - latin: Hydrangea petiolaris
   english: Climbing hydrangea
+  russian: гортензия черешковая
+  armenian: կոթունավոր հորտենզիա
   group: vine
   height: 12
   width: 5
@@ -1266,6 +1520,8 @@
   light: p
 - latin: Ilex spp.
   english: Holly
+  russian: падуб
+  armenian: իլեքս
   group: shrub
   height: 4
   width: 3
@@ -1277,6 +1533,8 @@
   opals_basis: genus
 - latin: Juglans ailantifolia
   english: Japanese walnut
+  russian: орех айлантолистный
+  armenian: այլանտատերև ընկուզենի
   group: tree
   height: 15
   width: 12
@@ -1286,6 +1544,8 @@
   opals: 9
   opals_basis: genus
 - latin: Juglans australis
+  russian: орех южный
+  armenian: հարավային ընկուզենի
   group: tree
   height: 15
   width: 12
@@ -1296,6 +1556,8 @@
   opals_basis: genus
 - latin: Juglans hindsii
   english: Northern California black walnut
+  russian: орех Хиндса
+  armenian: Հինդսի ընկուզենի
   group: tree
   height: 15
   width: 12
@@ -1306,6 +1568,8 @@
   opals_basis: genus
 - latin: Juglans nigra
   english: Black walnut
+  russian: орех чёрный
+  armenian: սև ընկուզենի
   group: tree
   height: 25
   width: 18
@@ -1316,6 +1580,8 @@
   opals_basis: species
 - latin: Juglans regia
   english: Persian walnut
+  russian: орех грецкий
+  armenian: հունական ընկուզենի
   group: tree
   height: 20
   width: 15
@@ -1326,6 +1592,8 @@
   opals_basis: species
 - latin: Juniperus chinensis
   english: Chinese juniper
+  russian: можжевельник китайский
+  armenian: չինական գիհի
   group: shrub
   height: 6
   width: 3
@@ -1337,6 +1605,8 @@
   opals_basis: genus
 - latin: Juniperus communis
   english: Common juniper
+  russian: можжевельник обыкновенный
+  armenian: սովորական գիհի
   group: shrub
   height: 5
   width: 3
@@ -1348,6 +1618,8 @@
   opals_basis: genus
 - latin: Juniperus deltoides
   english: Eastern prickly juniper
+  russian: можжевельник дельтовидный
+  armenian: դելտայաձև գիհի
   group: shrub
   height: 4
   width: 3
@@ -1359,6 +1631,8 @@
   opals_basis: genus
 - latin: Juniperus excelsa
   english: Greek juniper
+  russian: можжевельник высокий
+  armenian: բարձր գիհի
   group: conifer
   height: 12
   width: 6
@@ -1370,6 +1644,8 @@
   opals_basis: species
 - latin: Juniperus foetidissima
   english: Foetid juniper
+  russian: можжевельник вонючий
+  armenian: գարշահոտ գիհի
   group: conifer
   height: 10
   width: 6
@@ -1381,6 +1657,8 @@
   opals_basis: genus
 - latin: Juniperus horizontalis
   english: Creeping juniper
+  russian: можжевельник горизонтальный
+  armenian: հորիզոնական գիհի
   group: shrub
   height: 0.5
   width: 2.5
@@ -1392,6 +1670,8 @@
   opals_basis: genus
 - latin: Juniperus polycarpos
   english: Persian juniper
+  russian: можжевельник многоплодный
+  armenian: բազմապտուղ գիհի
   group: conifer
   height: 6
   width: 4
@@ -1403,6 +1683,8 @@
   opals_basis: genus
 - latin: Juniperus sabina
   english: Savin juniper
+  russian: можжевельник казацкий
+  armenian: կազակական գիհի
   group: shrub
   height: 1.5
   width: 3
@@ -1414,6 +1696,8 @@
   opals_basis: genus
 - latin: Juniperus squamata
   english: Flaky juniper
+  russian: можжевельник чешуйчатый
+  armenian: թեփուկավոր գիհի
   group: shrub
   height: 1.5
   width: 2
@@ -1425,6 +1709,8 @@
   opals_basis: genus
 - latin: Juniperus virginiana
   english: Eastern red cedar
+  russian: можжевельник виргинский
+  armenian: վիրջինյան գիհի
   group: conifer
   height: 12
   width: 5
@@ -1436,6 +1722,8 @@
   opals_basis: species
 - latin: Koelreuteria paniculata
   english: Goldenrain tree
+  russian: кёльрейтерия метельчатая
+  armenian: հուրանավոր քյոլրոյտերիա
   group: tree
   height: 10
   width: 10
@@ -1446,6 +1734,8 @@
   opals_basis: species
 - latin: Krascheninnikovia ceratoides
   english: Pamirian winterfat
+  russian: терескен серый
+  armenian: մոխրագույն տերեսկեն
   group: shrub
   height: 1
   width: 1
@@ -1454,6 +1744,8 @@
   light: s
 - latin: Krascheninnikovia lanata
   english: Winterfat
+  russian: терескен шерстистый
+  armenian: բրդոտ տերեսկեն
   group: shrub
   height: 0.8
   width: 1
@@ -1462,6 +1754,8 @@
   light: s
 - latin: Laburnum anagyroides
   english: Golden chain
+  russian: бобовник анагиролистный
+  armenian: անագիրատերև լաբուռնում
   group: tree
   height: 6
   width: 5
@@ -1472,6 +1766,8 @@
   opals_basis: species
 - latin: Lagerstroemia indica
   english: Crape-myrtle
+  russian: лагерстрёмия индийская
+  armenian: հնդկական լագերստրեմիա
   group: shrub
   height: 5
   width: 4
@@ -1482,6 +1778,8 @@
   opals_basis: genus
 - latin: Laurus nobilis
   english: Bay laurel
+  russian: лавр благородный
+  armenian: ազնիվ դափնի
   group: tree
   height: 8
   width: 6
@@ -1493,6 +1791,8 @@
   opals_basis: species
 - latin: Ligustrum sinense
   english: Chinese privet
+  russian: бирючина китайская
+  armenian: չինական լիգուստրում
   group: shrub
   height: 3
   width: 3
@@ -1503,6 +1803,8 @@
   opals_basis: genus
 - latin: Ligustrum vulgare
   english: Common privet
+  russian: бирючина обыкновенная
+  armenian: սովորական լիգուստրում
   group: shrub
   height: 3
   width: 3
@@ -1513,6 +1815,8 @@
   opals_basis: genus
 - latin: Liquidambar styraciflua
   english: Sweetgum
+  russian: ликвидамбар смолоносный
+  armenian: խեժահոս լիկվիդամբար
   group: tree
   height: 20
   width: 12
@@ -1523,6 +1827,8 @@
   opals_basis: genus
 - latin: Liriodendron chinense
   english: Chinese tulip tree
+  russian: лириодендрон китайский
+  armenian: չինական լիրիոդենդրոն
   group: tree
   height: 20
   width: 12
@@ -1533,6 +1839,8 @@
   opals_basis: genus
 - latin: Liriodendron tulipifera
   english: Tulip tree
+  russian: лириодендрон тюльпановый
+  armenian: կակաչավոր լիրիոդենդրոն
   group: tree
   height: 25
   width: 15
@@ -1543,6 +1851,8 @@
   opals_basis: species
 - latin: Lonicera caprifolium
   english: Perfoliate honeysuckle
+  russian: жимолость каприфоль
+  armenian: այծային ցախակեռաս
   group: vine
   height: 6
   width: 4
@@ -1553,6 +1863,8 @@
   opals_basis: genus
 - latin: Lonicera caucasica
   english: Caucasian honeysuckle
+  russian: жимолость кавказская
+  armenian: կովկասյան ցախակեռաս
   group: shrub
   height: 2
   width: 2
@@ -1562,6 +1874,8 @@
   opals: 5
   opals_basis: genus
 - latin: Lonicera floribunda
+  russian: жимолость обильноцветущая
+  armenian: առատածաղիկ ցախակեռաս
   group: shrub
   height: 2
   width: 2
@@ -1572,6 +1886,8 @@
   opals_basis: genus
 - latin: Lonicera japonica
   english: Japanese honeysuckle
+  russian: жимолость японская
+  armenian: ճապոնական ցախակեռաս
   group: vine
   height: 8
   width: 5
@@ -1582,6 +1898,8 @@
   opals_basis: genus
 - latin: Lonicera maackii
   english: Amur honeysuckle
+  russian: жимолость Маака
+  armenian: Մաակի ցախակեռաս
   group: shrub
   height: 4
   width: 4
@@ -1592,6 +1910,8 @@
   opals_basis: genus
 - latin: Lonicera periclymenum
   english: Common honeysuckle
+  russian: жимолость вьющаяся
+  armenian: փաթաթվող ցախակեռաս
   group: vine
   height: 5
   width: 4
@@ -1602,6 +1922,8 @@
   opals_basis: genus
 - latin: Lonicera sempervirens
   english: Coral honeysuckle
+  russian: жимолость вечнозелёная
+  armenian: մշտադալար ցախակեռաս
   group: vine
   height: 5
   width: 3
@@ -1612,6 +1934,8 @@
   opals_basis: genus
 - latin: Lonicera tatarica
   english: Tatarian honeysuckle
+  russian: жимолость татарская
+  armenian: թաթարական ցախակեռաս
   group: shrub
   height: 3
   width: 3
@@ -1622,6 +1946,8 @@
   opals_basis: genus
 - latin: Lycium barbarum
   english: Matrimony vine
+  russian: дереза обыкновенная
+  armenian: սովորական լիցիում
   group: shrub
   height: 2.5
   width: 3
@@ -1632,6 +1958,8 @@
   opals_basis: genus
 - latin: Maclura pomifera
   english: Osage orange
+  russian: маклюра яблоконосная
+  armenian: խնձորաբեր մակլյուրա
   group: tree
   height: 12
   width: 10
@@ -1642,6 +1970,8 @@
   opals_basis: species
 - latin: Maclura tricuspidata
   english: Silkworm thorn
+  russian: маклюра трёхконечная
+  armenian: եռակետ մակլյուրա
   group: tree
   height: 8
   width: 7
@@ -1652,6 +1982,8 @@
   opals_basis: genus
 - latin: Magnolia acuminata
   english: Cucumber-tree
+  russian: магнолия заострённая
+  armenian: սրածայր մագնոլիա
   group: tree
   height: 15
   width: 12
@@ -1662,6 +1994,8 @@
   opals_basis: genus
 - latin: Magnolia denudata
   english: Yulan magnolia
+  russian: магнолия обнажённая
+  armenian: մերկ մագնոլիա
   group: tree
   height: 10
   width: 8
@@ -1672,6 +2006,8 @@
   opals_basis: genus
 - latin: Magnolia kobus
   english: Kobus magnolia
+  russian: магнолия Кобус
+  armenian: Կոբուսի մագնոլիա
   group: tree
   height: 10
   width: 8
@@ -1682,6 +2018,8 @@
   opals_basis: genus
 - latin: Magnolia liliiflora
   english: Lily magnolia
+  russian: магнолия лилиецветная
+  armenian: շուշանածաղիկ մագնոլիա
   group: shrub
   height: 4
   width: 4
@@ -1692,6 +2030,8 @@
   opals_basis: genus
 - latin: Magnolia × soulangeana
   english: Saucer magnolia
+  russian: магнолия Суланжа
+  armenian: Սուլանժի մագնոլիա
   group: tree
   height: 6
   width: 6
@@ -1702,6 +2042,8 @@
   opals_basis: genus
 - latin: Malus baccata
   english: Siberian crabapple
+  russian: яблоня ягодная
+  armenian: հատապտղային խնձորենի
   group: tree
   height: 8
   width: 6
@@ -1712,6 +2054,8 @@
   opals_basis: genus
 - latin: Malus domestica
   english: Apple
+  russian: яблоня домашняя
+  armenian: տնային խնձորենի
   group: tree
   height: 7
   width: 6
@@ -1722,6 +2066,8 @@
   opals_basis: species
 - latin: Malus orientalis
   english: Caucasus apple
+  russian: яблоня восточная
+  armenian: արևելյան խնձորենի
   group: tree
   height: 8
   width: 7
@@ -1732,6 +2078,8 @@
   opals_basis: genus
 - latin: Malus sylvestris
   english: European wild apple
+  russian: яблоня лесная
+  armenian: անտառային խնձորենի
   group: tree
   height: 8
   width: 6
@@ -1742,6 +2090,8 @@
   opals_basis: genus
 - latin: Metasequoia glyptostroboides
   english: Dawn redwood
+  russian: метасеквойя глиптостробовидная
+  armenian: գլիպտոստրոբոսանման մետասեքվոյա
   group: conifer
   height: 25
   width: 8
@@ -1752,6 +2102,8 @@
   opals_basis: species
 - latin: Morus alba
   english: White mulberry
+  russian: шелковица белая
+  armenian: սպիտակ թթենի
   group: tree
   height: 12
   width: 12
@@ -1762,6 +2114,8 @@
   opals_basis: species
 - latin: Morus nigra
   english: Black mulberry
+  russian: шелковица чёрная
+  armenian: սև թթենի
   group: tree
   height: 12
   width: 12
@@ -1772,6 +2126,8 @@
   opals_basis: species
 - latin: Nerium oleander
   english: Oleander
+  russian: олеандр
+  armenian: ոլեանդր
   group: shrub
   height: 4
   width: 3
@@ -1783,6 +2139,8 @@
   opals_basis: species
 - latin: Ostrya carpinifolia
   english: European hop hornbeam
+  russian: хмелеграб граболистный
+  armenian: բոխատերև օստրիա
   group: tree
   height: 15
   width: 12
@@ -1793,6 +2151,8 @@
   opals_basis: species
 - latin: Ostrya knowltonii
   english: Knowlton's hophornbeam
+  russian: хмелеграб Ноултона
+  armenian: Նոուլթոնի օստրիա
   group: tree
   height: 8
   width: 6
@@ -1803,6 +2163,8 @@
   opals_basis: genus
 - latin: Paliurus spina-christi
   english: Jerusalem thorn
+  russian: держидерево
+  armenian: պալիուրուս
   group: shrub
   height: 3
   width: 3
@@ -1811,6 +2173,8 @@
   light: s
 - latin: Parrotia persica
   english: Persian ironwood
+  russian: парротия персидская
+  armenian: պարսկական պարրոտիա
   group: tree
   height: 8
   width: 8
@@ -1821,6 +2185,8 @@
   opals_basis: species
 - latin: Parthenocissus inserta
   english: Thicket creeper
+  russian: девичий виноград прикреплённый
+  armenian: կպչուն վայրի խաղող
   group: vine
   height: 10
   width: 5
@@ -1831,6 +2197,8 @@
   opals_basis: genus
 - latin: Parthenocissus quinquefolia
   english: Virginia creeper
+  russian: девичий виноград пятилисточковый
+  armenian: հնգատերև վայրի խաղող
   group: vine
   height: 12
   width: 6
@@ -1841,6 +2209,8 @@
   opals_basis: genus
 - latin: Parthenocissus tricuspidata
   english: Japanese creeper
+  russian: девичий виноград триострённый
+  armenian: եռակետ վայրի խաղող
   group: vine
   height: 15
   width: 8
@@ -1851,6 +2221,8 @@
   opals_basis: genus
 - latin: Passiflora caerulea
   english: Bluecrown passionflower
+  russian: страстоцвет голубой
+  armenian: կապույտ պասիֆլորա
   group: vine
   height: 6
   width: 4
@@ -1861,6 +2233,8 @@
   opals_basis: genus
 - latin: Paulownia tomentosa
   english: Princess tree
+  russian: павловния войлочная
+  armenian: թավոտ պավլովնիա
   group: tree
   height: 15
   width: 12
@@ -1871,6 +2245,8 @@
   opals_basis: genus
 - latin: Philadelphus coronarius
   english: Sweet mock orange
+  russian: чубушник венечный
+  armenian: պսակավոր կեղծհասմիկ
   group: shrub
   height: 3
   width: 2.5
@@ -1881,6 +2257,8 @@
   opals_basis: genus
 - latin: Phillyrea latifolia
   english: Green olive tree
+  russian: филирея широколистная
+  armenian: լայնատերև ֆիլիրեա
   group: shrub
   height: 4
   width: 4
@@ -1892,6 +2270,8 @@
   opals_basis: genus
 - latin: Photinia spp.
   english: Photinia
+  russian: фотония
+  armenian: ֆոտինիա
   group: shrub
   height: 5
   width: 4
@@ -1903,6 +2283,8 @@
   opals_basis: genus
 - latin: Picea abies
   english: Norway spruce
+  russian: ель европейская
+  armenian: եվրոպական եղևնի
   group: conifer
   height: 30
   width: 8
@@ -1914,6 +2296,8 @@
   opals_basis: genus
 - latin: Picea omorika
   english: Serbian spruce
+  russian: ель сербская
+  armenian: սերբական եղևնի
   group: conifer
   height: 25
   width: 5
@@ -1925,6 +2309,8 @@
   opals_basis: genus
 - latin: Picea orientalis
   english: Oriental spruce
+  russian: ель восточная
+  armenian: արևելյան եղևնի
   group: conifer
   height: 25
   width: 8
@@ -1936,6 +2322,8 @@
   opals_basis: species
 - latin: Picea pungens
   english: Blue spruce
+  russian: ель колючая
+  armenian: փշոտ եղևնի
   group: conifer
   height: 20
   width: 8
@@ -1947,6 +2335,8 @@
   opals_basis: species
 - latin: Pinus brutia
   english: Turkish pine
+  russian: сосна калабрийская
+  armenian: կալաբրիական սոճի
   group: conifer
   height: 20
   width: 8
@@ -1958,6 +2348,8 @@
   opals_basis: genus
 - latin: Pinus contorta
   english: Lodgepole pine
+  russian: сосна скрученная
+  armenian: ոլորված սոճի
   group: conifer
   height: 15
   width: 6
@@ -1969,6 +2361,8 @@
   opals_basis: genus
 - latin: Pinus mugo
   english: Mountain pine
+  russian: сосна горная
+  armenian: լեռնային սոճի
   group: shrub
   height: 3
   width: 4
@@ -1980,6 +2374,8 @@
   opals_basis: genus
 - latin: Pinus nigra
   english: Austrian pine
+  russian: сосна чёрная
+  armenian: սև սոճի
   group: conifer
   height: 25
   width: 10
@@ -1991,6 +2387,8 @@
   opals_basis: species
 - latin: Pinus pinaster
   english: Maritime pine
+  russian: сосна приморская
+  armenian: ծովափնյա սոճի
   group: conifer
   height: 25
   width: 10
@@ -2002,6 +2400,8 @@
   opals_basis: genus
 - latin: Pinus pinea
   english: Stone pine
+  russian: сосна пиния
+  armenian: պինիա սոճի
   group: conifer
   height: 20
   width: 12
@@ -2013,6 +2413,8 @@
   opals_basis: species
 - latin: Pinus resinosa
   english: Red pine
+  russian: сосна смолистая
+  armenian: խեժոտ սոճի
   group: conifer
   height: 20
   width: 8
@@ -2024,6 +2426,8 @@
   opals_basis: genus
 - latin: Pinus sylvestris
   english: Scots pine
+  russian: сосна обыкновенная
+  armenian: սովորական սոճի
   group: conifer
   height: 25
   width: 10
@@ -2035,6 +2439,8 @@
   opals_basis: genus
 - latin: Pinus wallichiana
   english: Blue pine
+  russian: сосна Валлиха
+  armenian: Վալիխի սոճի
   group: conifer
   height: 25
   width: 10
@@ -2046,6 +2452,8 @@
   opals_basis: genus
 - latin: Pistacia vera
   english: Pistachio
+  russian: фисташка настоящая
+  armenian: իսկական պիստակենի
   group: tree
   height: 8
   width: 8
@@ -2056,6 +2464,8 @@
   opals_basis: genus
 - latin: Platanus mexicana
   english: Mexican sycamore
+  russian: платан мексиканский
+  armenian: մեքսիկական սոսի
   group: tree
   height: 20
   width: 15
@@ -2066,6 +2476,8 @@
   opals_basis: genus
 - latin: Platanus orientalis
   english: Oriental plane
+  russian: платан восточный
+  armenian: արևելյան սոսի
   group: tree
   height: 25
   width: 20
@@ -2076,6 +2488,8 @@
   opals_basis: species
 - latin: Platanus wrightii
   english: Arizona sycamore
+  russian: платан Райта
+  armenian: Ռայթի սոսի
   group: tree
   height: 18
   width: 15
@@ -2086,6 +2500,8 @@
   opals_basis: genus
 - latin: Platanus × hispanica
   english: London plane
+  russian: платан испанский
+  armenian: իսպանական սոսի
   group: tree
   height: 25
   width: 20
@@ -2096,6 +2512,8 @@
   opals_basis: species
 - latin: Platycladus orientalis
   english: Oriental arborvitae
+  russian: плосковеточник восточный
+  armenian: արևելյան պլատիկլադուս
   group: conifer
   height: 12
   width: 5
@@ -2107,6 +2525,8 @@
   opals_basis: species
 - latin: Plumbago europaea
   english: Common leadwort
+  russian: свинчатка европейская
+  armenian: եվրոպական պլումբագո
   group: shrub
   height: 0.8
   width: 1.5
@@ -2117,6 +2537,8 @@
   opals_basis: genus
 - latin: Populus alba
   english: White poplar
+  russian: тополь белый
+  armenian: սպիտակ բարդի
   group: tree
   height: 25
   width: 18
@@ -2127,6 +2549,8 @@
   opals_basis: species
 - latin: Populus euphratica
   english: Euphrates poplar
+  russian: тополь евфратский
+  armenian: եփրատյան բարդի
   group: tree
   height: 15
   width: 10
@@ -2137,6 +2561,8 @@
   opals_basis: genus
 - latin: Populus nigra
   english: Black poplar
+  russian: тополь чёрный
+  armenian: սև բարդի
   group: tree
   height: 25
   width: 15
@@ -2147,6 +2573,8 @@
   opals_basis: species
 - latin: Populus tremula
   english: European aspen
+  russian: осина
+  armenian: կաղամախի
   group: tree
   height: 20
   width: 10
@@ -2157,6 +2585,8 @@
   opals_basis: genus
 - latin: Prunus amygdalus
   english: Almond
+  russian: миндаль обыкновенный
+  armenian: սովորական նշենի
   group: tree
   height: 8
   width: 7
@@ -2167,6 +2597,8 @@
   opals_basis: species
 - latin: Prunus argentea
   english: Silver almond
+  russian: миндаль серебристый
+  armenian: արծաթափայլ նշենի
   group: shrub
   height: 4
   width: 4
@@ -2175,6 +2607,8 @@
   light: s
 - latin: Prunus armeniaca
   english: Apricot
+  russian: абрикос
+  armenian: ծիրանենի
   group: tree
   height: 8
   width: 6
@@ -2185,6 +2619,8 @@
   opals_basis: species
 - latin: Prunus avium
   english: Sweet cherry
+  russian: черешня
+  armenian: կեռասենի
   group: tree
   height: 15
   width: 12
@@ -2195,6 +2631,8 @@
   opals_basis: species
 - latin: Prunus campanulata
   english: Taiwan cherry
+  russian: вишня колокольчатая
+  armenian: զանգակավոր կեռասենի
   group: tree
   height: 8
   width: 6
@@ -2203,6 +2641,8 @@
   light: s
 - latin: Prunus cerasifera
   english: Cherry plum
+  russian: алыча
+  armenian: ալուչա
   group: tree
   height: 8
   width: 7
@@ -2213,6 +2653,8 @@
   opals_basis: species
 - latin: Prunus cerasus
   english: Sour cherry
+  russian: вишня обыкновенная
+  armenian: բալենի
   group: tree
   height: 8
   width: 7
@@ -2223,6 +2665,8 @@
   opals_basis: species
 - latin: Prunus domestica
   english: Plum
+  russian: слива домашняя
+  armenian: տնային սալորենի
   group: tree
   height: 8
   width: 7
@@ -2233,6 +2677,8 @@
   opals_basis: species
 - latin: Prunus fenzliana
   english: Fenzl's almond
+  russian: миндаль Фенцля
+  armenian: Ֆենցլի նշենի
   group: shrub
   height: 5
   width: 5
@@ -2241,6 +2687,8 @@
   light: s
 - latin: Prunus incana
   english: Willow leaf cherry
+  russian: вишня серая
+  armenian: մոխրագույն բալենի
   group: shrub
   height: 4
   width: 4
@@ -2249,6 +2697,8 @@
   light: s
 - latin: Prunus mahaleb
   english: St Lucie cherry
+  russian: вишня магалебская
+  armenian: մահլեբի բալենի
   group: tree
   height: 8
   width: 8
@@ -2257,6 +2707,8 @@
   light: s
 - latin: Prunus mexicana
   english: Mexican plum
+  russian: слива мексиканская
+  armenian: մեքսիկական սալորենի
   group: tree
   height: 9
   width: 9
@@ -2265,6 +2717,8 @@
   light: s
 - latin: Prunus persica
   english: Peach
+  russian: персик
+  armenian: դեղձենի
   group: tree
   height: 6
   width: 6
@@ -2275,6 +2729,8 @@
   opals_basis: species
 - latin: Prunus serrulata
   english: Japanese cherry
+  russian: вишня мелкопильчатая
+  armenian: սղոցավոր բալենի
   group: tree
   height: 10
   width: 10
@@ -2285,6 +2741,8 @@
   opals_basis: species
 - latin: Prunus spinosa
   english: Blackthorn
+  russian: тёрн
+  armenian: փշոտ սալորենի
   group: shrub
   height: 4
   width: 4
@@ -2293,6 +2751,8 @@
   light: sp
 - latin: Punica granatum
   english: Pomegranate
+  russian: гранат
+  armenian: նուռ
   group: shrub
   height: 4
   width: 4
@@ -2303,6 +2763,8 @@
   opals_basis: species
 - latin: Pyracantha angustifolia
   english: Narrowleaf firethorn
+  russian: пираканта узколистная
+  armenian: նեղատերև պիրականտա
   group: shrub
   height: 2.5
   width: 3
@@ -2314,6 +2776,8 @@
   opals_basis: genus
 - latin: Pyracantha coccinea
   english: Firethorn
+  russian: пираканта красная
+  armenian: կարմիր պիրականտա
   group: shrub
   height: 3
   width: 3
@@ -2325,6 +2789,8 @@
   opals_basis: genus
 - latin: Pyrus caucasica
   english: Caucasian pear
+  russian: груша кавказская
+  armenian: կովկասյան տանձենի
   group: tree
   height: 12
   width: 10
@@ -2335,6 +2801,8 @@
   opals_basis: species
 - latin: Pyrus communis
   english: Common pear
+  russian: груша обыкновенная
+  armenian: սովորական տանձենի
   group: tree
   height: 12
   width: 10
@@ -2345,6 +2813,8 @@
   opals_basis: genus
 - latin: Pyrus salicifolia
   english: Willow-leaved pear
+  russian: груша иволистная
+  armenian: ուռատերև տանձենի
   group: tree
   height: 8
   width: 6
@@ -2355,6 +2825,8 @@
   opals_basis: genus
 - latin: Quercus canariensis
   english: Mirbeck's oak
+  russian: дуб канарский
+  armenian: կանարյան կաղնի
   group: tree
   height: 20
   width: 15
@@ -2365,6 +2837,8 @@
   opals_basis: genus
 - latin: Quercus castaneifolia
   english: Chestnut-leaved oak
+  russian: дуб каштанолистный
+  armenian: շագանակատերև կաղնի
   group: tree
   height: 25
   width: 15
@@ -2375,6 +2849,8 @@
   opals_basis: species
 - latin: Quercus frainetto
   english: Hungarian oak
+  russian: дуб венгерский
+  armenian: հունգարական կաղնի
   group: tree
   height: 20
   width: 18
@@ -2385,6 +2861,8 @@
   opals_basis: genus
 - latin: Quercus macranthera
   english: Caucasian oak
+  russian: дуб крупнопыльниковый
+  armenian: կովկասյան կաղնի
   group: tree
   height: 20
   width: 15
@@ -2395,6 +2873,8 @@
   opals_basis: species
 - latin: Quercus petraea
   english: Sessile oak
+  russian: дуб скальный
+  armenian: ժայռային կաղնի
   group: tree
   height: 25
   width: 18
@@ -2405,6 +2885,8 @@
   opals_basis: genus
 - latin: Quercus pubescens
   english: Downy oak
+  russian: дуб пушистый
+  armenian: աղվամազոտ կաղնի
   group: tree
   height: 15
   width: 15
@@ -2415,6 +2897,8 @@
   opals_basis: genus
 - latin: Quercus robur
   english: English oak
+  russian: дуб черешчатый
+  armenian: ամառային կաղնի
   group: tree
   height: 30
   width: 20
@@ -2425,6 +2909,8 @@
   opals_basis: species
 - latin: Quercus rubra
   english: Northern red oak
+  russian: дуб красный
+  armenian: կարմիր կաղնի
   group: tree
   height: 22
   width: 18
@@ -2435,6 +2921,8 @@
   opals_basis: species
 - latin: Quercus shumardii
   english: Shumard oak
+  russian: дуб Шумарда
+  armenian: Շումարդի կաղնի
   group: tree
   height: 20
   width: 15
@@ -2445,6 +2933,8 @@
   opals_basis: genus
 - latin: Rhamnus cathartica
   english: Common buckthorn
+  russian: жостер слабительный
+  armenian: լուծողական դժնիկ
   group: shrub
   height: 6
   width: 5
@@ -2455,6 +2945,8 @@
   opals_basis: genus
 - latin: Rhamnus erythroxyloides
   english: Pallas' buckthorn
+  russian: жостер краснодревесный
+  armenian: կարմրափայտ դժնիկ
   group: shrub
   height: 2
   width: 2
@@ -2464,6 +2956,8 @@
   opals: 9
   opals_basis: genus
 - latin: Rhamnus spathulifolia
+  russian: жостер лопатчатолистный
+  armenian: թիակատերև դժնիկ
   group: shrub
   height: 2
   width: 2
@@ -2474,6 +2968,8 @@
   opals_basis: genus
 - latin: Rhododendron ponticum
   english: Pontic rhododendron
+  russian: рододендрон понтийский
+  armenian: պոնտական շքածաղիկ
   group: shrub
   height: 3
   width: 4
@@ -2486,6 +2982,8 @@
   opals_basis: genus
 - latin: Rhus typhina
   english: Staghorn sumac
+  russian: сумах оленерогий
+  armenian: եղջերավոր աղտոր
   group: tree
   height: 8
   width: 8
@@ -2496,6 +2994,8 @@
   opals_basis: genus
 - latin: Ribes aureum
   english: Golden currant
+  russian: смородина золотистая
+  armenian: ոսկե հաղարջենի
   group: shrub
   height: 2
   width: 2
@@ -2506,6 +3006,8 @@
   opals_basis: genus
 - latin: Ribes viburnifolium
   english: Santa Catalina Island currant
+  russian: смородина калинолистная
+  armenian: աղարկատերև հաղարջենի
   group: shrub
   height: 1.5
   width: 2
@@ -2516,6 +3018,8 @@
   opals_basis: genus
 - latin: Robinia hispida
   english: Bristly locust
+  russian: робиния щетинистоволосистая
+  armenian: խոզանավոր ռոբինիա
   group: shrub
   height: 3
   width: 3
@@ -2526,6 +3030,8 @@
   opals_basis: genus
 - latin: Robinia neomexicana
   english: New Mexico locust
+  russian: робиния новомексиканская
+  armenian: նորմեքսիկական ռոբինիա
   group: tree
   height: 8
   width: 7
@@ -2536,6 +3042,8 @@
   opals_basis: genus
 - latin: Robinia pseudoacacia
   english: Black locust
+  russian: робиния лжеакация
+  armenian: սպիտակ ակացիա
   group: tree
   height: 20
   width: 12
@@ -2546,6 +3054,8 @@
   opals_basis: species
 - latin: Rosa banksiae
   english: Lady Banks' rose
+  russian: роза Бэнкса
+  armenian: Բենքսի վարդենի
   group: shrub
   height: 6
   width: 4
@@ -2554,6 +3064,8 @@
   light: s
 - latin: Rosa canina
   english: Dog-rose
+  russian: шиповник собачий
+  armenian: շան վարդենի
   group: shrub
   height: 3
   width: 3
@@ -2562,6 +3074,8 @@
   light: sp
 - latin: Rosa chinensis
   english: China rose
+  russian: роза китайская
+  armenian: չինական վարդենի
   group: shrub
   height: 1.5
   width: 1.5
@@ -2570,6 +3084,8 @@
   light: s
 - latin: Rosa corymbifera
   english: Hairy dog-rose
+  russian: шиповник щитконосный
+  armenian: վահանաբեր վարդենի
   group: shrub
   height: 3
   width: 3
@@ -2578,6 +3094,8 @@
   light: sp
 - latin: Rosa dumalis
   english: Glaucous dog rose
+  russian: шиповник сизый
+  armenian: կապտավուն վարդենի
   group: shrub
   height: 2.5
   width: 3
@@ -2586,6 +3104,8 @@
   light: sp
 - latin: Rosa hemisphaerica
   english: Sulfur rose
+  russian: шиповник полушаровидный
+  armenian: կիսագնդաձև վարդենի
   group: shrub
   height: 2
   width: 2
@@ -2596,6 +3116,8 @@
   opals_basis: genus
 - latin: Rosa luciae
   english: Memorial rose
+  russian: роза Люсии
+  armenian: Լյուսիայի վարդենի
   group: shrub
   height: 3
   width: 4
@@ -2606,6 +3128,8 @@
   opals_basis: genus
 - latin: Rosa micrantha
   english: Small-flowered sweet-briar
+  russian: шиповник мелкоцветковый
+  armenian: մանրածաղիկ վարդենի
   group: shrub
   height: 2.5
   width: 2.5
@@ -2616,6 +3140,8 @@
   opals_basis: genus
 - latin: Rosa multiflora
   english: Multiflora rose
+  russian: шиповник многоцветковый
+  armenian: բազմածաղիկ վարդենի
   group: shrub
   height: 3
   width: 4
@@ -2625,6 +3151,8 @@
   opals: 4
   opals_basis: genus
 - latin: Rosa platyacantha
+  russian: шиповник плоскоколючковый
+  armenian: տափակափուշ վարդենի
   group: shrub
   height: 1.5
   width: 2
@@ -2635,6 +3163,8 @@
   opals_basis: genus
 - latin: Rosa rubiginosa
   english: Sweet-brier
+  russian: шиповник ржавчинный
+  armenian: ժանգագույն վարդենի
   group: shrub
   height: 3
   width: 3
@@ -2645,6 +3175,8 @@
   opals_basis: genus
 - latin: Rosa rugosa
   english: Rugosa rose
+  russian: шиповник морщинистый
+  armenian: կնճռոտ վարդենի
   group: shrub
   height: 1.5
   width: 1.5
@@ -2655,6 +3187,8 @@
   opals_basis: genus
 - latin: Rosa sempervirens
   english: Evergreen rose
+  russian: шиповник вечнозелёный
+  armenian: մշտադալար վարդենի
   group: shrub
   height: 4
   width: 4
@@ -2665,6 +3199,8 @@
   opals_basis: genus
 - latin: Rosa spinosissima
   english: Burnet rose
+  russian: шиповник колючейший
+  armenian: առավել փշոտ վարդենի
   group: shrub
   height: 1.5
   width: 2
@@ -2675,6 +3211,8 @@
   opals_basis: genus
 - latin: Rosa villosa
   english: Apple rose
+  russian: шиповник волосистый
+  armenian: մազոտ վարդենի
   group: shrub
   height: 2.5
   width: 2.5
@@ -2685,6 +3223,8 @@
   opals_basis: genus
 - latin: Rubus affinis
   english: Vigorous bramble
+  russian: ежевика родственная
+  armenian: մերձավոր մոշենի
   group: shrub
   height: 2
   width: 3
@@ -2693,6 +3233,8 @@
   light: sp
 - latin: Rubus armeniacus
   english: Armenian blackberry
+  russian: ежевика армянская
+  armenian: հայկական մոշենի
   group: shrub
   height: 3
   width: 4
@@ -2701,6 +3243,8 @@
   light: sp
 - latin: Rubus caesius
   english: European dewberry
+  russian: ежевика сизая
+  armenian: կապտավուն մոշենի
   group: shrub
   height: 1
   width: 2
@@ -2709,6 +3253,8 @@
   light: sp
 - latin: Rubus creticus
   english: Holy bramble
+  russian: ежевика критская
+  armenian: կրետական մոշենի
   group: shrub
   height: 1
   width: 1.5
@@ -2717,6 +3263,8 @@
   light: s
 - latin: Rubus idaeus
   english: Red raspberry
+  russian: малина обыкновенная
+  armenian: ազնվամորի
   group: shrub
   height: 1.5
   width: 1.5
@@ -2725,6 +3273,8 @@
   light: sp
 - latin: Rubus ulmifolius
   english: Elmleaf blackberry
+  russian: ежевика вязолистная
+  armenian: թեղատերև մոշենի
   group: shrub
   height: 2.5
   width: 3
@@ -2733,6 +3283,8 @@
   light: sp
 - latin: Salix alba
   english: White willow
+  russian: ива белая
+  armenian: սպիտակ ուռենի
   group: tree
   height: 20
   width: 15
@@ -2743,6 +3295,8 @@
   opals_basis: species
 - latin: Salix babylonica
   english: Weeping willow
+  russian: ива вавилонская
+  armenian: բաբելոնյան ուռենի
   group: tree
   height: 15
   width: 15
@@ -2753,6 +3307,8 @@
   opals_basis: genus
 - latin: Salix cinerea
   english: Grey willow
+  russian: ива пепельная
+  armenian: մոխրագույն ուռենի
   group: shrub
   height: 6
   width: 6
@@ -2763,6 +3319,8 @@
   opals_basis: genus
 - latin: Salix discolor
   english: Pussy willow
+  russian: ива двуцветная
+  armenian: երկգույն ուռենի
   group: shrub
   height: 5
   width: 5
@@ -2773,6 +3331,8 @@
   opals_basis: genus
 - latin: Salix eriocephala
   english: Heart-leaved willow
+  russian: ива пушистоголовая
+  armenian: բրդագլուխ ուռենի
   group: shrub
   height: 5
   width: 5
@@ -2783,6 +3343,8 @@
   opals_basis: genus
 - latin: Salix euxina
   english: Crack willow
+  russian: ива эвксинская
+  armenian: էվքսինյան ուռենի
   group: tree
   height: 15
   width: 12
@@ -2793,6 +3355,8 @@
   opals_basis: genus
 - latin: Salix lasiandra
   english: Pacific willow
+  russian: ива пушистотычинковая
+  armenian: բրդոտառէջ ուռենի
   group: tree
   height: 10
   width: 8
@@ -2803,6 +3367,8 @@
   opals_basis: genus
 - latin: Salix nigra
   english: Black willow
+  russian: ива чёрная
+  armenian: սև ուռենի
   group: tree
   height: 15
   width: 12
@@ -2813,6 +3379,8 @@
   opals_basis: genus
 - latin: Salix triandra
   english: Almond willow
+  russian: ива трёхтычинковая
+  armenian: եռառէջ ուռենի
   group: tree
   height: 8
   width: 6
@@ -2823,6 +3391,8 @@
   opals_basis: genus
 - latin: Salix × fragilis
   english: Hybrid crack willow
+  russian: ива ломкая
+  armenian: փխրուն ուռենի
   group: tree
   height: 20
   width: 15
@@ -2833,6 +3403,8 @@
   opals_basis: genus
 - latin: Sambucus nigra
   english: European black elderberry
+  russian: бузина чёрная
+  armenian: սև կտտկենի
   group: shrub
   height: 6
   width: 5
@@ -2843,6 +3415,8 @@
   opals_basis: species
 - latin: Sorbus aucuparia
   english: European mountain ash
+  russian: рябина обыкновенная
+  armenian: սովորական արոսենի
   group: tree
   height: 12
   width: 8
@@ -2853,6 +3427,8 @@
   opals_basis: genus
 - latin: Sorbus hajastana
   english: Hajastan mountain ash
+  russian: рябина айастанская
+  armenian: հայաստանյան արոսենի
   group: tree
   height: 8
   width: 6
@@ -2863,6 +3439,8 @@
   opals_basis: genus
 - latin: Spiraea betulifolia
   english: Birch-leaved spirea
+  russian: спирея берёзолистная
+  armenian: կեչատերև սպիրեա
   group: shrub
   height: 1
   width: 1.5
@@ -2873,6 +3451,8 @@
   opals_basis: genus
 - latin: Spiraea cantoniensis
   english: Reeve's spirea
+  russian: спирея кантонская
+  armenian: կանտոնյան սպիրեա
   group: shrub
   height: 1.5
   width: 2
@@ -2883,6 +3463,8 @@
   opals_basis: genus
 - latin: Spiraea hypericifolia
   english: Iberian spirea
+  russian: спирея зверобоелистная
+  armenian: սրոհունդատերև սպիրեա
   group: shrub
   height: 1.5
   width: 1.5
@@ -2893,6 +3475,8 @@
   opals_basis: genus
 - latin: Spiraea japonica
   english: Japanese spirea
+  russian: спирея японская
+  armenian: ճապոնական սպիրեա
   group: shrub
   height: 1.5
   width: 1.5
@@ -2903,6 +3487,8 @@
   opals_basis: genus
 - latin: Spiraea trilobata
   english: Threelobe spirea
+  russian: спирея трёхлопастная
+  armenian: եռաբլթակ սպիրեա
   group: shrub
   height: 1.5
   width: 1.5
@@ -2913,6 +3499,8 @@
   opals_basis: genus
 - latin: Spiraea × vanhouttei
   english: Van Houtte's spirea
+  russian: спирея Ван-Гутта
+  armenian: Վան Հուտտեի սպիրեա
   group: shrub
   height: 2
   width: 2.5
@@ -2923,6 +3511,8 @@
   opals_basis: genus
 - latin: Styphnolobium japonicum
   english: Japanese pagoda tree
+  russian: софора японская
+  armenian: ճապոնական սոֆորա
   group: tree
   height: 15
   width: 12
@@ -2933,6 +3523,8 @@
   opals_basis: species
 - latin: Symphoricarpos albus
   english: Common snowberry
+  russian: снежноягодник белый
+  armenian: սպիտակ սիմֆորիկարպոս
   group: shrub
   height: 1.5
   width: 1.5
@@ -2943,6 +3535,8 @@
   opals_basis: genus
 - latin: Symphoricarpos orbiculatus
   english: Coralberry
+  russian: снежноягодник круглолистный
+  armenian: կլորատերև սիմֆորիկարպոս
   group: shrub
   height: 1.5
   width: 1.5
@@ -2953,6 +3547,8 @@
   opals_basis: genus
 - latin: Syringa vulgaris
   english: Common lilac
+  russian: сирень обыкновенная
+  armenian: սովորական յասաման
   group: shrub
   height: 4
   width: 4
@@ -2963,6 +3559,8 @@
   opals_basis: genus
 - latin: Syringa × chinensis
   english: Rouen lilac
+  russian: сирень китайская
+  armenian: չինական յասաման
   group: shrub
   height: 3
   width: 3
@@ -2973,6 +3571,8 @@
   opals_basis: genus
 - latin: Tamarix aphylla
   english: Athel tamarisk
+  russian: тамарикс безлистный
+  armenian: անտերև տամարիսկ
   group: tree
   height: 10
   width: 8
@@ -2983,6 +3583,8 @@
   opals_basis: genus
 - latin: Tamarix chinensis
   english: Five-stamen tamarisk
+  russian: тамарикс китайский
+  armenian: չինական տամարիսկ
   group: shrub
   height: 5
   width: 4
@@ -2993,6 +3595,8 @@
   opals_basis: genus
 - latin: Tamarix gallica
   english: French tamarisk
+  russian: тамарикс галльский
+  armenian: գալլական տամարիսկ
   group: shrub
   height: 5
   width: 5
@@ -3003,6 +3607,8 @@
   opals_basis: genus
 - latin: Tamarix ramosissima
   english: Saltcedar
+  russian: тамарикс ветвистый
+  armenian: ճյուղավոր տամարիսկ
   group: shrub
   height: 5
   width: 4
@@ -3013,6 +3619,8 @@
   opals_basis: genus
 - latin: Taxus baccata
   english: European yew
+  russian: тис ягодный
+  armenian: հատապտղային կենի
   group: conifer
   height: 12
   width: 8
@@ -3024,6 +3632,8 @@
   opals_basis: species
 - latin: Thuja occidentalis
   english: Northern whitecedar
+  russian: туя западная
+  armenian: արևմտյան թույա
   group: conifer
   height: 12
   width: 4
@@ -3035,6 +3645,8 @@
   opals_basis: genus
 - latin: Tilia cordata
   english: Small-leaved lime
+  russian: липа сердцевидная
+  armenian: սրտատերև լորենի
   group: tree
   height: 20
   width: 15
@@ -3045,6 +3657,8 @@
   opals_basis: species
 - latin: Tilia dasystyla
   english: Crimean lime
+  russian: липа пушистопестичная
+  armenian: բրդոտասյուն լորենի
   group: tree
   height: 22
   width: 15
@@ -3055,6 +3669,8 @@
   opals_basis: genus
 - latin: Tilia platyphyllos
   english: Large-leaved lime
+  russian: липа крупнолистная
+  armenian: լայնատերև լորենի
   group: tree
   height: 25
   width: 18
@@ -3065,6 +3681,8 @@
   opals_basis: species
 - latin: Ulmus glabra
   english: Wych elm
+  russian: вяз шершавый
+  armenian: կոպիտ թեղի
   group: tree
   height: 25
   width: 18
@@ -3075,6 +3693,8 @@
   opals_basis: species
 - latin: Ulmus laevis
   english: Fluttering elm
+  russian: вяз гладкий
+  armenian: հարթ թեղի
   group: tree
   height: 25
   width: 18
@@ -3085,6 +3705,8 @@
   opals_basis: genus
 - latin: Ulmus minor
   english: Field elm
+  russian: вяз полевой
+  armenian: դաշտային թեղի
   group: tree
   height: 20
   width: 15
@@ -3095,6 +3717,8 @@
   opals_basis: species
 - latin: Ulmus parvifolia
   english: Chinese elm
+  russian: вяз мелколистный
+  armenian: մանրատերև թեղի
   group: tree
   height: 12
   width: 10
@@ -3105,6 +3729,8 @@
   opals_basis: genus
 - latin: Ulmus pumila
   english: Siberian elm
+  russian: вяз приземистый
+  armenian: ցածրահասակ թեղի
   group: tree
   height: 18
   width: 12
@@ -3115,6 +3741,8 @@
   opals_basis: genus
 - latin: Viburnum lantana
   english: Wayfaring-tree
+  russian: гордовина
+  armenian: լանտանա աղարկենի
   group: shrub
   height: 4
   width: 4
@@ -3125,6 +3753,8 @@
   opals_basis: genus
 - latin: Viburnum macrocephalum
   english: Chinese snowball viburnum
+  russian: калина крупноголовая
+  armenian: խոշորագլուխ աղարկենի
   group: shrub
   height: 4
   width: 4
@@ -3135,6 +3765,8 @@
   opals_basis: genus
 - latin: Viburnum opulus
   english: Guelder-rose
+  russian: калина обыкновенная
+  armenian: սովորական աղարկենի
   group: shrub
   height: 4
   width: 4
@@ -3145,6 +3777,8 @@
   opals_basis: genus
 - latin: Viburnum prunifolium
   english: Blackhaw
+  russian: калина сливолистная
+  armenian: սալորատերև աղարկենի
   group: shrub
   height: 5
   width: 5
@@ -3155,6 +3789,8 @@
   opals_basis: genus
 - latin: Vinca major
   english: Greater periwinkle
+  russian: барвинок большой
+  armenian: խոշոր բարվինոկ
   group: shrub
   height: 0.5
   width: 2
@@ -3166,6 +3802,8 @@
   opals_basis: genus
 - latin: Vinca minor
   english: Lesser periwinkle
+  russian: барвинок малый
+  armenian: մանր բարվինոկ
   group: shrub
   height: 0.3
   width: 1.5
@@ -3177,6 +3815,8 @@
   opals_basis: genus
 - latin: Vitis labrusca
   english: Fox grape
+  russian: виноград лисьий
+  armenian: աղվեսախաղող
   group: vine
   height: 6
   width: 4
@@ -3187,6 +3827,8 @@
   opals_basis: genus
 - latin: Vitis rotundifolia
   english: Muscadine
+  russian: виноград круглолистный
+  armenian: կլորատերև խաղող
   group: vine
   height: 8
   width: 5
@@ -3197,6 +3839,8 @@
   opals_basis: genus
 - latin: Vitis vinifera
   english: Wine grape
+  russian: виноград культурный
+  armenian: մշակովի խաղող
   group: vine
   height: 6
   width: 4
@@ -3207,6 +3851,8 @@
   opals_basis: genus
 - latin: Weigela florida
   english: Old fashioned weigela
+  russian: вейгела цветущая
+  armenian: ծաղկավոր վեյգելա
   group: shrub
   height: 2.5
   width: 3
@@ -3217,6 +3863,8 @@
   opals_basis: genus
 - latin: Wisteria floribunda
   english: Japanese wisteria
+  russian: вистерия обильноцветущая
+  armenian: առատածաղիկ վիստերիա
   group: vine
   height: 10
   width: 6
@@ -3227,6 +3875,8 @@
   opals_basis: genus
 - latin: Wisteria sinensis
   english: Chinese wisteria
+  russian: вистерия китайская
+  armenian: չինական վիստերիա
   group: vine
   height: 10
   width: 6
@@ -3237,6 +3887,8 @@
   opals_basis: genus
 - latin: Yucca filamentosa
   english: Common yucca
+  russian: юкка нитчатая
+  armenian: թելավոր յուկա
   group: shrub
   height: 1.5
   width: 1.5
@@ -3247,6 +3899,8 @@
   opals_basis: genus
 - latin: Yucca flaccida
   english: Weak-leaf yucca
+  russian: юкка повислая
+  armenian: կախված յուկա
   group: shrub
   height: 1.2
   width: 1.2
@@ -3257,6 +3911,8 @@
   opals_basis: genus
 - latin: Yucca gloriosa
   english: Moundlily yucca
+  russian: юкка славная
+  armenian: փառահեղ յուկա
   group: shrub
   height: 2
   width: 1.5
@@ -3267,6 +3923,8 @@
   opals_basis: genus
 - latin: Yucca rupicola
   english: Twisted-leaf yucca
+  russian: юкка скалолюбивая
+  armenian: ժայռասեր յուկա
   group: shrub
   height: 1
   width: 1
@@ -3277,6 +3935,8 @@
   opals_basis: genus
 - latin: Zelkova carpinifolia
   english: Caucasian zelkova
+  russian: дзельква граболистная
+  armenian: բոխատերև ձելկվա
   group: tree
   height: 25
   width: 18
@@ -3287,6 +3947,8 @@
   opals_basis: species
 - latin: Ziziphus jujuba
   english: Jujube
+  russian: зизифус настоящий
+  armenian: ունաբ
   group: tree
   height: 8
   width: 6
@@ -3297,6 +3959,8 @@
   opals_basis: genus
 - latin: Ziziphus mucronata
   english: Buffalo-thorn
+  russian: зизифус остроконечный
+  armenian: սրածայր զիզիֆուս
   group: tree
   height: 8
   width: 6
