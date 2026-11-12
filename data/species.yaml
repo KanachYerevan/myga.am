@@ -41,6 +41,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 7
+  opals_basis: species
 - latin: Acer campestre
   english: Field maple
   group: tree
@@ -59,6 +61,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 7
+  opals_basis: species
 - latin: Acer heldreichii
   english: Heldreich's maple
   group: tree
@@ -122,6 +126,8 @@
   zone: 4
   water: m
   light: p
+  opals: 8
+  opals_basis: species
 - latin: Acer rubrum
   english: Red maple
   group: tree
@@ -140,6 +146,8 @@
   zone: 3
   water: l
   light: p
+  opals: 5
+  opals_basis: species
 - latin: Aesculus hippocastanum
   english: Horse chestnut
   group: tree
@@ -158,6 +166,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 7
+  opals_basis: species
 - latin: Ailanthus altissima
   english: Tree of heaven
   group: tree
@@ -186,6 +196,8 @@
   zone: 3
   water: h
   light: s
+  opals: 9
+  opals_basis: species
 - latin: Alnus oblongifolia
   english: Arizona alder
   group: tree
@@ -194,6 +206,8 @@
   zone: 6
   water: h
   light: s
+  opals: 9
+  opals_basis: species
 - latin: Amelanchier spp.
   english: Serviceberry
   group: shrub
@@ -234,6 +248,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Berberis aquifolium
   english: Oregon grape
   group: shrub
@@ -244,6 +260,8 @@
   water: l
   light: p
   shelter: true
+  opals: 3
+  opals_basis: genus
 - latin: Berberis dictyota
   english: Shining netvein barberry
   group: shrub
@@ -252,6 +270,8 @@
   zone: 6
   water: l
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Berberis thunbergii
   english: Japanese barberry
   group: shrub
@@ -260,6 +280,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Berberis vulgaris
   english: European barberry
   group: shrub
@@ -268,6 +290,8 @@
   zone: 3
   water: l
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Betula papyrifera
   english: Paper birch
   group: tree
@@ -316,6 +340,8 @@
   zone: 5
   water: l
   light: s
+  opals: 5
+  opals_basis: genus
 - latin: Buxus colchica
   english: Colchic boxwood
   group: shrub
@@ -325,6 +351,8 @@
   zone: 6
   water: m
   light: f
+  opals: 7
+  opals_basis: genus
 - latin: Buxus microphylla
   english: Small-leaved box
   group: shrub
@@ -334,6 +362,8 @@
   zone: 5
   water: m
   light: p
+  opals: 7
+  opals_basis: genus
 - latin: Buxus sempervirens
   english: Common box
   group: shrub
@@ -343,6 +373,8 @@
   zone: 5
   water: l
   light: f
+  opals: 7
+  opals_basis: genus
 - latin: Campsis radicans
   english: American trumpet vine
   group: vine
@@ -351,6 +383,8 @@
   zone: 4
   water: m
   light: s
+  opals: 5
+  opals_basis: genus
 - latin: Campsis × tagliabueana
   english: Hybrid trumpet vine
   group: vine
@@ -359,6 +393,8 @@
   zone: 5
   water: m
   light: s
+  opals: 5
+  opals_basis: genus
 - latin: Caragana halodendron
   english: Russian salt tree
   group: shrub
@@ -367,6 +403,8 @@
   zone: 4
   water: vl
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Caragana pygmaea
   english: Pygmy caragana
   group: shrub
@@ -375,6 +413,8 @@
   zone: 3
   water: vl
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Carpinus betulus
   english: European hornbeam
   group: tree
@@ -393,6 +433,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 8
+  opals_basis: species
 - latin: Castanea sativa
   english: Sweet chestnut
   group: tree
@@ -401,6 +443,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 6
+  opals_basis: species
 - latin: Catalpa bignonioides
   english: Southern catalpa
   group: tree
@@ -419,6 +463,8 @@
   zone: 5
   water: m
   light: s
+  opals: 8
+  opals_basis: species
 - latin: Catalpa speciosa
   english: Northern catalpa
   group: tree
@@ -427,6 +473,8 @@
   zone: 4
   water: m
   light: s
+  opals: 8
+  opals_basis: species
 - latin: Cedrus atlantica
   english: Atlas cedar
   group: conifer
@@ -436,6 +484,8 @@
   zone: 6
   water: l
   light: s
+  opals: 2
+  opals_basis: species
 - latin: Cedrus libani
   english: Cedar of Lebanon
   group: conifer
@@ -485,6 +535,8 @@
   zone: 4
   water: m
   light: p
+  opals: 5
+  opals_basis: species
 - latin: Cercis siliquastrum
   english: Judas tree
   group: tree
@@ -503,6 +555,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 2
+  opals_basis: genus
 - latin: Chaenomeles speciosa
   english: Chinese quince
   group: shrub
@@ -511,6 +565,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 2
+  opals_basis: genus
 - latin: Chamaecyparis obtusa
   english: Hinoki cypress
   group: conifer
@@ -520,6 +576,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 4
+  opals_basis: species
 - latin: Chamaecyparis pisifera
   english: Sawara cypress
   group: conifer
@@ -529,6 +587,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 4
+  opals_basis: species
 - latin: Clematis ligusticifolia
   english: Western white clematis
   group: vine
@@ -537,6 +597,8 @@
   zone: 4
   water: l
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Clematis orientalis
   english: Oriental Virgin's-bower
   group: vine
@@ -545,6 +607,8 @@
   zone: 5
   water: l
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Clematis vitalba
   english: Old man's beard
   group: vine
@@ -553,6 +617,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Colutea spp.
   english: Bladder senna
   group: shrub
@@ -599,6 +665,8 @@
   zone: 3
   water: m
   light: p
+  opals: 8
+  opals_basis: species
 - latin: Corylus colurna
   english: Turkish hazel
   group: tree
@@ -607,6 +675,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 8
+  opals_basis: species
 - latin: Cotinus coggygria
   english: Smokebush
   group: shrub
@@ -615,6 +685,8 @@
   zone: 5
   water: l
   light: s
+  opals: 8
+  opals_basis: species
 - latin: Cotoneaster hjelmqvistii
   english: Hjelmqvist's cotoneaster
   group: shrub
@@ -623,6 +695,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 5
+  opals_basis: species
 - latin: Cotoneaster horizontalis
   english: Wall cotoneaster
   group: shrub
@@ -631,6 +705,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 5
+  opals_basis: species
 - latin: Cotoneaster pannosus
   english: Silverleaf cotoneaster
   group: shrub
@@ -639,6 +715,8 @@
   zone: 6
   water: l
   light: sp
+  opals: 5
+  opals_basis: species
 - latin: Crataegus azarolus
   english: Azarole
   group: tree
@@ -649,6 +727,8 @@
   light: sp
   opals: 4
   opals_basis: genus
+  opals: 4
+  opals_basis: species
 - latin: Crataegus germanica
   english: Medlar
   group: tree
@@ -659,6 +739,8 @@
   light: sp
   opals: 4
   opals_basis: genus
+  opals: 4
+  opals_basis: species
 - latin: Crataegus laevigata
   english: Midland hawthorn
   group: tree
@@ -767,7 +849,7 @@
   zone: 7
   water: m
   light: s
-  opals: 6
+  opals: 3
   opals_basis: genus
 - latin: Diospyros lotus
   english: Date plum
@@ -777,8 +859,8 @@
   zone: 6
   water: m
   light: sp
-  opals: 6
-  opals_basis: species
+  opals: 3
+  opals_basis: genus
 - latin: Elaeagnus angustifolia
   english: Russian olive
   group: tree
@@ -787,6 +869,8 @@
   zone: 3
   water: l
   light: s
+  opals: 9
+  opals_basis: species
 - latin: Elaeagnus umbellata
   english: Autumn olive
   group: shrub
@@ -795,6 +879,8 @@
   zone: 4
   water: l
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Ephedra procera
   group: shrub
   height: 2
@@ -802,6 +888,8 @@
   zone: 6
   water: vl
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Eriobotrya deflexa
   english: Bronze loquat
   group: tree
@@ -810,6 +898,8 @@
   zone: 8
   water: m
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Eriobotrya japonica
   english: Loquat
   group: tree
@@ -818,6 +908,8 @@
   zone: 8
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Euonymus europaeus
   english: Spindle
   group: shrub
@@ -826,6 +918,8 @@
   zone: 4
   water: m
   light: p
+  opals: 7
+  opals_basis: genus
 - latin: Euonymus japonicus
   english: Japanese spindle tree
   group: shrub
@@ -835,6 +929,8 @@
   zone: 6
   water: m
   light: sp
+  opals: 7
+  opals_basis: genus
 - latin: Euonymus latifolius
   english: Large-leaved spindle
   group: shrub
@@ -843,6 +939,8 @@
   zone: 5
   water: m
   light: p
+  opals: 7
+  opals_basis: genus
 - latin: Euonymus verrucosus
   english: Warty spindle
   group: shrub
@@ -851,6 +949,8 @@
   zone: 4
   water: m
   light: p
+  opals: 7
+  opals_basis: genus
 - latin: Fagus orientalis
   english: Oriental beech
   group: tree
@@ -917,6 +1017,8 @@
   zone: 5
   water: m
   light: s
+  opals: 8
+  opals_basis: genus
 - latin: Forsythia suspensa
   english: Golden-bell
   group: shrub
@@ -925,6 +1027,8 @@
   zone: 4
   water: m
   light: s
+  opals: 8
+  opals_basis: genus
 - latin: Forsythia × intermedia
   english: Border forsythia
   group: shrub
@@ -933,6 +1037,8 @@
   zone: 5
   water: m
   light: s
+  opals: 8
+  opals_basis: genus
 - latin: Fraxinus angustifolia
   english: Narrow-leaved ash
   group: tree
@@ -941,7 +1047,7 @@
   zone: 5
   water: m
   light: s
-  opals: 7
+  opals: 1
   opals_basis: species
 - latin: Fraxinus excelsior
   english: European ash
@@ -951,7 +1057,7 @@
   zone: 4
   water: m
   light: sp
-  opals: 7
+  opals: 9
   opals_basis: species
 - latin: Fraxinus latifolia
   english: Oregon ash
@@ -961,6 +1067,8 @@
   zone: 6
   water: h
   light: sp
+  opals: 9
+  opals_basis: species
 - latin: Fraxinus ornus
   english: Manna ash
   group: tree
@@ -979,6 +1087,8 @@
   zone: 3
   water: m
   light: sp
+  opals: 9
+  opals_basis: species
 - latin: Fraxinus profunda
   english: Pumpkin ash
   group: tree
@@ -995,6 +1105,8 @@
   zone: 8
   water: m
   light: s
+  opals: 9
+  opals_basis: species
 - latin: Fraxinus velutina
   english: Velvet ash
   group: tree
@@ -1003,6 +1115,8 @@
   zone: 6
   water: l
   light: s
+  opals: 9
+  opals_basis: species
 - latin: Ginkgo biloba
   english: Ginkgo
   group: tree
@@ -1031,7 +1145,7 @@
   zone: 4
   water: l
   light: s
-  opals: 4
+  opals: 7
   opals_basis: species
 - latin: Gymnocladus dioicus
   english: Kentucky coffeetree
@@ -1052,6 +1166,8 @@
   zone: 6
   water: m
   light: f
+  opals: 8
+  opals_basis: species
 - latin: Hedera helix
   english: Common ivy
   group: vine
@@ -1061,6 +1177,8 @@
   zone: 5
   water: m
   light: f
+  opals: 7
+  opals_basis: species
 - latin: Hesperocyparis arizonica
   english: Arizona cypress
   group: conifer
@@ -1105,6 +1223,8 @@
   zone: 5
   water: m
   light: s
+  opals: 4
+  opals_basis: species
 - latin: Hippophae rhamnoides
   english: Sea-buckthorn
   group: shrub
@@ -1113,6 +1233,8 @@
   zone: 4
   water: l
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Hydrangea macrophylla
   english: Mophead hydrangea
   group: shrub
@@ -1122,6 +1244,8 @@
   water: h
   light: p
   shelter: true
+  opals: 3
+  opals_basis: species
 - latin: Hydrangea paniculata
   english: Panicle hydrangea
   group: shrub
@@ -1130,6 +1254,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 6
+  opals_basis: species
 - latin: Hydrangea petiolaris
   english: Climbing hydrangea
   group: vine
@@ -1157,6 +1283,8 @@
   zone: 4
   water: m
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Juglans australis
   group: tree
   height: 15
@@ -1164,6 +1292,8 @@
   zone: 8
   water: m
   light: sp
+  opals: 9
+  opals_basis: genus
 - latin: Juglans hindsii
   english: Northern California black walnut
   group: tree
@@ -1172,6 +1302,8 @@
   zone: 7
   water: m
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Juglans nigra
   english: Black walnut
   group: tree
@@ -1407,6 +1539,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera caucasica
   english: Caucasian honeysuckle
   group: shrub
@@ -1415,6 +1549,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera floribunda
   group: shrub
   height: 2
@@ -1422,6 +1558,8 @@
   zone: 6
   water: l
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera japonica
   english: Japanese honeysuckle
   group: vine
@@ -1430,6 +1568,8 @@
   zone: 5
   water: m
   light: p
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera maackii
   english: Amur honeysuckle
   group: shrub
@@ -1438,6 +1578,8 @@
   zone: 3
   water: m
   light: p
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera periclymenum
   english: Common honeysuckle
   group: vine
@@ -1446,6 +1588,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera sempervirens
   english: Coral honeysuckle
   group: vine
@@ -1454,6 +1598,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lonicera tatarica
   english: Tatarian honeysuckle
   group: shrub
@@ -1462,6 +1608,8 @@
   zone: 3
   water: l
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Lycium barbarum
   english: Matrimony vine
   group: shrub
@@ -1470,6 +1618,8 @@
   zone: 4
   water: l
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Maclura pomifera
   english: Osage orange
   group: tree
@@ -1498,6 +1648,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Magnolia denudata
   english: Yulan magnolia
   group: tree
@@ -1506,6 +1658,8 @@
   zone: 6
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Magnolia kobus
   english: Kobus magnolia
   group: tree
@@ -1514,6 +1668,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Magnolia liliiflora
   english: Lily magnolia
   group: shrub
@@ -1522,6 +1678,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Magnolia × soulangeana
   english: Saucer magnolia
   group: tree
@@ -1530,6 +1688,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Malus baccata
   english: Siberian crabapple
   group: tree
@@ -1609,6 +1769,8 @@
   zone: 8
   water: l
   light: s
+  opals: 6
+  opals_basis: species
 - latin: Ostrya carpinifolia
   english: European hop hornbeam
   group: tree
@@ -1627,6 +1789,8 @@
   zone: 6
   water: l
   light: sp
+  opals: 7
+  opals_basis: genus
 - latin: Paliurus spina-christi
   english: Jerusalem thorn
   group: shrub
@@ -1653,6 +1817,8 @@
   zone: 3
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Parthenocissus quinquefolia
   english: Virginia creeper
   group: vine
@@ -1661,6 +1827,8 @@
   zone: 3
   water: m
   light: p
+  opals: 4
+  opals_basis: genus
 - latin: Parthenocissus tricuspidata
   english: Japanese creeper
   group: vine
@@ -1669,6 +1837,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Passiflora caerulea
   english: Bluecrown passionflower
   group: vine
@@ -1677,6 +1847,8 @@
   zone: 7
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Paulownia tomentosa
   english: Princess tree
   group: tree
@@ -1695,6 +1867,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Phillyrea latifolia
   english: Green olive tree
   group: shrub
@@ -1704,6 +1878,8 @@
   zone: 7
   water: l
   light: sp
+  opals: 9
+  opals_basis: genus
 - latin: Photinia spp.
   english: Photinia
   group: shrub
@@ -1713,6 +1889,8 @@
   zone: 7
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Picea abies
   english: Norway spruce
   group: conifer
@@ -1864,6 +2042,8 @@
   zone: 7
   water: l
   light: s
+  opals: 8
+  opals_basis: genus
 - latin: Platanus mexicana
   english: Mexican sycamore
   group: tree
@@ -1872,6 +2052,8 @@
   zone: 7
   water: h
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Platanus orientalis
   english: Oriental plane
   group: tree
@@ -1890,6 +2072,8 @@
   zone: 7
   water: h
   light: s
+  opals: 9
+  opals_basis: genus
 - latin: Platanus × hispanica
   english: London plane
   group: tree
@@ -1919,6 +2103,8 @@
   zone: 7
   water: l
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Populus alba
   english: White poplar
   group: tree
@@ -1995,7 +2181,7 @@
   zone: 3
   water: m
   light: sp
-  opals: 7
+  opals: 5
   opals_basis: species
 - latin: Prunus campanulata
   english: Taiwan cherry
@@ -2033,6 +2219,8 @@
   zone: 4
   water: m
   light: s
+  opals: 7
+  opals_basis: species
 - latin: Prunus fenzliana
   english: Fenzl's almond
   group: shrub
@@ -2101,6 +2289,8 @@
   zone: 7
   water: l
   light: s
+  opals: 2
+  opals_basis: species
 - latin: Pyracantha angustifolia
   english: Narrowleaf firethorn
   group: shrub
@@ -2110,6 +2300,8 @@
   zone: 6
   water: l
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Pyracantha coccinea
   english: Firethorn
   group: shrub
@@ -2119,6 +2311,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 5
+  opals_basis: genus
 - latin: Pyrus caucasica
   english: Caucasian pear
   group: tree
@@ -2137,6 +2331,8 @@
   zone: 4
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Pyrus salicifolia
   english: Willow-leaved pear
   group: tree
@@ -2145,6 +2341,8 @@
   zone: 5
   water: l
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Quercus canariensis
   english: Mirbeck's oak
   group: tree
@@ -2153,6 +2351,8 @@
   zone: 7
   water: m
   light: sp
+  opals: 8
+  opals_basis: genus
 - latin: Quercus castaneifolia
   english: Chestnut-leaved oak
   group: tree
@@ -2171,6 +2371,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 8
+  opals_basis: genus
 - latin: Quercus macranthera
   english: Caucasian oak
   group: tree
@@ -2189,6 +2391,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 8
+  opals_basis: genus
 - latin: Quercus pubescens
   english: Downy oak
   group: tree
@@ -2197,6 +2401,8 @@
   zone: 5
   water: l
   light: s
+  opals: 8
+  opals_basis: genus
 - latin: Quercus robur
   english: English oak
   group: tree
@@ -2225,6 +2431,8 @@
   zone: 5
   water: m
   light: sp
+  opals: 8
+  opals_basis: genus
 - latin: Rhamnus cathartica
   english: Common buckthorn
   group: shrub
@@ -2233,6 +2441,8 @@
   zone: 3
   water: m
   light: sp
+  opals: 9
+  opals_basis: genus
 - latin: Rhamnus erythroxyloides
   english: Pallas' buckthorn
   group: shrub
@@ -2241,6 +2451,8 @@
   zone: 6
   water: vl
   light: sp
+  opals: 9
+  opals_basis: genus
 - latin: Rhamnus spathulifolia
   group: shrub
   height: 2
@@ -2248,6 +2460,8 @@
   zone: 6
   water: vl
   light: sp
+  opals: 9
+  opals_basis: genus
 - latin: Rhododendron ponticum
   english: Pontic rhododendron
   group: shrub
@@ -2258,6 +2472,8 @@
   water: m
   light: p
   shelter: true
+  opals: 4
+  opals_basis: genus
 - latin: Rhus typhina
   english: Staghorn sumac
   group: tree
@@ -2266,6 +2482,8 @@
   zone: 3
   water: l
   light: s
+  opals: 10
+  opals_basis: genus
 - latin: Ribes aureum
   english: Golden currant
   group: shrub
@@ -2274,6 +2492,8 @@
   zone: 3
   water: l
   light: sp
+  opals: 7
+  opals_basis: genus
 - latin: Ribes viburnifolium
   english: Santa Catalina Island currant
   group: shrub
@@ -2282,6 +2502,8 @@
   zone: 8
   water: l
   light: p
+  opals: 7
+  opals_basis: genus
 - latin: Robinia hispida
   english: Bristly locust
   group: shrub
@@ -2360,6 +2582,8 @@
   zone: 6
   water: l
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Rosa luciae
   english: Memorial rose
   group: shrub
@@ -2368,6 +2592,8 @@
   zone: 5
   water: l
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Rosa micrantha
   english: Small-flowered sweet-briar
   group: shrub
@@ -2376,6 +2602,8 @@
   zone: 5
   water: l
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Rosa multiflora
   english: Multiflora rose
   group: shrub
@@ -2384,6 +2612,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Rosa platyacantha
   group: shrub
   height: 1.5
@@ -2391,6 +2621,8 @@
   zone: 5
   water: vl
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Rosa rubiginosa
   english: Sweet-brier
   group: shrub
@@ -2399,6 +2631,8 @@
   zone: 4
   water: l
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Rosa rugosa
   english: Rugosa rose
   group: shrub
@@ -2407,6 +2641,8 @@
   zone: 2
   water: m
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Rosa sempervirens
   english: Evergreen rose
   group: shrub
@@ -2415,6 +2651,8 @@
   zone: 7
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Rosa spinosissima
   english: Burnet rose
   group: shrub
@@ -2423,6 +2661,8 @@
   zone: 3
   water: l
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Rosa villosa
   english: Apple rose
   group: shrub
@@ -2431,6 +2671,8 @@
   zone: 4
   water: l
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Rubus affinis
   english: Vigorous bramble
   group: shrub
@@ -2587,6 +2829,8 @@
   zone: 4
   water: m
   light: p
+  opals: 5
+  opals_basis: species
 - latin: Sorbus aucuparia
   english: European mountain ash
   group: tree
@@ -2615,6 +2859,8 @@
   zone: 3
   water: m
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Spiraea cantoniensis
   english: Reeve's spirea
   group: shrub
@@ -2623,6 +2869,8 @@
   zone: 5
   water: m
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Spiraea hypericifolia
   english: Iberian spirea
   group: shrub
@@ -2631,6 +2879,8 @@
   zone: 4
   water: l
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Spiraea japonica
   english: Japanese spirea
   group: shrub
@@ -2639,6 +2889,8 @@
   zone: 4
   water: m
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Spiraea trilobata
   english: Threelobe spirea
   group: shrub
@@ -2647,6 +2899,8 @@
   zone: 3
   water: l
   light: sp
+  opals: 6
+  opals_basis: genus
 - latin: Spiraea × vanhouttei
   english: Van Houtte's spirea
   group: shrub
@@ -2655,6 +2909,8 @@
   zone: 4
   water: m
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Styphnolobium japonicum
   english: Japanese pagoda tree
   group: tree
@@ -2673,6 +2929,8 @@
   zone: 3
   water: m
   light: p
+  opals: 3
+  opals_basis: genus
 - latin: Symphoricarpos orbiculatus
   english: Coralberry
   group: shrub
@@ -2681,6 +2939,8 @@
   zone: 3
   water: m
   light: p
+  opals: 3
+  opals_basis: genus
 - latin: Syringa vulgaris
   english: Common lilac
   group: shrub
@@ -2689,6 +2949,8 @@
   zone: 3
   water: m
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Syringa × chinensis
   english: Rouen lilac
   group: shrub
@@ -2697,6 +2959,8 @@
   zone: 4
   water: m
   light: s
+  opals: 6
+  opals_basis: genus
 - latin: Tamarix aphylla
   english: Athel tamarisk
   group: tree
@@ -2705,6 +2969,8 @@
   zone: 8
   water: vl
   light: s
+  opals: 7
+  opals_basis: genus
 - latin: Tamarix chinensis
   english: Five-stamen tamarisk
   group: shrub
@@ -2713,6 +2979,8 @@
   zone: 5
   water: vl
   light: s
+  opals: 7
+  opals_basis: genus
 - latin: Tamarix gallica
   english: French tamarisk
   group: shrub
@@ -2721,6 +2989,8 @@
   zone: 6
   water: vl
   light: s
+  opals: 7
+  opals_basis: genus
 - latin: Tamarix ramosissima
   english: Saltcedar
   group: shrub
@@ -2729,6 +2999,8 @@
   zone: 3
   water: vl
   light: s
+  opals: 7
+  opals_basis: genus
 - latin: Taxus baccata
   english: European yew
   group: conifer
@@ -2839,6 +3111,8 @@
   zone: 4
   water: l
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Viburnum macrocephalum
   english: Chinese snowball viburnum
   group: shrub
@@ -2847,6 +3121,8 @@
   zone: 6
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Viburnum opulus
   english: Guelder-rose
   group: shrub
@@ -2855,6 +3131,8 @@
   zone: 3
   water: m
   light: sp
+  opals: 4
+  opals_basis: genus
 - latin: Viburnum prunifolium
   english: Blackhaw
   group: shrub
@@ -2863,6 +3141,8 @@
   zone: 3
   water: m
   light: p
+  opals: 4
+  opals_basis: genus
 - latin: Vinca major
   english: Greater periwinkle
   group: shrub
@@ -2872,6 +3152,8 @@
   zone: 6
   water: m
   light: f
+  opals: 2
+  opals_basis: genus
 - latin: Vinca minor
   english: Lesser periwinkle
   group: shrub
@@ -2881,6 +3163,8 @@
   zone: 4
   water: m
   light: f
+  opals: 2
+  opals_basis: genus
 - latin: Vitis labrusca
   english: Fox grape
   group: vine
@@ -2889,6 +3173,8 @@
   zone: 4
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Vitis rotundifolia
   english: Muscadine
   group: vine
@@ -2897,6 +3183,8 @@
   zone: 6
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Vitis vinifera
   english: Wine grape
   group: vine
@@ -2905,6 +3193,8 @@
   zone: 6
   water: m
   light: s
+  opals: 3
+  opals_basis: genus
 - latin: Weigela florida
   english: Old fashioned weigela
   group: shrub
@@ -2913,6 +3203,8 @@
   zone: 4
   water: m
   light: sp
+  opals: 3
+  opals_basis: genus
 - latin: Wisteria floribunda
   english: Japanese wisteria
   group: vine
@@ -2921,6 +3213,8 @@
   zone: 5
   water: m
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Wisteria sinensis
   english: Chinese wisteria
   group: vine
@@ -2929,6 +3223,8 @@
   zone: 5
   water: m
   light: s
+  opals: 4
+  opals_basis: genus
 - latin: Yucca filamentosa
   english: Common yucca
   group: shrub
@@ -2937,6 +3233,8 @@
   zone: 4
   water: l
   light: s
+  opals: 2
+  opals_basis: genus
 - latin: Yucca flaccida
   english: Weak-leaf yucca
   group: shrub
@@ -2945,6 +3243,8 @@
   zone: 5
   water: l
   light: s
+  opals: 2
+  opals_basis: genus
 - latin: Yucca gloriosa
   english: Moundlily yucca
   group: shrub
@@ -2953,6 +3253,8 @@
   zone: 7
   water: l
   light: s
+  opals: 2
+  opals_basis: genus
 - latin: Yucca rupicola
   english: Twisted-leaf yucca
   group: shrub
@@ -2961,6 +3263,8 @@
   zone: 6
   water: l
   light: s
+  opals: 2
+  opals_basis: genus
 - latin: Zelkova carpinifolia
   english: Caucasian zelkova
   group: tree
@@ -2979,6 +3283,8 @@
   zone: 5
   water: l
   light: s
+  opals: 7
+  opals_basis: genus
 - latin: Ziziphus mucronata
   english: Buffalo-thorn
   group: tree
@@ -2987,3 +3293,5 @@
   zone: 9
   water: l
   light: s
+  opals: 7
+  opals_basis: genus
