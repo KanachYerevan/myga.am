@@ -2,6 +2,7 @@
 title: Shrubs for Yerevan
 description: Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
 sort_by: weight
+template: section-species.html
 extra:
   summary: "Shrubs recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---

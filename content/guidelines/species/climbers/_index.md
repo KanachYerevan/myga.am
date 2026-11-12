@@ -2,6 +2,7 @@
 title: Climbers for Yerevan
 description: Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
 sort_by: weight
+template: section-species.html
 extra:
   summary: "Climbers and vines recorded in Yerevan, with the height reached on a support, the spread along it, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---

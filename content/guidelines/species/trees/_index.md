@@ -2,6 +2,7 @@
 title: Trees for Yerevan
 description: Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores.
 sort_by: weight
+template: section-species.html
 extra:
   summary: "Trees and conifers recorded in Yerevan, with mature height and width, evergreen or deciduous habit, USDA hardiness zone, WUCOLS water use class, shade tolerance, and OPALS allergy scores."
 ---

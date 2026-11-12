@@ -1,0 +1,22 @@
+{% extends "section.html" %}
+
+{# The plant species tables are siblings: render them as one row of tabs under
+   the title, with the section being viewed marked. Titles and URLs come from
+   the sections, so renaming a table renames its tab. #}
+{% macro tab(target, current) %}
+    <li{% if target.path == current.path %} class="active"{% endif %}><a href="{{ target.permalink }}"{% if target.path == current.path %} aria-current="page"{% endif %}>{{ target.title }}</a></li>
+{% endmacro tab %}
+
+{% block section_header %}
+    {% set trees = get_section(path="guidelines/species/trees/_index.md", lang=lang) %}
+    {% set shrubs = get_section(path="guidelines/species/shrubs/_index.md", lang=lang) %}
+    {% set climbers = get_section(path="guidelines/species/climbers/_index.md", lang=lang) %}
+
+    <nav class="species-tabs" aria-label="Plant species">
+        <ul>
+            {{ self::tab(target=trees, current=section) }}
+            {{ self::tab(target=shrubs, current=section) }}
+            {{ self::tab(target=climbers, current=section) }}
+        </ul>
+    </nav>
+{% endblock %}
