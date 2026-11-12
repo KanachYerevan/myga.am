@@ -16,12 +16,6 @@ Here we share it with everyone.
 
 Use it freely for your own projects, and [send us updates](https://t.me/make_yerevan_green_again) when you find something wrong or missing.
 
-Every entry is a species recorded growing in Yerevan, and the dimensions are those of a mature specimen rather than a record one.
-Native trees of the Armenian highland sit alongside species long proven in the city's parks, streets and courtyards.
-
 - [Trees for Yerevan](@/guidelines/species/trees/_index.md)
 - [Shrubs for Yerevan](@/guidelines/species/shrubs/_index.md)
 - [Climbers for Yerevan](@/guidelines/species/climbers/_index.md)
-
-Choose by the space you have rather than by the picture you like: a courtyard that takes a 4 m tree will not take a 25 m one, and the width matters more than the height once the crown is full.
-Then check the water class against what you can irrigate, and the light class against the canopy the site will carry in twenty years.
