@@ -1,0 +1,1055 @@
+# Species of Yerevan, Armenia.
+# Sources: iNaturalist observations (place "Erevan", place_id 10430), retrieved 2026-11-12,
+# and the curated selection previously maintained on /guidelines/species/.
+# Woody taxa only. OPALS is the Ogren Plant Allergy Scale (1 = least allergenic, 10 = most allergenic).
+
+- latin: Abies nordmanniana
+  english: Caucasian fir
+  group: conifer
+- latin: Acer buergerianum
+  english: Trident maple
+  group: tree
+- latin: Acer campestre
+  english: Field maple
+  group: tree
+  opals: 6
+- latin: Acer cappadocicum
+  english: Cappadocian maple
+  group: tree
+- latin: Acer heldreichii
+  english: Heldreich's maple
+  group: tree
+- latin: Acer hyrcanum
+  english: Balkan maple
+  group: tree
+- latin: Acer monspessulanum
+  english: Montpellier maple
+  group: tree
+- latin: Acer negundo
+  english: Box elder
+  group: tree
+  opals: 10
+- latin: Acer palmatum
+  english: Japanese maple
+  group: tree
+  opals: 6
+- latin: Acer platanoides
+  english: Norway maple
+  group: tree
+  opals: 8
+- latin: Acer pseudoplatanus
+  english: Sycamore maple
+  group: tree
+- latin: Acer rubrum
+  english: Red maple
+  group: tree
+  opals: 9
+- latin: Acer tataricum
+  english: Tatarian maple
+  group: tree
+- latin: Aesculus hippocastanum
+  english: Horse chestnut
+  group: tree
+  opals: 7
+- latin: Aesculus × carnea
+  english: Red horse-chestnut
+  group: tree
+- latin: Ailanthus altissima
+  english: Tree of heaven
+  group: tree
+  opals: 7
+- latin: Albizia julibrissin
+  english: Persian silk tree
+  group: tree
+  opals: 8
+- latin: Alnus incana
+  english: Grey alder
+  group: tree
+- latin: Alnus oblongifolia
+  english: Arizona alder
+  group: tree
+- latin: Amelanchier spp.
+  english: Serviceberry
+  group: shrub
+  opals: 3
+- latin: Amorpha fruticosa
+  english: False indigo bush
+  group: shrub
+- latin: Atraphaxis replicata
+  group: shrub
+- latin: Atraphaxis spinosa
+  group: shrub
+- latin: Berberis amurensis
+  english: Amur barberry
+  group: shrub
+- latin: Berberis aquifolium
+  english: Oregon grape
+  group: shrub
+- latin: Berberis dictyota
+  english: Shining netvein barberry
+  group: shrub
+- latin: Berberis thunbergii
+  english: Japanese barberry
+  group: shrub
+- latin: Berberis vulgaris
+  english: European barberry
+  group: shrub
+- latin: Betula papyrifera
+  english: Paper birch
+  group: tree
+- latin: Betula pendula
+  english: Silver birch
+  group: tree
+- latin: Betula utilis
+  english: Himalayan birch
+  group: tree
+- latin: Broussonetia papyrifera
+  english: Paper mulberry
+  group: tree
+- latin: Buddleja davidii
+  english: Butterfly bush
+  group: shrub
+- latin: Buxus colchica
+  english: Colchic boxwood
+  group: shrub
+- latin: Buxus microphylla
+  english: Small-leaved box
+  group: shrub
+- latin: Buxus sempervirens
+  english: Common box
+  group: shrub
+- latin: Campsis radicans
+  english: American trumpet vine
+  group: vine
+- latin: Campsis × tagliabueana
+  english: Hybrid trumpet vine
+  group: vine
+- latin: Caragana halodendron
+  english: Russian salt tree
+  group: shrub
+- latin: Caragana pygmaea
+  english: Pygmy caragana
+  group: shrub
+- latin: Carpinus betulus
+  english: European hornbeam
+  group: tree
+  opals: 7
+- latin: Carpinus orientalis
+  english: Eastern hornbeam
+  group: tree
+- latin: Castanea sativa
+  english: Sweet chestnut
+  group: tree
+- latin: Catalpa bignonioides
+  english: Southern catalpa
+  group: tree
+  opals: 8
+- latin: Catalpa ovata
+  english: Chinese catalpa
+  group: tree
+- latin: Catalpa speciosa
+  english: Northern catalpa
+  group: tree
+- latin: Cedrus atlantica
+  english: Atlas cedar
+  group: conifer
+- latin: Cedrus libani
+  english: Cedar of Lebanon
+  group: conifer
+  opals: 2
+- latin: Celtis australis
+  english: European hackberry
+  group: tree
+  opals: 8
+- latin: Celtis caucasica
+  english: Caucasian hackberry
+  group: tree
+  opals: 8
+- latin: Celtis planchoniana
+  english: Planchon's hackberry
+  group: tree
+- latin: Cercis canadensis
+  english: Eastern redbud
+  group: tree
+- latin: Cercis siliquastrum
+  english: Judas tree
+  group: tree
+  opals: 5
+- latin: Chaenomeles japonica
+  english: Japanese quince
+  group: shrub
+- latin: Chaenomeles speciosa
+  english: Chinese quince
+  group: shrub
+- latin: Chamaecyparis obtusa
+  english: Hinoki cypress
+  group: conifer
+- latin: Chamaecyparis pisifera
+  english: Sawara cypress
+  group: conifer
+- latin: Clematis ligusticifolia
+  english: Western white clematis
+  group: vine
+- latin: Clematis orientalis
+  english: Oriental Virgin's-bower
+  group: vine
+- latin: Clematis vitalba
+  english: Old man's beard
+  group: vine
+- latin: Colutea spp.
+  english: Bladder senna
+  group: shrub
+- latin: Cornus alternifolia
+  english: Alternate-leaved dogwood
+  group: tree
+- latin: Cornus mas
+  english: Cornelian cherry
+  group: tree
+- latin: Cornus sanguinea
+  english: Common dogwood
+  group: shrub
+- latin: Corylus avellana
+  english: Common hazel
+  group: shrub
+- latin: Corylus colurna
+  english: Turkish hazel
+  group: tree
+- latin: Cotinus coggygria
+  english: Smokebush
+  group: shrub
+- latin: Cotoneaster hjelmqvistii
+  english: Hjelmqvist's cotoneaster
+  group: shrub
+- latin: Cotoneaster horizontalis
+  english: Wall cotoneaster
+  group: shrub
+- latin: Cotoneaster pannosus
+  english: Silverleaf cotoneaster
+  group: shrub
+- latin: Crataegus azarolus
+  english: Azarole
+  group: tree
+- latin: Crataegus germanica
+  english: Medlar
+  group: tree
+- latin: Crataegus laevigata
+  english: Midland hawthorn
+  group: tree
+- latin: Crataegus macracantha
+  english: Large-thorn hawthorn
+  group: tree
+- latin: Crataegus microphylla
+  english: Small-leaved hawthorn
+  group: tree
+- latin: Crataegus mollis
+  english: Downy hawthorn
+  group: tree
+- latin: Crataegus monogyna
+  english: Common hawthorn
+  group: tree
+- latin: Crataegus orientalis
+  english: Oriental hawthorn
+  group: tree
+- latin: Crataegus pentagyna
+  english: Five-seeded hawthorn
+  group: tree
+- latin: Cupressus cashmeriana
+  english: Kashmir cypress
+  group: conifer
+  opals: 10
+- latin: Cupressus sempervirens
+  english: Mediterranean cypress
+  group: conifer
+  opals: 10
+- latin: Cydonia oblonga
+  english: Quince
+  group: tree
+- latin: Diospyros kaki
+  english: Japanese persimmon
+  group: tree
+- latin: Diospyros lotus
+  english: Date plum
+  group: tree
+  opals: 6
+- latin: Elaeagnus angustifolia
+  english: Russian olive
+  group: tree
+- latin: Elaeagnus umbellata
+  english: Autumn olive
+  group: shrub
+- latin: Ephedra procera
+  group: shrub
+- latin: Eriobotrya deflexa
+  english: Bronze loquat
+  group: tree
+- latin: Eriobotrya japonica
+  english: Loquat
+  group: tree
+- latin: Euonymus europaeus
+  english: Spindle
+  group: shrub
+- latin: Euonymus japonicus
+  english: Japanese spindle tree
+  group: shrub
+- latin: Euonymus latifolius
+  english: Large-leaved spindle
+  group: shrub
+- latin: Euonymus verrucosus
+  english: Warty spindle
+  group: shrub
+- latin: Fagus orientalis
+  english: Oriental beech
+  group: tree
+- latin: Fagus sylvatica
+  english: European beech
+  group: tree
+- latin: Fallopia baldschuanica
+  english: Bukhara fleeceflower
+  group: vine
+- latin: Ficus benjamina
+  english: Weeping fig
+  group: tree
+  opals: 2
+- latin: Ficus carica
+  english: Common fig
+  group: tree
+  opals: 2
+- latin: Ficus palmata
+  english: Punjab fig
+  group: tree
+- latin: Forsythia koreana
+  english: Korean goldenbell tree
+  group: shrub
+- latin: Forsythia suspensa
+  english: Golden-bell
+  group: shrub
+- latin: Forsythia × intermedia
+  english: Border forsythia
+  group: shrub
+- latin: Fraxinus angustifolia
+  english: Narrow-leaved ash
+  group: tree
+  opals: 7
+- latin: Fraxinus excelsior
+  english: European ash
+  group: tree
+  opals: 7
+- latin: Fraxinus latifolia
+  english: Oregon ash
+  group: tree
+- latin: Fraxinus ornus
+  english: Manna ash
+  group: tree
+  opals: 7
+- latin: Fraxinus pennsylvanica
+  english: Green ash
+  group: tree
+- latin: Fraxinus profunda
+  english: Pumpkin ash
+  group: tree
+- latin: Fraxinus uhdei
+  english: Tropical ash
+  group: tree
+- latin: Fraxinus velutina
+  english: Velvet ash
+  group: tree
+- latin: Ginkgo biloba
+  english: Ginkgo
+  group: tree
+  opals: 7
+- latin: Gleditsia caspica
+  english: Caspian locust
+  group: tree
+- latin: Gleditsia triacanthos
+  english: Honey locust
+  group: tree
+  opals: 4
+- latin: Gymnocladus dioicus
+  english: Kentucky coffeetree
+  group: tree
+  opals: 9
+- latin: Hedera colchica
+  english: Persian ivy
+  group: vine
+- latin: Hedera helix
+  english: Common ivy
+  group: vine
+- latin: Hesperocyparis arizonica
+  english: Arizona cypress
+  group: conifer
+- latin: Hesperocyparis forbesii
+  english: Tecate cypress
+  group: conifer
+- latin: Hesperocyparis lusitanica
+  english: Mexican cypress
+  group: conifer
+- latin: Hesperocyparis macrocarpa
+  english: Monterey cypress
+  group: conifer
+- latin: Hibiscus syriacus
+  english: Common hibiscus
+  group: shrub
+- latin: Hippophae rhamnoides
+  english: Sea-buckthorn
+  group: shrub
+- latin: Hydrangea macrophylla
+  english: Mophead hydrangea
+  group: shrub
+- latin: Hydrangea paniculata
+  english: Panicle hydrangea
+  group: shrub
+- latin: Hydrangea petiolaris
+  english: Climbing hydrangea
+  group: vine
+- latin: Ilex spp.
+  english: Holly
+  group: shrub
+- latin: Juglans ailantifolia
+  english: Japanese walnut
+  group: tree
+- latin: Juglans australis
+  group: tree
+- latin: Juglans hindsii
+  english: Northern California black walnut
+  group: tree
+- latin: Juglans nigra
+  english: Black walnut
+  group: tree
+  opals: 9
+- latin: Juglans regia
+  english: Persian walnut
+  group: tree
+  opals: 8
+- latin: Juniperus chinensis
+  english: Chinese juniper
+  group: conifer
+- latin: Juniperus communis
+  english: Common juniper
+  group: conifer
+- latin: Juniperus deltoides
+  english: Eastern prickly juniper
+  group: conifer
+- latin: Juniperus excelsa
+  english: Greek juniper
+  group: conifer
+  opals: 10
+- latin: Juniperus foetidissima
+  english: Foetid juniper
+  group: conifer
+- latin: Juniperus horizontalis
+  english: Creeping juniper
+  group: conifer
+- latin: Juniperus polycarpos
+  english: Persian juniper
+  group: conifer
+- latin: Juniperus sabina
+  english: Savin juniper
+  group: conifer
+- latin: Juniperus squamata
+  english: Flaky juniper
+  group: conifer
+- latin: Juniperus virginiana
+  english: Eastern red cedar
+  group: conifer
+  opals: 10
+- latin: Koelreuteria paniculata
+  english: Goldenrain tree
+  group: tree
+  opals: 4
+- latin: Krascheninnikovia ceratoides
+  english: Pamirian winterfat
+  group: shrub
+- latin: Krascheninnikovia lanata
+  english: Winterfat
+  group: shrub
+- latin: Laburnum anagyroides
+  english: Golden chain
+  group: tree
+  opals: 7
+- latin: Lagerstroemia indica
+  english: Crape-myrtle
+  group: shrub
+- latin: Laurus nobilis
+  english: Bay laurel
+  group: tree
+- latin: Ligustrum sinense
+  english: Chinese privet
+  group: shrub
+- latin: Ligustrum vulgare
+  english: Common privet
+  group: shrub
+- latin: Liriodendron chinense
+  english: Chinese tulip tree
+  group: tree
+- latin: Liriodendron tulipifera
+  english: Tulip tree
+  group: tree
+  opals: 4
+- latin: Lonicera caprifolium
+  english: Perfoliate honeysuckle
+  group: vine
+- latin: Lonicera caucasica
+  english: Caucasian honeysuckle
+  group: shrub
+- latin: Lonicera floribunda
+  group: shrub
+- latin: Lonicera japonica
+  english: Japanese honeysuckle
+  group: vine
+- latin: Lonicera maackii
+  english: Amur honeysuckle
+  group: shrub
+- latin: Lonicera periclymenum
+  english: Common honeysuckle
+  group: vine
+- latin: Lonicera sempervirens
+  english: Coral honeysuckle
+  group: vine
+- latin: Lonicera tatarica
+  english: Tatarian honeysuckle
+  group: shrub
+- latin: Lycium barbarum
+  english: Matrimony vine
+  group: shrub
+- latin: Maclura pomifera
+  english: Osage orange
+  group: tree
+  opals: 9
+- latin: Maclura tricuspidata
+  english: Silkworm thorn
+  group: tree
+- latin: Magnolia acuminata
+  english: Cucumber-tree
+  group: tree
+- latin: Magnolia denudata
+  english: Yulan magnolia
+  group: tree
+- latin: Magnolia kobus
+  english: Kobus magnolia
+  group: tree
+- latin: Magnolia liliiflora
+  english: Lily magnolia
+  group: tree
+- latin: Magnolia × soulangeana
+  english: Saucer magnolia
+  group: tree
+- latin: Malus baccata
+  english: Siberian crabapple
+  group: tree
+- latin: Malus domestica
+  english: Apple
+  group: tree
+  opals: 3
+- latin: Malus orientalis
+  english: Caucasus apple
+  group: tree
+- latin: Malus sylvestris
+  english: European wild apple
+  group: tree
+- latin: Metasequoia glyptostroboides
+  english: Dawn redwood
+  group: conifer
+  opals: 4
+- latin: Morus alba
+  english: White mulberry
+  group: tree
+  opals: 10
+- latin: Morus nigra
+  english: Black mulberry
+  group: tree
+  opals: 2
+- latin: Nerium oleander
+  english: Oleander
+  group: shrub
+- latin: Ostrya carpinifolia
+  english: European hop hornbeam
+  group: tree
+  opals: 6
+- latin: Ostrya knowltonii
+  english: Knowlton's hophornbeam
+  group: tree
+- latin: Paliurus spina-christi
+  english: Jerusalem thorn
+  group: shrub
+- latin: Parrotia persica
+  english: Persian ironwood
+  group: tree
+  opals: 4
+- latin: Parthenocissus inserta
+  english: Thicket creeper
+  group: vine
+- latin: Parthenocissus quinquefolia
+  english: Virginia creeper
+  group: vine
+- latin: Parthenocissus tricuspidata
+  english: Japanese creeper
+  group: vine
+- latin: Passiflora caerulea
+  english: Bluecrown passionflower
+  group: vine
+- latin: Paulownia tomentosa
+  english: Princess tree
+  group: tree
+- latin: Philadelphus coronarius
+  english: Sweet mock orange
+  group: shrub
+- latin: Phillyrea latifolia
+  english: Green olive tree
+  group: shrub
+- latin: Photinia spp.
+  english: Photinia
+  group: shrub
+- latin: Picea abies
+  english: Norway spruce
+  group: conifer
+- latin: Picea omorika
+  english: Serbian spruce
+  group: conifer
+- latin: Picea orientalis
+  english: Oriental spruce
+  group: conifer
+  opals: 3
+- latin: Picea pungens
+  english: Blue spruce
+  group: conifer
+  opals: 3
+- latin: Pinus brutia
+  english: Turkish pine
+  group: conifer
+- latin: Pinus contorta
+  english: Lodgepole pine
+  group: conifer
+- latin: Pinus mugo
+  english: Mountain pine
+  group: conifer
+- latin: Pinus nigra
+  english: Austrian pine
+  group: conifer
+  opals: 4
+- latin: Pinus pinaster
+  english: Maritime pine
+  group: conifer
+- latin: Pinus pinea
+  english: Stone pine
+  group: conifer
+  opals: 4
+- latin: Pinus resinosa
+  english: Red pine
+  group: conifer
+- latin: Pinus sylvestris
+  english: Scots pine
+  group: conifer
+- latin: Pinus wallichiana
+  english: Blue pine
+  group: conifer
+- latin: Pistacia vera
+  english: Pistachio
+  group: tree
+- latin: Platanus mexicana
+  english: Mexican sycamore
+  group: tree
+- latin: Platanus orientalis
+  english: Oriental plane
+  group: tree
+  opals: 8
+- latin: Platanus wrightii
+  english: Arizona sycamore
+  group: tree
+- latin: Platanus × hispanica
+  english: London plane
+  group: tree
+  opals: 8
+- latin: Platycladus orientalis
+  english: Oriental arborvitae
+  group: conifer
+  opals: 7
+- latin: Plumbago europaea
+  english: Common leadwort
+  group: shrub
+- latin: Populus alba
+  english: White poplar
+  group: tree
+  opals: 9
+- latin: Populus euphratica
+  english: Euphrates poplar
+  group: tree
+- latin: Populus nigra
+  english: Black poplar
+  group: tree
+  opals: 9
+- latin: Populus tremula
+  english: European aspen
+  group: tree
+- latin: Prunus amygdalus
+  english: Almond
+  group: tree
+  opals: 10
+- latin: Prunus argentea
+  english: Silver almond
+  group: tree
+- latin: Prunus armeniaca
+  english: Apricot
+  group: tree
+  opals: 3
+- latin: Prunus avium
+  english: Sweet cherry
+  group: tree
+  opals: 7
+- latin: Prunus campanulata
+  english: Taiwan cherry
+  group: tree
+- latin: Prunus cerasifera
+  english: Cherry plum
+  group: tree
+  opals: 3
+- latin: Prunus cerasus
+  english: Sour cherry
+  group: tree
+  opals: 7
+- latin: Prunus domestica
+  english: Plum
+  group: tree
+- latin: Prunus fenzliana
+  english: Fenzl's almond
+  group: tree
+- latin: Prunus incana
+  english: Willow leaf cherry
+  group: tree
+- latin: Prunus mahaleb
+  english: St Lucie cherry
+  group: tree
+- latin: Prunus mexicana
+  english: Mexican plum
+  group: tree
+- latin: Prunus persica
+  english: Peach
+  group: tree
+  opals: 3
+- latin: Prunus serrulata
+  english: Japanese cherry
+  group: tree
+  opals: 7
+- latin: Prunus spinosa
+  english: Blackthorn
+  group: tree
+- latin: Punica granatum
+  english: Pomegranate
+  group: shrub
+- latin: Pyracantha angustifolia
+  english: Narrowleaf firethorn
+  group: shrub
+- latin: Pyracantha coccinea
+  english: Firethorn
+  group: shrub
+- latin: Pyrus caucasica
+  english: Caucasian pear
+  group: tree
+  opals: 3
+- latin: Pyrus communis
+  english: Common pear
+  group: tree
+- latin: Pyrus salicifolia
+  english: Willow-leaved pear
+  group: tree
+- latin: Quercus canariensis
+  english: Mirbeck's oak
+  group: tree
+- latin: Quercus castaneifolia
+  english: Chestnut-leaved oak
+  group: tree
+  opals: 8
+- latin: Quercus frainetto
+  english: Hungarian oak
+  group: tree
+- latin: Quercus macranthera
+  english: Caucasian oak
+  group: tree
+  opals: 8
+- latin: Quercus petraea
+  english: Sessile oak
+  group: tree
+- latin: Quercus pubescens
+  english: Downy oak
+  group: tree
+- latin: Quercus robur
+  english: English oak
+  group: tree
+  opals: 8
+- latin: Quercus rubra
+  english: Northern red oak
+  group: tree
+  opals: 8
+- latin: Quercus shumardii
+  english: Shumard oak
+  group: tree
+- latin: Rhamnus cathartica
+  english: Common buckthorn
+  group: shrub
+- latin: Rhamnus erythroxyloides
+  english: Pallas' buckthorn
+  group: shrub
+- latin: Rhamnus spathulifolia
+  group: shrub
+- latin: Rhododendron ponticum
+  english: Pontic rhododendron
+  group: shrub
+- latin: Rhus typhina
+  english: Staghorn sumac
+  group: tree
+- latin: Ribes aureum
+  english: Golden currant
+  group: shrub
+- latin: Ribes viburnifolium
+  english: Santa Catalina Island currant
+  group: shrub
+- latin: Robinia hispida
+  english: Bristly locust
+  group: shrub
+- latin: Robinia neomexicana
+  english: New Mexico locust
+  group: tree
+- latin: Robinia pseudoacacia
+  english: Black locust
+  group: tree
+  opals: 5
+- latin: Rosa banksiae
+  english: Lady Banks' rose
+  group: shrub
+- latin: Rosa canina
+  english: Dog-rose
+  group: shrub
+- latin: Rosa chinensis
+  english: China rose
+  group: shrub
+- latin: Rosa corymbifera
+  english: Hairy dog-rose
+  group: shrub
+- latin: Rosa dumalis
+  english: Glaucous dog rose
+  group: shrub
+- latin: Rosa hemisphaerica
+  english: Sulfur rose
+  group: shrub
+- latin: Rosa luciae
+  english: Memorial rose
+  group: shrub
+- latin: Rosa micrantha
+  english: Small-flowered sweet-briar
+  group: shrub
+- latin: Rosa multiflora
+  english: Multiflora rose
+  group: shrub
+- latin: Rosa platyacantha
+  group: shrub
+- latin: Rosa rubiginosa
+  english: Sweet-brier
+  group: shrub
+- latin: Rosa rugosa
+  english: Rugosa rose
+  group: shrub
+- latin: Rosa sempervirens
+  english: Evergreen rose
+  group: shrub
+- latin: Rosa spinosissima
+  english: Burnet rose
+  group: shrub
+- latin: Rosa villosa
+  english: Apple rose
+  group: shrub
+- latin: Rubus affinis
+  english: Vigorous bramble
+  group: shrub
+- latin: Rubus armeniacus
+  english: Armenian blackberry
+  group: shrub
+- latin: Rubus caesius
+  english: European dewberry
+  group: shrub
+- latin: Rubus creticus
+  english: Holy bramble
+  group: shrub
+- latin: Rubus idaeus
+  english: Red raspberry
+  group: shrub
+- latin: Rubus ulmifolius
+  english: Elmleaf blackberry
+  group: shrub
+- latin: Salix alba
+  english: White willow
+  group: tree
+  opals: 10
+- latin: Salix babylonica
+  english: Weeping willow
+  group: tree
+- latin: Salix cinerea
+  english: Grey willow
+  group: tree
+- latin: Salix discolor
+  english: Pussy willow
+  group: tree
+- latin: Salix eriocephala
+  english: Heart-leaved willow
+  group: tree
+- latin: Salix euxina
+  english: Crack willow
+  group: tree
+- latin: Salix lasiandra
+  english: Pacific willow
+  group: tree
+- latin: Salix nigra
+  english: Black willow
+  group: tree
+- latin: Salix triandra
+  english: Almond willow
+  group: tree
+- latin: Salix × fragilis
+  english: Hybrid crack willow
+  group: tree
+- latin: Sambucus nigra
+  english: European black elderberry
+  group: shrub
+- latin: Sorbus aucuparia
+  english: European mountain ash
+  group: tree
+- latin: Sorbus hajastana
+  english: Hajastan mountain ash
+  group: tree
+- latin: Spiraea betulifolia
+  english: Birch-leaved spirea
+  group: shrub
+- latin: Spiraea cantoniensis
+  english: Reeve's spirea
+  group: shrub
+- latin: Spiraea hypericifolia
+  english: Iberian spirea
+  group: shrub
+- latin: Spiraea japonica
+  english: Japanese spirea
+  group: shrub
+- latin: Spiraea trilobata
+  english: Threelobe spirea
+  group: shrub
+- latin: Spiraea × vanhouttei
+  english: Van Houtte's spirea
+  group: shrub
+- latin: Styphnolobium japonicum
+  english: Japanese pagoda tree
+  group: tree
+  opals: 5
+- latin: Symphoricarpos albus
+  english: Common snowberry
+  group: shrub
+- latin: Symphoricarpos orbiculatus
+  english: Coralberry
+  group: shrub
+- latin: Syringa vulgaris
+  english: Common lilac
+  group: shrub
+- latin: Syringa × chinensis
+  english: Rouen lilac
+  group: shrub
+- latin: Tamarix aphylla
+  english: Athel tamarisk
+  group: shrub
+- latin: Tamarix chinensis
+  english: Five-stamen tamarisk
+  group: shrub
+- latin: Tamarix gallica
+  english: French tamarisk
+  group: shrub
+- latin: Tamarix ramosissima
+  english: Saltcedar
+  group: shrub
+- latin: Taxus baccata
+  english: European yew
+  group: conifer
+  opals: 10
+- latin: Thuja occidentalis
+  english: Northern whitecedar
+  group: conifer
+- latin: Tilia cordata
+  english: Small-leaved lime
+  group: tree
+  opals: 7
+- latin: Tilia dasystyla
+  english: Crimean lime
+  group: tree
+- latin: Tilia platyphyllos
+  english: Large-leaved lime
+  group: tree
+  opals: 7
+- latin: Ulmus glabra
+  english: Wych elm
+  group: tree
+  opals: 8
+- latin: Ulmus laevis
+  english: Fluttering elm
+  group: tree
+- latin: Ulmus minor
+  english: Field elm
+  group: tree
+  opals: 8
+- latin: Ulmus parvifolia
+  english: Chinese elm
+  group: tree
+- latin: Ulmus pumila
+  english: Siberian elm
+  group: tree
+- latin: Viburnum lantana
+  english: Wayfaring-tree
+  group: shrub
+- latin: Viburnum macrocephalum
+  english: Chinese snowball viburnum
+  group: shrub
+- latin: Viburnum opulus
+  english: Guelder-rose
+  group: shrub
+- latin: Viburnum prunifolium
+  english: Blackhaw
+  group: shrub
+- latin: Vinca major
+  english: Greater periwinkle
+  group: shrub
+- latin: Vinca minor
+  english: Lesser periwinkle
+  group: shrub
+- latin: Vitis labrusca
+  english: Fox grape
+  group: vine
+- latin: Vitis rotundifolia
+  english: Muscadine
+  group: vine
+- latin: Vitis vinifera
+  english: Wine grape
+  group: vine
+- latin: Weigela florida
+  english: Old fashioned weigela
+  group: shrub
+- latin: Wisteria floribunda
+  english: Japanese wisteria
+  group: vine
+- latin: Wisteria sinensis
+  english: Chinese wisteria
+  group: vine
+- latin: Yucca filamentosa
+  english: Common yucca
+  group: shrub
+- latin: Yucca flaccida
+  english: Weak-leaf yucca
+  group: shrub
+- latin: Yucca gloriosa
+  english: Moundlily yucca
+  group: shrub
+- latin: Yucca rupicola
+  english: Twisted-leaf yucca
+  group: shrub
+- latin: Zelkova carpinifolia
+  english: Caucasian zelkova
+  group: tree
+  opals: 10
+- latin: Ziziphus jujuba
+  english: Jujube
+  group: tree
+- latin: Ziziphus mucronata
+  english: Buffalo-thorn
+  group: tree
