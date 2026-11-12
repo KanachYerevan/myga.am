@@ -9,8 +9,8 @@ extra:
 
 Part of [Plant Species for Yerevan](@/guidelines/species/_index.md).
 
-A shrub branches from the base rather than lifting a single crown on a trunk, and most keep their leaves down to the ground. That is what makes them useful: a screen at eye level, a hedge that takes shearing, underplanting beneath a canopy that is already there.
-Its mature width matters more than its height, because a 2 m shrub that spreads 4 m will close a path.
+A shrub branches from the base rather than lifting a single crown on a trunk, and most keep their leaves down to the ground.
+Its mature width matters more than its height: a 2 m shrub that spreads 4 m will close a path.
 
 {{ species_table(groups="shrub") }}
 
