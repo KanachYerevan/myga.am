@@ -29,9 +29,9 @@
         <section class="home" aria-labelledby="home-title">
             {{ blocks::card_grid(id="problems", path="data/home-problems.yaml", lang=lang) }}
 
-            {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
-
             {{ blocks::file_list(id="involved", path="data/home-involved.yaml", lang=lang) }}
+
+            {{ blocks::file_list(id="projects", path="data/home-projects.yaml", lang=lang) }}
 
             {{ section.content | safe }}
 
