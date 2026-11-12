@@ -6,55 +6,11 @@
     margin: 50px 0 20px;
   }
 
-  .grid-layout {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-
-    .card {
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.05), 0 1px 3px rgba(0,0,0,0.1);
-      background-color: #fff;
-
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-    }
-  }
-
-  .zone2 {
-    .card {
-      img {
-        width: 100%;
-        height: 200px;
-        object-position: center;
-        object-fit: cover;
-      }
-
-      .body {
-        padding: 10px 20px;
-        font-size: 14px;
-
-        a {
-          color: inherit;
-          text-decoration: none;
-        }
-
-        .label {
-          font-size: 0.75rem;
-          text-transform: uppercase;
-        }
-
-        h3 {
-          font-size: 17px;
-          color: inherit;
-          margin: 5px 0;
-        }
-      }
-    }
+  // Deck line under a zone heading: the BMP zone explains what the standards
+  // below it are for, the other two zones start straight with their list.
+  .intro {
+    margin: 0 0 1rem;
+    opacity: 0.8;
   }
 
   .zone3 {
@@ -135,12 +91,5 @@ nav.species-tabs {
 @media screen and (max-width: 600px) {
   nav.species-tabs li {
     flex-basis: 100%;
-  }
-
-  .guidelines {
-    .grid-layout {
-      display: flex;
-      flex-direction: column;
-    }
   }
 }

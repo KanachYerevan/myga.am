@@ -163,9 +163,10 @@ section.home {
   }
 }
 
-// Card blocks: the two-column verdict cards from /guidelines/ without the
-// coloured strip. The grid, radius and shadow come from .cards; only the body
-// copy and the bottom-aligned link are set here.
+// Card blocks: a two-column card grid for the home page. The layout is the one
+// /guidelines/ used for its standard cards before its zones became file lists,
+// so the home page keeps that look. The grid, radius and shadow come from
+// .cards; only the body copy and the bottom-aligned link are set here.
 .home-cards {
   .card {
     display: flex;
