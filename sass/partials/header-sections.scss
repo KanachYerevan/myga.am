@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: row;
     gap: 20px;
+    // Fill the nav so the language selector stays pinned to the right edge.
+    flex: 1 1 auto;
 
     a, a:visited {
       display: block;
@@ -10,9 +12,18 @@
     }
 
     .report {
+      // The report button is the last item of the group. Its auto margin soaks up
+      // the free space, which keeps the section links next to the logo instead of
+      // centring or stretching them across the header.
+      margin-left: auto;
       background-color: #4CAF50;
       padding: 0 20px;
       border-radius: 10px;
+
+      // It reads as a button, so it must not pick up the header link underline.
+      &:hover {
+        text-decoration: none;
+      }
     }
 }
 
@@ -27,6 +38,11 @@
 
     a {
       text-align: center;
+    }
+
+    // In the stacked menu the button keeps its full cell width.
+    .report {
+      margin-left: 0;
     }
   }
 }

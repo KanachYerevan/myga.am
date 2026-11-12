@@ -46,6 +46,7 @@ header {
       display: flex;
       flex-direction: row;
       gap: 20px;
+      flex: 1 1 auto;
 
       a, a:visited {
         display: block;
@@ -62,7 +63,9 @@ body {
   display: flex;
   flex-direction: row;
   gap: 10px;
-  flex: 1 1 0;
+  // The logo no longer absorbs the free space: the nav takes it instead, so the
+  // section links stay next to the title and only the actions are pushed right.
+  flex: 0 1 auto;
 
   height: 32px;
   line-height: 32px;
@@ -84,7 +87,9 @@ body {
   .title {
     font-weight: 800;
     letter-spacing: -1px;
-    flex: 0 0 0;
+    // The logo is no longer stretched, so the title has to occupy its own
+    // natural width instead of relying on a zero basis inside a wide box.
+    flex: 0 0 auto;
     white-space: nowrap;
   }
 }
