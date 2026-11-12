@@ -112,6 +112,15 @@ section.home {
 // icon itself is drawn by .file-list in sass/partials/file-list.scss.
 .home-block .file-list .file {
   align-items: center;
+
+  // Rows bring their own <svg>, sometimes with no width/height and only a
+  // viewBox. Keep such a glyph inside the icon box instead of letting it push
+  // the row apart.
+  .icon svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
 }
 
 .home-block .file svg {
