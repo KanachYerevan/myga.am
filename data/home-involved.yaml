@@ -12,7 +12,8 @@
 # Icons: "default_icon" is the icon of every row. A row replaces it by setting
 # its own "icon" with the full <svg> markup, the same convention as
 # data/home-alerts.yaml. The icon is decorative, so only the title names the
-# link; keep the svg at 20x20 and stroke="currentColor" to match the row grid.
+# link; paint the svg with currentColor (fill or stroke, whichever the icon
+# uses) so it follows the colour of the row text.
 
 title:
   en: "Get Involved"
@@ -43,7 +44,7 @@ items:
         title: "Հայտնեք խնդրի մասին"
         description: "Ծառերն ինքնուրույն չեն կարող օգնություն կանչել։ Եթե նկատել եք կոտրված բուն, անհասկանալի էտ կամ կասկածելի աշխատանքներ, տեղեկացրեք մեզ. քաղաքի ծառերին պաշտպանել կարող ենք միայն մենք։"
     icon: >-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M461.2 18.9C472.7 24 480 35.4 480 48l0 416c0 12.6-7.3 24-18.8 29.1s-24.8 3.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63l0 95.7c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-96C57.3 384 0 326.7 0 256S57.3 128 128 128l84.5 0c61.8-.2 121.4-22.7 167.9-63.3l46.6-40.7c9.4-8.3 22.9-10.2 34.3-5.1zM224 320l0 .2c70.3 2.7 137.8 28.5 192 73.4l0-275.3c-54.2 44.9-121.7 70.7-192 73.4L224 320z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M461.2 18.9C472.7 24 480 35.4 480 48l0 416c0 12.6-7.3 24-18.8 29.1s-24.8 3.2-34.3-5.1l-46.6-40.7c-43.6-38.1-98.7-60.3-156.4-63l0 95.7c0 17.7-14.3 32-32 32l-32 0c-17.7 0-32-14.3-32-32l0-96C57.3 384 0 326.7 0 256S57.3 128 128 128l84.5 0c61.8-.2 121.4-22.7 167.9-63.3l46.6-40.7c9.4-8.3 22.9-10.2 34.3-5.1zM224 320l0 .2c70.3 2.7 137.8 28.5 192 73.4l0-275.3c-54.2 44.9-121.7 70.7-192 73.4L224 320z"/></svg>
 
   - link: "@/action/replant/index.md"
     content:
@@ -58,11 +59,8 @@ items:
         description: "Յուրաքանչյուր ոք կարող է կանաչապատել իր շրջապատը՝ փոքր ծաղկանոցից մինչև ստվարաստվեր ծառ։ Մենք կհուշենք, թե ինչպես դա ճիշտ անել՝ որ տեսակներն ընտրել, ինչպիսի տնկի գնել, ինչպես տնկել և խնամել։"
     icon: >-
       <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512"  xml:space="preserve">
-      <style type="text/css">
-          .st0{fill:#000000;}
-      </style>
       <g>
-          <path class="st0" d="M465.771,234.587c0-26.914-10.749-51.289-28.142-69.166c0.629-4.688,1.075-9.437,1.075-14.301
+          <path fill="currentColor" d="M465.771,234.587c0-26.914-10.749-51.289-28.142-69.166c0.629-4.688,1.075-9.437,1.075-14.301
               c0-54.151-40.625-98.726-93.05-105.14C319.308,17.754,281.874,0,240.206,0C160.476,0,95.853,64.624,95.853,144.361
               c0,0.422,0.062,0.821,0.062,1.236c-29.975,20.27-49.686,54.58-49.686,93.494c0,53.346,37.08,97.937,86.842,109.667
               c10.089,24.69,34.318,42.106,62.636,42.106c10.557,0,20.508-2.486,29.407-6.798V512h77.528v-83.988l30.236-51.657
@@ -84,7 +82,7 @@ items:
         title: "Ծառեր աճեցրեք սերմերից"
         description: "Ինչպես հավաքել տեղական ծառերի սերմերն ու ցանել դրանք լանջերին և ամայի տարածքներում։ Մենք կաղիններով փորձարկել ենք «սկյուռի մեթոդը» և կիսվում ենք մանրամասն ուղեցույցով։"
     icon: >-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 32C512 140.1 435.4 230.3 333.6 251.4 325.7 193.3 299.6 141 261.1 100.5 301.2 40 369.9 0 448 0l32 0c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64l32 0c123.7 0 224 100.3 224 224l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-160C100.3 320 0 219.7 0 96z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M512 32C512 140.1 435.4 230.3 333.6 251.4 325.7 193.3 299.6 141 261.1 100.5 301.2 40 369.9 0 448 0l32 0c17.7 0 32 14.3 32 32zM0 96C0 78.3 14.3 64 32 64l32 0c123.7 0 224 100.3 224 224l0 192c0 17.7-14.3 32-32 32s-32-14.3-32-32l0-160C100.3 320 0 219.7 0 96z"/></svg>
 
   - link: "@/guidelines/biodiversity/great-tit.md"
     content:
@@ -98,7 +96,7 @@ items:
         title: "Տեղադրեք թռչնաբույն"
         description: "Բնադրատուփն օգնում է քաղաքային թռչուններին ապահով ձագեր մեծացնել, իսկ նրանք պաշտպանում են ծառերը վնասատուներից։ Որտեղ տեղադրել այն, ինչպես ամրացնել՝ առանց բունը վնասելու, և ինչպես պատրաստել սեփական ձեռքերով։"
     icon: >-
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M496 64c13.2 0 20.7 15.1 12.8 25.6L480 128 480 304c0 79.5-64.5 144-144 144l-112 0-46.3 46.3c-10.4 10.4-26.5 12.4-39.1 4.8L41.5 440.9c-17-10.2-15-35.5 3.4-42.9L160 352C23.8 311.1 7.5 169.8 22 95.7 25.6 77.9 45.3 71.4 61.3 80.2L320 224 320 144c0-44.2 35.8-80 80-80l96 0zm-96 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM182.5-9.6c12.4-13.7 33.3-8.9 42.5 7.1l56.4 98.3c-5.8 14.4-9.2 30.1-9.4 46.5L138.1 68c10.1-31.6 27-58.4 44.4-77.6z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor"><!--!Font Awesome Free v7.3.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M496 64c13.2 0 20.7 15.1 12.8 25.6L480 128 480 304c0 79.5-64.5 144-144 144l-112 0-46.3 46.3c-10.4 10.4-26.5 12.4-39.1 4.8L41.5 440.9c-17-10.2-15-35.5 3.4-42.9L160 352C23.8 311.1 7.5 169.8 22 95.7 25.6 77.9 45.3 71.4 61.3 80.2L320 224 320 144c0-44.2 35.8-80 80-80l96 0zm-96 56a24 24 0 1 0 0 48 24 24 0 1 0 0-48zM182.5-9.6c12.4-13.7 33.3-8.9 42.5 7.1l56.4 98.3c-5.8 14.4-9.2 30.1-9.4 46.5L138.1 68c10.1-31.6 27-58.4 44.4-77.6z"/></svg>
 
   - link: "@/status/birds/index.md"
     content:
@@ -114,7 +112,7 @@ items:
     icon: >-
       <svg version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
       <g>
-          <path class="st0" d="M509.097,262.991l-90.364-125.785c-2.554-3.968-6.506-6.554-10.88-7.155c-4.366-0.57-8.765,0.903-12.108,4.074
+          <path fill="currentColor" d="M509.097,262.991l-90.364-125.785c-2.554-3.968-6.506-6.554-10.88-7.155c-4.366-0.57-8.765,0.903-12.108,4.074
               c0,0-60.806,65.141-78.988,80.656c-15.36,13.132-25.548,1.146-27.037-7.847c-1.219-7.449,1.204-19.028,3.692-22.354
               c0,0,3.423-7.115,10.425-29.102c7.984-25.029-10.555-47.309-14.694-33.599c-4.139,13.718-17.946,39.616-17.946,39.616H256h-15.198
               c0,0-13.807-25.898-17.945-39.616c-4.139-13.71-22.679,8.57-14.694,33.599c7.001,21.987,10.425,29.102,10.425,29.102
@@ -141,7 +139,7 @@ items:
         title: "Որտեղ կամավորագրվել"
         description: "Երևանի այն նախաձեռնություններն ու խմբերը, որոնք ծառատունկեր և շաբաթօրյակներ են կազմակերպում ու միշտ ուրախ են նոր կամավորների։"
     icon: >-
-      <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 85.285 85.285" xml:space="preserve">
+      <svg fill="currentColor" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 85.285 85.285" xml:space="preserve">
       <g>
           <g>
               <circle cx="43.161" cy="20.508" r="13.432"/>
