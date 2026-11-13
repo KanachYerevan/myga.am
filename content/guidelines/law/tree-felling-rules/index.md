@@ -1,24 +1,18 @@
 ---
-title: "Procedure for Tree Felling"
+title: "Tree Felling Rules for Yerevan"
 weight: 160
-description: "Annex N 1 to Decision N 1236-A of the Mayor of Yerevan, April 26, 2021"
-summary: "Procedure for tree felling and accounting of resulting timber in Yerevan's public green areas (Annex 1 to Decision N 1236-A)"
+description: "Yerevan's felling rules require a notice sheet on every tree at least 15 days before it is cut (clause 13)."
+summary: "Tree felling rules for Yerevan's public green areas, with the decision that established them (Mayor's Decision № 1236-A, 26 April 2021)."
 date: "2021-04-26"
 extra:
-  title: "Yerevan Procedure for Tree Felling"
+  title: "Tree Felling Rules for Yerevan"
 ---
 
-This document contains Annex 1 to [Decision N 1236-A](../decision-1236a-on-felling-trees/) of the Mayor of Yerevan (April 26, 2021), which establishes the procedure for tree felling and the accounting of resulting timber in public green areas of Yerevan.
+Yerevan's tree felling rules, established by Mayor's Decision № 1236-A of 26 April 2021, require that **a notice sheet be posted on every tree before it is cut — at least fifteen days in advance (clause 13)**. A felling also needs an approved felling ticket and photographs of the tree; without them the permit file is incomplete, and the work can be challenged.
 
-Please note that item 13 mandates that for every tree subject to felling, a public notification must be posted on the tree at least 15 days in advance.
+The rules themselves are Annex 1 to that decision and are reproduced in full below. The decision that adopted them, still in force, follows in the second section.
 
-<div class="buttons">
-
-- [Read on yerevan.am (HY)](https://www.yerevan.am/uploads/media/default/0001/99/6055492de125b332090d85bf2586a6a30d325038.pdf)
-
-</div>
-
-## The Procedure
+## The Rules
 
 1. This procedure regulates the relations concerning tree felling in public areas of Yerevan, accounting of the resulting timber, filling out tree felling tickets, and storing the resulting timber.
 2. Tree felling in public green areas within the administrative borders of Yerevan is carried out by the "Greening and Environmental Protection" Community Non-Commercial Organization (CNCO) or leaseholder organizations of public green areas (hereinafter: organization) based on permission issued by an authorized official.
@@ -35,3 +29,28 @@ Please note that item 13 mandates that for every tree subject to felling, a publ
 13. **Public notification is carried out by posting a notice sheet in the form established by Annex 3 on the tree subject to felling (removal) at least fifteen days in advance.**
 14. In cases of trees fallen due to emergencies, or to prevent emergency incidents in highly dangerous situations, the removal of hazardous trees prone to falling is carried out without a pre-approved tree felling ticket. In such cases, the tree felling ticket is submitted and approved after the removal of the fallen, hazardous trees.
 15. The volume of timber is calculated in accordance with Order N 80-N of the Minister of Agriculture of the Republic of Armenia dated May 6, 2013.
+
+<div class="buttons">
+
+- [Read Annex 1 on yerevan.am (HY)](https://www.yerevan.am/uploads/media/default/0001/99/6055492de125b332090d85bf2586a6a30d325038.pdf)
+
+</div>
+
+## The Founding Decision
+
+Mayor Hayk Marutyan signed Decision № 1236-A on 26 April 2021, and it has not been repealed. The decision approves three documents: the rules above (Annex 1), the form of the tree felling ticket (Annex 2), and the form of the public notice sheet (Annex 3). It places responsibility for carrying out the decision on the director of the "Greening and Environmental Protection" CNCO, and control over its execution on the Deputy Mayor of Yerevan. The ticket and the notice sheet are published only with the decision on yerevan.am and are not reproduced here.
+
+Based on paragraphs 12 and 13 of the annex to [Decision N 36-N of the Yerevan City Council of Elders](../elders-green-spaces/) dated November 18, 2009, guided by paragraph 2 and paragraph 1.3 of the annex to Decision N 163-A of the Yerevan City Council of Elders dated December 16, 2019, and by Decision N 2199-A of the Mayor of Yerevan dated July 24, 2020, for the purpose of regulating tree felling in the public green areas of the city of Yerevan and the accounting of the resulting timber:
+
+1. To approve:
+   1. **the procedure for the implementation of tree felling** in the public green areas of the city of Yerevan and the accounting of the resulting timber, which is set out above;
+   2. the form of the tree felling ticket, in accordance with Annex N 2;
+   3. the form of the public notification sheet, in accordance with Annex N 3.
+2. To assign the organization of the execution of this decision and the responsibility for it to the Director of the "Greening and Environmental Protection" Community Non-Commercial Organization.
+3. To assign control over the execution of the decision to the Deputy Mayor of Yerevan, Gayane Melkom Melkomyan.
+
+<div class="buttons">
+
+- [Read the decision on yerevan.am (HY)](https://www.yerevan.am/hy/mayors-decisions/1236-2/)
+
+</div>
