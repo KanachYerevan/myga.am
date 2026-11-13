@@ -105,6 +105,18 @@ When asked to translate documents, use natural language, avoid anglicisms, offic
 3. Inverted Pyramid: for Guidelines, structure content from "Verdict" (Top/Activist) -> "Explanation" (Middle/Resident) -> "Technical Spec" (Bottom/Official).
 4. No "Coder" Talk: treat the text as an article or manifesto, not software code.
 
+## Tooling Discipline
+
+The repository is edited, not experimented on.
+
+1. Inspect with tools, not shell: `read` for files and directories, `glob` for paths, `grep` for content. Reach for `ls`, `cat`, `sed`, `head`, `tail`, `find` or shell `grep` only when those three genuinely cannot answer.
+2. Shell is for what only the shell can do: `git`, `make`, formatters, builds (`./bin/zola build`). Nothing else.
+3. No scratch anything inside the repo: no throwaway sites, probe directories, temporary configs or `<name>.ztest` folders. If a test is truly required, it lives in `/tmp/opencode` and is removed in the same command.
+4. An experiment must name the decision it could change. If the result would not alter the plan, the edit or the wording, do not run it; say what is uncertain instead.
+5. Verify after changing, not before: one build, plus at most one look at the built artifact for the thing the edit was about. Pre-work verification is usually avoidance in a lab coat.
+
+Merging, splitting, renaming or deleting a page under `content/` follows the `content-refactor` skill.
+
 ## Key Vocabulary Preference
 
 - Preferred: "meadow lawn", "biodiverse ground cover", "canopy retention", "Trees of Yerevan" (App name), "Street Passport".

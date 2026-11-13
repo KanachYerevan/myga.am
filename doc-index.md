@@ -28,3 +28,4 @@
 - docs/reports/seo-2026-09-actions.md: "Problem inventory and prioritised action items derived from the September 2026 Search Console and GA4 report, with proposed titles, file targets and a 90-day measurement plan."
 - docs/reports/seo-2026-09.md: "Search Console and GA4 analysis for kanachyerevan.am with prioritised, file-level recommendations to improve search visibility."
 - docs/seo.md: "How to run the Search Console and GA4 analysis pipeline, where credentials live, and how to read the generated report."
+- .opencode/skills/content-refactor/SKILL.md: "Procedure for merging, splitting, renaming or deleting a content page while keeping translations, redirects, weights and doc-index consistent."
