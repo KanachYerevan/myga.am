@@ -24,4 +24,4 @@ more:
   ru: "Открыть календарь"
   hy: "Բացել օրացույցը"
 
-link: "@/action/events.md"
+link: "@/action/events/index.md"

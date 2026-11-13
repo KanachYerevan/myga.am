@@ -53,8 +53,8 @@ The "Documentation Site" for the city. Authoritative standards, not blog posts.
 
 The Data Hub.
 
-- Passports: periodic health assessments of streets (`/passports/mashtots-ave.md`).
-- Cases: tracked legal/illegal incidents (`/cases/case-2024-01.md`).
+- Passports: periodic health assessments of streets (`status/passports/mashtots-ave/index.md`).
+- Cases: tracked legal/illegal incidents (`status/cases/case-2024-01/index.md`).
   - Front Matter: must track `status` (Open/Won/Lost), `location`, and `date_opened`.
 
 ### Legal Cases

@@ -5,7 +5,7 @@
 # reintroduced home block can pick them up without rewriting the copy.
 # "link" is a Zola internal path (@/...), so get_url resolves the translation.
 
-- link: "@/status/alerts/komitas.md"
+- link: "@/status/alerts/komitas/index.md"
   image: "/images/komitas/nissan-after.thumb.jpg"
   content:
     ru:

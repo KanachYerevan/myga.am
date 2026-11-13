@@ -4,7 +4,7 @@ description = "Мы попросили мэра разъяснить закон 
 date = "2025-12-18"
 
 [extra]
-link = "@/status/cases/active-citizen.md"
+link = "@/status/cases/active-citizen/index.md"
 +++
 
 Мы направили письмо мэру Еревана с просьбой разъяснить закон сотрудникам «Активного гражданина» и одобрить заявки на восстановление деревьев. Подробности — в [отчёте по делу](/ru/status/cases/active-citizen/).

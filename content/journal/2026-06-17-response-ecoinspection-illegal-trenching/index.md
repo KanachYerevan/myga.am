@@ -18,4 +18,4 @@ This response highlights a critical gap in our environmental protection system. 
 
 Going forward, all requests regarding construction-related tree damage that does not involve immediate destruction should be directed to the Yerevan Municipality (or the relevant administrative district) rather than the Ecoinspection.
 
-See the [full case details and follow-up](@/status/cases/4-trenches-in-arabkir.md).
+See the [full case details and follow-up](@/status/cases/4-trenches-in-arabkir/index.md).

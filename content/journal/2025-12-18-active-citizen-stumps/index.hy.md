@@ -5,7 +5,7 @@ date = "2025-12-18"
 
 [extra]
 seo_title = "Նամակ քաղաքապետին՝ «Ակտիվ քաղաքացի»-ի միջոցով"
-link = "@/status/cases/active-citizen.md"
+link = "@/status/cases/active-citizen/index.md"
 +++
 
 Նամակ ենք ուղարկել Երևանի քաղաքապետին՝ խնդրելով պարզաբանել օրենքը և հաստատել ծառերի վերականգնման դիմումները։ Մանրամասները՝ [«Ակտիվ քաղաքացի» գործի էջում](/hy/status/cases/active-citizen/)։

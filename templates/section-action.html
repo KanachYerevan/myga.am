@@ -9,13 +9,13 @@
 
         {% include "partials/grid-report.html" %}
 
-        {% set events_path = macros::localized_page_path(base_path="action/events.md", lang=lang) %}
+        {% set events_path = macros::localized_page_path(base_path="action/events/index.md", lang=lang) %}
         {% set events_page = get_page(path=events_path) %}
 
         <h2>{{ events_page.title }}</h2>
         {{ events_page.content | safe }}
 
-        {% set join_path = macros::localized_page_path(base_path="action/join.md", lang=lang) %}
+        {% set join_path = macros::localized_page_path(base_path="action/join/index.md", lang=lang) %}
         {% set join_page = get_page(path=join_path) %}
 
         <section class="action-join">

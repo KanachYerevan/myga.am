@@ -34,12 +34,12 @@ default_icon: >-
 items:
   # To give one row its own icon, add it above "content", for example:
   #
-  #   - link: "@/action/mapping.md"
+  #   - link: "@/action/mapping/index.md"
   #     icon: >-
   #       <svg width="20" height="20" viewBox="0 0 24 24" ...></svg>
   #     content:
   #
-  - link: "@/action/mapping.md"
+  - link: "@/action/mapping/index.md"
     content:
       ru:
         title: "Карта деревьев"

@@ -1,6 +1,6 @@
 # This file defines actions for the /action/ page.
 
-- link: "@/action/trenching.md"
+- link: "@/action/trenching/index.md"
   image: "/images/actions/report-roots.jpg"
   content:
     ru:
@@ -13,7 +13,7 @@
       title: "Արմատների վնասում"
       description: "Փորման աշխատանքների ժամանակ նկատելիորեն վնասվել են արմատները։ Սա խախտում է օրենքով սահմանված պահպանման գոտին։"
 
-- link: "@/action/bark.md"
+- link: "@/action/bark/index.md"
   image: "/images/actions/report-bark.jpg"
   content:
     ru:
@@ -26,7 +26,7 @@
       title: "Կեղևի վնասում"
       description: "Շինարարները վնասել են ծառերի կեղևը։ Այն պետք է պաշտպանված լինի հատուկ պատնեշներով։"
 
-- link: "@/status/alerts/leaves.md"
+- link: "@/status/alerts/leaves/index.md"
   image: "/images/actions/report-leaves.jpg"
   content:
     ru:
@@ -39,7 +39,7 @@
       title: "Տերևների այրում"
       description: "Տերևներն այրելն արգելվում է։ Դրանք պետք է հավաքել և տեղափոխել՝ օգտահանման համար։"
 
-- link: "@/action/objects.md"
+- link: "@/action/objects/index.md"
   image: "/images/actions/report-lamp.jpg"
   content:
     ru:
@@ -65,7 +65,7 @@
       title: "Բացակայող ծառ"
       description: "Եթե մայթին ծառի տեղը դատարկ է, դուք կարող եք այնտեղ նորը տնկել։ Մենք կօգնենք։"
 
-- link: "@/action/mapping.md"
+- link: "@/action/mapping/index.md"
   image: "/images/actions/report-map.jpg"
   content:
     ru:
@@ -78,7 +78,7 @@
       title: "Քարտեզագրում"
       description: "Օգնիր լրացնել ծառերի քարտեզը՝ դրանց վիճակին հետևելու համար։"
 
-- link: "@/action/donate.md"
+- link: "@/action/donate/index.md"
   image: "/images/actions/donate.jpg"
   content:
     ru:
