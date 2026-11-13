@@ -19,7 +19,7 @@ The Council of Elders Resolution [№ 405-N][1] (clause 7.11) requires rigid phy
 There should be a wooden or metal box around each tree.
 Violation of this regulation is subject to fines of 50,000 to 150,000 AMD per site.
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [6]: https://www.e-request.am/
 [7]: https://docs.google.com/document/d/1ikkn5w47-QJ4eURto_lsFNSFk4yvLS0TsEvThFCoz9s/edit?usp=sharing

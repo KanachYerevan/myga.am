@@ -13,4 +13,4 @@ In our semi-arid climate, the prevalent practice of "topping" (cutting off tree 
 We advocate for the strict adoption of European-aligned pruning protocols. These international best practices explicitly prohibit indiscriminate topping. Instead, they mandate scientific "crown cleaning" and the use of dynamic support systems to stabilize leaning trees rather than removing them. By implementing these codified methods, we ensure that every mature tree is retained to cool our city and filter our air.
 
 **Current Status.**
-There is no known plant care standard. The only known [official document](/guidelines/legal/elders-green-spaces/) declares that decisions are made based on the opinion of the chief dendrologist. This is an open door for all kinds of errors and corruption.
+There is no known plant care standard. The only known [official document](/guidelines/law/elders-green-spaces/) declares that decisions are made based on the opinion of the chief dendrologist. This is an open door for all kinds of errors and corruption.

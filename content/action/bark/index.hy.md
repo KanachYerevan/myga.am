@@ -19,7 +19,7 @@ date = "2026-01-18"
 Յուրաքանչյուր ծառի շուրջ պետք է լինի փայտե կամ մետաղական տուփ (պատյան):
 Այս կանոնակարգի խախտումը ենթադրում է տուգանք՝ յուրաքանչյուր օբյեկտի համար 50,000-ից մինչև 150,000 դրամի չափով:
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [6]: https://www.e-request.am/
 [7]: https://docs.google.com/document/d/1ikkn5w47-QJ4eURto_lsFNSFk4yvLS0TsEvThFCoz9s/edit?usp=sharing

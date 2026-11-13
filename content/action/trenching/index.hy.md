@@ -19,8 +19,8 @@ date = "2026-01-18"
 
 Այն, ինչ տեսնում եք վերևի նկարներում, կոմունիկացիաների վերանորոգման միակ ճանապարհը չէ. այս արմատների վնասումից կարելի էր ամբողջությամբ խուսափել: Ժամանակակից ստանդարտներն ու տեխնոլոգիաները թույլ են տալիս զարգացնել ենթակառուցվածքները՝ հարգելով և պահպանելով մեր քաղաքային անտառը:
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [3]: https://www.youtube.com/watch?v=_xhGqqMb1iE
 [4]: https://www.youtube.com/watch?v=Ib-1TgZPwtI
 [5]: https://www.youtube.com/watch?v=H0Qm7f-JN2U

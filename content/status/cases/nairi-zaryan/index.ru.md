@@ -37,7 +37,7 @@ status = "open"
 > Отмечу также, что права собственника устанавливаются частью 3 статьи 202 Гражданского кодекса РА.
 
 [1]: https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/
-[2]: /ru/guidelines/legal/elders-green-spaces/
-[3]: /ru/guidelines/legal/elders-construction/
+[2]: /ru/guidelines/law/elders-green-spaces/
+[3]: /ru/guidelines/law/elders-construction/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage.pdf
 [5]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf

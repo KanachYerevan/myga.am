@@ -37,7 +37,7 @@ status = "open"
 > Նշեմ նաև, որ սեփականատիրոջ իրավունքները սահմանվում են ՀՀ քաղաքացիական օրենսգրքի 202-րդ հոդվածի 3-րդ մասով:
 
 [1]: https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/
-[2]: /hy/guidelines/legal/elders-green-spaces/
-[3]: /hy/guidelines/legal/elders-construction/
+[2]: /hy/guidelines/law/elders-green-spaces/
+[3]: /hy/guidelines/law/elders-construction/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage.pdf
 [5]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf

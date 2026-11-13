@@ -1,84 +1,56 @@
 {% extends "index.html" %}
-{% import "macros.html" as macros %}
 {% import "macros/file-list.html" as files %}
+
+{#
+    One template for two jobs:
+
+    - /guidelines/ itself loops over its five groups and prints a heading,
+      a short deck and one file row per page.
+    - every group section (infrastructure, how-to, references, law,
+      proposals) renders its own heading, its intro and its rows. A group
+      has no subsections, which is what tells the two cases apart.
+
+    The icon comes from `extra.glyph` on the group, and an individual page
+    can override it with its own `extra.glyph` (the birds do).
+#}
 
 {% block content %}
     <div class="post guidelines">
         <h1 class="post-title">{{ section.title | safe }}</h1>
 
-        {# ZONE 1: Best Management Practices #}
-        {# The section being rendered is guidelines/_index.md itself, so its own
-           pages and subsections are already in scope. #}
-        <div class="zone1" id="bmp">
-            <h2>{{ section.extra.grid_title }}</h2>
-            <p class="intro">{{ section.extra.grid_description }}</p>
+        {% if section.subsections %}
+            {% for sub in section.subsections %}
+                {% set group = get_section(path=sub) %}
+                {% set group_glyph = group.extra.glyph | default(value="leaf") %}
 
-            <div class="file-list">
-                {% for page in section.pages %}
-                    {{ files::row(page=page, glyph="leaf") }}
-                {% endfor %}
+                <div class="zone" id="{{ group.extra.anchor }}">
+                    <h2>{{ group.title }}</h2>
 
-                {# A subsection gets a row when its content has moved down a
-                   level, as the species tables did. #}
-                {% for sub in section.subsections %}
-                    {% set sec = get_section(path=sub) %}
-                    {% if sec.extra.tile %}
-                        {{ files::row(page=sec, glyph="leaf") }}
+                    {% if group.description %}
+                        <p class="intro">{{ group.description }}</p>
                     {% endif %}
-                {% endfor %}
-            </div>
-        </div>
 
-        {# ZONE 2: Biodiversity Subsections #}
-        {% set bio_path = macros::localized_path(base_path="guidelines/biodiversity/_index.md", lang=lang) %}
-        {% set bio_section = get_section(path=bio_path) %}
+                    <div class="file-list">
+                        {% for page in group.pages %}
+                            {% set glyph = page.extra.glyph | default(value=group_glyph) %}
+                            {{ files::row(page=page, glyph=glyph) }}
+                        {% endfor %}
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            {{ section.content | safe }}
 
-        <div class="zone2" id="biodiversity">
-            <h2>{{ bio_section.title }}</h2>
+            {% if section.pages %}
+                {% set group_glyph = section.extra.glyph | default(value="leaf") %}
 
-            <div class="file-list">
-                {% for page in bio_section.pages %}
-                    {{ files::row(page=page, glyph="bird") }}
-                {% endfor %}
-            </div>
-        </div>
-
-        {# ZONE 3: Legal Subsection #}
-        {% set legal_path = macros::localized_path(base_path="guidelines/legal/_index.md", lang=lang) %}
-        {% set legal_section = get_section(path=legal_path) %}
-
-        <div class="zone3" id="legal">
-            <h2>{{ legal_section.title }}</h2>
-
-            <h3>{{ trans(key="guides_current", lang=lang) }}</h3>
-
-            <div class="file-list">
-                {% for page in legal_section.pages %}
-                    {% if page.extra.category | default(value='hidden') == "local" %}
-                        {{ files::row(page=page, glyph="document") }}
-                    {% endif %}
-                {% endfor %}
-            </div>
-
-            <h3>{{ trans(key="guides_international", lang=lang) }}</h3>
-
-            <div class="file-list">
-                {% for page in legal_section.pages %}
-                    {% if page.extra.category | default(value='hidden') == "global" %}
-                        {{ files::row(page=page, glyph="globe") }}
-                    {% endif %}
-                {% endfor %}
-            </div>
-
-            <h3>{{ trans(key="guides_proposed", lang=lang) }}</h3>
-
-            <div class="file-list">
-                {% for page in legal_section.pages %}
-                    {% if page.extra.category | default(value='hidden') == "proposed" %}
-                        {{ files::row(page=page, glyph="pencil") }}
-                    {% endif %}
-                {% endfor %}
-            </div>
-        </div>
+                <div class="file-list">
+                    {% for page in section.pages %}
+                        {% set glyph = page.extra.glyph | default(value=group_glyph) %}
+                        {{ files::row(page=page, glyph=glyph) }}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endif %}
     </div>
 {% endblock %}

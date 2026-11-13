@@ -4,7 +4,7 @@ description = "Новая страница о сирийском дятле — 
 date = "2025-12-19"
 
 [extra]
-link = "@/guidelines/biodiversity/woodpeckers/index.md"
+link = "@/guidelines/infrastructure/woodpeckers/index.md"
 +++
 
-Мы опубликовали страницу о сирийском дятле — природном союзнике в борьбе с вредителями деревьев Еревана. Читайте [гид о дятле](/ru/guidelines/biodiversity/woodpeckers/).
+Мы опубликовали страницу о сирийском дятле — природном союзнике в борьбе с вредителями деревьев Еревана. Читайте [гид о дятле](/ru/guidelines/infrastructure/woodpeckers/).

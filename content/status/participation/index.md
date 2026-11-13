@@ -15,4 +15,4 @@ We advocate for the publication of a "Pre-Approved Planting Protocol" based on i
 **Current Status.**
 There is no legal procedure for planting trees in the city. The monopoly belongs to the Greening Department. If you ask for a permission, your request would most likely be rejected.
 
-A [proposition](/guidelines/legal/proactive-greening-draft/) was sent to the Mayor to introduce this regulation.
+A [proposition](/guidelines/proposals/proactive-greening-draft/) was sent to the Mayor to introduce this regulation.

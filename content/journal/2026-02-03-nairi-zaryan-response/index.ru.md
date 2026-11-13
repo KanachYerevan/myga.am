@@ -36,6 +36,6 @@ card = "images/report-003/photo1.jpg"
 
 Если вы юрист, или у вас есть знакомые юристы, которые могли бы помочь нам разобраться в этом вопросе — пожалуйста, свяжитесь с нами.
 
-[1]: /ru/guidelines/legal/elders-green-spaces/
-[2]: /ru/guidelines/legal/law-on-plant-world/
+[1]: /ru/guidelines/law/elders-green-spaces/
+[2]: /ru/guidelines/law/law-on-plant-world/
 [3]: /ru/status/cases/nairi-zaryan/

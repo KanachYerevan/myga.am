@@ -4,7 +4,7 @@ description = "A new guide to pocket forests: dense native plantings that cool s
 date = "2025-12-19"
 
 [extra]
-link = "@/guidelines/biodiversity/pocket-forest/index.md"
+link = "@/guidelines/infrastructure/pocket-forest/index.md"
 +++
 
-We published a guide to pocket forests — dense, native plantings that cool streets and bring back biodiversity. Read the [pocket forest guide](/guidelines/biodiversity/pocket-forest/).
+We published a guide to pocket forests — dense, native plantings that cool streets and bring back biodiversity. Read the [pocket forest guide](/guidelines/infrastructure/pocket-forest/).

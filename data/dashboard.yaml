@@ -394,7 +394,7 @@
 - number: "5.5"
   level: 2
   score: 0
-  link: "@/guidelines/green-density/index.md"
+  link: "@/guidelines/infrastructure/green-density/index.md"
   content:
     ru:
       title: "Доступность зелёных зон"

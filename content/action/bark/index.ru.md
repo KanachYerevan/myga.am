@@ -19,7 +19,7 @@ date = "2026-01-18"
 Вокруг каждого дерева должен быть установлен деревянный или металлический короб.
 Нарушение этого требования влечет за собой штраф от 50 000 до 150 000 драмов за объект.
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [6]: https://www.e-request.am/
 [7]: https://docs.google.com/document/d/1ikkn5w47-QJ4eURto_lsFNSFk4yvLS0TsEvThFCoz9s/edit?usp=sharing

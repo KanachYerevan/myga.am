@@ -33,6 +33,6 @@ card = "images/report-003/photo1.jpg"
 
 Եթե իրավաբան եք կամ ունեք ծանոթ իրավաբաններ, ովքեր կարող են օգնել մեզ հասկանալ այս հարցը, խնդրում ենք կապ հաստատել մեզ հետ։
 
-[1]: /hy/guidelines/legal/elders-green-spaces/
-[2]: /hy/guidelines/legal/law-on-plant-world/
+[1]: /hy/guidelines/law/elders-green-spaces/
+[2]: /hy/guidelines/law/law-on-plant-world/
 [3]: /hy/status/cases/nairi-zaryan/

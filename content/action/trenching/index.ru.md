@@ -19,8 +19,8 @@ date = "2026-01-18"
 
 То, что вы видите на фотографиях выше — не единственный способ ремонта коммуникаций. Повреждения этих корней можно было избежать. Современные технологии позволяют развивать инфраструктуру без ущерба для деревьев.
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [3]: https://www.youtube.com/watch?v=_xhGqqMb1iE
 [4]: https://www.youtube.com/watch?v=Ib-1TgZPwtI
 [5]: https://www.youtube.com/watch?v=H0Qm7f-JN2U

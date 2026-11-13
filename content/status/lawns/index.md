@@ -4,7 +4,7 @@ date = "2025-12-27"
 +++
 
 **What is it?**
-Unlike monoculture turf, a [meadow lawn](/guidelines/lawns/) combines native grasses and wildflowers. This natural carpet requires significantly less mowing and water. It mimics nature, creating a resilient, living groundcover rather than a resource-intensive artificial surface.
+Unlike monoculture turf, a [meadow lawn](/guidelines/infrastructure/lawns/) combines native grasses and wildflowers. This natural carpet requires significantly less mowing and water. It mimics nature, creating a resilient, living groundcover rather than a resource-intensive artificial surface.
 
 **Why it matters for Yerevan**
 Our city battles constant dust. Meadow lawns cover naked earth, trapping particles and retaining soil moisture far better than bare patches. Furthermore, the plant variety attracts beneficial insects that naturally control pests, creating a self-sustaining ecosystem that withstands our intense summer heat.

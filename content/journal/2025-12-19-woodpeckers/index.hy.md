@@ -4,7 +4,7 @@ description = "Նոր էջ սիրիական փայտփորիկի մասին՝ Ե
 date = "2025-12-19"
 
 [extra]
-link = "@/guidelines/biodiversity/woodpeckers/index.md"
+link = "@/guidelines/infrastructure/woodpeckers/index.md"
 +++
 
-Հրապարակել ենք էջ սիրիական փայտփորիկի մասին՝ Երևանի ծառերի վնասատուների դեմ կարևոր բնական դաշնակից։ Կարդացեք [փայտփորիկի ուղեցույցը](/hy/guidelines/biodiversity/woodpeckers/)։
+Հրապարակել ենք էջ սիրիական փայտփորիկի մասին՝ Երևանի ծառերի վնասատուների դեմ կարևոր բնական դաշնակից։ Կարդացեք [փայտփորիկի ուղեցույցը](/hy/guidelines/infrastructure/woodpeckers/)։

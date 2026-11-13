@@ -33,7 +33,7 @@ You can follow the developments on the [case page][3].
 
 If you are a lawyer, or know lawyers who could help us clarify this issue, please contact us.
 
-[1]: /guidelines/legal/elders-green-spaces/
-[2]: /guidelines/legal/law-on-plant-world/
+[1]: /guidelines/law/elders-green-spaces/
+[2]: /guidelines/law/law-on-plant-world/
 [3]: /status/cases/nairi-zaryan/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf

@@ -40,6 +40,6 @@ This response completely ignores our proposal to use modern arboricultural solut
 
 The City’s response indicates a policy of 'wholesale replacement': they prioritize planting only when installing new pipes during major street reconstruction. This implies that the requested empty tree wells will remain empty until the entire street undergoes renovation. Furthermore, waiting for major groundworks presents a critical risk: the trenching required for new irrigation often severs the roots of surviving mature trees, leading to their decline and eventual removal.
 
-While we support infrastructure upgrades, Article 3 of the [Yerevan City law on green zone management](/guidelines/legal/elders-green-spaces/) mandates the continuous reproduction of greenery. Waiting indefinitely for major construction violates this principle and leaves our streets bare for years. The City's response confirms they currently lack a protocol for 'Spot Replacement'—planting individual trees supported by mobile watering solutions.
+While we support infrastructure upgrades, Article 3 of the [Yerevan City law on green zone management](/guidelines/law/elders-green-spaces/) mandates the continuous reproduction of greenery. Waiting indefinitely for major construction violates this principle and leaves our streets bare for years. The City's response confirms they currently lack a protocol for 'Spot Replacement'—planting individual trees supported by mobile watering solutions.
 
 We are working on a follow-up explicitly requesting spot replacement using existing technologies.

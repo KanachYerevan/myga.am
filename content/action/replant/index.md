@@ -52,4 +52,4 @@ Please share this initiative with anyone else who might be interested.
 
 [1]: /images/actions/replant.jpg
 [2]: https://yerevan.treemaps.app/search/results?query=state:gone
-[3]: /guidelines/legal/proactive-greening-draft/
+[3]: /guidelines/proposals/proactive-greening-draft/

@@ -6,7 +6,7 @@ According to the World Health Organization, a city needs at least 9 square meter
 
 Nine is presented as the bare minimum. Above that sits the ideal target: 20 to 50 square meters per person, which is widely cited as the international standard for a healthy city.
 
-Yerevan reports 8.4 square meters per resident—just short of that baseline. In its official [Green City Action Plan](/guidelines/legal/gcap/), the city set a target to cross 10 square meters per resident by 2030, with flagship projects like the 230-hectare Dalma Gardens park and hillside afforestation intended to close the gap. On paper, when these large parcels are added, the math works out, the target is reached, and the city looks green.
+Yerevan reports 8.4 square meters per resident—just short of that baseline. In its official [Green City Action Plan](/guidelines/law/gcap/), the city set a target to cross 10 square meters per resident by 2030, with flagship projects like the 230-hectare Dalma Gardens park and hillside afforestation intended to close the gap. On paper, when these large parcels are added, the math works out, the target is reached, and the city looks green.
 
 ![slide](20261021_170846.jpg)
 

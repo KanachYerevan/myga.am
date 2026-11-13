@@ -8,4 +8,4 @@ type = "news"
 
 We have published a new proposal to reform how tree damage is valued in Yerevan. Current administrative fines cover only about 6% of a mature tree's real asset value. We propose adopting the international CTLA industry standard to ensure contractors pay the full replacement cost of the green infrastructure they damage.
 
-- [Read the proposal](/guidelines/legal/draft-valuation/)
+- [Read the proposal](/guidelines/proposals/draft-valuation/)

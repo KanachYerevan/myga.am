@@ -37,7 +37,7 @@ On February 3, a response was received (see [full pdf][5]) with the following es
 > I would also note that the owner’s rights are defined by Article 202, Part 3 of the Civil Code of the Republic of Armenia.
 
 [1]: https://www.construction.am/apartments-in-new-developments/arabkir-nairi-zaryan-140/
-[2]: /guidelines/legal/elders-green-spaces/
-[3]: /guidelines/legal/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
+[3]: /guidelines/law/elders-construction/
 [4]: /documents/Report-Nairi-Zaryan-tree-damage.pdf
 [5]: /documents/Report-Nairi-Zaryan-tree-damage-response.pdf

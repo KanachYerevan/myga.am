@@ -19,8 +19,8 @@ When underground work is unavoidable, contractors are expected to employ non-des
 
 What you see in the pictures above is not the only way to maintain utilities; the damage to these roots was entirely avoidable. Modern standards and technologies allow for infrastructure development that respects and preserves our urban forest.
 
-[1]: /guidelines/legal/elders-construction/
-[2]: /guidelines/legal/elders-green-spaces/
+[1]: /guidelines/law/elders-construction/
+[2]: /guidelines/law/elders-green-spaces/
 [3]: https://www.youtube.com/watch?v=_xhGqqMb1iE
 [4]: https://www.youtube.com/watch?v=Ib-1TgZPwtI
 [5]: https://www.youtube.com/watch?v=H0Qm7f-JN2U

@@ -4,7 +4,7 @@ description = "Նոր ուղեցույց գրպանի անտառների մաս�
 date = "2025-12-19"
 
 [extra]
-link = "@/guidelines/biodiversity/pocket-forest/index.md"
+link = "@/guidelines/infrastructure/pocket-forest/index.md"
 +++
 
-Հրապարակել ենք ուղեցույց գրպանի անտառների մասին՝ խիտ տեղական տնկարկներ, որոնք սառեցնում են փողոցները և վերականգնում կենսաբազմազանությունը։ Կարդացեք [գրպանի անտառի ուղեցույցը](/hy/guidelines/biodiversity/pocket-forest/)։
+Հրապարակել ենք ուղեցույց գրպանի անտառների մասին՝ խիտ տեղական տնկարկներ, որոնք սառեցնում են փողոցները և վերականգնում կենսաբազմազանությունը։ Կարդացեք [գրպանի անտառի ուղեցույցը](/hy/guidelines/infrastructure/pocket-forest/)։

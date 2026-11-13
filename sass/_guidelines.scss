@@ -6,18 +6,11 @@
     margin: 50px 0 20px;
   }
 
-  // Deck line under a zone heading: the BMP zone explains what the standards
-  // below it are for, the other two zones start straight with their list.
+  // Deck line under a group heading: each group explains what its rows are
+  // for before the list starts.
   .intro {
     margin: 0 0 1rem;
     opacity: 0.8;
-  }
-
-  .zone3 {
-    h3 {
-      font-weight: 400;
-      font-size: 1rem;
-    }
   }
 }
 
@@ -46,50 +39,4 @@ table.species {
 main .post table.species {
   display: table;
   overflow: visible;
-}
-
-nav.species-tabs {
-  margin: 0 0 25px;
-
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li {
-    flex: 1 1 0;
-  }
-
-  a {
-    display: block;
-    padding: 8px 12px;
-    border: 1px solid #d5dad5;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #333;
-    font-size: 0.9rem;
-    text-align: center;
-    text-decoration: none;
-
-    &:hover {
-      background-color: #ecefec;
-      text-decoration: none;
-    }
-  }
-
-  li.active a {
-    border-color: #1756a9;
-    background-color: #1756a9;
-    color: #fff;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  nav.species-tabs li {
-    flex-basis: 100%;
-  }
 }

@@ -4,4 +4,4 @@ title = "Added an article on the WHO green standard"
 
 An article was added to our site that explains the WHO standard on public green areas, how things are calculated, and what is the current status of Yerevan.
 
-- [Go to the article](/guidelines/green-density/)
+- [Go to the article](/guidelines/infrastructure/green-density/)

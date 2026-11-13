@@ -10,4 +10,4 @@ It is the practice of using advanced diagnostic tools to assess a tree's interna
 Removal decisions must be backed by hard data, such as internal resistance testing. We advocate for a mandatory 30-day public notice displaying this evidence on the specific tree. This period allows residents to review the data and appeal or propose support systems if the tree is valuable.
 
 **Current Status.**
-Currently, trees are removed based on subjective inspections, fueling public mistrust. There is no legal requirement for instrumental proof. To bridge this gap, Kanach Yerevan is actively [developing a draft law](/guidelines/legal/draft-cutting/) to mandate objective diagnostics and transparency, ensuring accountability and rebuilding community trust.
+Currently, trees are removed based on subjective inspections, fueling public mistrust. There is no legal requirement for instrumental proof. To bridge this gap, Kanach Yerevan is actively [developing a draft law](/guidelines/proposals/draft-cutting/) to mandate objective diagnostics and transparency, ensuring accountability and rebuilding community trust.
