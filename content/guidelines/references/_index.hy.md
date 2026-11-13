@@ -1,7 +1,7 @@
 ---
 title: Տեղեկատուներ և ստանդարտներ
 description: "Այն, ինչին դիմում են, այլ ոչ թե պարտադիր կարգադրություն՝ տեսակների աղյուսակներ՝ բույս ընտրելու համար, և ANSI-ի, EAC-ի ու Գոսստրոյի մասնագիտական ստանդարտները։"
-sort_by: weight
+sort_by: title
 weight: 2
 template: section-guidelines.html
 extra:

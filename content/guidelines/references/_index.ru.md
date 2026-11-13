@@ -1,7 +1,7 @@
 ---
 title: Справочники и стандарты
 description: "То, к чему обращаются, а не то, что обязательно: таблицы видов для выбора растений и профессиональные стандарты ANSI, EAC и Госстроя."
-sort_by: weight
+sort_by: title
 weight: 2
 template: section-guidelines.html
 extra:

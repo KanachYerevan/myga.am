@@ -1,7 +1,7 @@
 ---
 title: References & Standards
 description: "What you consult rather than obey: the species tables for choosing plants and the professional standards of ANSI, the EAC and Gosstroy."
-sort_by: weight
+sort_by: title
 weight: 2
 template: section-guidelines.html
 extra:
