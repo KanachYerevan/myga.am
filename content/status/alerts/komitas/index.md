@@ -31,7 +31,7 @@ Removing all these trees at once would turn the street into a massive heat islan
 The following outlines an approach for this renovation project that creates a healthy, sustainable green space with multiple benefits, addresses past landscaping mistakes, and requires little to no budget increase.
 
 <div class="album">
-<a href="/images/komitas/nissan-before.jpg" target="_blank"><img src="/images/komitas/nissan-before.thumb.jpg" /></a>
+<a href="nissan-before.jpg" target="_blank"><img src="nissan-before.thumb.jpg" /></a>
 <a href="/images/komitas/nissan-after.jpg" target="_blank"><img src="/images/komitas/nissan-after.thumb.jpg" /></a>
 </div>
 
@@ -61,8 +61,8 @@ Like much of the city, Komitas Avenue uses a standard 5.5 to 6-meter grid for pl
 Reusing the existing grid also means trees can be replaced in their current spots, requiring less administrative planning and fewer architectural changes.
 
 <div class="album">
-<a href="/images/komitas/shop-before.jpg" target="_blank"><img src="/images/komitas/shop-before.thumb.jpg" /></a>
-<a href="/images/komitas/shop-after.jpg" target="_blank"><img src="/images/komitas/shop-after.thumb.jpg" /></a>
+<a href="shop-before.jpg" target="_blank"><img src="shop-before.thumb.jpg" /></a>
+<a href="shop-after.jpg" target="_blank"><img src="shop-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">An example of two different levels of trees.</p>
@@ -80,8 +80,8 @@ For the understory, suitable options include catalpa, robinia, koelreuteria, cer
 Over time, many original tree pits have been paved over. The city has an opportunity to restore the initial planting grid in areas where it has been lost, such as near the City Mall, the farmer's market, and the cinema. Wherever possible, the second row of trees should also be restored to thicken the "green tunnel" effect and further cool the street.
 
 <div class="album">
-<a href="/images/komitas/tunnel-before.jpg" target="_blank"><img src="/images/komitas/tunnel-before.thumb.jpg" /></a>
-<a href="/images/komitas/tunnel-after.jpg" target="_blank"><img src="/images/komitas/tunnel-after.thumb.jpg" /></a>
+<a href="tunnel-before.jpg" target="_blank"><img src="tunnel-before.thumb.jpg" /></a>
+<a href="tunnel-after.jpg" target="_blank"><img src="tunnel-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">An example of two rows of trees, forming a tunnel.</p>
@@ -99,9 +99,9 @@ During pipe installation and other renovations that require trenching, trenches 
 The <a href="/guidelines/legal/elders-construction/">Decision of the Council of Elders N 405-N</a> (March 16, 2012) mandates a 3-meter distance between mature trees and trenches. This regulation ensures that critical roots remain intact and that trees do not suffer unnecessary harm. Adhering to this 3-meter distance when setting up main pipelines is essential, and careful manual labor should be used to install outlets for individual trees.
 
 <div class="album">
-<a href="/images/komitas/trench1.jpg" target="_blank"><img src="/images/komitas/trench1.thumb.jpg" /></a>
-<a href="/images/komitas/trench2.jpg" target="_blank"><img src="/images/komitas/trench2.thumb.jpg" /></a>
-<a href="/images/komitas/trench3.jpg" target="_blank"><img src="/images/komitas/trench3.thumb.jpg" /></a>
+<a href="trench1.jpg" target="_blank"><img src="trench1.thumb.jpg" /></a>
+<a href="trench2.jpg" target="_blank"><img src="trench2.thumb.jpg" /></a>
+<a href="trench3.jpg" target="_blank"><img src="trench3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">An example of trenching that kills trees and should be forbidden.</p>
@@ -115,9 +115,9 @@ Technologies like Soil Cells can prevent soil compaction even when heavy roads a
 A mature elm or oak tree requires access to about 30 cubic meters of soil, which equals a trench roughly 10 meters long, 2 meters wide, and 1.5 meters deep. This volume fits perfectly within the existing sidewalk structure and planting grid.
 
 <div class="album">
-<a href="/images/komitas/soilcell1.jpg" target="_blank"><img src="/images/komitas/soilcell1.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell2.jpg" target="_blank"><img src="/images/komitas/soilcell2.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell3.jpg" target="_blank"><img src="/images/komitas/soilcell3.thumb.jpg" /></a>
+<a href="soilcell1.jpg" target="_blank"><img src="soilcell1.thumb.jpg" /></a>
+<a href="soilcell2.jpg" target="_blank"><img src="soilcell2.thumb.jpg" /></a>
+<a href="soilcell3.jpg" target="_blank"><img src="soilcell3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">An example of soil cells, required for healthy trees.</p>
@@ -127,9 +127,9 @@ A mature elm or oak tree requires access to about 30 cubic meters of soil, which
 A 10-year phased replacement plan will only succeed if the new trees are maintained properly. It is crucial to adopt modern pruning and maintenance standards. This includes an absolute ban on "topping" (cutting off the top branches) and avoiding excessive, unnecessary cutting of the new trees. Trees must be allowed to grow naturally and develop the expansive crowns needed to shade the street. Assigning EAC/ISA-certified arborists to manage Komitas Avenue once the new trees are planted is highly recommended.
 
 <div class="album">
-<a href="/images/komitas/cut1.jpg" target="_blank"><img src="/images/komitas/cut1.thumb.jpg" /></a>
-<a href="/images/komitas/cut2.jpg" target="_blank"><img src="/images/komitas/cut2.thumb.jpg" /></a>
-<a href="/images/komitas/cut3.jpg" target="_blank"><img src="/images/komitas/cut3.thumb.jpg" /></a>
+<a href="cut1.jpg" target="_blank"><img src="cut1.thumb.jpg" /></a>
+<a href="cut2.jpg" target="_blank"><img src="cut2.thumb.jpg" /></a>
+<a href="cut3.jpg" target="_blank"><img src="cut3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">An example of tree care that should absolutely be forbidden after renovation.</p>

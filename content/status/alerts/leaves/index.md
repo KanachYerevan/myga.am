@@ -19,6 +19,6 @@ To clean the area correctly, please follow the established procedure. Collect fa
 
 After collecting the leaves, you must submit a pickup request via the "Active Citizen" platform. This is a crucial step: without an official request, utility services do not receive the signal for an unscheduled pickup, and the waste remains on the street.
 
-![Image](/images/stop-burning-leaves.jpg)
+![Image](stop-burning-leaves.jpg)
 
 If you witness leaf burning, you should immediately report the violation to the Environmental Inspection Body. Documenting the violation and making a timely call is the only way to stop air pollution in your neighborhood.

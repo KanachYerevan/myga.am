@@ -22,8 +22,8 @@ status = "open"
 2025 թվականի դեկտեմբերի 12-ին [նամակ է ուղարկվել Երևանի քաղաքապետ](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement.pdf) Տիգրան Ավինյանին՝ խնդրելով պարզաբանել օրենքը «Ակտիվ քաղաքացի»-ի հետ աշխատող աշխատակիցներին և վերջապես հաստատել նշված դիմումները՝ կոճղերը փոխարինելով իսկական ծառերով։
 
 <div class="album">
-<a href="/images/report-002/request-1a.jpg"><img src="/images/report-002/request-1a.thumb.jpg" /></a>
-<a href="/images/report-002/request-1b.jpg"><img src="/images/report-002/request-1b.thumb.jpg" /></a>
+<a href="request-1a.jpg"><img src="request-1a.thumb.jpg" /></a>
+<a href="request-1b.jpg"><img src="request-1b.thumb.jpg" /></a>
 </div>
 
 2025 թվականի դեկտեմբերի 26-ին ստացվել է պատասխան Շրջակա միջավայրի պահպանության վարչությունից, որը կարող եք [ներբեռնել այստեղից](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement-response.pdf)՝ ստորագրված վարչության պետի ժամանակավոր պաշտոնակատար Սիրարփի Հայկազյանի կողմից։
@@ -33,7 +33,7 @@ status = "open"
 > Երբեմն, տարբեր պատճառներով, եզակի վտանգավոր ծառեր են ընկնում կամ հատվում, որոնց փոխարինումը, պայմանավորված տարբեր հանգամանքներով, կարող է իրականացվել «Կանաչապատում և շրջակա միջավայրի պահպանություն» ՀՈԱԿ-ի կողմից որոշակի ժամկետներում։
 
 <div class="album">
-<a href="/images/report-002/response-1a.jpg"><img src="/images/report-002/response-1a.thumb.jpg" /></a>
+<a href="response-1a.jpg"><img src="response-1a.thumb.jpg" /></a>
 </div>
 
 Այս պատասխանը լիովին անտեսում է մեր առաջարկը՝ օգտագործել ժամանակակից արբորիկուլտուրայի լուծումներ, ինչպիսիք են ջրման պարկերը կամ առկա ջրցան մեքենաները՝ ակտիվ ոռոգում չունեցող թաղամասերում ծառերը վերականգնելու համար։

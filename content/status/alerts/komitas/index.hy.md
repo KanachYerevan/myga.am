@@ -31,7 +31,7 @@ card = "images/komitas/card.jpg"
 Ստորև ներկայացված է այս վերակառուցման նախագծի մոտեցումը, որը ստեղծում է առողջ, կայուն կանաչ տարածք՝ բազմաթիվ առավելություններով, շտկում է անցյալի կանաչապատման սխալները և գրեթե չի պահանջում բյուջեի ավելացում:
 
 <div class="album">
-<a href="/images/komitas/nissan-before.jpg" target="_blank"><img src="/images/komitas/nissan-before.thumb.jpg" /></a>
+<a href="nissan-before.jpg" target="_blank"><img src="nissan-before.thumb.jpg" /></a>
 <a href="/images/komitas/nissan-after.jpg" target="_blank"><img src="/images/komitas/nissan-after.thumb.jpg" /></a>
 </div>
 
@@ -61,8 +61,8 @@ card = "images/komitas/card.jpg"
 Գոյություն ունեցող ցանցի վերօգտագործումը նաև նշանակում է, որ ծառերը կարող են փոխարինվել իրենց ներկայիս տեղերում՝ պահանջելով ավելի քիչ վարչական պլանավորում և ավելի քիչ ճարտարապետական փոփոխություններ:
 
 <div class="album">
-<a href="/images/komitas/shop-before.jpg" target="_blank"><img src="/images/komitas/shop-before.thumb.jpg" /></a>
-<a href="/images/komitas/shop-after.jpg" target="_blank"><img src="/images/komitas/shop-after.thumb.jpg" /></a>
+<a href="shop-before.jpg" target="_blank"><img src="shop-before.thumb.jpg" /></a>
+<a href="shop-after.jpg" target="_blank"><img src="shop-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Երկու տարբեր մակարդակների ծառերի օրինակ:</p>
@@ -80,8 +80,8 @@ card = "images/komitas/card.jpg"
 Ժամանակի ընթացքում ծառերի սկզբնական շատ բնաբաժակներ ասֆալտապատվել են: Քաղաքը հնարավորություն ունի վերականգնելու սկզբնական տնկման ցանցը այն հատվածներում, որտեղ այն կորսվել է, օրինակ՝ City Mall-ի, գյուղատնտեսական շուկայի և կինոթատրոնի մոտակայքում: Հնարավորության դեպքում պետք է վերականգնվի նաև ծառերի երկրորդ շարքը՝ «կանաչ թունելի» էֆեկտը խտացնելու և փողոցն էլ ավելի հովացնելու համար:
 
 <div class="album">
-<a href="/images/komitas/tunnel-before.jpg" target="_blank"><img src="/images/komitas/tunnel-before.thumb.jpg" /></a>
-<a href="/images/komitas/tunnel-after.jpg" target="_blank"><img src="/images/komitas/tunnel-after.thumb.jpg" /></a>
+<a href="tunnel-before.jpg" target="_blank"><img src="tunnel-before.thumb.jpg" /></a>
+<a href="tunnel-after.jpg" target="_blank"><img src="tunnel-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Երկու շարք ծառերի օրինակ, որոնք թունել են կազմում:</p>
@@ -99,9 +99,9 @@ card = "images/komitas/card.jpg"
 <a href="/hy/guidelines/legal/elders-construction/">Ավագանու N 405-Ն որոշումը</a> (16 մարտի 2012 թ.) պահանջում է 3 մետր հեռավորություն հասուն ծառերի և խրամուղիների միջև: Այս կանոնակարգն ապահովում է, որ կրիտիկական արմատները մնան անվնաս, և ծառերը ավելորդ վնաս չկրեն: Հիմնական խողովակաշարերի տեղադրման ժամանակ այս 3 մետր հեռավորության պահպանումը պարտադիր է, իսկ առանձին ծառերի համար խողովակների ելքերի տեղադրումը պետք է կատարվի զգուշորեն՝ ձեռքի աշխատանքով:
 
 <div class="album">
-<a href="/images/komitas/trench1.jpg" target="_blank"><img src="/images/komitas/trench1.thumb.jpg" /></a>
-<a href="/images/komitas/trench2.jpg" target="_blank"><img src="/images/komitas/trench2.thumb.jpg" /></a>
-<a href="/images/komitas/trench3.jpg" target="_blank"><img src="/images/komitas/trench3.thumb.jpg" /></a>
+<a href="trench1.jpg" target="_blank"><img src="trench1.thumb.jpg" /></a>
+<a href="trench2.jpg" target="_blank"><img src="trench2.thumb.jpg" /></a>
+<a href="trench3.jpg" target="_blank"><img src="trench3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Խրամուղիների փորման օրինակ, որը սպանում է ծառերը և պետք է արգելվի:</p>
@@ -115,9 +115,9 @@ card = "images/komitas/card.jpg"
 Հասուն թեղիին կամ կաղնուն անհրաժեշտ է մոտ 30 խորանարդ մետր հող, ինչը հավասար է մոտ 10 մետր երկարությամբ, 2 մետր լայնությամբ և 1,5 մետր խորությամբ խրամուղու: Այս ծավալը կատարելապես տեղավորվում է մայթի առկա կառուցվածքի և տնկման ցանցի մեջ:
 
 <div class="album">
-<a href="/images/komitas/soilcell1.jpg" target="_blank"><img src="/images/komitas/soilcell1.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell2.jpg" target="_blank"><img src="/images/komitas/soilcell2.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell3.jpg" target="_blank"><img src="/images/komitas/soilcell3.thumb.jpg" /></a>
+<a href="soilcell1.jpg" target="_blank"><img src="soilcell1.thumb.jpg" /></a>
+<a href="soilcell2.jpg" target="_blank"><img src="soilcell2.thumb.jpg" /></a>
+<a href="soilcell3.jpg" target="_blank"><img src="soilcell3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Soil Cells-ի (հողային բջիջների) օրինակ, որոնք անհրաժեշտ են առողջ ծառերի համար:</p>
@@ -127,9 +127,9 @@ card = "images/komitas/card.jpg"
 10-ամյա փուլային փոխարինման ծրագիրը հաջողություն կունենա միայն այն դեպքում, եթե նոր ծառերը ճիշտ խնամվեն: Չափազանց կարևոր է ընդունել ժամանակակից էտման և խնամքի ստանդարտներ: Սա ներառում է բացարձակ արգելք «գագաթահատման» (տոպպինգ՝ վերին ճյուղերի կտրում) նկատմամբ և նոր ծառերի ավելորդ, ոչ անհրաժեշտ կտրվածքներից խուսափում: Ծառերին պետք է թույլ տալ բնականոն աճել և զարգացնել այն ընդարձակ սաղարթները, որոնք անհրաժեշտ են փողոցը ստվերելու համար: Խիստ խորհուրդ է տրվում նոր ծառերը տնկելուց հետո Կոմիտասի պողոտայի կառավարումը հանձնարարել EAC/ISA հավաստագրված արբորիստների (ծառաբույժների):
 
 <div class="album">
-<a href="/images/komitas/cut1.jpg" target="_blank"><img src="/images/komitas/cut1.thumb.jpg" /></a>
-<a href="/images/komitas/cut2.jpg" target="_blank"><img src="/images/komitas/cut2.thumb.jpg" /></a>
-<a href="/images/komitas/cut3.jpg" target="_blank"><img src="/images/komitas/cut3.thumb.jpg" /></a>
+<a href="cut1.jpg" target="_blank"><img src="cut1.thumb.jpg" /></a>
+<a href="cut2.jpg" target="_blank"><img src="cut2.thumb.jpg" /></a>
+<a href="cut3.jpg" target="_blank"><img src="cut3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Ծառերի էտման օրինակ, որը վերակառուցումից հետո պետք է բացարձակապես արգելվի։</p>

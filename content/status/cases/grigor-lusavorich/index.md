@@ -14,7 +14,7 @@ It was noted that the root system of 9 trees were severely damaged during the ex
 A [video][1] was recorded and [photos][2] were made by a city resident on the spot mid process, showing the damage to the trees.
 
 <div class="album">
-<a href="/images/report-001/photo1.jpg"><img src="/images/report-001/photo1.thumb.jpg" /></a>
+<a href="photo1.jpg"><img src="photo1.thumb.jpg" /></a>
 <a href="/images/report-001/photo2.jpg"><img src="/images/report-001/photo2.thumb.jpg" /></a>
 </div>
 
@@ -24,8 +24,8 @@ The message was sent via [e-request.am][3], using [this template][4] in Russian 
 On October 3, a response was received from the Ministry of Environment, stating that (1) an administrative case was opened, (2) an inspector together with "Kanachapatum" dendrologist [Arsen Hazarapetyan][5] visited the site for inspection, and (3) they concluded that whether the trees were damaged to the level they stop growing can only be assessed next spring, after the trees start to leaf out again, so (4) the case was set on pause.
 
 <div class="album">
-<a href="/images/report-001/response-1a.jpg"><img src="/images/report-001/response-1a.thumb.jpg" /></a>
-<a href="/images/report-001/response-1b.jpg"><img src="/images/report-001/response-1b.thumb.jpg" /></a>
+<a href="response-1a.jpg"><img src="response-1a.thumb.jpg" /></a>
+<a href="response-1b.jpg"><img src="response-1b.thumb.jpg" /></a>
 </div>
 
 On October 2, a response (17/135207-25) was received from the Mayor's office, saying that protocol № A-010317 has been drawn up.

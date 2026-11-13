@@ -22,8 +22,8 @@ The responses to the requests sent to [Active Citizen](https://activecitizen.yer
 On December 12, 2025 [a letter was sent to the Mayor of Yerevan](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement.pdf), Tigran Avinyan, asking him to clarify the law to the employees working with Active Citizen and to finally approve the said applications by replacing the stumps with real trees.
 
 <div class="album">
-<a href="/images/report-002/request-1a.jpg"><img src="/images/report-002/request-1a.thumb.jpg" /></a>
-<a href="/images/report-002/request-1b.jpg"><img src="/images/report-002/request-1b.thumb.jpg" /></a>
+<a href="request-1a.jpg"><img src="request-1a.thumb.jpg" /></a>
+<a href="request-1b.jpg"><img src="request-1b.thumb.jpg" /></a>
 </div>
 
 On December 26, 2025 a response was received from the Department of Environmental Protection, which you can [download here](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement-response.pdf), signed by the acting head of department, Sirarpi Haykazyan:
@@ -33,7 +33,7 @@ On December 26, 2025 a response was received from the Department of Environmenta
 > Sometimes, due to various reasons, unique hazardous trees fall or are felled, the replacement of which, conditioned by various circumstances, may be implemented by "Landscaping and Environmental Protection" CNCO within a certain timeframe.
 
 <div class="album">
-<a href="/images/report-002/response-1a.jpg"><img src="/images/report-002/response-1a.thumb.jpg" /></a>
+<a href="response-1a.jpg"><img src="response-1a.thumb.jpg" /></a>
 </div>
 
 This response completely ignores our proposal to use modern arboricultural solutions—such as watering bags or existing water carrier trucks—to restore trees in neighborhoods without active irrigation.

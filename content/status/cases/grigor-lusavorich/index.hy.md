@@ -13,7 +13,7 @@ status = "բաց է"
 Տեղի բնակիչներից մեկը հենց աշխատանքների ընթացքում նկարահանել է [տեսանյութ][1] և արել [լուսանկարներ][2]՝ ֆիքսելով ծառերին հասցված վնասը։
 
 <div class="album">
-<a href="/images/report-001/photo1.jpg"><img src="/images/report-001/photo1.thumb.jpg" /></a>
+<a href="photo1.jpg"><img src="photo1.thumb.jpg" /></a>
 <a href="/images/report-001/photo2.jpg"><img src="/images/report-001/photo2.thumb.jpg" /></a>
 </div>
 
@@ -23,8 +23,8 @@ status = "բաց է"
 Հոկտեմբերի 3-ին Նախարարությունից պատասխան է ստացվել։ Նշել են, որ՝ (1) վարչական վարույթ է հարուցվել, (2) տեսուչը «Կանաչապատման» դենդրոլոգ [Արսեն Հազարապետյանի][5] հետ այցելել է դեպքի վայր, և (3) եզրակացրել են, որ ծառերի՝ աճը դադարեցնելու աստիճանի վնասված լինելը հնարավոր կլինի պարզել միայն հաջորդ գարնանը՝ երբ (և եթե) դրանք նորից տերևակալեն։ Այդ պատճառով (4) գործի ընթացքը առայժմ կասեցվել է։
 
 <div class="album">
-<a href="/images/report-001/response-1a.jpg"><img src="/images/report-001/response-1a.thumb.jpg" /></a>
-<a href="/images/report-001/response-1b.jpg"><img src="/images/report-001/response-1b.thumb.jpg" /></a>
+<a href="response-1a.jpg"><img src="response-1a.thumb.jpg" /></a>
+<a href="response-1b.jpg"><img src="response-1b.thumb.jpg" /></a>
 </div>
 
 Հոկտեմբերի 2-ին քաղաքապետարանից ստացվել է պատասխան (17/135207-25), որ կազմվել է № Ա-010317 արձանագրությունը։

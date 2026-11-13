@@ -31,7 +31,7 @@ card = "images/komitas/card.jpg"
 Ниже мы предлагаем подход к реконструкции, который поможет создать здоровую и устойчивую зеленую зону, исправит прошлые ошибки озеленения и при этом почти не потребует дополнительных затрат из бюджета.
 
 <div class="album">
-<a href="/images/komitas/nissan-before.jpg" target="_blank"><img src="/images/komitas/nissan-before.thumb.jpg" /></a>
+<a href="nissan-before.jpg" target="_blank"><img src="nissan-before.thumb.jpg" /></a>
 <a href="/images/komitas/nissan-after.jpg" target="_blank"><img src="/images/komitas/nissan-after.thumb.jpg" /></a>
 </div>
 
@@ -61,8 +61,8 @@ card = "images/komitas/card.jpg"
 К тому же, при сохранении прежней сетки новые деревья можно высаживать на старые места. Это упростит планирование и не потребует серьезных архитектурных изменений.
 
 <div class="album">
-<a href="/images/komitas/shop-before.jpg" target="_blank"><img src="/images/komitas/shop-before.thumb.jpg" /></a>
-<a href="/images/komitas/shop-after.jpg" target="_blank"><img src="/images/komitas/shop-after.thumb.jpg" /></a>
+<a href="shop-before.jpg" target="_blank"><img src="shop-before.thumb.jpg" /></a>
+<a href="shop-after.jpg" target="_blank"><img src="shop-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Пример двух разных ярусов деревьев.</p>
@@ -80,8 +80,8 @@ card = "images/komitas/card.jpg"
 Со временем многие старые лунки для деревьев закатали в асфальт. Сейчас у города есть шанс восстановить изначальную сетку посадок там, где ее потеряли — например, возле City Mall, рынка и кинотеатра. Где это возможно, нужно восстановить и второй ряд деревьев: это усилит эффект «зеленого туннеля» и поможет еще больше охладить улицу.
 
 <div class="album">
-<a href="/images/komitas/tunnel-before.jpg" target="_blank"><img src="/images/komitas/tunnel-before.thumb.jpg" /></a>
-<a href="/images/komitas/tunnel-after.jpg" target="_blank"><img src="/images/komitas/tunnel-after.thumb.jpg" /></a>
+<a href="tunnel-before.jpg" target="_blank"><img src="tunnel-before.thumb.jpg" /></a>
+<a href="tunnel-after.jpg" target="_blank"><img src="tunnel-after.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Пример двух рядов деревьев, образующих туннель.</p>
@@ -99,9 +99,9 @@ card = "images/komitas/card.jpg"
 <a href="/ru/guidelines/legal/elders-construction/">Решение Совета старейшин № 405-Н</a> (от 16 марта 2012 г.) требует оставлять не менее 3 метров между взрослыми деревьями и траншеями. Это правило необходимо соблюдать при прокладке основных магистралей, а отводы к отдельным деревьям копать вручную и с большой осторожностью, чтобы не повредить корни.
 
 <div class="album">
-<a href="/images/komitas/trench1.jpg" target="_blank"><img src="/images/komitas/trench1.thumb.jpg" /></a>
-<a href="/images/komitas/trench2.jpg" target="_blank"><img src="/images/komitas/trench2.thumb.jpg" /></a>
-<a href="/images/komitas/trench3.jpg" target="_blank"><img src="/images/komitas/trench3.thumb.jpg" /></a>
+<a href="trench1.jpg" target="_blank"><img src="trench1.thumb.jpg" /></a>
+<a href="trench2.jpg" target="_blank"><img src="trench2.thumb.jpg" /></a>
+<a href="trench3.jpg" target="_blank"><img src="trench3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Пример рытья траншей, которое убивает деревья и должно быть запрещено.</p>
@@ -115,9 +115,9 @@ card = "images/komitas/card.jpg"
 Взрослому вязу или дубу требуется около 30 кубометров земли. Это примерно траншея длиной 10 метров, шириной 2 метра и глубиной 1,5 метра, которая идеально впишется в существующие тротуары и сетку посадок.
 
 <div class="album">
-<a href="/images/komitas/soilcell1.jpg" target="_blank"><img src="/images/komitas/soilcell1.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell2.jpg" target="_blank"><img src="/images/komitas/soilcell2.thumb.jpg" /></a>
-<a href="/images/komitas/soilcell3.jpg" target="_blank"><img src="/images/komitas/soilcell3.thumb.jpg" /></a>
+<a href="soilcell1.jpg" target="_blank"><img src="soilcell1.thumb.jpg" /></a>
+<a href="soilcell2.jpg" target="_blank"><img src="soilcell2.thumb.jpg" /></a>
+<a href="soilcell3.jpg" target="_blank"><img src="soilcell3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Пример использования Soil Cells, необходимых для здоровых деревьев.</p>
@@ -127,9 +127,9 @@ card = "images/komitas/card.jpg"
 План поэтапной замены сработает только в том случае, если за новыми деревьями будут правильно ухаживать. Крайне важно применять современные стандарты: полностью запретить топпинг (обрезку верхушек) и не допускать чрезмерной и ненужной обрезки. Деревьям нужно дать расти естественно, чтобы они могли сформировать широкие кроны и давать тень. Настоятельно рекомендуем поручить уход за деревьями на проспекте Комитаса арбористам, сертифицированным по стандартам EAC или ISA.
 
 <div class="album">
-<a href="/images/komitas/cut1.jpg" target="_blank"><img src="/images/komitas/cut1.thumb.jpg" /></a>
-<a href="/images/komitas/cut2.jpg" target="_blank"><img src="/images/komitas/cut2.thumb.jpg" /></a>
-<a href="/images/komitas/cut3.jpg" target="_blank"><img src="/images/komitas/cut3.thumb.jpg" /></a>
+<a href="cut1.jpg" target="_blank"><img src="cut1.thumb.jpg" /></a>
+<a href="cut2.jpg" target="_blank"><img src="cut2.thumb.jpg" /></a>
+<a href="cut3.jpg" target="_blank"><img src="cut3.thumb.jpg" /></a>
 </div>
 
 <p class="table-summary">Пример обрезки деревьев, которая должна быть абсолютно запрещена после реконструкции.</p>

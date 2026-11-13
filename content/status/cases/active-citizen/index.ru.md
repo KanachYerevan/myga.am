@@ -22,8 +22,8 @@ status = "open"
 12 декабря 2025 года мы направили [письмо мэру Еревана](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement.pdf) Тиграну Авиняну. В нем мы попросили разъяснить нормы закона сотрудникам платформы «Активный гражданин» и одобрить заявки, чтобы на месте пней наконец появились живые деревья.
 
 <div class="album">
-<a href="/images/report-002/request-1a.jpg"><img src="/images/report-002/request-1a.thumb.jpg" /></a>
-<a href="/images/report-002/request-1b.jpg"><img src="/images/report-002/request-1b.thumb.jpg" /></a>
+<a href="request-1a.jpg"><img src="request-1a.thumb.jpg" /></a>
+<a href="request-1b.jpg"><img src="request-1b.thumb.jpg" /></a>
 </div>
 
 26 декабря пришел ответ из Управления охраны окружающей среды (его можно [скачать здесь](/documents/Letter-to-Mayor-on-Active-Citizen-and-Tree-Replacement-response.pdf)) за подписью и.о. начальника управления Сирарпи Айказян:
@@ -33,7 +33,7 @@ status = "open"
 > В отдельных случаях, когда вырубаются засохшие или опасные деревья, их замена может быть осуществлена силами ГНКО „Озеленение и охрана окружающей среды“ в установленные сроки в зависимости от обстоятельств».
 
 <div class="album">
-<a href="/images/report-002/response-1a.jpg"><img src="/images/report-002/response-1a.thumb.jpg" /></a>
+<a href="response-1a.jpg"><img src="response-1a.thumb.jpg" /></a>
 </div>
 
 Этот ответ полностью игнорирует наше предложение использовать современные методы — поливочные мешки или обычные водовозы — для ухода за деревьями на улицах, где нет стационарного полива.

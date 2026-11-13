@@ -29,7 +29,7 @@ We act as an independent watchdog for Yerevan’s urban canopy. We provide the p
 
 We are a diverse, 100% independent community of people from all ages and backgrounds—architects, researchers, and residents—united by a simple goal: a healthier Yerevan. We are not affiliated with the municipality or any political group. We are an open movement, and there is a place for everyone who cares.
 
-![Mapping Activity](/images/mapping/mapping.jpg)
+![Mapping Activity](mapping.jpg)
 
 ## Ways to help
 
