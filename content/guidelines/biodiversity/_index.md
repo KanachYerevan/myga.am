@@ -1,6 +1,6 @@
 +++
 title = "Ecological Infrastructure"
-sort_by = "date"
+sort_by = "title"
 render = false
 +++
 

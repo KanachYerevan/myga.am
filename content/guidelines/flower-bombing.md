@@ -5,7 +5,7 @@ date = "2026-06-19"
 
 [extra]
 status = "caution"
-title = "Seed Bombing Standard"
+title = "Flower Bombing"
 verdict_short = "Ineffective without Irrigation"
 description = "Scattering seeds on open soil without preparation or care results in zero survival in Yerevan's arid environment."
 +++

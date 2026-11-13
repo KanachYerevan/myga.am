@@ -1,6 +1,6 @@
 +++
 title = "The Green Standards"
-sort_by = "date"
+sort_by = "title"
 template = "section-guidelines.html"
 aliases = ["guidelines/legal", "guidelines/biodiversity"]
 
