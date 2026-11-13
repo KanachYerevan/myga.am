@@ -1,10 +1,11 @@
 +++
-title = "Green City Action Plan"
+title = "Yerevan Green City Action Plan"
+weight = 120
 description = "A 2017 strategy for Yerevan's environment: what it commits the city to, and what has actually changed since."
 date = "2025-12-22"
 
 [extra]
-title = "Green City Action Plan"
+title = "Yerevan Green City Action Plan"
 +++
 
 In 2017, Yerevan Municipality, with the support of the European Bank for Reconstruction and Development, developed a strategy to improve the capital's environmental conditions. This document covers key areas of city life: public transportation, street lighting, waste management, water resources, and green spaces. The program aims to create a comfortable environment for residents by 2030, reduce harmful emissions, and take a systemic approach to preserving the city's natural assets rather than addressing problems piece by piece.

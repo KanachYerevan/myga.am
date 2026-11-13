@@ -1,5 +1,6 @@
 +++
 title = "Armenian Law on Tariffs and Fines"
+weight = 202
 description = "This law establishes fines for damaging trees and shrubs in urban areas."
 date = "2025-12-16"
 

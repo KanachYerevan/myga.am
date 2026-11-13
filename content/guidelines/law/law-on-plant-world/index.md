@@ -1,5 +1,6 @@
 +++
 title = "Armenian Law on Plant World"
+weight = 201
 description = "The main framework law, obliges municipalities to ensure the protection and integrity of natural plant communities."
 date = "2025-12-16"
 

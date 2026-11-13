@@ -1,10 +1,11 @@
 +++
-title = "Charter of the Greening Department"
+title = "Charter of the Greening Department of Yerevan"
+weight = 130
 description = "The foundational legal document defining the mandate, structure, and operational responsibilities of Yerevan’s municipal greening entity."
 date = "2025-12-16"
 
 [extra]
-title = "HOAK Charter"
+title = "Yerevan Green Department Charter"
 +++
 
 Yerevan’s Greening Department is officially structured as a Community Non-Commercial Organization (HOAK) named "**Greening and Environmental Protection**." Established by the Yerevan Council of Elders on December 16, 2019, this entity centralized the management of the city's green infrastructure, absorbing responsibilities previously held by individual district administrations.

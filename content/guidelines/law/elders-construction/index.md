@@ -1,5 +1,6 @@
 +++
 title = "Yerevan City Law on Protecting Trees during Construction"
+weight = 110
 description = "Resolution No. 405-N regulates implementation of Urban Planning Standards."
 date = "2025-12-16"
 

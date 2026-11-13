@@ -1,5 +1,6 @@
 +++
 title = "The Forest Code of the Republic of Armenia"
+weight = 203
 description = "This is about forest, but often its articles are applied by analogy to urban plantations."
 date = "2025-12-26"
 

@@ -1,10 +1,11 @@
 ---
 title: "Decision № 1236-A on Approving the Procedure for Tree Felling"
+weight: 150
 description: "This document sets the rules which cover tree felling in Yerevan."
 summary: "Decision N 1236-A of the Mayor of Yerevan approving the procedure and documentation for tree felling."
 date: "2021-04-26"
 extra:
-  title: "Tree Felling Procedure Approval"
+  title: "Yerevan Tree Felling Procedure Approval"
 ---
 
 This document sets the rule for felling trees, including the felling permit and notification requirements and templates. The document was approved by Mayor Hayk Marutyan on April 26, 2021, and is still in effect.

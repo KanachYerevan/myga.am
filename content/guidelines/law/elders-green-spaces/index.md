@@ -1,5 +1,6 @@
 +++
 title = "Yerevan City Law on Green Zone Management"
+weight = 140
 description = "Resolution No. 36-N regulates the management and protection of green zones in Yerevan."
 date = "2025-12-16"
 

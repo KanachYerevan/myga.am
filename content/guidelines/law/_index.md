@@ -1,13 +1,13 @@
 ---
-title: Law
-description: "What binds the city and its residents today: national laws, Yerevan regulations and the strategies they rest on."
-sort_by: title
+title: Laws and Regulations
+description: "What binds the city and its residents today: Yerevan's own regulations first, then the national laws and strategies behind them."
+sort_by: weight
 weight: 1
 template: section-guidelines.html
 extra:
-  summary: "Section index for the documents in force: Armenian national laws, Yerevan municipal regulations and the strategies they rest on."
+  summary: "Section index for the documents in force: Yerevan's municipal regulations first, then the Armenian national laws and strategies they rest on."
   anchor: law
   glyph: document
 ---
 
-These documents apply here and now. They are listed alphabetically, with the issuing body named in each description, because the question that matters is not which tier adopted a rule but whether it covers the tree in front of you.
+These documents apply here and now. Yerevan's own rules come first, because they are the ones you cite on a particular street, followed by the national laws they rest on. Within each group the list is alphabetical, and the issuing body is named in every description.
