@@ -16,7 +16,7 @@ Status: Proposal Published
 
 ## Analysis of Current Regulatory Gaps
 
-The current [law on fines](@/guidelines/legal/law-on-fines.md) and its associated enforcement mechanisms present two primary obstacles to effective green infrastructure management.
+The current [law on fines](@/guidelines/legal/law-on-fines/index.md) and its associated enforcement mechanisms present two primary obstacles to effective green infrastructure management.
 
 The first issue is a significant valuation discrepancy. Fines are currently calculated using a linear formula that fails to account for the exponential ecosystem services and biological investment of mature trees. This creates a disparity where administrative penalties represent less than 6% of the actual asset value.
 

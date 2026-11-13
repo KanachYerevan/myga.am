@@ -4,7 +4,7 @@ description = "Новый гид по карманным лесам: плотн�
 date = "2025-12-19"
 
 [extra]
-link = "@/guidelines/biodiversity/pocket-forest.md"
+link = "@/guidelines/biodiversity/pocket-forest/index.md"
 +++
 
 Мы опубликовали гид по карманным лесам — плотным посадкам местных видов, которые охлаждают улицы и возвращают биоразнообразие. Читайте [гид по карманным лесам](/ru/guidelines/biodiversity/pocket-forest/).

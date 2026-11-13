@@ -19,7 +19,7 @@
       description: "Կարդացեք մեր առաջարկը այն մասին, թե ինչպես կարելի է իրականացնել վերանորոգումը։"
 
 - link: "@/action/replant/index.md"
-  old_link: "@/guidelines/legal/proactive-greening-draft.md"
+  old_link: "@/guidelines/legal/proactive-greening-draft/index.md"
   image: "/images/campaign-planting.jpg"
   content:
     ru:

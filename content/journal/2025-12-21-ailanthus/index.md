@@ -4,7 +4,7 @@ description = "A new guide explains why the tree of heaven (Ailanthus) is invasi
 date = "2025-12-21"
 
 [extra]
-link = "@/guidelines/ailanthus.md"
+link = "@/guidelines/ailanthus/index.md"
 +++
 
 We published a guide on the tree of heaven: why it is an aggressive invasive species in Yerevan and which native trees can replace it. Read the [Ailanthus guide](/guidelines/ailanthus/).

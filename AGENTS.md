@@ -44,8 +44,9 @@ The website (Zola) is organized by user intent, not file type.
 
 The "Documentation Site" for the city. Authoritative standards, not blog posts.
 
-- Structure: flat files for core standards (`pruning.md`, `mulching.md`).
-- Biodiversity: contains protocols (`feeding-standards.md`) and species assets (`great-tit.md`).
+- Structure: every page is a Page Bundle (`pruning/index.md`, `pruning/index.ru.md`, `mulching/index.md`), never a flat file.
+- Biodiversity: contains protocols (`feeding-standards/index.md`) and species assets (`great-tit/index.md`).
+- Images belonging to one page live inside its bundle and are referenced by bare relative filename (`bark.jpg`, not `/images/...`). Shared images stay in `static/images/`.
 - Front Matter: must include `status` ("recommended", "prohibited") and `verdict_short` for the visual summary card.
 
 ### Status (`content/status/`)
