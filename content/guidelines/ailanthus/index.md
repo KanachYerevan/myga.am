@@ -22,8 +22,8 @@ It is important to note that modern municipal greening services do not officiall
 To quickly identify Ailanthus, one only needs to look closely at the trunk and crown. The bark of mature trees resembles the skin of a cantaloupe: it is gray with a characteristic diamond-shaped pattern of light-colored cracks, but it never peels off in large pieces like that of a plane tree. Another sure sign, especially noticeable in the cold season, is the huge clusters of reddish-brown winged seeds (samaras) that often remain on the branches all winter. The main difference from the similar-looking ash tree lies in the structure of the seed: in Ailanthus, the seed is located strictly in the center of a twisted wing, whereas in the ash, it is offset to the edge of a long, flat "blade."
 
 <div class="album">
-<a href="/images/ailanthus/bark.jpg"><img src="/images/ailanthus/bark.thumb.jpg" /></a>
-<a href="/images/ailanthus/leaves.jpg"><img src="/images/ailanthus/leaves.thumb.jpg" /></a>
+<a href="bark.jpg"><img src="bark.thumb.jpg" /></a>
+<a href="leaves.jpg"><img src="leaves.thumb.jpg" /></a>
 </div>
 
 ## Biological Impact on the Ecosystem

@@ -28,7 +28,7 @@ This initiative will accelerate the restoration of Yerevan’s green canopy by l
 On January 7, 2026 a response was received from the Mayor's office, you can download it from [here](/documents/Draft-01-response.pdf).
 
 <div class="album">
-<a href="/images/draft-01/response01.jpg"><img src="/images/draft-01/response01.thumb.jpg" /></a>
+<a href="response01.jpg"><img src="response01.thumb.jpg" /></a>
 </div>
 
 The text reads:

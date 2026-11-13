@@ -7,12 +7,12 @@ seo_title = "Syrian Woodpecker: natural pest control for Yerevan"
 label = "Biological Pest Control"
 title = "Syrian Woodpecker"
 description = "Primary predator of the flathead borers."
-image = "images/syrian-woodpecker.jpg"
+image = "syrian-woodpecker.jpg"
 +++
 
 Yerevan’s urban forest is currently facing a critical ecological challenge from wood-boring and leaf-damaging insects. Conventional mechanical interventions, such as heavy pruning and chemical spraying, have proven ecologically disruptive and often fail to address the root cause of infestations deep within the tree timber. A more sustainable and scientifically grounded solution is to prioritize the conservation of the Syrian Woodpecker (_Dendrocopos syriacus_). This memo outlines the biological imperative for integrating this species into our Integrated Pest Management (IPM) strategy to ensure the longevity of our city's green canopy.
 
-![Image](/images/syrian-woodpecker.jpg)
+![Image](syrian-woodpecker.jpg)
 
 ## The problem: wood-boring pests
 

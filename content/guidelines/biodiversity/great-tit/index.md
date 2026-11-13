@@ -8,7 +8,7 @@ aliases = ["birds"]
 label = "Biological Pest Control"
 title = "Great Tit (Parus Major)"
 description = "Primary predator of the Oak Leaf Miner."
-image = "images/parus-major-2.jpg"
+image = "parus-major-2.jpg"
 +++
 
 The **great tit** (Parus major) is a bird that eats a huge number of insects, which makes it a great ally in the fight against pests.
@@ -55,4 +55,4 @@ Thank you for your interest and your contribution.
 - [Nesting Box for 30x150 timber](https://app.sketchup.com/share/tc/northAmerica/ZSFECWYN21I?source=web&stoken=yBwtMSzn1naYnfz8mEbTFsUOgP8haT7buQNeE1mjkv_8bFUlYjqQddxf1By3ueO5) (3D model)
 
 [1]: /documents/Great-Tits-for-Yerevan.pdf
-[2]: /images/parus-major-2.jpg
+[2]: parus-major-2.jpg

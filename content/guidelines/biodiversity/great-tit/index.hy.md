@@ -5,7 +5,7 @@ date = "2025-09-11"
 aliases = ["hy/birds"]
 
 [extra]
-image = "images/parus-major-2.jpg"
+image = "parus-major-2.jpg"
 label = "Կենսաբանական պայքար"
 title = "Մեծ երաշտահավ (Parus Major)"
 description = "Կաղնու ականող ցեցի հիմնական բնական թշնամին է:"
@@ -49,5 +49,5 @@ description = "Կաղնու ականող ցեցի հիմնական բնական 
 [Կապվեք մեզ հետ](/hy/action/join/)՝ նորությունների և միջոցառումների մասին տեղեկանալու համար։
 
 [1]: /documents/Great-Tits-for-Yerevan.pdf
-[2]: /images/parus-major-2.jpg
+[2]: parus-major-2.jpg
 [3]: https://yerevan.treemaps.app/

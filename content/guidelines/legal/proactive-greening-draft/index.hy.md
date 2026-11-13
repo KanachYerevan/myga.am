@@ -30,7 +30,7 @@ title = "Նախաձեռնողական կանաչապատման նախագիծ"
 2026 թվականի հունվարի 7-ին ստացվել է պատասխան քաղաքապետարանից, որը կարող եք ներբեռնել [այստեղ](/documents/Draft-01-response.pdf)։
 
 <div class="album">
-<a href="/images/draft-01/response01.jpg"><img src="/images/draft-01/response01.thumb.jpg" /></a>
+<a href="response01.jpg"><img src="response01.thumb.jpg" /></a>
 </div>
 
 Տեքստում ասվում է.

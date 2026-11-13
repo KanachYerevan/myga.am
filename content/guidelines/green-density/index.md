@@ -41,7 +41,7 @@ Modern cities are complex, three-dimensional structures, raising questions about
 
 Vertical greening is even trickier. In standard land-use statistics, a green wall usually contributes 0 m² because calculations are based on ground projection. However, advanced environmental indices, such as the [Green Factor](https://www.london.gov.uk/publications/urban-greening-factor), account for green walls using a reduction factor (typically 0.5–0.7 of their vertical surface area). This means that while a green wall won't help the city officially meet WHO surface area targets, it makes a tangible contribution to reducing street temperatures—a benefit clearly visible on thermal maps and satellite imagery.
 
-![Green wall](/images/green-wall.jpg)
+![Green wall](green-wall.jpg)
 
 ## How to Assess Effectiveness Without Complex Instruments
 

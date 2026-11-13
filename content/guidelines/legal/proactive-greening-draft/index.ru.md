@@ -28,7 +28,7 @@ title = "Проект регламента инициативного озеле
 7 января 2026 года был получен ответ от мэрии, вы можете скачать его [здесь](/documents/Draft-01-response.pdf).
 
 <div class="album">
-<a href="/images/draft-01/response01.jpg"><img src="/images/draft-01/response01.thumb.jpg" /></a>
+<a href="response01.jpg"><img src="response01.thumb.jpg" /></a>
 </div>
 
 Текст гласит:
